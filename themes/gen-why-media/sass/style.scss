@@ -65,10 +65,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "body/page-templates";
 
 // Pages
-
+@import "pages/header";
 @import "pages/front-page";
 @import "pages/projects";
 @import "pages/watch";
 @import "pages/blog";
 @import "pages/services";
 @import "pages/contact";
+@import "pages/footer";
