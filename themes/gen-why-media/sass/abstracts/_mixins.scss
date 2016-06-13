@@ -10,3 +10,20 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+// Media Queries
+
+$tablet-width: 700px;
+$desktop-width: 1240px;
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
