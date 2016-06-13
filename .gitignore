@@ -55,3 +55,4 @@ themes/gen-why-media/node_modules/*
 # Ignore build files #
 # ================== #
 themes/gen-why-media/build/*
+themes/gen-why-media/gulpfile.js
