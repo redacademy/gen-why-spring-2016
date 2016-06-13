@@ -45,21 +45,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 --------------------------------------------------------------*/
 
-// Imported but not included in the stylesheet.
+// Abstracts
 
-@import "variables";
-@import "mixins";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/normalize";
 
-// CSS included in style.css.
+// Body
 
-@import "normalize";
-@import "fonts";
-@import "typography";
-@import "elements";
-@import "forms";
-@import "navigation";
-@import "modules";
-@import "widgets";
-@import "content";
-@import "media";
-@import "page-templates";
+@import "body/fonts";
+@import "body/typography";
+@import "body/elements";
+@import "body/forms";
+@import "body/navigation";
+@import "body/modules";
+@import "body/widgets";
+@import "body/content";
+@import "body/media";
+@import "body/page-templates";
+
+// Pages
+
+@import "pages/front-page";
+@import "pages/projects";
+@import "pages/watch";
+@import "pages/blog";
+@import "pages/services";
+@import "pages/contact";
