@@ -1,13 +1,15 @@
 .contact-us-container {
 	.entry-header {
-		background: url("../../assets/images/bg-watch-picture.png") no-repeat;
-		background-size: cover;
+		background: linear-gradient(180deg,$color__lin-b 0,$color__lin-b),$color__lin-b url("../../assets/images/bg-watch-picture.png") no-repeat;
 		background-position: bottom;
+		background-size: cover;
+		align-items: center;
 		color: $color__mainw;
 		display: flex;
-		justify-content: center;
-		align-items: center;
+		font-size: 1.4rem;
 		height: 400px;
+		justify-content: center;
+		text-transform: uppercase;
 		width: 100%;
 	}
 }
