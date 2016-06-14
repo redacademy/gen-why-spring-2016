@@ -19,22 +19,24 @@ $color__link: royalblue;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
 
+/* custom colors */
+
 $color__lin-b: rgba(51, 75, 127, 0.55);
 $color__lin-g: rgba(23, 106, 71, 0.55);
 
-$color__trustbmed: rgba(51, 75, 127, 0.85);
 $color__trustb: rgba(51, 75, 127, 1);
+$color__trustbmed: rgba(51, 75, 127, 0.85);
 
-$color__oj: rgba(238, 108, 77, 1);
 $color__dg: rgba(23, 106, 71, 1);
+$color__oj: rgba(238, 108, 77, 1);
 
 $color__insta-br: rgba(103, 52, 7, 1);
 $color__twitb: rgba(85, 172, 238, 1);
 
-$color__mainb: rgba(0, 0, 0, 1);
 $color__dgrey: rgba(74, 74, 74, 1);
 $color__lgrey: rgba(216, 216, 216, 1);
 $color__mainw: rgba(255, 255, 255, 1);
+$color__mainb: rgba(0, 0, 0, 1);
 
 // Typography
 
@@ -43,3 +45,69 @@ $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+/* custom typography */
+
+.header1 {
+	color: $__mainw;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 80px;
+}
+
+.header2-a {
+	color: $color__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 56px;
+	font-weight: medium;
+	line-height: 60px;
+}
+
+.header2-a {
+	color: $__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 56px;
+	font-weight: medium;
+	line-height: 60px;
+}
+
+.header2-b {
+	color: #ffffff;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 56px;
+	font-weight: medium;
+	line-height: 60px;
+}
+
+.header3{
+	color: #EE6c4d;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 56px;
+	font-weight: medium;
+	line-height: 60px;
+}
+
+.header3-b {
+	color: $color__dg;
+	font-family: avenir, sans-serif;
+	font-size: 36px;
+	font-weight: medium;
+	line-height: 40px;
+}
+
+.header4 {
+	color: $color__mainw;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 48px;
+	line-height: 60px;
+}
+
+.header4-sub {
+	color: $color__mainw;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 36px;
+	font-weight: medium;
+	line-height: 60px;
+}
+
