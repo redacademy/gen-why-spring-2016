@@ -23,8 +23,18 @@
 }
 
 .contact-form-7-container {
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
+}
+
+.name,
+.email,
+.comments {
+	width: 540px;
+}
+
+span.wpcf7-list-item {
+    margin-left: 0em;
 }
 
 .address {
