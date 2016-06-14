@@ -697,6 +697,17 @@ object {
 .get-involved h1 {
   font-size: 60px; }
 
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 1240px;
+  margin: 0 auto; }
+
+.get-involved h1 {
+  font-size: 60px; }
+
 .get-involved ul {
   list-style: none;
   display: -ms-flexbox;
