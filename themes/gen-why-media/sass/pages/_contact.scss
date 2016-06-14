@@ -1,0 +1,18 @@
+.contact-us-container {
+	.entry-header {
+		background: url("../../assets/images/bg-watch-picture.png") no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		color: $color__mainw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 400px;
+		width: 100%;
+	}
+}
+
+.contact-form-7-container {
+    display: flex;
+    justify-content: space-around;
+}
