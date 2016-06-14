@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+<h4 style="position:absolute;top:0;left:0;">404.php</h4>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
