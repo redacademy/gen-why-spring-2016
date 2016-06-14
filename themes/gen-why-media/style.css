@@ -666,5 +666,41 @@ object {
   white-space: nowrap;
   width: 50px; }
 
-.get-involved ul {
-  list-style: none; }
+.get-involved {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 1240px;
+  margin: 0 auto; }
+  .get-involved div {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .get-involved h1 {
+    font-size: 60px; }
+  .get-involved ul {
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 1100px;
+    padding-left: 0;
+    margin-left: 0; }
+    .get-involved ul li {
+      text-align: center;
+      height: 200px;
+      width: 300px; }
+      .get-involved ul li img {
+        height: 90px; }
+      .get-involved ul li .collaborate {
+        height: 60px;
+        margin-bottom: 30px; }
+      .get-involved ul li h3 {
+        font-size: 35px; }
