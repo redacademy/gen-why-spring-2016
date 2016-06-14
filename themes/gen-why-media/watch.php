@@ -2,7 +2,7 @@
 /**
  * Template Name: Watch Template
  *
- * @package RED_Starter_Theme
+ * @package Genwhy_Theme
  */
 
 get_header(); ?>

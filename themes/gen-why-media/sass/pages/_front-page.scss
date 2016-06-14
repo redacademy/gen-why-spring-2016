@@ -10,7 +10,7 @@
   }
 }
 .home {
-  h2 {
+  h2, h3 {
     text-align: center;
     font-size: 30px;
     @include tablet {
@@ -52,7 +52,7 @@
         height: 200px;
         width: 300px;
       }
-      
+
       @include desktop {
         flex: none;
         height: 200px;
@@ -191,5 +191,31 @@
       background: #fff;
       color: $color__dg;
     }
+  }
+}
+
+// About Us
+
+.about-us {
+  .founder-profile {
+    @extend .center-column;
+    width: 300px;
+    margin: 0 auto;
+    h3 {
+      margin: 0;
+    }
+    p {
+      text-align: center;
+      font-size: .8rem;
+    }
+    .display-on-desk {
+      display: none;
+      @include tablet {
+        display: block;
+      }
+    }
+  }
+  img {
+
   }
 }

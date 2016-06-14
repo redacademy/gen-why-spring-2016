@@ -2,7 +2,7 @@
 /**
  * The front page file.
  *
- * @package RED_Starter_Theme
+ * @package Genwhy_Theme
  */
 
 get_header(); ?>
@@ -53,7 +53,7 @@ get_header(); ?>
 
 			<!-- What People Say -->
 			<section class="what-people-say">
-				<h1>What Are People Saying About Us</h1>
+				<h2 class="header2-a">What Are People Saying About Us</h2>
 			</section>
 
 			<!-- Latest Event Clips -->
@@ -68,7 +68,7 @@ get_header(); ?>
 
 			<!-- Upcoming Events -->
 			<section>
-				<h1>Upcoming Event</h1>
+				<h2 class="header2-a">Upcoming Event</h2>
 			</section>
 
 			<!-- Want to Create Social Change? -->
@@ -79,6 +79,26 @@ get_header(); ?>
 						<a href="/contact" >Inspire Us</a>
 					</div>
 				</div>
+			</section>
+
+			<!-- About Us -->
+			<section class="about-us">
+					<h2 class="header2-a">About Us</h2>
+
+					<h2 class="header2-a">Our Team</h2>
+					<div class="founder-profile">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tara-pic.png" alt="Tara" />
+						<h3 class="header3">Tara Mahoney</h3>
+						<p>Meet our Co-Founder Tara. Creative director, documentary maker, and exhuberant PhD academic with a heart for social change!</p>
+						<p class="display-on-desk">Tara is currently completing her PhD in Communications at Simon Fraser University. Her research explores emerging cultural forms of political engagement.</p>
+					</div>
+					<div class="founder-profile">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiona-pic.png" alt="Fiona" />
+						<h3 class="header3">Fiona Rayher</h3>
+						<p>Fiona is Gen Why's other half. Co-founder, Artistic director and social minded documentary maker. Fiona is a human rights activist to the core.</p>
+						<p class="display-on-desk"> Social minded documentary maker, in various human rights groups and hopes to bring change. Her first feature documentary, recently released, titled Fractured Land, has been extensively reviewed by the CBC, Globe and Mail, National Post, Huffington Post, and others.</p>
+					</div>
+
 			</section>
 
 		</main><!-- #main -->

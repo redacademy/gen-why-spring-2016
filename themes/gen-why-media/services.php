@@ -2,7 +2,7 @@
 /**
  * Template Name: Services page
  *
- * @package RED_Starter_Theme
+ * @package Genwhy_Theme
  */
 
 get_header(); ?>

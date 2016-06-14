@@ -162,7 +162,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img {
+.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .about-us .founder-profile {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -827,14 +827,14 @@ object {
     .container {
       width: 1240px; } }
 
-.home h2 {
+.home h2, .home h3 {
   text-align: center;
   font-size: 30px; }
   @media (min-width: 700px) {
-    .home h2 {
+    .home h2, .home h3 {
       font-size: 45px; } }
   @media (min-width: 1240px) {
-    .home h2 {
+    .home h2, .home h3 {
       font-size: 56px; } }
 
 .get-involved ul {
@@ -983,6 +983,20 @@ object {
   .inspire-btn a:hover {
     background: #fff;
     color: #176a47; }
+
+.about-us .founder-profile {
+  width: 300px;
+  margin: 0 auto; }
+  .about-us .founder-profile h3 {
+    margin: 0; }
+  .about-us .founder-profile p {
+    text-align: center;
+    font-size: .8rem; }
+  .about-us .founder-profile .display-on-desk {
+    display: none; }
+    @media (min-width: 700px) {
+      .about-us .founder-profile .display-on-desk {
+        display: block; } }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
