@@ -25,6 +25,9 @@
       text-align: center;
       height: 200px;
       width: 300px;
+      &:last-child {
+        width: 200px;
+      }
       img {
         height: 90px;
       }
@@ -45,6 +48,9 @@
 .what-we-doing {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
   h1 {
     font-size: 60px;
     color: #fff;
@@ -55,8 +61,18 @@
     height: 300px;
     background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),
       url(../../assets/images/BG-WhatWereUpTo.png) center center;
-      background-size: cover;
+    background-size: cover;
+    padding-bottom: 30px;
   }
+}
+.blue-circle {
+  background: $color__trustb;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 666px;
+  top: 265px;
 }
 .find-out-btn {
   a {

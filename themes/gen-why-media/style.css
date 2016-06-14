@@ -700,6 +700,8 @@ object {
     text-align: center;
     height: 200px;
     width: 300px; }
+    .get-involved ul li:last-child {
+      width: 200px; }
     .get-involved ul li img {
       height: 90px; }
     .get-involved ul li .collaborate {
@@ -713,7 +715,12 @@ object {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative; }
   .what-we-doing h1 {
     font-size: 60px;
     color: #fff; }
@@ -721,7 +728,17 @@ object {
     width: 95%;
     height: 300px;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereUpTo.png) center center;
-    background-size: cover; }
+    background-size: cover;
+    padding-bottom: 30px; }
+
+.blue-circle {
+  background: #334b7f;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 666px;
+  top: 265px; }
 
 .find-out-btn a {
   color: #fff;
