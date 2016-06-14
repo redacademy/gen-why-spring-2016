@@ -1085,28 +1085,35 @@ object {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
 
-.connect-us .connect-container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
+@media (min-width: 700px) {
+  .connect-us .connect-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
 
 .connect-us .connect-wrapper {
+  padding-top: 10px;
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin: 0 40px; }
 
 .connect-us a {
-  text-align: center;
-  text-decoration: none; }
+  text-align: center; }
+
+.connect-us p {
+  font-size: .9rem; }
 
 .connect-us .connect-btn {
-  text-transform: uppercase;
-  width: 120px;
-  color: white;
-  border: 0;
   border-radius: 5px;
-  padding: 0 5px; }
+  border: 0;
+  color: white;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  width: 120px; }
+  @media (min-width: 700px) {
+    .connect-us .connect-btn {
+      padding: 0 5px; } }
 
 .connect-us .twit-btn {
   background: #55acee; }
@@ -1115,6 +1122,7 @@ object {
   background: #673407; }
 
 .connect-us .email-btn {
+  margin-top: 10px;
   background: #334b7f; }
 
 .contact-us-container .entry-header {
