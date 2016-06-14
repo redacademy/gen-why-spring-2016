@@ -16,7 +16,7 @@ get_header(); ?>
 			<!-- Get Involved -->
 			<section class="get-involved container">
 				<div class="">
-					<h2>Why Get Involved?</h2>
+					<h2 class="header2-a">Why Get Involved?</h2>
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Community.png" alt="Community" />
@@ -42,7 +42,7 @@ get_header(); ?>
 			<!-- What we are doing -->
 			<section class="what-we-doing">
 				<div class="what-we-doing-img">
-					<h1>What We're Doing</h1>
+					<h2 class="header2-b">What We're Doing</h2>
 					<div class="find-out-btn">
 						<a href="#" >Find Out More</a>
 					</div>
@@ -58,7 +58,7 @@ get_header(); ?>
 			<!-- Latest Event Clips -->
 			<section class="latest-event">
 				<div class="latest-event-img">
-					<h1>Latest Event Clips</h1>
+					<h2 class="header2-b">Latest Event Clips</h2>
 					<div class="find-out-btn">
 						<a href="#" >Find Out More</a>
 					</div>
@@ -73,7 +73,7 @@ get_header(); ?>
 			<!-- Want to Create Social Change? -->
 			<section class="create-change">
 				<div class="create-change-img">
-					<h1>Want to Create Social Change?</h1>
+					<h2 class="header2-b">Want to Create Social Change?</h2>
 					<div class="inspire-btn">
 						<a href="#" >Inspire Us</a>
 					</div>

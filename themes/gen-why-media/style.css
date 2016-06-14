@@ -43,6 +43,63 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+/* custom colors */
+/* custom typography */
+.header1 {
+  color: white;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 80px; }
+
+.header2-a {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 56px;
+  font-weight: medium;
+  line-height: 60px; }
+
+.header2-b {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 56px;
+  font-weight: medium;
+  line-height: 60px; }
+
+.header2-b {
+  color: white;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 56px;
+  font-weight: medium;
+  line-height: 60px; }
+
+.header3 {
+  color: #ee6c4d;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 56px;
+  font-weight: medium;
+  line-height: 60px; }
+
+.header3-b {
+  color: #176a47;
+  font-family: avenir, sans-serif;
+  font-size: 36px;
+  font-weight: medium;
+  line-height: 40px; }
+
+.header4 {
+  color: white;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 48px;
+  line-height: 60px; }
+
+.header4-sub {
+  color: white;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 36px;
+  font-weight: medium;
+  line-height: 60px; }
+
 .center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img {
   display: -ms-flexbox;
   display: flex;
