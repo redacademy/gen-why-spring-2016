@@ -2,7 +2,7 @@
 /**
  * The front page file.
  *
- * @package RED_Starter_Theme
+ * @package Genwhy_Theme
  */
 
 get_header(); ?>
