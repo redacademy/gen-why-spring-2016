@@ -85,18 +85,30 @@ get_header(); ?>
 			<section class="about-us">
 					<h2 class="header2-a">About Us</h2>
 
+					<div class="video-wrapper">
+						<iframe width: "560"; height: "349"; src="https://www.youtube.com/embed/SfAVSLcA250" frameborder="0" allowfullscreen
+						></iframe>
+					</div>
+
 					<h2 class="header2-a">Our Team</h2>
 					<div class="founder-profile">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tara-pic.png" alt="Tara" />
-						<h3 class="header3">Tara Mahoney</h3>
-						<p>Meet our Co-Founder Tara. Creative director, documentary maker, and exhuberant PhD academic with a heart for social change!</p>
-						<p class="display-on-desk">Tara is currently completing her PhD in Communications at Simon Fraser University. Her research explores emerging cultural forms of political engagement.</p>
+						<div class="about-text">
+							<h3 class="header3">Tara Mahoney</h3>
+							<p class="body-a">Meet our Co-Founder Tara. Creative director, documentary maker, and exhuberant PhD academic with a heart for social change!</p>
+							<p class="display-on-desk body-a">Tara is currently completing her PhD in Communications at Simon Fraser University. Her research explores emerging cultural forms of political engagement.</p>
+						</div>
+
 					</div>
 					<div class="founder-profile">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiona-pic.png" alt="Fiona" />
-						<h3 class="header3">Fiona Rayher</h3>
-						<p>Fiona is Gen Why's other half. Co-founder, Artistic director and social minded documentary maker. Fiona is a human rights activist to the core.</p>
-						<p class="display-on-desk"> Social minded documentary maker, in various human rights groups and hopes to bring change. Her first feature documentary, recently released, titled Fractured Land, has been extensively reviewed by the CBC, Globe and Mail, National Post, Huffington Post, and others.</p>
+
+						<div class="about-text">
+							<h3 class="header3">Fiona Rayher</h3>
+							<p class="body-a">Fiona is Gen Why's other half. Co-founder, Artistic director and social minded documentary maker. Fiona is a human rights activist to the core.</p>
+							<p class="display-on-desk body-a"> Social minded documentary maker, in various human rights groups and hopes to bring change. Her first feature documentary, recently released, titled Fractured Land, has been extensively reviewed by the CBC, Globe and Mail, National Post, Huffington Post, and others.</p>
+						</div>
+
 					</div>
 
 			</section>

@@ -14,7 +14,7 @@
 // Media Queries
 
 $tablet-width: 700px;
-$desktop-width: 1240px;
+$desktop-width: 1340px;
 
 @mixin tablet {
   @media (min-width: #{$tablet-width}) {

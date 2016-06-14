@@ -50,7 +50,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: helveticaNeue, sans-serif;
   font-size: 72px;
   font-weight: bold;
-  line-height: 80px; }
+  line-height: 80px;
+  text-transform: uppercase; }
 
 .header2-a {
   color: #4a4a4a;
@@ -112,7 +113,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: helveticaNeue, sans-serif;
   font-size: 24px;
   font-weight: normal;
-  line-height: 24px; }
+  line-height: 24px;
+  text-transform: uppercase; }
 
 .button-b {
   color: #334b7f;
@@ -147,14 +149,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: helveticaNeue, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  line-height: 60px; }
+  line-height: 60px;
+  text-transform: uppercase; }
 
 .menu-solid {
   color: black;
   font-family: helveticaNeue, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  line-height: 60px; }
+  line-height: 60px;
+  text-transform: uppercase; }
 
 .form-font {
   color: #4a4a4a;
@@ -823,7 +827,7 @@ object {
       justify-content: center;
   margin: 0 auto;
   width: 400px; }
-  @media (min-width: 1240px) {
+  @media (min-width: 1340px) {
     .container {
       width: 1240px; } }
 
@@ -833,7 +837,7 @@ object {
   @media (min-width: 700px) {
     .home h2, .home h3 {
       font-size: 45px; } }
-  @media (min-width: 1240px) {
+  @media (min-width: 1340px) {
     .home h2, .home h3 {
       font-size: 56px; } }
 
@@ -853,7 +857,7 @@ object {
       width: 800px;
       -ms-flex-pack: center;
           justify-content: center; } }
-  @media (min-width: 1240px) {
+  @media (min-width: 1340px) {
     .get-involved ul {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
@@ -868,13 +872,13 @@ object {
             flex: none;
         height: 200px;
         width: 300px; } }
-    @media (min-width: 1240px) {
+    @media (min-width: 1340px) {
       .get-involved ul li {
         -ms-flex: none;
             flex: none;
         height: 200px;
         width: 300px; } }
-    @media (min-width: 1240px) {
+    @media (min-width: 1340px) {
       .get-involved ul li:last-child {
         width: 200px; } }
     .get-involved ul li img {
@@ -882,7 +886,7 @@ object {
       @media (min-width: 700px) {
         .get-involved ul li img {
           height: 80px; } }
-      @media (min-width: 1240px) {
+      @media (min-width: 1340px) {
         .get-involved ul li img {
           height: 90px; } }
     .get-involved ul li .collaborate {
@@ -891,7 +895,7 @@ object {
       @media (min-width: 700px) {
         .get-involved ul li .collaborate {
           height: 50px; } }
-      @media (min-width: 1240px) {
+      @media (min-width: 1340px) {
         .get-involved ul li .collaborate {
           height: 60px;
           margin-bottom: 30px; } }
@@ -900,7 +904,7 @@ object {
       @media (min-width: 700px) {
         .get-involved ul li h3 {
           font-size: 25px; } }
-      @media (min-width: 1240px) {
+      @media (min-width: 1340px) {
         .get-involved ul li h3 {
           font-size: 35px; } }
 
@@ -912,11 +916,11 @@ object {
     height: 300px;
     padding-bottom: 30px;
     width: 100%; }
-    @media (min-width: 1240px) {
+    @media (min-width: 1340px) {
       .what-we-doing .what-we-doing-img {
         width: 95%; } }
 
-@media (min-width: 1240px) {
+@media (min-width: 1340px) {
   .blue-circle {
     background: #334b7f;
     border-radius: 50%;
@@ -948,7 +952,7 @@ object {
     background-size: cover;
     height: 300px;
     width: 100%; }
-    @media (min-width: 1240px) {
+    @media (min-width: 1340px) {
       .latest-event .latest-event-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) center center;
         height: 450px;
@@ -966,7 +970,7 @@ object {
     background-size: cover;
     height: 300px;
     width: 100%; }
-    @media (min-width: 1240px) {
+    @media (min-width: 1340px) {
       .create-change .create-change-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) center center;
         width: 95%;
@@ -984,14 +988,61 @@ object {
     background: #fff;
     color: #176a47; }
 
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  @media (min-width: 1340px) {
+    .video-wrapper {
+      width: 1120px;
+      margin: 0 auto;
+      margin-left: 180px; } }
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  @media (min-width: 1340px) {
+    .video-wrapper iframe {
+      width: 95%;
+      height: 95%; } }
+
 .about-us .founder-profile {
   width: 300px;
   margin: 0 auto; }
+  @media (min-width: 700px) {
+    .about-us .founder-profile {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      width: 700px; } }
+  @media (min-width: 1340px) {
+    .about-us .founder-profile {
+      width: 900px; } }
   .about-us .founder-profile h3 {
     margin: 0; }
+    @media (min-width: 700px) {
+      .about-us .founder-profile h3 {
+        text-align: left; } }
   .about-us .founder-profile p {
     text-align: center;
-    font-size: .8rem; }
+    font-size: .9rem; }
+    @media (min-width: 700px) {
+      .about-us .founder-profile p {
+        text-align: left;
+        font-size: 1rem; } }
+    @media (min-width: 1340px) {
+      .about-us .founder-profile p {
+        font-size: 1.2rem; } }
+  @media (min-width: 700px) {
+    .about-us .founder-profile .about-text {
+      margin-left: 40px; } }
+  @media (min-width: 700px) {
+    .about-us .founder-profile .about-text {
+      margin-left: 60px; } }
   .about-us .founder-profile .display-on-desk {
     display: none; }
     @media (min-width: 700px) {
