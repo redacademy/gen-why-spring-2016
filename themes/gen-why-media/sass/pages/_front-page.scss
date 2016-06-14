@@ -161,6 +161,7 @@
 }
 
 // Want to Create Social Change
+
 .create-change {
   display: flex;
   justify-content: center;
@@ -258,6 +259,37 @@
       display: none;
       @include tablet {
         display: block;
+      }
+    }
+  }
+}
+
+// Previous Partner
+
+.prev-parts {
+  display: flex;
+  justify-content: center;
+  .prev-parts-img {
+    @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    @include desktop {
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+      height: 450px;
+      width: 95%;
+    }
+    .partner-logos {
+      img {
+        height: 70px;
+        @include tablet {
+          height: 120px;
+          margin: 0 10px;
+        }
+        @include desktop {
+          margin: 0 20px;
+        }
       }
     }
   }
