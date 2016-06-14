@@ -93,12 +93,74 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: medium;
   line-height: 60px; }
 
-.header2-a {
+.header5-b {
   color: #176a47;
   font-family: helveticaNeue, sans-serif;
-  font-size: 56px;
-  font-weight: medium;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px; }
+
+.header5-rev {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.button-a {
+  color: white;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px; }
+
+.button-b {
+  color: #334b7f;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.body-a {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.body-b {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px; }
+
+.body-b-rev {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px; }
+
+.menu-clear {
+  color: white;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 60px; }
+
+.menu-solid {
+  color: black;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px; }
+
+.form-font {
+  color: #4a4a4a;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 14px;
+  line-height: 40px; }
 
 .center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img {
   display: -ms-flexbox;
@@ -530,7 +592,12 @@ a {
   .menu-toggle {
     display: none; }
   .main-navigation ul {
-    display: block; } }
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.1rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 20px 0; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -724,17 +791,20 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-header {
+  background-color: #d8d8d8;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0 auto;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  margin: 0 auto;
   width: 1380px; }
+  .site-header a {
+    color: white; }
 
 .site-header h1 {
-  background: url("../../assets/logos/genwhy_logo-alt2x.png") no-repeat;
+  background: url("../../assets/logos/genwhy_logo2x.png") no-repeat;
   background-size: 60px 60px;
   height: 60px;
   margin: 10px 20px;

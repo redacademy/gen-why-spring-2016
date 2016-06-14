@@ -103,11 +103,81 @@ $font__line-height-pre: 1.6;
 	line-height: 60px;
 }
 
-.header2-a {
+.header5-b {
 	color: $color__dg;
 	font-family: helveticaNeue, sans-serif;
-	font-size: 56px;
-	font-weight: medium;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.header5-rev {
+	color: $color__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.button-a {
+	color: $color__mainw;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+.button-b {
+	color: $color__trustb;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.body-a {
+	color: $color__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.body-b {
+	color: $color__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.body-b-rev {
+	color: $color__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 40px;
+}
+
+.menu-clear {
+	color: $color__mainw;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
 	line-height: 60px;
 }
 
+.menu-solid {
+	color: $color__mainb;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.form-font {
+	color: $color__dgrey;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+}
