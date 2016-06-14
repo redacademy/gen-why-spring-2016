@@ -20,19 +20,19 @@ get_header(); ?>
 					<h2 class="header2-a">Why Get Involved?</h2>
 					<ul>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Community.png" alt="Community" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/community.png" alt="Community" />
 							<h3 class="header3-b">Community</h3>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/ShapeYourCity.png" alt="Shape Your City" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/shape-your-city.png" alt="Shape Your City" />
 							<h3 class="header3-b">Shape Your City</h3>
 						 </li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Collaborate.png" alt="Collaborate" class="collaborate"/>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate.png" alt="Collaborate" class="collaborate"/>
 							<h3 class="header3-b">Collaborate</h3>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Connect.png" alt="Connect" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect.png" alt="Connect" />
 							<h3 class="header3-b">Connect</h3>
 						</li>
 					</ul>
