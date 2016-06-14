@@ -14,7 +14,7 @@ get_header(); ?>
 
 
 			<!-- Get Involved -->
-			<section class="get-involved">
+			<section class="get-involved container">
 				<div class="">
 					<h1>Why Get Involved?</h1>
 					<ul>
@@ -40,12 +40,24 @@ get_header(); ?>
 
 
 			<!-- What we are doing -->
-
+			<section class="what-we-doing container">
+				<div class="what-we-doing-img">
+					<h1>What We're Doing</h1>
+					<a href="#" class="find-out-btn">Find Out More</a>
+				</div>
+			</section>
 
 			<!-- What People Say -->
 
 
 			<!-- Latest Event Clips -->
+			<section class="latest-event">
+				<div class="latest-event-img">
+					<h1>Latest Event Clips</h1>
+					<a href="#" class="find-out-btn">Find Out More</a>
+				</div>
+			</section>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
