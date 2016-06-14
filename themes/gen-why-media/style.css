@@ -60,13 +60,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px; }
 
 .header2-b {
-  color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
-  font-size: 56px;
-  font-weight: medium;
-  line-height: 60px; }
-
-.header2-b {
   color: white;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
@@ -97,6 +90,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: white;
   font-family: helveticaNeue, sans-serif;
   font-size: 36px;
+  font-weight: medium;
+  line-height: 60px; }
+
+.header2-a {
+  color: #176a47;
+  font-family: helveticaNeue, sans-serif;
+  font-size: 56px;
   font-weight: medium;
   line-height: 60px; }
 
@@ -754,14 +754,15 @@ object {
     .container {
       width: 1240px; } }
 
-.get-involved h2 {
+.home h2 {
+  text-align: center;
   font-size: 30px; }
   @media (min-width: 700px) {
-    .get-involved h2 {
+    .home h2 {
       font-size: 45px; } }
   @media (min-width: 1240px) {
-    .get-involved h2 {
-      font-size: 60px; } }
+    .home h2 {
+      font-size: 56px; } }
 
 .get-involved ul {
   display: -ms-flexbox;
@@ -822,8 +823,7 @@ object {
           height: 60px;
           margin-bottom: 30px; } }
     .get-involved ul li h3 {
-      font-size: 15px;
-      color: #176a47; }
+      font-size: 15px; }
       @media (min-width: 700px) {
         .get-involved ul li h3 {
           font-size: 25px; } }
@@ -833,24 +833,15 @@ object {
 
 .what-we-doing {
   position: relative; }
-  .what-we-doing h1 {
-    font-size: 30px;
-    color: #fff; }
-    @media (min-width: 1240px) {
-      .what-we-doing h1 {
-        font-size: 60px; } }
   .what-we-doing .what-we-doing-img {
-    background-size: 200px;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereUpTo.png) no-repeat center;
+    background-size: cover;
     height: 300px;
     padding-bottom: 30px;
     width: 100%; }
     @media (min-width: 1240px) {
       .what-we-doing .what-we-doing-img {
-        height: 300px;
-        padding-bottom: 30px;
-        width: 95%;
-        background-size: cover; } }
+        width: 95%; } }
 
 @media (min-width: 1240px) {
   .blue-circle {
@@ -879,30 +870,32 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
-  .latest-event h1 {
-    color: #fff;
-    font-size: 60px; }
   .latest-event .latest-event-img {
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/BG-WhatWereDoing.png) center center;
     background-size: cover;
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereDoing.png) center center;
-    height: 450px;
-    width: 95%; }
+    height: 300px;
+    width: 100%; }
+    @media (min-width: 1240px) {
+      .latest-event .latest-event-img {
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereDoing.png) center center;
+        height: 450px;
+        width: 95%; } }
 
 .create-change {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
-  .create-change h1 {
-    color: #fff;
-    font-size: 60px; }
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .create-change .create-change-img {
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/BG-SocialChange.png) center center;
     background-size: cover;
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-SocialChange.png) center center;
     height: 300px;
-    width: 95%; }
+    width: 100%; }
     @media (min-width: 1240px) {
       .create-change .create-change-img {
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-SocialChange.png) center center;
         width: 95%;
         height: 300px; } }
 

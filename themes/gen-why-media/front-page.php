@@ -20,19 +20,19 @@ get_header(); ?>
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Community.png" alt="Community" />
-							<h3>Community</h3>
+							<h3 class="header3-b">Community</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/ShapeYourCity.png" alt="Shape Your City" />
-							<h3>Shape Your City</h3>
+							<h3 class="header3-b">Shape Your City</h3>
 						 </li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Collaborate.png" alt="Collaborate" class="collaborate"/>
-							<h3>Collaborate</h3>
+							<h3 class="header3-b">Collaborate</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Connect.png" alt="Connect" />
-							<h3>Connect</h3>
+							<h3 class="header3-b">Connect</h3>
 						</li>
 					</ul>
 				</div>
@@ -75,7 +75,7 @@ get_header(); ?>
 				<div class="create-change-img">
 					<h2 class="header2-b">Want to Create Social Change?</h2>
 					<div class="inspire-btn">
-						<a href="#" >Inspire Us</a>
+						<a href="/contact" >Inspire Us</a>
 					</div>
 				</div>
 			</section>

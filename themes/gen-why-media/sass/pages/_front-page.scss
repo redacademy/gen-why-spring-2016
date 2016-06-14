@@ -1,4 +1,4 @@
-// All Elements on Front Page
+// Elements and Classes Effecting All
 
 .container {
   display: flex;
@@ -9,22 +9,25 @@
     width: 1240px;
   }
 }
-
+.home {
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    @include tablet {
+      font-size: 45px;
+    }
+    @include desktop {
+      font-size: 56px;
+    }
+  }
+}
 // Get Involved
 
 .get-involved {
   div {
     @extend .center-column;
   }
-  h2 {
-    font-size: 30px;
-    @include tablet {
-      font-size: 45px;
-    }
-    @include desktop {
-      font-size: 60px;
-    }
-  }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +84,6 @@
       }
       h3 {
         font-size: 15px;
-        color: $color__dg;
         @include tablet {
           font-size: 25px;
         }
@@ -98,32 +100,19 @@
 .what-we-doing {
   @extend .center-column;
   position: relative;
-  h1 {
-    font-size: 30px;
-    color: #fff;
-    @include desktop {
-      font-size: 60px;
-    }
-  }
   .what-we-doing-img {
     @extend .center-column;
-    background-size: 200px;
     background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/BG-WhatWereUpTo.png) no-repeat center;
+    background-size: cover;
     height: 300px;
     padding-bottom: 30px;
     width: 100%;
     @include desktop {
-      height: 300px;
-      padding-bottom: 30px;
       width: 95%;
-      background-size: cover;
     }
   }
 }
 .blue-circle {
-  @include tablet {
-
-  }
   @include desktop {
     background: $color__trustb;
     border-radius: 50%;
@@ -156,16 +145,17 @@
 .latest-event {
   display: flex;
   justify-content: center;
-  h1 {
-    color: #fff;
-    font-size: 60px;
-  }
   .latest-event-img {
     @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/BG-WhatWereDoing.png) center center;
     background-size: cover;
-    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/BG-WhatWereDoing.png) center center;
-    height: 450px;
-    width: 95%;
+    height: 300px;
+    width: 100%;
+    @include desktop {
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/BG-WhatWereDoing.png) center center;
+      height: 450px;
+      width: 95%;
+    }
   }
 }
 
@@ -173,17 +163,15 @@
 .create-change {
   display: flex;
   justify-content: center;
-  h1 {
-    color: #fff;
-    font-size: 60px;
-  }
+  align-items: center;
   .create-change-img {
     @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/BG-SocialChange.png) center center;
     background-size: cover;
-    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/BG-SocialChange.png) center center;
     height: 300px;
-    width: 95%;
+    width: 100%;
       @include desktop {
+        background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/BG-SocialChange.png) center center;
         width: 95%;
         height: 300px;
       }
