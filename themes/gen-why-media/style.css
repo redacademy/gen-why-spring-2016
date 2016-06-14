@@ -468,6 +468,9 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
+header {
+  text-align: center; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -804,7 +807,7 @@ object {
     color: white; }
 
 .site-header h1 {
-  background: url("../../assets/logos/genwhy_logo2x.png") no-repeat;
+  background: url("../../assets/logos/genwhy-logo-white.png") no-repeat;
   background-size: 60px 60px;
   height: 60px;
   margin: 10px 20px;
@@ -980,3 +983,23 @@ object {
   .inspire-btn a:hover {
     background: #fff;
     color: #176a47; }
+
+.contact-us-container .entry-header {
+  background: url("../../assets/images/bg-watch-picture.png") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 400px;
+  width: 100%; }
+
+.contact-form-7-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }

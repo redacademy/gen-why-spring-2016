@@ -8,8 +8,8 @@
 get_header(); ?>
 <h4 style="position:absolute;top:0;left:0;">page.php</h4>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="content-area contact-us-wrapper">
+		<main id="main" class="site-main contact-us-container" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
