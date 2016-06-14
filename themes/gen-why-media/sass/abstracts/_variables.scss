@@ -65,14 +65,6 @@ $font__line-height-pre: 1.6;
 }
 
 .header2-b {
-	color: $color__dgrey;
-	font-family: helveticaNeue, sans-serif;
-	font-size: 56px;
-	font-weight: medium;
-	line-height: 60px;
-}
-
-.header2-b {
 	color: $color__mainw;
 	font-family: helveticaNeue, sans-serif;
 	font-size: 56px;
@@ -107,6 +99,14 @@ $font__line-height-pre: 1.6;
 	color: $color__mainw;
 	font-family: helveticaNeue, sans-serif;
 	font-size: 36px;
+	font-weight: medium;
+	line-height: 60px;
+}
+
+.header2-a {
+	color: $color__dg;
+	font-family: helveticaNeue, sans-serif;
+	font-size: 56px;
 	font-weight: medium;
 	line-height: 60px;
 }
