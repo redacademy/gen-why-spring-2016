@@ -1152,5 +1152,13 @@ object {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
+.name,
+.email,
+.comments {
+  width: 540px; }
+
+span.wpcf7-list-item {
+  margin-left: 0em; }
+
 .address {
   padding-top: 150px; }
