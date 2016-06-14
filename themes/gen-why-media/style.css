@@ -43,6 +43,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+.center-column, .get-involved div, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -674,16 +684,6 @@ object {
   width: 1240px;
   margin: 0 auto; }
 
-.get-involved div {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-direction: column;
-      flex-direction: column; }
-
 .get-involved h1 {
   font-size: 60px; }
 
@@ -706,7 +706,8 @@ object {
       height: 60px;
       margin-bottom: 30px; }
     .get-involved ul li h3 {
-      font-size: 35px; }
+      font-size: 35px;
+      color: #176a47; }
 
 .what-we-doing {
   display: -ms-flexbox;
@@ -717,14 +718,6 @@ object {
     font-size: 60px;
     color: #fff; }
   .what-we-doing .what-we-doing-img {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-direction: column;
-        flex-direction: column;
     width: 95%;
     height: 300px;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereUpTo.png) center center;
@@ -740,7 +733,7 @@ object {
   border-radius: 7px; }
   .find-out-btn a:hover {
     color: #ee6c4d;
-    background: #e1e1e1; }
+    background: #fff; }
 
 .latest-event {
   display: -ms-flexbox;
@@ -751,15 +744,33 @@ object {
     font-size: 60px;
     color: #fff; }
   .latest-event .latest-event-img {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-direction: column;
-        flex-direction: column;
     width: 95%;
     height: 450px;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereDoing.png) center center;
     background-size: cover; }
+
+.create-change {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .create-change h1 {
+    font-size: 60px;
+    color: #fff; }
+  .create-change .create-change-img {
+    width: 95%;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-SocialChange.png) center center;
+    background-size: cover; }
+
+.inspire-btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #176a47;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px; }
+  .inspire-btn a:hover {
+    color: #176a47;
+    background: #fff; }

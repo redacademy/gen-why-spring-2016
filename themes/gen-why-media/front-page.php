@@ -50,7 +50,9 @@ get_header(); ?>
 			</section>
 
 			<!-- What People Say -->
-
+			<section class="what-people-say">
+				<h1>What Are People Saying About Us</h1>
+			</section>
 
 			<!-- Latest Event Clips -->
 			<section class="latest-event">
@@ -62,6 +64,20 @@ get_header(); ?>
 				</div>
 			</section>
 
+			<!-- Upcoming Events -->
+			<section>
+				<h1>Upcoming Event</h1>
+			</section>
+
+			<!-- Want to Create Social Change? -->
+			<section class="create-change">
+				<div class="create-change-img">
+					<h1>Want to Create Social Change?</h1>
+					<div class="inspire-btn">
+						<a href="#" >Inspire Us</a>
+					</div>
+				</div>
+			</section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -9,10 +9,7 @@
 
 .get-involved {
   div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @extend .center-column;
   }
   h1 {
     font-size: 60px;
@@ -37,6 +34,7 @@
       }
       h3 {
         font-size: 35px;
+        color: $color__dg;
       }
     }
   }
@@ -52,10 +50,7 @@
     color: #fff;
   }
   .what-we-doing-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @extend .center-column;
     width: 95%;
     height: 300px;
     background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),
@@ -74,10 +69,11 @@
     border-radius: 7px;
     &:hover {
       color: $color__oj;
-      background: #e1e1e1;
+      background: #fff;
     }
   }
 }
+
 // Latest Event Clips
 
 .latest-event {
@@ -88,14 +84,44 @@
     color: #fff;
   }
   .latest-event-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @extend .center-column;
     width: 95%;
     height: 450px;
     background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),
       url(../../assets/images/BG-WhatWereDoing.png) center center;
       background-size: cover;
+  }
+}
+
+// Want to Create Social Change
+.create-change {
+  display: flex;
+  justify-content: center;
+  h1 {
+    font-size: 60px;
+    color: #fff;
+  }
+  .create-change-img {
+    @extend .center-column;
+    width: 95%;
+    height: 300px;
+    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),
+      url(../../assets/images/BG-SocialChange.png) center center;
+      background-size: cover;
+  }
+}
+.inspire-btn {
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: $color__dg;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    &:hover {
+      color: $color__dg;
+      background: #fff;
+    }
   }
 }
