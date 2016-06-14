@@ -1,14 +1,17 @@
 .site-header {
+	background-color: $color__lgrey;
 	display: flex;
 	justify-content: space-around;
-
-	margin: 0 auto;
 	justify-content: space-between;
+	margin: 0 auto;
 	width: 1380px;
+	a {
+		color: $color__mainw;
+	}
 }
 
 .site-header h1{
-	background: url("../../assets/logos/genwhy_logo-alt2x.png") no-repeat;
+	background: url("../../assets/logos/genwhy_logo2x.png") no-repeat;
 	background-size: 60px 60px;
 	height: 60px;
 	margin: 10px 20px;

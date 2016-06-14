@@ -106,7 +106,10 @@ a {
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: flex;
+		font-size: 1.1rem;
+		justify-content: space-around;
+		padding: 20px 0;
 	}
 }
 
