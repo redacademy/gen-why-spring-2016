@@ -15,6 +15,7 @@ get_header(); ?>
 
 
 			<!-- Get Involved -->
+
 			<section class="get-involved container">
 				<div class="">
 					<h2 class="header2-a">Why Get Involved?</h2>
@@ -37,10 +38,10 @@ get_header(); ?>
 						</li>
 					</ul>
 				</div>
-			</section>
-
+			</section><!-- .get-involved -->
 
 			<!-- What we are doing -->
+
 			<section class="what-we-doing">
 				<div class="what-we-doing-img">
 					<h2 class="header2-b">What We're Doing</h2>
@@ -49,14 +50,16 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="blue-circle"></div>
-			</section>
+			</section><!-- .what-we-doing -->
 
 			<!-- What People Say -->
+
 			<section class="what-people-say">
 				<h2 class="header2-a">What Are People Saying About Us</h2>
-			</section>
+			</section><!-- .what-people-say -->
 
 			<!-- Latest Event Clips -->
+
 			<section class="latest-event">
 				<div class="latest-event-img">
 					<h2 class="header2-b">Latest Event Clips</h2>
@@ -64,12 +67,12 @@ get_header(); ?>
 						<a href="#" >Find Out More</a>
 					</div>
 				</div>
-			</section>
+			</section><!-- .latest-event -->
 
 			<!-- Upcoming Events -->
-			<section>
+			<section class="upcoming-events">
 				<h2 class="header2-a">Upcoming Event</h2>
-			</section>
+			</section><!-- .upcoming-events -->
 
 			<!-- Want to Create Social Change? -->
 			<section class="create-change">
@@ -79,7 +82,7 @@ get_header(); ?>
 						<a href="/contact" >Inspire Us</a>
 					</div>
 				</div>
-			</section>
+			</section><!-- .create-change -->
 
 			<!-- About Us -->
 			<section class="about-us">
@@ -88,18 +91,19 @@ get_header(); ?>
 					<div class="video-wrapper">
 						<iframe width: "560"; height: "349"; src="https://www.youtube.com/embed/SfAVSLcA250" frameborder="0" allowfullscreen
 						></iframe>
-					</div>
+					</div><!-- .video-wrapper-->
 
 					<h2 class="header2-a">Our Team</h2>
 					<div class="founder-profile">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tara-pic.png" alt="Tara" />
+
 						<div class="about-text">
 							<h3 class="header3">Tara Mahoney</h3>
 							<p class="body-a">Meet our Co-Founder Tara. Creative director, documentary maker, and exhuberant PhD academic with a heart for social change!</p>
 							<p class="display-on-desk body-a">Tara is currently completing her PhD in Communications at Simon Fraser University. Her research explores emerging cultural forms of political engagement.</p>
 						</div>
+					</div><!-- .founder-profile -->
 
-					</div>
 					<div class="founder-profile">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiona-pic.png" alt="Fiona" />
 
@@ -108,8 +112,8 @@ get_header(); ?>
 							<p class="body-a">Fiona is Gen Why's other half. Co-founder, Artistic director and social minded documentary maker. Fiona is a human rights activist to the core.</p>
 							<p class="display-on-desk body-a"> Social minded documentary maker, in various human rights groups and hopes to bring change. Her first feature documentary, recently released, titled Fractured Land, has been extensively reviewed by the CBC, Globe and Mail, National Post, Huffington Post, and others.</p>
 						</div>
-					</div>
-			</section>
+					</div><!-- .founder-profile -->
+			</section><!-- .about-us -->
 
 			<!-- Previous Partners -->
 
@@ -123,12 +127,31 @@ get_header(); ?>
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/six-logo.png" alt="Six" />
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/tin-can-studio.png" alt="Tin Can Studio" />
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/vancity-logo.png" alt="Vancity" />
-					</div>
-				</div>
-			</section>
-
+					</div><!-- .partner-logos -->
+				</div><!-- .prev-parts-img -->
+			</section><!-- .prev-parts -->
 
 			<!-- Stay Connected With Us -->
+
+			<section class="connect-us">
+				<h2 class="header2-a">Stay Connected With Us</h2>
+				<div class="connect-container">
+					<div class="twit-connect connect-wrapper">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter-icon.png" alt="Twitter" />
+						<a href="#" class="connect-btn twit-btn">Follow</a>
+					</div>
+					<div class="insta-connect connect-wrapper">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram-icon.png" alt="Instagram" />
+						<a href="#" class="connect-btn insta-btn">Follow</a>
+					</div>
+					<div class="email-connect connect-wrapper">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/mail-icon.png" alt="Email" />
+						<p>Want to know about our next event?</p>
+						<input type="text" name="name" placeholder="Type your email here...">
+						<a href="#" class="connect-btn email-btn">Subscribe</a>
+					</div>
+				</div><!-- .connect-container -->
+			</section><!-- .connect-us -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
