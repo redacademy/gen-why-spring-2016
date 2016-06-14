@@ -22,7 +22,7 @@ function genwhy_body_classes( $classes ) {
 add_filter( 'body_class', 'genwhy_body_classes' );
 
 //Custom Function for setting Featured Image as Splash for About Page
-function 'header_image'() {
+function genwhy_watch_header() {
 
 	if( !is_page_template( 'watch.php' ) ) {
 		return ;
@@ -48,4 +48,4 @@ function 'header_image'() {
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
-add_action( 'wp_enqueue_scripts', 'header_image' );
+add_action( 'wp_enqueue_scripts', 'genwhy_watch_header' );
