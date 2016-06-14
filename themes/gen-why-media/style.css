@@ -725,10 +725,22 @@ object {
         align-items: center;
     -ms-flex-direction: column;
         flex-direction: column;
-    width: 90%;
-    height: 250px;
+    width: 95%;
+    height: 300px;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereUpTo.png) center center;
     background-size: cover; }
+
+.find-out-btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #ee6c4d;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px; }
+  .find-out-btn a:hover {
+    color: #ee6c4d;
+    background: #e1e1e1; }
 
 .latest-event {
   display: -ms-flexbox;
@@ -747,7 +759,7 @@ object {
         align-items: center;
     -ms-flex-direction: column;
         flex-direction: column;
-    width: 100%;
+    width: 95%;
     height: 450px;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/BG-WhatWereDoing.png) center center;
     background-size: cover; }

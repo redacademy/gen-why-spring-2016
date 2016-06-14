@@ -40,10 +40,12 @@ get_header(); ?>
 
 
 			<!-- What we are doing -->
-			<section class="what-we-doing container">
+			<section class="what-we-doing">
 				<div class="what-we-doing-img">
 					<h1>What We're Doing</h1>
-					<a href="#" class="find-out-btn">Find Out More</a>
+					<div class="find-out-btn">
+						<a href="#" >Find Out More</a>
+					</div>
 				</div>
 			</section>
 
@@ -54,7 +56,9 @@ get_header(); ?>
 			<section class="latest-event">
 				<div class="latest-event-img">
 					<h1>Latest Event Clips</h1>
-					<a href="#" class="find-out-btn">Find Out More</a>
+					<div class="find-out-btn">
+						<a href="#" >Find Out More</a>
+					</div>
 				</div>
 			</section>
 

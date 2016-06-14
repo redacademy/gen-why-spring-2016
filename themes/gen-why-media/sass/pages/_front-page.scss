@@ -43,6 +43,7 @@
 }
 
 // What We're Doing
+
 .what-we-doing {
   display: flex;
   justify-content: center;
@@ -56,14 +57,29 @@
     align-items: center;
     flex-direction: column;
     width: 95%;
-    height: 250px;
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)),
+    height: 300px;
+    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),
       url(../../assets/images/BG-WhatWereUpTo.png) center center;
       background-size: cover;
   }
 }
-
+.find-out-btn {
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: $color__oj;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    &:hover {
+      color: $color__oj;
+      background: #e1e1e1;
+    }
+  }
+}
 // Latest Event Clips
+
 .latest-event {
   display: flex;
   justify-content: center;
@@ -76,9 +92,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     height: 450px;
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)),
+    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),
       url(../../assets/images/BG-WhatWereDoing.png) center center;
       background-size: cover;
   }
