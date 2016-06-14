@@ -47,7 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* custom typography */
 .header1 {
   color: white;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "helvetica Neue", sans-serif;
   font-size: 72px;
   font-weight: bold;
   line-height: 80px;
@@ -55,62 +55,62 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .header2-a {
   color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
   font-weight: normal;
   line-height: 60px; }
 
 .header2-b {
   color: white;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
   font-weight: normal;
   line-height: 60px; }
 
 .header3 {
   color: #ee6c4d;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
   font-weight: normal;
   line-height: 60px; }
 
 .header3-b {
   color: #176a47;
-  font-family: avenir, sans-serif;
+  font-family: "Avenir", sans-serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 40px; }
 
 .header4 {
   color: white;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 48px;
   line-height: 60px; }
 
 .header4-sub {
   color: white;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 60px; }
 
 .header5-b {
   color: #176a47;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: bold;
   line-height: 40px; }
 
 .header5-rev {
   color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 40px; }
 
 .button-a {
   color: white;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 24px;
@@ -118,35 +118,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .button-b {
   color: #334b7f;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 40px; }
 
 .body-a {
   color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: normal;
   line-height: 40px; }
 
 .body-b {
   color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: bold;
   line-height: 40px; }
 
 .body-b-rev {
   color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-style: italic;
   line-height: 40px; }
 
 .menu-clear {
   color: white;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 60px;
@@ -154,7 +154,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .menu-solid {
   color: black;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: bold;
   line-height: 60px;
@@ -162,7 +162,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .form-font {
   color: #4a4a4a;
-  font-family: helveticaNeue, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
   line-height: 40px; }
 
@@ -1080,7 +1080,6 @@ object {
   background-size: cover;
   -ms-flex-align: center;
       align-items: center;
-  color: white;
   display: -ms-flexbox;
   display: flex;
   height: 400px;
@@ -1088,7 +1087,7 @@ object {
       justify-content: center;
   width: 100%; }
 
-.contact-us-container h1 {
+.contact-us-container h2 {
   text-align: center; }
 
 .contact-us-container p {
