@@ -57,28 +57,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: #4a4a4a;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header2-b {
   color: white;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header3 {
   color: #ee6c4d;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header3-b {
   color: #176a47;
   font-family: avenir, sans-serif;
   font-size: 36px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 40px; }
 
 .header4 {
@@ -91,7 +91,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: white;
   font-family: helveticaNeue, sans-serif;
   font-size: 36px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header5-b {
@@ -1061,7 +1061,6 @@ object {
   height: 400px;
   -ms-flex-pack: center;
       justify-content: center;
-  text-transform: uppercase;
   width: 100%; }
 
 .contact-us-container h1 {
