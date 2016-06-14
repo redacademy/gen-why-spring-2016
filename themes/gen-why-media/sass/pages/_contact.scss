@@ -13,8 +13,7 @@
 		text-align: center;
 	}
 	p {
-		color: $color__dgrey;
-		font-weight: 100;
+		@extend .body-a;
 	}
 	.entry-content>p {
 		width: 760px;
@@ -29,5 +28,5 @@
 }
 
 .address {
-	padding-top: 130px;
+	padding-top: 150px;
 }

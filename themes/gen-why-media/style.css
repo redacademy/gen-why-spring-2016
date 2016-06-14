@@ -123,7 +123,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: normal;
   line-height: 40px; }
 
-.body-a {
+.body-a, .contact-us-container p {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -1090,10 +1090,6 @@ object {
 .contact-us-container h2 {
   text-align: center; }
 
-.contact-us-container p {
-  color: #4a4a4a;
-  font-weight: 100; }
-
 .contact-us-container .entry-content > p {
   width: 760px;
   font-size: 0.9rem;
@@ -1106,4 +1102,4 @@ object {
       justify-content: space-around; }
 
 .address {
-  padding-top: 130px; }
+  padding-top: 150px; }
