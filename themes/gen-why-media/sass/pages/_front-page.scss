@@ -239,9 +239,11 @@
     p {
       text-align: center;
       font-size: .9rem;
+      line-height: 1.8;
       @include tablet {
         text-align: left;
         font-size: 1rem;
+        line-height: 1.5;
       }
       @include desktop {
         font-size: 1.2rem;
@@ -292,5 +294,39 @@
         }
       }
     }
+  }
+}
+
+// Connect With Us
+.connect-us {
+  .connect-container {
+    display: flex;
+    justify-content: center;
+  }
+  .connect-wrapper {
+    @extend .center-column;
+    justify-content: space-between;
+    margin: 0 40px;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+  .connect-btn {
+    text-transform: uppercase;
+    width: 120px;
+    color: $color__mainw;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 5px;
+  }
+  .twit-btn {
+    background: $color__twitb;
+  }
+  .insta-btn {
+    background: $color__insta-br;
+  }
+  .email-btn {
+    background: $color__trustb;
   }
 }

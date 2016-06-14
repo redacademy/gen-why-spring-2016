@@ -166,7 +166,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .about-us .founder-profile, .prev-parts .prev-parts-img {
+.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .about-us .founder-profile, .prev-parts .prev-parts-img, .connect-us .connect-wrapper {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -175,6 +175,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column; }
+
+.button {
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  padding: 10px; }
 
 html {
   font-family: sans-serif;
@@ -426,6 +432,9 @@ html {
 *:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   box-sizing: inherit; }
+
+a {
+  text-decoration: none; }
 
 body {
   background: #fff;
@@ -1029,11 +1038,13 @@ object {
         text-align: left; } }
   .about-us .founder-profile p {
     text-align: center;
-    font-size: .9rem; }
+    font-size: .9rem;
+    line-height: 1.8; }
     @media (min-width: 700px) {
       .about-us .founder-profile p {
         text-align: left;
-        font-size: 1rem; } }
+        font-size: 1rem;
+        line-height: 1.5; } }
     @media (min-width: 1340px) {
       .about-us .founder-profile p {
         font-size: 1.2rem; } }
@@ -1073,6 +1084,38 @@ object {
       @media (min-width: 1340px) {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
+
+.connect-us .connect-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.connect-us .connect-wrapper {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 0 40px; }
+
+.connect-us a {
+  text-align: center;
+  text-decoration: none; }
+
+.connect-us .connect-btn {
+  text-transform: uppercase;
+  width: 120px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 5px; }
+
+.connect-us .twit-btn {
+  background: #55acee; }
+
+.connect-us .insta-btn {
+  background: #673407; }
+
+.connect-us .email-btn {
+  background: #334b7f; }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
