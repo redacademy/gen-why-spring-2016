@@ -16,7 +16,7 @@ get_header(); ?>
 			<!-- Get Involved -->
 			<section class="get-involved container">
 				<div class="">
-					<h1>Why Get Involved?</h1>
+					<h2>Why Get Involved?</h2>
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Community.png" alt="Community" />
