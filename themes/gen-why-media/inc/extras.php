@@ -21,7 +21,7 @@ function genwhy_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'genwhy_body_classes' );
 
-//Custom Function for setting Featured Image as Splash for About Page
+//Custom Function for setting Featured Image as header for Watch page
 function genwhy_watch_header() {
 
 	if( !is_page_template( 'watch.php' ) ) {
@@ -30,21 +30,21 @@ function genwhy_watch_header() {
 
    $custom_css = 
            ".watchhero{
-                   background:
-                       linear-gradient( 
-                            rgba(0,0,0,0.4),
-                            rgba(0,0,0,0.4)
-                        ),
-                       url('". CFS()->get('header_image') ."');
-                   display: flex;
-                   background-size: cover;
-                   background-position: bottom;
-                   height: 25vh;
-                   width: 100vw;
-                   padding-top: 0;
-                   justify-content: center; 
-                   align-items: center;
-                   color: white;
+                  background:
+                 linear-gradient(
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
+                 ),
+                 url('". CFS()->get('header_image') ."');
+               display: flex;
+               background-size: cover;
+               background-position: bottom;
+               height: 33.5vh;
+               width: 100vw;
+               padding-top: 0;
+               justify-content: center; 
+               align-items: center;
+               color: white;
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
