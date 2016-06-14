@@ -50,34 +50,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: helveticaNeue, sans-serif;
   font-size: 72px;
   font-weight: bold;
-  line-height: 80px; }
+  line-height: 80px;
+  text-transform: uppercase; }
 
 .header2-a {
   color: #4a4a4a;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header2-b {
   color: white;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header3 {
   color: #ee6c4d;
   font-family: helveticaNeue, sans-serif;
   font-size: 56px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header3-b {
   color: #176a47;
   font-family: avenir, sans-serif;
   font-size: 36px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 40px; }
 
 .header4 {
@@ -90,7 +91,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: white;
   font-family: helveticaNeue, sans-serif;
   font-size: 36px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 60px; }
 
 .header5-b {
@@ -112,7 +113,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: helveticaNeue, sans-serif;
   font-size: 24px;
   font-weight: normal;
-  line-height: 24px; }
+  line-height: 24px;
+  text-transform: uppercase; }
 
 .button-b {
   color: #334b7f;
@@ -147,14 +149,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-family: helveticaNeue, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  line-height: 60px; }
+  line-height: 60px;
+  text-transform: uppercase; }
 
 .menu-solid {
   color: black;
   font-family: helveticaNeue, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  line-height: 60px; }
+  line-height: 60px;
+  text-transform: uppercase; }
 
 .form-font {
   color: #4a4a4a;
@@ -162,7 +166,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .about-us .founder-profile {
+.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .about-us .founder-profile, .prev-parts .prev-parts-img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1045,6 +1049,31 @@ object {
       .about-us .founder-profile .display-on-desk {
         display: block; } }
 
+.prev-parts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .prev-parts .prev-parts-img {
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%; }
+    @media (min-width: 1340px) {
+      .prev-parts .prev-parts-img {
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+        height: 450px;
+        width: 95%; } }
+    .prev-parts .prev-parts-img .partner-logos img {
+      height: 70px; }
+      @media (min-width: 700px) {
+        .prev-parts .prev-parts-img .partner-logos img {
+          height: 120px;
+          margin: 0 10px; } }
+      @media (min-width: 1340px) {
+        .prev-parts .prev-parts-img .partner-logos img {
+          margin: 0 20px; } }
+
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
   background-position: bottom;
@@ -1054,16 +1083,13 @@ object {
   color: white;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1.4rem;
   height: 400px;
   -ms-flex-pack: center;
       justify-content: center;
-  text-transform: uppercase;
   width: 100%; }
 
 .contact-us-container h1 {
-  text-align: center;
-  font-weight: 500; }
+  text-align: center; }
 
 .contact-us-container p {
   color: #4a4a4a;
@@ -1079,3 +1105,6 @@ object {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+
+.address {
+  padding-top: 130px; }
