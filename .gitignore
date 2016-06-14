@@ -47,6 +47,7 @@ plugins/*
 # ====================================================== #
 themes/*
 !themes/gen-why-media/
+!themes/gen-why-media/assets
 
 # Ignore npm packages #
 # =================== #
