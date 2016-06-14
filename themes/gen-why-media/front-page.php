@@ -46,7 +46,6 @@ get_header(); ?>
 					<div class="find-out-btn">
 						<a href="#" >Find Out More</a>
 					</div>
-
 				</div>
 				<div class="blue-circle"></div>
 			</section>
