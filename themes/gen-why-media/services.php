@@ -37,16 +37,16 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		<!-- Previous Partners -->
+		<!-- Want to Create Social Change? -->
+		<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
 
+		<!-- Previous Partners -->
 		<?php get_template_part( 'template-parts/content', 'prev-parts' ); ?><!-- .prev-parts -->
 
 		<!-- What we are doing -->
-
 		<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?><!-- .what-we-doing -->
 
 		<!-- Stay Connected With Us -->
-
 		<?php get_template_part( 'template-parts/content', 'social' ); ?><!-- .connect-us -->
 
 		</main><!-- #main -->
