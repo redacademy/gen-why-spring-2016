@@ -198,13 +198,17 @@
 // About Us
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  @include tablet {
+    padding-bottom: 45%;
+  }
   @include desktop {
     width: 1120px;
     margin: 0 auto;
     margin-left: 180px;
+    padding-bottom: 40%;
   }
 }
 .video-wrapper iframe {
