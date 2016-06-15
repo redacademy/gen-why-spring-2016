@@ -812,20 +812,26 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-header {
-  background-color: #d8d8d8;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #000;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin: 0 auto;
-  width: 1380px; }
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
   .site-header a {
-    color: white; }
+    color: #000;
+    text-transform: uppercase; }
+    .site-header a:hover {
+      color: #ee6c4d; }
 
 .site-header h1 {
-  background: url("../../assets/logos/genwhy-logo-white.png") no-repeat;
+  background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
   background-size: 60px 60px;
   height: 60px;
   margin: 10px 20px;
