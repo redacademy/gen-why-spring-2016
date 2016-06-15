@@ -845,14 +845,20 @@ object {
     .container {
       width: 1240px; } }
 
-.home h2, .home h3 {
+.home h2, .home h3,
+section h2,
+section h3 {
   text-align: center;
   font-size: 30px; }
   @media (min-width: 700px) {
-    .home h2, .home h3 {
+    .home h2, .home h3,
+    section h2,
+    section h3 {
       font-size: 45px; } }
   @media (min-width: 1340px) {
-    .home h2, .home h3 {
+    .home h2, .home h3,
+    section h2,
+    section h3 {
       font-size: 56px; } }
 
 .get-involved ul {
