@@ -12,12 +12,12 @@
 	h2 {
 		text-align: center;
 	}
-	p {
+	p,
+	.address {
 		@extend .body-a;
 	}
 	.entry-content>p {
-		width: 760px;
-		font-size: 0.9rem;
+		width: 1020px;
 		margin: 0 auto 30px;
 	}
 }
@@ -52,11 +52,19 @@
 	width: 540px;
 }
 
-
-span.wpcf7-list-item {
+span.wpcf7-list-item {	/* Form Check-box */
     margin-left: 0em;
 }
 
+input.send-btn {
+	background: url("../../assets/buttons/cta-inspire.png");
+	width: 207px;
+	text-indent: 200px;
+	box-shadow: none;
+	border: none;
+	height: 40px;
+}
+
 .address {
-	padding-top: 150px;
+	padding: 150px 138px 0 0;
 }

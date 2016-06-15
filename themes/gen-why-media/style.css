@@ -123,7 +123,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: normal;
   line-height: 40px; }
 
-.body-a, .contact-us-container p {
+.body-a, .contact-us-container p,
+.contact-us-container .address {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -1150,8 +1151,7 @@ object {
   text-align: center; }
 
 .contact-us-container .entry-content > p {
-  width: 760px;
-  font-size: 0.9rem;
+  width: 1020px;
   margin: 0 auto 30px; }
 
 .contact-form-7-container {
@@ -1172,7 +1172,16 @@ object {
   width: 540px; }
 
 span.wpcf7-list-item {
+  /* Form Check-box */
   margin-left: 0em; }
 
+input.send-btn {
+  background: url("../../assets/buttons/cta-inspire.png");
+  width: 207px;
+  text-indent: 200px;
+  box-shadow: none;
+  border: none;
+  height: 40px; }
+
 .address {
-  padding-top: 150px; }
+  padding: 150px 138px 0 0; }
