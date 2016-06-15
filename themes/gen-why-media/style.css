@@ -1181,3 +1181,12 @@ input.send-btn {
 
 .address {
   padding: 150px 138px 0 0; }
+
+footer .site-info {
+  margin: 0 auto;
+  background-color: #334b7f;
+  height: 30px;
+  max-width: 1340px; }
+
+.wp-logo {
+  display: none; }
