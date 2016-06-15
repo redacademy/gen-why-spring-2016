@@ -160,7 +160,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font {
+.form-font, .contact-form-7-container input::-webkit-input-placeholder,
+.contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
+.contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
+.contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
+.contact-form-7-container textarea:-ms-input-placeholder {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -1143,6 +1147,12 @@ object {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+  .contact-form-7-container input:-moz-placeholder,
+  .contact-form-7-container textarea:-moz-placeholder {
+    /* Firefox 18- */ }
+  .contact-form-7-container input::-moz-placeholder,
+  .contact-form-7-container textarea::-moz-placeholder {
+    /* Firefox 19+ */ }
 
 .name,
 .email,

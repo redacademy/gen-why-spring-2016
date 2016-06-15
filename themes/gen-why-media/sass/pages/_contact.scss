@@ -25,6 +25,25 @@
 .contact-form-7-container {
 	display: flex;
 	justify-content: space-around;
+	input::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder {
+		@extend .form-font;
+	}
+
+	input:-moz-placeholder,
+	textarea:-moz-placeholder { /* Firefox 18- */
+		@extend .form-font;  
+	}
+
+	input::-moz-placeholder,
+	textarea::-moz-placeholder {  /* Firefox 19+ */
+		@extend .form-font;  
+	}
+
+	input:-ms-input-placeholder,
+	textarea:-ms-input-placeholder {  
+		@extend .form-font;  
+	}
 }
 
 .name,
@@ -32,6 +51,7 @@
 .comments {
 	width: 540px;
 }
+
 
 span.wpcf7-list-item {
     margin-left: 0em;
