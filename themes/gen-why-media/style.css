@@ -1094,46 +1094,6 @@ object {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
 
-@media (min-width: 700px) {
-  .connect-us .connect-container {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; } }
-
-.connect-us .connect-wrapper {
-  padding-top: 10px;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin: 0 40px; }
-
-.connect-us a {
-  text-align: center; }
-
-.connect-us p {
-  font-size: .9rem; }
-
-.connect-us .connect-btn {
-  border-radius: 5px;
-  border: 0;
-  color: white;
-  padding: 10px 5px;
-  text-transform: uppercase;
-  width: 120px; }
-  @media (min-width: 700px) {
-    .connect-us .connect-btn {
-      padding: 0 5px; } }
-
-.connect-us .twit-btn {
-  background: #55acee; }
-
-.connect-us .insta-btn {
-  background: #673407; }
-
-.connect-us .email-btn {
-  margin-top: 10px;
-  background: #334b7f; }
-
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
   background-position: bottom;
@@ -1185,3 +1145,43 @@ input.send-btn {
 
 .address {
   padding: 150px 138px 0 0; }
+
+@media (min-width: 700px) {
+  .connect-us .connect-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; } }
+
+.connect-us .connect-wrapper {
+  padding-top: 10px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 0 40px; }
+
+.connect-us a {
+  text-align: center; }
+
+.connect-us p {
+  font-size: .9rem; }
+
+.connect-us .connect-btn {
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  width: 120px; }
+  @media (min-width: 700px) {
+    .connect-us .connect-btn {
+      padding: 0 5px; } }
+
+.connect-us .twit-btn {
+  background: #55acee; }
+
+.connect-us .insta-btn {
+  background: #673407; }
+
+.connect-us .email-btn {
+  margin-top: 10px;
+  background: #334b7f; }
