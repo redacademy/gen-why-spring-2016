@@ -1,17 +1,24 @@
 .site-header {
-	background-color: $color__lgrey;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: 1px solid #000;
 	display: flex;
-	justify-content: space-around;
 	justify-content: space-between;
 	margin: 0 auto;
-	width: 1380px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 	a {
-		color: $color__mainw;
+		color: #000;
+		text-transform: uppercase;
+		&:hover {
+			color: $color__oj;
+		}
 	}
 }
 
 .site-header h1{
-	background: url("../../assets/logos/genwhy-logo-white.png") no-repeat;
+	background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
 	background-size: 60px 60px;
 	height: 60px;
 	margin: 10px 20px;
