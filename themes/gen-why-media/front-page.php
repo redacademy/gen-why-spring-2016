@@ -67,14 +67,7 @@ get_header(); ?>
 			</section><!-- .upcoming-events -->
 
 			<!-- Want to Create Social Change? -->
-			<section class="create-change">
-				<div class="create-change-img">
-					<h2 class="header2-b">Want to Create Social Change?</h2>
-					<div class="inspire-btn">
-						<a href="/contact" >Inspire Us</a>
-					</div>
-				</div>
-			</section><!-- .create-change -->
+			<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
 
 			<!-- About Us -->
 			<section class="about-us">
