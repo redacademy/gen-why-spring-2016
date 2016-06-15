@@ -37,6 +37,14 @@ get_header(); ?>
 
 		<?php endif; ?>
 
+		<!-- What we are doing -->
+
+		<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?><!-- .what-we-doing -->
+
+		<!-- Stay Connected With Us -->
+
+		<?php get_template_part( 'template-parts/content', 'social' ); ?><!-- .connect-us -->
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

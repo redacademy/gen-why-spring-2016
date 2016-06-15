@@ -198,13 +198,17 @@
 // About Us
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  @include tablet {
+    padding-bottom: 45%;
+  }
   @include desktop {
     width: 1120px;
     margin: 0 auto;
     margin-left: 180px;
+    padding-bottom: 40%;
   }
 }
 .video-wrapper iframe {
@@ -294,48 +298,5 @@
         }
       }
     }
-  }
-}
-
-// Connect With Us
-.connect-us {
-  .connect-container {
-    @include tablet {
-      display: flex;
-      justify-content: center;
-    }
-  }
-  .connect-wrapper {
-    padding-top: 10px;
-    @extend .center-column;
-    justify-content: space-between;
-    margin: 0 40px;
-  }
-  a {
-    text-align: center;
-  }
-  p {
-    font-size: .9rem;
-  }
-  .connect-btn {
-    border-radius: 5px;
-    border: 0;
-    color: $color__mainw;
-    padding: 10px 5px;
-    text-transform: uppercase;
-    width: 120px;
-    @include tablet {
-      padding: 0 5px;
-    }
-  }
-  .twit-btn {
-    background: $color__twitb;
-  }
-  .insta-btn {
-    background: $color__insta-br;
-  }
-  .email-btn {
-    margin-top: 10px;
-    background: $color__trustb;
   }
 }

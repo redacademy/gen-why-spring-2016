@@ -42,15 +42,7 @@ get_header(); ?>
 
 			<!-- What we are doing -->
 
-			<section class="what-we-doing">
-				<div class="what-we-doing-img">
-					<h2 class="header2-b">What We're Doing</h2>
-					<div class="find-out-btn">
-						<a href="#" >Find Out More</a>
-					</div>
-				</div>
-				<div class="blue-circle"></div>
-			</section><!-- .what-we-doing -->
+			<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?><!-- .what-we-doing -->
 
 			<!-- What People Say -->
 
@@ -133,31 +125,7 @@ get_header(); ?>
 
 			<!-- Stay Connected With Us -->
 
-			<section class="connect-us">
-				<h2 class="header2-a">Stay Connected With Us</h2>
-				<div class="connect-container">
-
-					<div class="twit-connect connect-wrapper">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter-icon.png" alt="Twitter" />
-						<p>TWITTERTWITTERTWITTER</p>
-						<a href="#" class="connect-btn twit-btn">Follow</a>
-					</div>
-
-					<div class="insta-connect connect-wrapper">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram-icon.png" alt="Instagram" />
-						<img src="" alt="" />
-						<a href="#" class="connect-btn insta-btn">Follow</a>
-					</div>
-
-					<div class="email-connect connect-wrapper">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/mail-icon.png" alt="Email" />
-						<p>Want to know about our next event?</p>
-						<input type="text" name="name" placeholder="Type your email here...">
-						<a href="#" class="connect-btn email-btn">Subscribe</a>
-					</div>
-
-				</div><!-- .connect-container -->
-			</section><!-- .connect-us -->
+			<?php get_template_part( 'template-parts/content', 'social' ); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
