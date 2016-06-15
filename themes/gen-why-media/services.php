@@ -37,6 +37,10 @@ get_header(); ?>
 
 		<?php endif; ?>
 
+		<!-- Previous Partners -->
+
+		<?php get_template_part( 'template-parts/content', 'prev-parts' ); ?><!-- .prev-parts -->
+
 		<!-- What we are doing -->
 
 		<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?><!-- .what-we-doing -->
