@@ -56,7 +56,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .header2-a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
+  font-size: 2rem;
   font-weight: normal;
   line-height: 60px; }
 
@@ -1132,7 +1132,7 @@ section h3 {
   text-align: center; }
 
 .contact-us-container .entry-content > p {
-  width: 1020px;
+  max-width: 1020px;
   margin: 0 auto 30px; }
 
 .contact-form-7-container {
@@ -1140,6 +1140,12 @@ section h3 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+  .contact-form-7-container .address {
+    display: none; }
+    @media (min-width: 700px) {
+      .contact-form-7-container .address {
+        display: -ms-flexbox;
+        display: flex; } }
   .contact-form-7-container input:-moz-placeholder,
   .contact-form-7-container textarea:-moz-placeholder {
     /* Firefox 18- */ }
