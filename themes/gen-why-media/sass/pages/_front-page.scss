@@ -22,6 +22,21 @@ section {
     }
   }
 }
+
+// Hero Slider
+
+.hero-slider-container {
+  .hero-banner-list {
+    img {
+      max-height: 1000px;
+
+      z-index: -1;
+      position: relative;
+      display: block;
+    }
+  }
+}
+
 // Get Involved
 
 .get-involved {
@@ -93,6 +108,25 @@ section {
           font-size: 35px;
         }
       }
+    }
+  }
+}
+
+// Latest Event Clips
+
+.latest-event {
+  display: flex;
+  justify-content: center;
+  .latest-event-img {
+    @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-latest-clips.png) center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    @include desktop {
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-latest-clips.png) center center;
+      height: 450px;
+      width: 95%;
     }
   }
 }

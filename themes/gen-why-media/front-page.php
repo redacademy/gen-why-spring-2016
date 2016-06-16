@@ -12,6 +12,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<!-- Hero Slider  -->
+
 			<section class="hero-slider-container">
 
 				<ul class="bxslider hero-banner-list">
@@ -86,11 +87,13 @@ get_header(); ?>
 			</section><!-- .latest-event -->
 
 			<!-- Upcoming Events -->
+
 			<section class="upcoming-events">
 				<h2 class="header2-a">Upcoming Event</h2>
 			</section><!-- .upcoming-events -->
 
 			<!-- Want to Create Social Change? -->
+
 			<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
 
 			<!-- About Us -->
