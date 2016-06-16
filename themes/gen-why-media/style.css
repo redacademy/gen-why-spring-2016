@@ -1104,7 +1104,12 @@ section h3 {
 .name,
 .email,
 .comments {
-  width: 540px; }
+  width: 86vw; }
+  @media (min-width: 700px) {
+    .name,
+    .email,
+    .comments {
+      width: 540px; } }
 
 span.wpcf7-list-item {
   /* Form Check-box */
@@ -1117,6 +1122,11 @@ input.send-btn {
   box-shadow: none;
   border: none;
   height: 40px; }
+
+input.send-btn:hover {
+  background: url("../../assets/buttons/cta-inspire-inverse.png");
+  background-size: cover;
+  box-shadow: none; }
 
 .address {
   padding: 150px 138px 0 0; }
