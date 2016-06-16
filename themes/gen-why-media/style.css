@@ -875,11 +875,32 @@ section h3 {
     section h3 {
       font-size: 56px; } }
 
-.hero-slider-container .hero-banner-list img {
-  max-height: 1000px;
-  z-index: -1;
+.hero-slider-container .banner-wrap {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  overflow: hidden;
   position: relative;
-  display: block; }
+  height: 800px; }
+  .hero-slider-container .banner-wrap .banner-image {
+    background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55));
+    padding: 0; }
+  .hero-slider-container .banner-wrap img {
+    z-index: -1;
+    position: relative;
+    display: block; }
+
+.hero-slider-container .banner-info {
+  left: 350px;
+  padding: 20px 10px;
+  position: absolute;
+  text-align: center;
+  top: 300px; }
+  .hero-slider-container .banner-info .header4-sub {
+    width: 700px; }
 
 .get-involved ul {
   display: -ms-flexbox;
