@@ -123,7 +123,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: normal;
   line-height: 40px; }
 
-.body-a {
+.body-a, .contact-us-container h2 + p,
+.contact-us-container .address {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -160,8 +161,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font, .contact-us-container h2, .contact-us-container h2 + p,
-.contact-us-container .address, .contact-form-7-container input::-webkit-input-placeholder,
+.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
 .contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
@@ -1056,6 +1056,20 @@ section h3 {
     @media (min-width: 700px) {
       .about-us .founder-profile .display-on-desk {
         display: block; } }
+
+.h2-change {
+  margin-top: auto;
+  padding-top: 5rem; }
+
+.fom-button {
+  border: 3px solid white;
+  padding: 2px 20px; }
+
+.fom-button:hover {
+  color: white; }
+
+.fom-button:visited {
+  color: white; }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
