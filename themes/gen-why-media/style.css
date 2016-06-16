@@ -56,21 +56,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .header2-a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 60px; }
 
 .header2-b {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 60px; }
 
 .header3 {
   color: #ee6c4d;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 60px; }
 
@@ -160,7 +160,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font, .contact-us-container h2, .contact-us-container p,
+.form-font, .contact-us-container h2, .contact-us-container h2 + p,
 .contact-us-container .address, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
@@ -1077,6 +1077,14 @@ section h3 {
     .contact-us-container h2 {
       font-weight: normal; } }
 
+.contact-us-container h2 + p,
+.contact-us-container .address {
+  display: none; }
+  @media (min-width: 1340px) {
+    .contact-us-container h2 + p,
+    .contact-us-container .address {
+      display: block; } }
+
 .contact-us-container .entry-content > p {
   max-width: 1020px;
   margin: 0 auto 30px; }
@@ -1096,7 +1104,12 @@ section h3 {
 .name,
 .email,
 .comments {
-  width: 540px; }
+  width: 86vw; }
+  @media (min-width: 700px) {
+    .name,
+    .email,
+    .comments {
+      width: 540px; } }
 
 span.wpcf7-list-item {
   /* Form Check-box */
@@ -1109,6 +1122,11 @@ input.send-btn {
   box-shadow: none;
   border: none;
   height: 40px; }
+
+input.send-btn:hover {
+  background: url("../../assets/buttons/cta-inspire-inverse.png");
+  background-size: cover;
+  box-shadow: none; }
 
 .address {
   padding: 150px 138px 0 0; }

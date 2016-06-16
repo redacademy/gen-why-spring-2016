@@ -20,7 +20,4 @@ get_header(); ?>
 	</main><!-- #main -->
 </div><!-- #primary -->
 
-<!-- Stay Connected With Us -->
-<?php get_template_part( 'template-parts/content', 'social' ); ?><!-- .connect-us -->
-
 <?php get_footer(); ?>
