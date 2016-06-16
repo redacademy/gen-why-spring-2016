@@ -22,7 +22,7 @@
 	.address {
 		display: none;
 		@extend .form-font;
-		@include tablet {
+		@include desktop {
 			display: block;
 		}
 	}
