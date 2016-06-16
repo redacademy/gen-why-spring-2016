@@ -171,7 +171,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .get-involved div, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .about-us .founder-profile, .prev-parts .prev-parts-img, .connect-us .connect-wrapper {
+.center-column, .get-involved div, .about-us .founder-profile, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .latest-event .latest-event-img, .create-change .create-change-img, .prev-parts .prev-parts-img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -942,6 +942,180 @@ section h3 {
         .get-involved ul li h3 {
           font-size: 35px; } }
 
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  @media (min-width: 700px) {
+    .video-wrapper {
+      padding-bottom: 45%; } }
+  @media (min-width: 1340px) {
+    .video-wrapper {
+      width: 1120px;
+      margin: 0 auto;
+      margin-left: 180px;
+      padding-bottom: 40%; } }
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  @media (min-width: 1340px) {
+    .video-wrapper iframe {
+      width: 95%;
+      height: 85%; } }
+
+.about-us .founder-profile {
+  width: 300px;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .about-us .founder-profile {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      width: 700px; } }
+  @media (min-width: 1340px) {
+    .about-us .founder-profile {
+      width: 900px; } }
+  .about-us .founder-profile h3 {
+    margin: 0; }
+    @media (min-width: 700px) {
+      .about-us .founder-profile h3 {
+        text-align: left; } }
+  .about-us .founder-profile p {
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.8; }
+    @media (min-width: 700px) {
+      .about-us .founder-profile p {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.5; } }
+    @media (min-width: 1340px) {
+      .about-us .founder-profile p {
+        font-size: 1.2rem; } }
+  @media (min-width: 700px) {
+    .about-us .founder-profile .about-text {
+      margin-left: 40px; } }
+  @media (min-width: 700px) {
+    .about-us .founder-profile .about-text {
+      margin-left: 60px; } }
+  .about-us .founder-profile .display-on-desk {
+    display: none; }
+    @media (min-width: 700px) {
+      .about-us .founder-profile .display-on-desk {
+        display: block; } }
+
+.contact-us-container .entry-header {
+  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 100%; }
+
+.contact-us-container h2 {
+  text-align: center; }
+
+.contact-us-container .entry-content > p {
+  max-width: 1020px;
+  margin: 0 auto 30px; }
+
+.contact-form-7-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .contact-form-7-container .address {
+    display: none; }
+    @media (min-width: 700px) {
+      .contact-form-7-container .address {
+        display: -ms-flexbox;
+        display: flex; } }
+  .contact-form-7-container input:-moz-placeholder,
+  .contact-form-7-container textarea:-moz-placeholder {
+    /* Firefox 18- */ }
+  .contact-form-7-container input::-moz-placeholder,
+  .contact-form-7-container textarea::-moz-placeholder {
+    /* Firefox 19+ */ }
+
+.name,
+.email,
+.comments {
+  width: 540px; }
+
+span.wpcf7-list-item {
+  /* Form Check-box */
+  margin-left: 0em; }
+
+input.send-btn {
+  background: url("../../assets/buttons/cta-inspire.png");
+  width: 207px;
+  text-indent: 200px;
+  box-shadow: none;
+  border: none;
+  height: 40px; }
+
+input.send-btn:hover {
+  background: url("../../assets/buttons/cta-inspire-inverse.png");
+  background-size: cover;
+  box-shadow: none; }
+
+.address {
+  padding: 150px 138px 0 0; }
+
+footer .site-info {
+  margin: 0 auto;
+  background-color: #334b7f;
+  height: 30px;
+  max-width: 1340px; }
+
+.wp-logo {
+  display: none; }
+
+.connect-us {
+  padding-bottom: 100px; }
+  @media (min-width: 700px) {
+    .connect-us .connect-container {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; } }
+  .connect-us .connect-wrapper {
+    padding-top: 10px;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 40px; }
+  .connect-us a {
+    text-align: center; }
+  .connect-us p {
+    font-size: .9rem; }
+  .connect-us .connect-btn {
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    width: 120px; }
+    @media (min-width: 700px) {
+      .connect-us .connect-btn {
+        padding: 0 5px; } }
+  .connect-us .twit-btn {
+    background: #55acee; }
+  .connect-us .insta-btn {
+    background: #673407; }
+  .connect-us .email-btn {
+    margin-top: 10px;
+    background: #334b7f; }
+
 .what-we-doing {
   position: relative; }
   .what-we-doing .what-we-doing-img {
@@ -1022,73 +1196,6 @@ section h3 {
     background: #fff;
     color: #176a47; }
 
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0; }
-  @media (min-width: 700px) {
-    .video-wrapper {
-      padding-bottom: 45%; } }
-  @media (min-width: 1340px) {
-    .video-wrapper {
-      width: 1120px;
-      margin: 0 auto;
-      margin-left: 180px;
-      padding-bottom: 40%; } }
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-  @media (min-width: 1340px) {
-    .video-wrapper iframe {
-      width: 95%;
-      height: 85%; } }
-
-.about-us .founder-profile {
-  width: 300px;
-  margin: 0 auto; }
-  @media (min-width: 700px) {
-    .about-us .founder-profile {
-      -ms-flex-direction: row;
-          flex-direction: row;
-      width: 700px; } }
-  @media (min-width: 1340px) {
-    .about-us .founder-profile {
-      width: 900px; } }
-  .about-us .founder-profile h3 {
-    margin: 0; }
-    @media (min-width: 700px) {
-      .about-us .founder-profile h3 {
-        text-align: left; } }
-  .about-us .founder-profile p {
-    text-align: center;
-    font-size: .9rem;
-    line-height: 1.8; }
-    @media (min-width: 700px) {
-      .about-us .founder-profile p {
-        text-align: left;
-        font-size: 1rem;
-        line-height: 1.5; } }
-    @media (min-width: 1340px) {
-      .about-us .founder-profile p {
-        font-size: 1.2rem; } }
-  @media (min-width: 700px) {
-    .about-us .founder-profile .about-text {
-      margin-left: 40px; } }
-  @media (min-width: 700px) {
-    .about-us .founder-profile .about-text {
-      margin-left: 60px; } }
-  .about-us .founder-profile .display-on-desk {
-    display: none; }
-    @media (min-width: 700px) {
-      .about-us .founder-profile .display-on-desk {
-        display: block; } }
-
 .prev-parts {
   display: -ms-flexbox;
   display: flex;
@@ -1114,110 +1221,3 @@ section h3 {
       @media (min-width: 1340px) {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
-
-.contact-us-container .entry-header {
-  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  -ms-flex-align: center;
-      align-items: center;
-  display: -ms-flexbox;
-  display: flex;
-  height: 400px;
-  -ms-flex-pack: center;
-      justify-content: center;
-  width: 100%; }
-
-.contact-us-container h2 {
-  text-align: center; }
-
-.contact-us-container .entry-content > p {
-  max-width: 1020px;
-  margin: 0 auto 30px; }
-
-.contact-form-7-container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
-  .contact-form-7-container .address {
-    display: none; }
-    @media (min-width: 700px) {
-      .contact-form-7-container .address {
-        display: -ms-flexbox;
-        display: flex; } }
-  .contact-form-7-container input:-moz-placeholder,
-  .contact-form-7-container textarea:-moz-placeholder {
-    /* Firefox 18- */ }
-  .contact-form-7-container input::-moz-placeholder,
-  .contact-form-7-container textarea::-moz-placeholder {
-    /* Firefox 19+ */ }
-
-.name,
-.email,
-.comments {
-  width: 540px; }
-
-span.wpcf7-list-item {
-  /* Form Check-box */
-  margin-left: 0em; }
-
-input.send-btn {
-  background: url("../../assets/buttons/cta-inspire.png");
-  width: 207px;
-  text-indent: 200px;
-  box-shadow: none;
-  border: none;
-  height: 40px; }
-
-input.send-btn:hover {
-  background: url("../../assets/buttons/cta-inspire-inverse.png");
-  background-size: cover;
-  box-shadow: none; }
-
-.address {
-  padding: 150px 138px 0 0; }
-
-.connect-us {
-  padding-bottom: 100px; }
-  @media (min-width: 700px) {
-    .connect-us .connect-container {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center; } }
-  .connect-us .connect-wrapper {
-    padding-top: 10px;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin: 0 40px; }
-  .connect-us a {
-    text-align: center; }
-  .connect-us p {
-    font-size: .9rem; }
-  .connect-us .connect-btn {
-    border-radius: 5px;
-    border: 0;
-    color: white;
-    padding: 10px 5px;
-    text-transform: uppercase;
-    width: 120px; }
-    @media (min-width: 700px) {
-      .connect-us .connect-btn {
-        padding: 0 5px; } }
-  .connect-us .twit-btn {
-    background: #55acee; }
-  .connect-us .insta-btn {
-    background: #673407; }
-  .connect-us .email-btn {
-    margin-top: 10px;
-    background: #334b7f; }
-
-footer .site-info {
-  margin: 0 auto;
-  background-color: #334b7f;
-  height: 30px;
-  max-width: 1340px; }
-
-.wp-logo {
-  display: none; }
