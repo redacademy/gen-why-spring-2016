@@ -56,21 +56,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .header2-a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 60px; }
 
 .header2-b {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 60px; }
 
 .header3 {
   color: #ee6c4d;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
+  font-size: 2.8rem;
   font-weight: normal;
   line-height: 60px; }
 
@@ -123,7 +123,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: normal;
   line-height: 40px; }
 
-.body-a, .contact-us-container p,
+.body-a, .contact-us-container h2 + p,
 .contact-us-container .address {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
@@ -161,7 +161,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font, .contact-form-7-container input::-webkit-input-placeholder,
+.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
 .contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
@@ -749,6 +749,10 @@ a {
 .bypostauthor {
   display: block; }
 
+/* Globel */
+.entry-content {
+  padding: 20px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -875,11 +879,32 @@ section h3 {
     section h3 {
       font-size: 56px; } }
 
-.hero-slider-container .hero-banner-list img {
-  max-height: 1000px;
-  z-index: -1;
+.hero-slider-container .banner-wrap {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  overflow: hidden;
   position: relative;
-  display: block; }
+  height: 800px; }
+  .hero-slider-container .banner-wrap .banner-image {
+    background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55));
+    padding: 0; }
+  .hero-slider-container .banner-wrap img {
+    z-index: -1;
+    position: relative;
+    display: block; }
+
+.hero-slider-container .banner-info {
+  left: 350px;
+  padding: 20px 10px;
+  position: absolute;
+  text-align: center;
+  top: 300px; }
+  .hero-slider-container .banner-info .header4-sub {
+    width: 700px; }
 
 .get-involved ul {
   display: -ms-flexbox;
@@ -1056,10 +1081,23 @@ section h3 {
   height: 400px;
   -ms-flex-pack: center;
       justify-content: center;
+  padding: 0 70px;
   width: 100%; }
 
 .contact-us-container h2 {
-  text-align: center; }
+  text-align: center;
+  font-weight: 200; }
+  @media (min-width: 700px) {
+    .contact-us-container h2 {
+      font-weight: normal; } }
+
+.contact-us-container h2 + p,
+.contact-us-container .address {
+  display: none; }
+  @media (min-width: 1340px) {
+    .contact-us-container h2 + p,
+    .contact-us-container .address {
+      display: block; } }
 
 .contact-us-container .entry-content > p {
   max-width: 1020px;
@@ -1070,12 +1108,6 @@ section h3 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .contact-form-7-container .address {
-    display: none; }
-    @media (min-width: 700px) {
-      .contact-form-7-container .address {
-        display: -ms-flexbox;
-        display: flex; } }
   .contact-form-7-container input:-moz-placeholder,
   .contact-form-7-container textarea:-moz-placeholder {
     /* Firefox 18- */ }
@@ -1086,7 +1118,12 @@ section h3 {
 .name,
 .email,
 .comments {
-  width: 540px; }
+  width: 86vw; }
+  @media (min-width: 700px) {
+    .name,
+    .email,
+    .comments {
+      width: 540px; } }
 
 span.wpcf7-list-item {
   /* Form Check-box */

@@ -20,5 +20,9 @@
 				'after'  => '</div>',
 			) );
 		?>
+
+		<!-- Stay Connected With Us -->
+		<?php get_template_part( 'template-parts/content', 'social' ); ?><!-- .connect-us -->
+
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->

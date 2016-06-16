@@ -26,12 +26,14 @@ get_header(); ?>
 
 						<li>
 							<div class="banner-wrap">
-								<?php the_post_thumbnail('full'); ?>
-							</div>
-							<div class="banner-info">
-								<h2 class="header2-b">We Value...</h2>
-								<h1 class="header1"><?php the_title(); ?></h1>
-								<div class="header4-sub"><?php the_content(); ?></div>
+								<div class="banner-image">
+									<?php the_post_thumbnail('full'); ?>
+								</div>
+								<div class="banner-info">
+									<h2 class="header2-b">We Value...</h2>
+									<h1 class="header1"><?php the_title(); ?></h1>
+									<div class="header4-sub"><?php the_content(); ?></div>
+								</div>
 							</div>
 						</li>
 					<?php endwhile;
