@@ -1138,6 +1138,12 @@ section h3 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+  .contact-form-7-container .address {
+    display: none; }
+    @media (min-width: 700px) {
+      .contact-form-7-container .address {
+        display: -ms-flexbox;
+        display: flex; } }
   .contact-form-7-container input:-moz-placeholder,
   .contact-form-7-container textarea:-moz-placeholder {
     /* Firefox 18- */ }

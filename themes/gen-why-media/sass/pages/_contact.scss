@@ -25,6 +25,12 @@
 .contact-form-7-container {
 	display: flex;
 	justify-content: space-around;
+	.address {
+		display: none;
+		@include tablet {
+		  display: flex;
+		}
+	}
 	input::-webkit-input-placeholder,
 	textarea::-webkit-input-placeholder {
 		@extend .form-font;
