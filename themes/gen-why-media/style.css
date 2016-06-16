@@ -1130,7 +1130,7 @@ section h3 {
   text-align: center; }
 
 .contact-us-container .entry-content > p {
-  width: 1020px;
+  max-width: 1020px;
   margin: 0 auto 30px; }
 
 .contact-form-7-container {
