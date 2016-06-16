@@ -123,7 +123,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: normal;
   line-height: 40px; }
 
-.body-a {
+.body-a, .contact-us-container h2 + p,
+.contact-us-container .address {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -160,8 +161,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font, .contact-us-container h2, .contact-us-container h2 + p,
-.contact-us-container .address, .contact-form-7-container input::-webkit-input-placeholder,
+.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
 .contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,

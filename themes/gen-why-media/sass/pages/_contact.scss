@@ -21,7 +21,7 @@
 	h2+p,
 	.address {
 		display: none;
-		@extend .form-font;
+		@extend .body-a;
 		@include desktop {
 			display: block;
 		}
