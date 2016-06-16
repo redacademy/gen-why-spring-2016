@@ -18,9 +18,13 @@
 			font-weight: normal;
 		}
 	}
-	p,
+	h2+p,
 	.address {
+		display: none;
 		@extend .form-font;
+		@include tablet {
+			display: block;
+		}
 	}
 	.entry-content>p {
 		max-width: 1020px;
