@@ -1031,6 +1031,20 @@ section h3 {
       .about-us .founder-profile .display-on-desk {
         display: block; } }
 
+.h2-change {
+  margin-top: auto;
+  padding-top: 5rem; }
+
+.fom-button {
+  border: 3px solid white;
+  padding: 2px 20px; }
+
+.fom-button:hover {
+  color: white; }
+
+.fom-button:visited {
+  color: white; }
+
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
   background-position: bottom;
