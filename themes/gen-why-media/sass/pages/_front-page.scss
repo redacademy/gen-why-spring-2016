@@ -9,7 +9,8 @@
     width: 1240px;
   }
 }
-.home {
+.home,
+section {
   h2, h3 {
     text-align: center;
     font-size: 30px;
@@ -276,6 +277,7 @@
   display: flex;
   justify-content: center;
   .prev-parts-img {
+    border-bottom: 10px $color__oj solid;
     @extend .center-column;
     background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-watch-picture.png) no-repeat center center;
     background-size: cover;
