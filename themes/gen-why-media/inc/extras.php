@@ -41,7 +41,7 @@ function genwhy_watch_header() {
                display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 33.5vh;
+               height: 45vh;
                width: 100vw;
                padding-top: 0;
                justify-content: center; 
@@ -67,14 +67,13 @@ function genwhy_watch_event() {
                  rgba(238, 108, 77, 0.55)
                  ),
                  url('". CFS()->get('event_clips_image') ."');
-               display: flex;
+               display: block;
                background-size: cover;
                background-position: bottom;
                height: 39.5vh;
                width: 100vw;
                padding-top: 0;
-               justify-content: center; 
-               align-items: center;
+               text-align: center;
                color: white;
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
@@ -96,14 +95,13 @@ function genwhy_watch_short() {
                  rgba(23, 106, 71, 0.55)
                  ),
                  url('". CFS()->get('short_videos_image') ."');
-               display: flex;
+               display: block;
                background-size: cover;
                background-position: bottom;
                height: 39.5vh;
                width: 100vw;
                padding-top: 0;
-               justify-content: center; 
-               align-items: center;
+               text-align: center;
                color: white;
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
@@ -125,14 +123,13 @@ function genwhy_watch_documentary() {
                    rgba(51, 75, 127, 0.55)
                  ),
                  url('". CFS()->get('documentary_image') ."');
-               display: flex;
+               display: block;
                background-size: cover;
                background-position: bottom;
                height: 39.5vh;
                width: 100vw;
                padding-top: 0;
-               justify-content: center; 
-               align-items: center;
+               text-align: center;
                color: white;
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );

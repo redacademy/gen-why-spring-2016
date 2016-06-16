@@ -128,7 +128,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 40px; }
 
 .body-b {
@@ -1055,6 +1055,20 @@ section h3 {
     @media (min-width: 700px) {
       .about-us .founder-profile .display-on-desk {
         display: block; } }
+
+.h2-change {
+  margin-top: auto;
+  padding-top: 5rem; }
+
+.fom-button {
+  border: 3px solid white;
+  padding: 2px 20px; }
+
+.fom-button:hover {
+  color: white; }
+
+.fom-button:visited {
+  color: white; }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
