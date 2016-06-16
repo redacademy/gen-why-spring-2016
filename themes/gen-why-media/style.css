@@ -1087,6 +1087,7 @@ section h3 {
   -ms-flex-pack: center;
       justify-content: center; }
   .prev-parts .prev-parts-img {
+    border-bottom: 10px #ee6c4d solid;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
     background-size: cover;
     height: 300px;
@@ -1158,45 +1159,40 @@ input.send-btn {
 .address {
   padding: 150px 138px 0 0; }
 
-@media (min-width: 700px) {
-  .connect-us .connect-container {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; } }
-
-.connect-us .connect-wrapper {
-  padding-top: 10px;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin: 0 40px; }
-
-.connect-us a {
-  text-align: center; }
-
-.connect-us p {
-  font-size: .9rem; }
-
-.connect-us .connect-btn {
-  border-radius: 5px;
-  border: 0;
-  color: white;
-  padding: 10px 5px;
-  text-transform: uppercase;
-  width: 120px; }
+.connect-us {
+  padding-bottom: 100px; }
   @media (min-width: 700px) {
-    .connect-us .connect-btn {
-      padding: 0 5px; } }
-
-.connect-us .twit-btn {
-  background: #55acee; }
-
-.connect-us .insta-btn {
-  background: #673407; }
-
-.connect-us .email-btn {
-  margin-top: 10px;
-  background: #334b7f; }
+    .connect-us .connect-container {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; } }
+  .connect-us .connect-wrapper {
+    padding-top: 10px;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin: 0 40px; }
+  .connect-us a {
+    text-align: center; }
+  .connect-us p {
+    font-size: .9rem; }
+  .connect-us .connect-btn {
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    width: 120px; }
+    @media (min-width: 700px) {
+      .connect-us .connect-btn {
+        padding: 0 5px; } }
+  .connect-us .twit-btn {
+    background: #55acee; }
+  .connect-us .insta-btn {
+    background: #673407; }
+  .connect-us .email-btn {
+    margin-top: 10px;
+    background: #334b7f; }
 
 footer .site-info {
   margin: 0 auto;
