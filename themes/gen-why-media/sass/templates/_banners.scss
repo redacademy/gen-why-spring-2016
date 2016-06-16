@@ -1,0 +1,131 @@
+// What We're Doing
+
+.what-we-doing {
+  @extend .center-column;
+  position: relative;
+  .what-we-doing-img {
+    @extend .center-column;
+    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-what-we-doing.png) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    padding-bottom: 30px;
+    width: 100%;
+    @include desktop {
+      width: 95%;
+    }
+  }
+}
+.blue-circle {
+  @include desktop {
+    background: $color__trustb;
+    border-radius: 50%;
+    height: 70px;
+    left: 666px;
+    position: absolute;
+    top: 265px;
+    width: 70px;
+  }
+
+}
+.find-out-btn {
+  a {
+    background: $color__oj;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      color: $color__oj;
+      background: #fff;
+    }
+  }
+}
+
+// Latest Event Clips
+
+.latest-event {
+  display: flex;
+  justify-content: center;
+  .latest-event-img {
+    @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-latest-clips.png) center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    @include desktop {
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-latest-clips.png) center center;
+      height: 450px;
+      width: 95%;
+    }
+  }
+}
+
+// Want to Create Social Change
+
+.create-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .create-change-img {
+    @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-social-change.png) center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+      @include desktop {
+        background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-social-change.png) center center;
+        width: 95%;
+        height: 300px;
+      }
+  }
+}
+.inspire-btn {
+  a {
+    background: $color__dg;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      background: #fff;
+      color: $color__dg;
+    }
+  }
+}
+
+
+// Previous Partner
+
+.prev-parts {
+  display: flex;
+  justify-content: center;
+  .prev-parts-img {
+    border-bottom: 10px $color__oj solid;
+    @extend .center-column;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    @include desktop {
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+      height: 450px;
+      width: 95%;
+    }
+    .partner-logos {
+      img {
+        height: 70px;
+        @include tablet {
+          height: 120px;
+          margin: 0 5px;
+        }
+        @include desktop {
+          margin: 0 20px;
+        }
+      }
+    }
+  }
+}

@@ -12,8 +12,32 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<!-- Hero Slider  -->
+			<section class="hero-slider-container">
 
+				<ul class="bxslider hero-banner-list">
+					<?php $query = new WP_Query( array(
+						'post_type' => 'banner_images',
+						'posts_per_page' => 10,
+						'order' => 'ASC',
+						'orderby' => 'name')
+					);
+					while ( $query->have_posts()) : $query->the_post();?>
 
+						<li>
+							<div class="banner-wrap">
+								<?php the_post_thumbnail('full'); ?>
+							</div>
+							<div class="banner-info">
+								<h2 class="header2-b">We Value...</h2>
+								<h1 class="header1"><?php the_title(); ?></h1>
+								<div class="header4-sub"><?php the_content(); ?></div>
+							</div>
+						</li>
+					<?php endwhile;
+									wp_reset_postdata(); ?>
+				</ul>
+
+			</section>
 			<!-- Get Involved -->
 
 			<section class="get-involved container">

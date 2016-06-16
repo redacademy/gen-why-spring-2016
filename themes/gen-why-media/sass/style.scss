@@ -72,5 +72,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "pages/blog";
 @import "pages/services";
 @import "pages/contact";
-@import "pages/social-media";
 @import "pages/footer";
+
+// Templates
+@import "templates/social-media";
+@import "templates/banners";
