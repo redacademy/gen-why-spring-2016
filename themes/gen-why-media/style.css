@@ -123,8 +123,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: normal;
   line-height: 40px; }
 
-.body-a, .contact-us-container p,
-.contact-us-container .address {
+.body-a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -161,7 +160,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font, .contact-form-7-container input::-webkit-input-placeholder,
+.form-font, .contact-us-container h2, .contact-us-container p,
+.contact-us-container .address, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
 .contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
@@ -749,6 +749,10 @@ a {
 .bypostauthor {
   display: block; }
 
+/* Globel */
+.entry-content {
+  padding: 20px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1063,10 +1067,15 @@ section h3 {
   height: 400px;
   -ms-flex-pack: center;
       justify-content: center;
+  padding: 0 70px;
   width: 100%; }
 
 .contact-us-container h2 {
-  text-align: center; }
+  text-align: center;
+  font-weight: 200; }
+  @media (min-width: 700px) {
+    .contact-us-container h2 {
+      font-weight: normal; } }
 
 .contact-us-container .entry-content > p {
   max-width: 1020px;
@@ -1077,12 +1086,6 @@ section h3 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
-  .contact-form-7-container .address {
-    display: none; }
-    @media (min-width: 700px) {
-      .contact-form-7-container .address {
-        display: -ms-flexbox;
-        display: flex; } }
   .contact-form-7-container input:-moz-placeholder,
   .contact-form-7-container textarea:-moz-placeholder {
     /* Firefox 18- */ }
@@ -1106,11 +1109,6 @@ input.send-btn {
   box-shadow: none;
   border: none;
   height: 40px; }
-
-input.send-btn:hover {
-  background: url("../../assets/buttons/cta-inspire-inverse.png");
-  background-size: cover;
-  box-shadow: none; }
 
 .address {
   padding: 150px 138px 0 0; }

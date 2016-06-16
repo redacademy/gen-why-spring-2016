@@ -7,14 +7,20 @@
 		display: flex;
 		height: 400px;
 		justify-content: center;
+		padding: 0 70px;
 		width: 100%;
 	}
 	h2 {
 		text-align: center;
+		@extend .form-font;
+		font-weight: 200;
+		@include tablet {
+			font-weight: normal;
+		}
 	}
 	p,
 	.address {
-		@extend .body-a;
+		@extend .form-font;
 	}
 	.entry-content>p {
 		max-width: 1020px;
@@ -25,12 +31,6 @@
 .contact-form-7-container {
 	display: flex;
 	justify-content: space-around;
-	.address {
-		display: none;
-		@include tablet {
-		  display: flex;
-		}
-	}
 	input::-webkit-input-placeholder,
 	textarea::-webkit-input-placeholder {
 		@extend .form-font;
@@ -69,12 +69,6 @@ input.send-btn {
 	box-shadow: none;
 	border: none;
 	height: 40px;
-}
-
-input.send-btn:hover {
-	background: url("../../assets/buttons/cta-inspire-inverse.png");
-	background-size: cover;
-	box-shadow: none;
 }
 
 .address {
