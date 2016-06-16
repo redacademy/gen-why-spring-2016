@@ -1,6 +1,6 @@
 <?php
 /**
- * RED Starter Theme functions and definitions.
+ * Gen Why Theme functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -90,6 +90,8 @@ function genwhy_scripts() {
 	wp_enqueue_script( 'script-bxslider', get_template_directory_uri() . '/js-bxslider/jquery.bxslider.min.js', array('jquery'), false, true );
 
 	wp_enqueue_script( 'script-bxslider-class', get_template_directory_uri() . '/build/js/bxslider-class.min.js', array('jquery'), false, true );
+
+wp_enqueue_script( 'navigation-burger', get_template_directory_uri() . '/build/js/navigation.min.js', array('jquery'), false, true );
 
 	wp_enqueue_script( 'genwhy-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 

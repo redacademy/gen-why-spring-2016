@@ -41,6 +41,7 @@ get_header(); ?>
 				</ul>
 
 			</section>
+
 			<!-- Get Involved -->
 
 			<section class="get-involved container">
@@ -73,8 +74,32 @@ get_header(); ?>
 
 			<!-- What People Say -->
 
-			<section class="what-people-say">
+
+		<section class="reviews-container">
 				<h2 class="header2-a">What Are People Saying About Us</h2>
+
+					<ul class="reviews-list">
+						<?php $query = new WP_Query( array(
+							'post_type' => 'review_cpt',
+							'posts_per_page' => 4,
+							'order' => 'ASC',
+							'orderby' => 'date')
+						);
+						while ( $query->have_posts()) : $query->the_post();?>
+							<li>
+								<div class="review-wrap">
+									<div class="review-image">
+										<?php the_post_thumbnail('small'); ?>
+									</div>
+									<div class="review-info">
+										<h1 class="body-b"><?php the_title(); ?></h1>
+										<div class="header4-sub"><?php the_content(); ?></div>
+									</div>
+								</div>
+							</li>
+						<?php endwhile;
+										wp_reset_postdata(); ?>
+					</ul>
 			</section><!-- .what-people-say -->
 
 			<!-- Latest Event Clips -->
