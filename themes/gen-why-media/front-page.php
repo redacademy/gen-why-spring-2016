@@ -15,7 +15,7 @@ get_header(); ?>
 
 			<section class="hero-slider-container">
 
-				<ul class="bxslider hero-banner-list">
+				<ul class="bxslider-hero hero-banner-list">
 					<?php $query = new WP_Query( array(
 						'post_type' => 'banner_images',
 						'posts_per_page' => 10,
@@ -74,11 +74,10 @@ get_header(); ?>
 
 			<!-- What People Say -->
 
-
 		<section class="reviews-container">
 				<h2 class="header2-a">What Are People Saying About Us</h2>
 
-					<ul class="reviews-list">
+					<ul class="bxslider-review reviews-list">
 						<?php $query = new WP_Query( array(
 							'post_type' => 'review_cpt',
 							'posts_per_page' => 4,
@@ -88,12 +87,14 @@ get_header(); ?>
 						while ( $query->have_posts()) : $query->the_post();?>
 							<li>
 								<div class="review-wrap">
-									<div class="review-image">
-										<?php the_post_thumbnail('small'); ?>
-									</div>
-									<div class="review-info">
+									<div class="review-profile">
+										<div class="review-image">
+													<?php the_post_thumbnail('small'); ?>
+										</div>
 										<h1 class="body-b"><?php the_title(); ?></h1>
-										<div class="header4-sub"><?php the_content(); ?></div>
+									</div>
+									<div class="review-content">
+										<div class="form-font"><?php the_content(); ?></div>
 									</div>
 								</div>
 							</li>
