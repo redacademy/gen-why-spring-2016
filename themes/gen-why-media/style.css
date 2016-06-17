@@ -628,7 +628,8 @@ a {
     font-size: 1.1rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding: 20px 0; } }
+    padding: 20px 0;
+    height: 78px; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -672,7 +673,7 @@ html, body {
 
 .menuicon {
   position: absolute;
-  top: 38px;
+  top: 28px;
   right: 38px;
   display: block;
   cursor: pointer;
