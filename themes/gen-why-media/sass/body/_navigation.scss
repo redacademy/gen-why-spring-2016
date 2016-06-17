@@ -28,6 +28,7 @@ a {
 
 .site-branding {
 	align-self: flex-start;
+	position: absolute;
 }
 
 .main-navigation {
@@ -111,6 +112,7 @@ a {
 	}
 	.main-navigation ul {
 		display: flex;
+		flex-direction: column; /* mobile */
 		font-size: 1.1rem;
 		justify-content: space-around;
 		padding: 20px 0;
@@ -165,7 +167,7 @@ html,body {
   display: block;
   background-color: red;
   width: 0px;
-  height: 100%;
+  height: 0;
   -webkit-transition-duration: $animationDuration;
   -moz-transition-duration: $animationDuration;
   -ms-transition-duration: $animationDuration;
@@ -180,8 +182,8 @@ html,body {
 
 .menuicon {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 38px;
+  right: 38px;
   display: block;
   cursor: pointer;
   height: $baseMargin*2 + $lineWidth;
