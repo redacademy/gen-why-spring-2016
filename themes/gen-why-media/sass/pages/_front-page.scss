@@ -130,6 +130,29 @@ section {
   }
 }
 
+// What People Say
+
+.reviews-container {
+  .review-image {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+  }
+  .review-profile {
+    @extend .center-column;
+    margin-right: 35px;
+  }
+    .review-wrap {
+      display: flex;
+      justify-content: center;
+    }
+    .review-content {
+      width: 500px;
+      font-style: italic;
+    }
+}
+
 // Latest Event Clips
 
 .latest-event {
