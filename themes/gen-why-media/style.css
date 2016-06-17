@@ -834,7 +834,8 @@ object {
     color: #000;
     text-transform: uppercase; }
     .site-header a:hover {
-      color: #ee6c4d; }
+      color: #ee6c4d;
+      border-bottom: 1px solid #ee6c4d; }
 
 .site-header h1 {
   background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
@@ -902,7 +903,7 @@ section h3 {
   padding: 20px 10px;
   position: absolute;
   text-align: center;
-  top: 300px; }
+  top: 280px; }
   .hero-slider-container .banner-info .header4-sub {
     width: 700px; }
 

@@ -9,13 +9,14 @@
 	width: 100%;
 	z-index: 999;
 	@include tablet {
-		
+
 	}
 	a {
 		color: #000;
 		text-transform: uppercase;
 		&:hover {
 			color: $color__oj;
+			border-bottom: 1px solid $color__oj;
 		}
 	}
 }
