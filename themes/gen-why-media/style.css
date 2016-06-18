@@ -363,6 +363,15 @@ td,
 th {
   padding: 0; }
 
+@keyframes logo {
+  0% {
+    /* style */
+    opacity: 0; }
+  50% { }
+  100% {
+    /* style */
+    opacity: 1; } }
+
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
@@ -606,6 +615,7 @@ a {
       left: auto; }
   .main-navigation li {
     float: left;
+    margin: 0 auto;
     position: relative; }
   .main-navigation a {
     display: block;
@@ -628,7 +638,7 @@ a {
     font-size: 1.1rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding: 20px 0;
+    padding: 30px 0;
     height: 78px; } }
 
 .site-main .comment-navigation, .site-main
@@ -918,6 +928,7 @@ object {
       border-bottom: 1px solid #ee6c4d; }
 
 .site-header h1 {
+  animation: logo 8s 0s 1;
   background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
   background-size: 30px 30px;
   height: 30px;
