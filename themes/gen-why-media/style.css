@@ -363,6 +363,24 @@ td,
 th {
   padding: 0; }
 
+/* content-area Delay Apprence */
+/* site-header Background Animation */
+
+@keyframes site-header-background {
+  0% {
+    /* style */
+    background-color: white;
+    height: 100vh; }
+  80% {
+    background-color: white;
+    height: 100vh; }
+  86% {
+    /* style */
+    background-color: white;
+    height: 80px; } }
+
+/* Logo Animation */
+
 @keyframes logo {
   0% {
     /* style */
@@ -915,6 +933,7 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-header {
+  animation: site-header-background 10s 0s 1;
   -ms-flex-align: center;
       align-items: center;
   background-color: rgba(255, 255, 255, 0.9);
@@ -925,6 +944,7 @@ object {
       justify-content: space-between;
   margin: 0 auto;
   position: fixed;
+  height: 80px;
   width: 100%;
   z-index: 999; }
   .site-header a {
