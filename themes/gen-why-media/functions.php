@@ -101,19 +101,6 @@ wp_enqueue_script( 'navigation-burger', get_template_directory_uri() . '/build/j
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_scripts' );
 
-function current_jquery($version) {
-        global $wp_scripts;
-        if ( ( version_compare($version, $wp_scripts -> registered[jquery] -> ver) == 1 ) && !is_admin() ) {
-                wp_deregister_script('jquery');
-
-                wp_register_script('jquery',
-                        'http://ajax.googleapis.com/ajax/libs/jquery/'.$version.'/jquery.min.js',
-                        false, $version);
-        }
-}
-
-add_action( 'wp_head', current_jquery( '1.11.3' ) ); // change number to latest version
-
 /**
  * Custom template tags for this theme.
  */
