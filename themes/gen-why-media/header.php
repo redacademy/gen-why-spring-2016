@@ -27,8 +27,14 @@
 					</a>
 				</div><!-- .site-branding -->
 
+				<input type="checkbox" id="hamburger"/>
+				<label class="menuicon" for="hamburger">
+				  <span></span>
+				</label>
+
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
+
 			</header><!-- #masthead -->
 			<div id="content" class="site-content">

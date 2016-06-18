@@ -26,6 +26,11 @@ a {
 
 /* Menus */
 
+.site-branding {
+	align-self: flex-start;
+	position: absolute;
+}
+
 .main-navigation {
 	clear: both;
 	display: block;
@@ -107,9 +112,11 @@ a {
 	}
 	.main-navigation ul {
 		display: flex;
+		flex-direction: column; /* mobile */
 		font-size: 1.1rem;
 		justify-content: space-around;
 		padding: 20px 0;
+		height: 78px;
 	}
 }
 
@@ -132,4 +139,135 @@ a {
 		text-align: right;
 		width: 50%;
 	}
+}
+
+/* Hamberger Menu Slider */
+
+/* Configuration Parameters */
+$lineWidth: 5px;
+$lineLength: 25px;
+$baseMargin: 8px;
+$animationDuration: .2s;
+$checkedMenuWidth: 100%;
+
+html {
+  background: #CCC;
+}
+
+html,body {
+  margin: 0; 
+  padding: 0; 
+  height: 100%
+}
+
+#hamburger {
+  display: none;
+}
+
+.menu {
+  display: block;
+  width: 0px;
+  height: 0;
+  -webkit-transition-duration: $animationDuration;
+  -moz-transition-duration: $animationDuration;
+  -ms-transition-duration: $animationDuration;
+  -o-transition-duration: $animationDuration;
+  transition-duration: $animationDuration;
+  -webkit-transition-delay: $animationDuration;
+  -moz-transition-delay: $animationDuration;
+  -ms-transition-delay: $animationDuration;
+  -o-transition-delay: $animationDuration;
+  transition-delay: $animationDuration;
+}
+
+.menuicon {
+  position: absolute;
+  z-index: 1000;
+  top: 28px;
+  right: 38px;
+  display: block;
+  cursor: pointer;
+  height: $baseMargin*2 + $lineWidth;
+  width: $lineLength;
+  span {
+    display: block;
+    top: $baseMargin;
+    width: $lineLength;
+    height: $lineWidth;
+    background-color: #000;
+    position: relative;
+    -webkit-transition-duration: 0;
+    -moz-transition-duration: 0;
+    -ms-transition-duration: 0;
+    -o-transition-duration: 0;
+    transition-duration: 0;  
+    -webkit-transition-delay: $animationDuration;
+    -moz-transition-delay: $animationDuration;
+    -ms-transition-delay: $animationDuration;
+    -o-transition-delay: $animationDuration;
+    transition-delay: $animationDuration;
+    &::after, &::before {
+      display: block;
+      content: '';
+      position: absolute;
+      width: $lineLength;
+      height: $lineWidth;
+      background-color: #000;
+      -webkit-transition-property: margin, -webkit-transform;
+      -webkit-transition-duration: $animationDuration;
+      -moz-transition-duration: $animationDuration;
+      -ms-transition-duration: $animationDuration;
+      -o-transition-duration: $animationDuration;
+      transition-duration: $animationDuration;
+      -webkit-transition-delay: $animationDuration, 0;
+      -moz-transition-delay: $animationDuration, 0;
+      -ms-transition-delay: $animationDuration, 0;
+      -o-transition-delay: $animationDuration, 0;
+      transition-delay: $animationDuration, 0;
+    }
+    &::before {
+      margin-top: -$baseMargin;
+    }
+    &::after {
+      margin-top: $baseMargin;
+    }
+  }
+}
+
+#hamburger:checked ~ nav div ul.menu {
+	top: 60px;
+	width: 100%;
+	height: 100vh;
+}
+
+li {
+  overflow: hidden;
+}
+
+#hamburger:checked ~ .menuicon {
+  span {
+    background-color: rgba(0,0,0,0);
+    &::before, &::after {
+      margin-top: 0px;
+      -webkit-transition-delay: 0, $animationDuration;
+      -moz-transition-delay: 0, $animationDuration;
+      -ms-transition-delay: 0, $animationDuration;
+      -o-transition-delay: 0, $animationDuration;
+      transition-delay: 0, $animationDuration;
+    }
+    &::before {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &::after {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
 }

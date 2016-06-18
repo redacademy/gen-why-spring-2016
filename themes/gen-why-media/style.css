@@ -571,6 +571,11 @@ a {
     outline: 0; }
 
 /* Menus */
+.site-branding {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  position: absolute; }
+
 .main-navigation {
   clear: both;
   display: block;
@@ -617,10 +622,14 @@ a {
   .main-navigation ul {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    /* mobile */
     font-size: 1.1rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding: 20px 0; } }
+    padding: 20px 0;
+    height: 78px; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -640,6 +649,77 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+/* Hamberger Menu Slider */
+/* Configuration Parameters */
+html {
+  background: #CCC; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+#hamburger {
+  display: none; }
+
+.menu {
+  display: block;
+  width: 0px;
+  height: 0;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s; }
+
+.menuicon {
+  position: absolute;
+  z-index: 1000;
+  top: 28px;
+  right: 38px;
+  display: block;
+  cursor: pointer;
+  height: 21px;
+  width: 25px; }
+  .menuicon span {
+    display: block;
+    top: 8px;
+    width: 25px;
+    height: 5px;
+    background-color: #000;
+    position: relative;
+    transition-duration: 0;
+    transition-delay: 0.2s; }
+    .menuicon span::after, .menuicon span::before {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 5px;
+      background-color: #000;
+      -webkit-transition-property: margin, -webkit-transform;
+      transition-duration: 0.2s;
+      transition-delay: 0.2s, 0; }
+    .menuicon span::before {
+      margin-top: -8px; }
+    .menuicon span::after {
+      margin-top: 8px; }
+
+#hamburger:checked ~ nav div ul.menu {
+  top: 60px;
+  width: 100%;
+  height: 100vh; }
+
+li {
+  overflow: hidden; }
+
+#hamburger:checked ~ .menuicon span {
+  background-color: transparent; }
+  #hamburger:checked ~ .menuicon span::before, #hamburger:checked ~ .menuicon span::after {
+    margin-top: 0px;
+    transition-delay: 0, 0.2s; }
+  #hamburger:checked ~ .menuicon span::before {
+    transform: rotate(45deg); }
+  #hamburger:checked ~ .menuicon span::after {
+    transform: rotate(-45deg); }
 
 /*--------------------------------------------------------------
 # Accessibility
