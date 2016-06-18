@@ -366,19 +366,20 @@ th {
 @keyframes logo {
   0% {
     /* style */
+    background-color: white;
     background-size: 600px 600px;
-    height: 600px;
-    margin: 10px;
-    width: 700px;
+    background-position: center center;
     opacity: 0; }
   50% {
+    background-color: white;
     background-size: 600px 600px;
-    height: 600px;
-    margin: 10px;
-    width: 700px;
+    background-position: center center;
     opacity: 1; }
   100% {
-    /* style */ } }
+    /* style */
+    background-color: white;
+    background-size: 60px 60px;
+    background-position: 20px 10px; } }
 
 /*--------------------------------------------------------------
 # Embedded Fonts
@@ -591,7 +592,8 @@ a {
 .site-branding {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  position: absolute; }
+  position: absolute;
+  width: 100%; }
 
 .main-navigation {
   clear: both;
@@ -935,19 +937,14 @@ object {
 .site-header h1 {
   animation: logo 8s 0s 1;
   background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
-  background-size: 30px 30px;
-  height: 30px;
-  margin: 10px 20px;
+  background-size: 60px 60px;
+  background-position: 20px 10px;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
   overflow: hidden;
   text-indent: 100%;
-  white-space: nowrap;
-  width: 40px; }
-  @media (min-width: 700px) {
-    .site-header h1 {
-      background-size: 60px 60px;
-      height: 60px;
-      margin: 10px 20px;
-      width: 70px; } }
+  white-space: nowrap; }
 
 .container {
   display: -ms-flexbox;

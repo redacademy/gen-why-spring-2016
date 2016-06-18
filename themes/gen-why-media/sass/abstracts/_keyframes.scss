@@ -3,99 +3,94 @@
 	0% {
 		/* style */
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 0;
 	}
 	50% {
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 1;
 	}
 	100% {
 		/* style */
+		background-size: 60px 60px;
+		background-position: 20px 10px;
 	}
 }
 @-moz-keyframes logo {
 	0% {
 		/* style */
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 0;
 	}
 	50% {
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 1;
 	}
 	100% {
 		/* style */
+		background-size: 60px 60px;
+		background-position: 20px 10px;
 	}
 }
 @-ms-keyframes logo {
 	0% {
 		/* style */
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 0;
 	}
 	50% {
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 1;
 	}
 	100% {
 		/* style */
+		background-size: 60px 60px;
+		background-position: 20px 10px;
 	}
 }
 @-o-keyframes logo {
 	0% {
 		/* style */
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 0;
 	}
 	50% {
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 1;
 	}
 	100% {
 		/* style */
+		background-size: 60px 60px;
+		background-position: 20px 10px;
 	}
 }
 @keyframes logo {
 	0% {
 		/* style */
+		background-color: white;
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 0;
 	}
 	50% {
+		background-color: white;
+
 		background-size: 600px 600px;
-		height: 600px;
-		margin: 10px;
-		width: 700px;
+		background-position: center center;
 		opacity: 1;
 	}
 	100% {
 		/* style */
+		background-color: white;
+		
+		background-size: 60px 60px;
+		background-position: 20px 10px;
 	}
 }
