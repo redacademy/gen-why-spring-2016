@@ -146,9 +146,9 @@ a {
 /* Hamberger Menu Slider */
 
 /* Configuration Parameters */
-$lineWidth: 5px;
-$lineLength: 25px;
-$baseMargin: 8px;
+$lineWidth: 7px;
+$lineLength: 38px;
+$baseMargin: 13px;
 $animationDuration: .2s;
 $checkedMenuWidth: 100%;
 
@@ -181,7 +181,7 @@ html,body {
 .menuicon {
   position: absolute;
   z-index: 1000;
-  top: 28px;
+  top: 22px;
   right: 38px;
   display: block;
   cursor: pointer;
