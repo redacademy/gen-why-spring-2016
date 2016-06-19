@@ -1,5 +1,14 @@
+.front-page {
+	.site-header {
+		// background-color: black;
+		animation: site-header-background 10s 0s 1;
+		h1 {
+			animation: logo 8s 0s 1;
+		}
+	}
+}
+
 .site-header {
-	animation: site-header-background 10s 0s 1;
 	// align-items: center;
 	background-color: rgba(255, 255, 255, 0.9);
 	border-bottom: 1px solid #000;
@@ -24,12 +33,11 @@
 }
 
 .site-header h1{
-	animation: logo 8s 0s 1;
 	background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
 	background-size: 60px 60px;
 	background-position: 20px 10px;
-	height: 100vh;
-	width: 100%;
+	height: 70px;
+	// width: 100%;
 	margin: 0;
 	// margin: 10px 20px;
 	overflow: hidden;
