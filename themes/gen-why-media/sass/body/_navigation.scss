@@ -185,6 +185,7 @@ html,body {
   -o-transition-delay: $animationDuration;
   transition-delay: $animationDuration;
   @include tablet {
+    flex-direction: row;
   	width: 100vw;
   	height: 100%;
   }

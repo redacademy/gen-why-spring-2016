@@ -698,6 +698,8 @@ html, body {
   transition-delay: 0.2s; }
   @media (min-width: 700px) {
     .menu {
+      -ms-flex-direction: row;
+          flex-direction: row;
       width: 100vw;
       height: 100%; } }
 
