@@ -641,9 +641,10 @@ a {
       left: auto; }
   .main-navigation li {
     float: left;
+    height: 80px;
     margin: 0 auto;
-    position: relative;
-    height: 30px; }
+    padding-top: 23px;
+    position: relative; }
   .main-navigation a {
     display: block;
     text-decoration: none; }

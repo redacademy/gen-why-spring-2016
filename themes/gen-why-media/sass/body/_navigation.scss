@@ -84,9 +84,10 @@ a {
 	}
 	li {
 		float: left;
-		margin: 0 auto;
-		position: relative;
-		height: 30px;
+		height: 80px;
+    margin: 0 auto;
+    padding-top: 23px;
+    position: relative;
 		&:hover > a,
 		&.focus > a {
 		}
