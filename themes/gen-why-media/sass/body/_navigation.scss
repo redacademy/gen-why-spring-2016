@@ -171,7 +171,7 @@ html,body {
 .menu {
   display: block;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
 	overflow: hidden;
   width: 0px;
@@ -188,7 +188,7 @@ html,body {
   -o-transition-delay: $animationDuration;
   transition-delay: $animationDuration;
   @include tablet {
-    flex-direction: row;
+    // flex-direction: row;
   	width: 100vw;
   	height: 100%;
   }
@@ -196,6 +196,7 @@ html,body {
 
 #hamburger:checked ~ nav div ul.menu {
 	// top: 60px;
+  flex-direction: column;
 	width: 100%;
 	height: 100vh;
 }

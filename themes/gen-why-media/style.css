@@ -689,8 +689,8 @@ html, body {
   display: block;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   overflow: hidden;
@@ -701,12 +701,12 @@ html, body {
   transition-delay: 0.2s; }
   @media (min-width: 700px) {
     .menu {
-      -ms-flex-direction: row;
-          flex-direction: row;
       width: 100vw;
       height: 100%; } }
 
 #hamburger:checked ~ nav div ul.menu {
+  -ms-flex-direction: column;
+      flex-direction: column;
   width: 100%;
   height: 100vh; }
 
