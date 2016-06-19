@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<h4 style="position:absolute;top:0;left:0;">page.php</h4>
+<h4 style="position:fixed;top:100px;left:0;z-index:600;">page.php</h4>
 
 <div id="primary" class="content-area contact-us-wrapper">
 	<main id="main" class="site-main contact-us-container" role="main">

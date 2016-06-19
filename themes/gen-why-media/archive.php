@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<h4 style="position:absolute;top:0;left:0;">archive.php</h4>
+<h4 style="position:fixed;top:100px;left:0;z-index:600;">archive.php</h4>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
