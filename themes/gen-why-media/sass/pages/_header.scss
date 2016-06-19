@@ -6,6 +6,9 @@
 		}
 		h1 {
 			animation: logo 8s 0s 1;
+			@include tablet {
+				animation: logo 0s 0s 0;
+			}
 		}
 	}
 }
