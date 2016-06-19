@@ -628,8 +628,7 @@ a {
       float: left;
       position: absolute;
       top: 1.5em;
-      left: -999em;
-      z-index: 99999; }
+      left: -999em; }
       .main-navigation ul ul ul {
         left: -999em;
         top: 0; }
@@ -668,6 +667,10 @@ a {
         justify-content: space-around;
     padding: 30px 0;
     height: 78px; } }
+  @media screen and (min-width: 37.5em) and (min-width: 700px) {
+    .main-navigation ul {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -698,13 +701,6 @@ html, body {
 #hamburger {
   display: none; }
 
-.menu {
-  display: block;
-  width: 0px;
-  height: 0;
-  transition-duration: 0.2s;
-  transition-delay: 0.2s; }
-
 .menuicon {
   position: absolute;
   z-index: 1000;
@@ -714,6 +710,9 @@ html, body {
   cursor: pointer;
   height: 33px;
   width: 38px; }
+  @media (min-width: 700px) {
+    .menuicon {
+      display: none; } }
   .menuicon span {
     display: block;
     top: 13px;
@@ -737,24 +736,6 @@ html, body {
       margin-top: -13px; }
     .menuicon span::after {
       margin-top: 13px; }
-
-#hamburger:checked ~ nav div ul.menu {
-  top: 60px;
-  width: 100%;
-  height: 100vh; }
-
-li {
-  overflow: hidden; }
-
-#hamburger:checked ~ .menuicon span {
-  background-color: transparent; }
-  #hamburger:checked ~ .menuicon span::before, #hamburger:checked ~ .menuicon span::after {
-    margin-top: 0px;
-    transition-delay: 0, 0.2s; }
-  #hamburger:checked ~ .menuicon span::before {
-    transform: rotate(45deg); }
-  #hamburger:checked ~ .menuicon span::after {
-    transform: rotate(-45deg); }
 
 /*--------------------------------------------------------------
 # Accessibility
