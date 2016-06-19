@@ -7,12 +7,12 @@
 	justify-content: space-between;
 	margin: 0 auto;
 	position: fixed;
-	height: 80px;
+	height: inherit;
 	width: 100%;
 	z-index: 999;
-	@include tablet {
-
-	}
+	// @include tablet {
+	// 	height: inherit;
+	// }
 	a {
 		color: #000;
 		text-transform: uppercase;
