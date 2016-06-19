@@ -721,6 +721,9 @@ html, body {
   cursor: pointer;
   height: 33px;
   width: 38px; }
+  @media (min-width: 700px) {
+    .menuicon {
+      display: none; } }
   .menuicon span {
     display: block;
     top: 13px;
