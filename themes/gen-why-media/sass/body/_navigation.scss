@@ -179,6 +179,9 @@ html,body {
   -ms-transition-delay: $animationDuration;
   -o-transition-delay: $animationDuration;
   transition-delay: $animationDuration;
+  @include tablet {
+  	width: 100vw;
+  }
 }
 
 .menuicon {

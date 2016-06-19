@@ -708,6 +708,9 @@ html, body {
   height: 0;
   transition-duration: 0.2s;
   transition-delay: 0.2s; }
+  @media (min-width: 700px) {
+    .menu {
+      width: 100vw; } }
 
 .menuicon {
   position: absolute;
