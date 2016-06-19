@@ -211,7 +211,7 @@ li {
   height: $baseMargin*2 + $lineWidth;
   width: $lineLength;
   @include tablet {
-  	// display: none;
+  	display: none;
   }
   span {
     display: block;
