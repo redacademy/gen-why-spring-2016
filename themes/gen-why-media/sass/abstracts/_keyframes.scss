@@ -1,21 +1,18 @@
 /* content-area Delay Apprence */
 
-// @keyframes content-area {
-// 	0% {
-// 		/* style */
-// 		opacity: 0;
-// 		display: none;
-// 	}
-// 	98% {
-// 		opacity: 0;
-// 		display: none;
-// 	}
-// 	100% {
-// 		/* style */
-// 		opacity: 1;
-// 		display: block;
-// 	}
-// }
+@keyframes site-branding-width {
+	0% {
+		/* style */
+		width: 100vw;
+	}
+	98% {
+		width: 100vw;
+	}
+	100% {
+		/* style */
+		width: 80px;
+	}
+}
 
 
 /* site-header Background Animation */

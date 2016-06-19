@@ -364,6 +364,16 @@ th {
   padding: 0; }
 
 /* content-area Delay Apprence */
+@keyframes site-branding-width {
+  0% {
+    /* style */
+    width: 100vw; }
+  98% {
+    width: 100vw; }
+  100% {
+    /* style */
+    width: 80px; } }
+
 /* site-header Background Animation */
 
 @keyframes site-header-background {
