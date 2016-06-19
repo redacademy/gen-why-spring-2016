@@ -194,7 +194,7 @@ html,body {
   }
 }
 
-#hamburger:checked ~ nav div ul.menu {
+#hamburger:checked ~ nav .menu {
 	// top: 60px;
   flex-direction: column;
   justify-content: flex-start;
