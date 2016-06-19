@@ -27,9 +27,10 @@ a {
 /* Menus */
 
 .site-branding {
+  animation: site-branding-width 8s 0s 1;
 	align-self: flex-start;
 	position: absolute;
-	width: 100%;
+	width: 80px;
 }
 
 .main-navigation {
