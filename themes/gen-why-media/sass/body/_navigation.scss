@@ -141,8 +141,8 @@ $animationDuration: .2s;
 $checkedMenuWidth: 100%;
 
 html,body {
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
   height: 100%
 }
 
@@ -209,7 +209,7 @@ li {
     -moz-transition-duration: 0;
     -ms-transition-duration: 0;
     -o-transition-duration: 0;
-    transition-duration: 0;  
+    transition-duration: 0;
     -webkit-transition-delay: $animationDuration;
     -moz-transition-delay: $animationDuration;
     -ms-transition-delay: $animationDuration;
