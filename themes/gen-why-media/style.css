@@ -1261,6 +1261,16 @@ section h3 {
       .about-us .founder-profile .display-on-desk {
         display: block; } }
 
+.projects-page .page-header {
+  background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
+  height: 460px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
 .h2-change {
   margin-top: auto;
   padding-top: 5rem; }

@@ -275,7 +275,7 @@ function video_cpt() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'video_cpt', $args );
+	register_post_type( 'video', $args );
 
 }
 add_action( 'init', 'video_cpt', 0 );

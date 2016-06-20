@@ -8,7 +8,7 @@
 get_header(); ?>
 <h4 style="position:fixed;top:100px;left:0;z-index:600;">archive-projects.php</h4>
 
-	<div id="primary" class="content-area archive-projects">
+	<div id="primary" class="content-area projects-page">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -39,6 +39,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
