@@ -26,6 +26,8 @@ get_header(); ?>
 
 			<h2>Past Works</h2>
 
+			<?php get_search_form(); ?>
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
