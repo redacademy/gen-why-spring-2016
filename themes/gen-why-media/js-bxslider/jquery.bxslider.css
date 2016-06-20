@@ -16,7 +16,6 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
 	padding: 0;
 	zoom: 1;
 }
@@ -81,20 +80,20 @@
 	color: #666;
 	padding-top: 20px;
 	position: absolute;
-	bottom: 60px;
+	bottom: 90px;
 }
 
 .hero-slider-container .bx-wrapper .bx-default-pager a {
 	background: rgba(224, 224, 224, 0.6);
 	text-indent: -9999px;
 	display: block;
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 	margin: 0 5px;
 	outline: 0;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	border: 2px solid rgba(224, 224, 224, 0.6);
 }
 
@@ -117,7 +116,7 @@
 	color: #666;
 	padding-top: 20px;
 	position: absolute;
-	bottom: 10px;
+	bottom: 1px;
 }
 
 .reviews-container .bx-wrapper .bx-default-pager a {
@@ -234,7 +233,16 @@
 /* *** MEDIA QUERIES *** */
 
 @media (min-width: 700px) {
-
+	.hero-slider-container .bx-wrapper .bx-pager  {
+		bottom: 80px;
+	}
+	.hero-slider-container .bx-wrapper .bx-default-pager a {
+		width: 15px;
+		height: 15px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
 }
 @media (min-width: 1340px) {
 
