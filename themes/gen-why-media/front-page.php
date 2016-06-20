@@ -116,11 +116,9 @@
 				</div>
 			</section><!-- .latest-event -->
 
-			<!-- Upcoming Events -->
+			<!-- Upcoming Event -->
 
-			<section class="upcoming-events">
-				<h2 class="header2-a">Upcoming Event</h2>
-			</section><!-- .upcoming-events -->
+			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
 
 			<!-- Want to Create Social Change? -->
 
