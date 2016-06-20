@@ -141,7 +141,6 @@
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-
 .bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
 }
@@ -230,4 +229,13 @@
 	display: block;
 	font-size: .85em;
 	padding: 10px;
+}
+
+/* *** MEDIA QUERIES *** */
+
+@media (min-width: 700px) {
+
+}
+@media (min-width: 1340px) {
+
 }

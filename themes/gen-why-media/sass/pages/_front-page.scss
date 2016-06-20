@@ -59,8 +59,10 @@ section {
     @extend .center-column;
     h2 {
       font-size: 1.25rem;
+      margin: 0;
       @include tablet {
         font-size: 1.8rem;
+        margin: 1rem;
       }
       @include desktop {
         font-size: 2rem;
@@ -68,8 +70,10 @@ section {
     }
     h1 {
       font-size: 1.8rem;
+      margin: 0;
       @include tablet {
         font-size: 3.2rem;
+        margin: 1.2rem;
       }
       @include desktop {
           font-size: 4.5rem;
@@ -77,8 +81,10 @@ section {
     }
     p {
       font-size: 1rem;
+      margin: 0;
       @include tablet {
         font-size: 1.4rem;
+        margin: 1rem;
       }
       @include desktop {
         font-size: 1.8rem
