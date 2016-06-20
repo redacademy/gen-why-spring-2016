@@ -45,7 +45,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 /* custom colors */
 /* custom typography */
-.header1 {
+.header1, .projects-page .page-header {
   color: white;
   font-family: "helvetica Neue", sans-serif;
   font-size: 72px;
@@ -1259,6 +1259,16 @@ section h3 {
     @media (min-width: 700px) {
       .about-us .founder-profile .display-on-desk {
         display: block; } }
+
+.projects-page .page-header {
+  background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
+  height: 460px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
 
 .h2-change {
   margin-top: auto;

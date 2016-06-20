@@ -8,7 +8,7 @@
 get_header(); ?>
 <h4 style="position:fixed;top:100px;left:0;z-index:600;">archive-projects.php</h4>
 
-	<div id="primary" class="content-area archive-projects">
+	<div id="primary" class="content-area projects-page">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -19,6 +19,11 @@ get_header(); ?>
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
+
+			<!-- Upcoming Event -->
+
+			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
+
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -39,6 +44,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
