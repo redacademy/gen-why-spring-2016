@@ -13,12 +13,12 @@
 section {
   h2, h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8rem;
     @include tablet {
-      font-size: 45px;
+      font-size: 2.8rem;
     }
     @include desktop {
-      font-size: 56px;
+      font-size: 3.5rem;
     }
   }
 }
@@ -32,7 +32,13 @@ section {
     justify-content: center;
     overflow: hidden;
     position: relative;
-    height: 800px;
+    height: 400px;
+    @include tablet {
+      height: 600px;
+    }
+    @include desktop {
+      height: 800px;
+    }
     .banner-image {
       background: linear-gradient($color__lin-b, $color__lin-b);
       padding: 0;
@@ -44,13 +50,54 @@ section {
     }
   }
   .banner-info {
-    left: 350px;
-    padding: 20px 10px;
     position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:50%;
     text-align: center;
-    top: 280px;
+    @extend .center-column;
+    h2 {
+      font-size: 1.25rem;
+      margin: 0;
+      @include tablet {
+        font-size: 1.8rem;
+        margin: 1rem;
+      }
+      @include desktop {
+        font-size: 2rem;
+      }
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      @include tablet {
+        font-size: 3.2rem;
+        margin: 1.2rem;
+      }
+      @include desktop {
+          font-size: 4.5rem;
+      }
+    }
+    p {
+      font-size: .9rem;
+      margin: 0;
+      @include tablet {
+        font-size: 1.4rem;
+        margin: 1rem;
+      }
+      @include desktop {
+        font-size: 1.8rem
+      }
+    }
     .header4-sub {
-      width: 700px;
+      width: 400px;
+      @include tablet {
+        width: 600px;
+      }
+      @include desktop {
+        width: 700px;
+      }
     }
   }
 }
@@ -118,12 +165,12 @@ section {
         }
       }
       h3 {
-        font-size: 15px;
+        font-size: 1rem;
         @include tablet {
-          font-size: 25px;
+          font-size: 1.7rem;
         }
         @include desktop {
-          font-size: 35px;
+          font-size: 2.5rem;
         }
       }
     }
@@ -140,16 +187,27 @@ section {
     overflow: hidden;
   }
   .review-profile {
-    @extend .center-column;
+  @extend .center-column;
+  @include tablet {
     margin-right: 35px;
+    }
   }
     .review-wrap {
-      display: flex;
-      justify-content: center;
+      @extend .center-column;
+      @include tablet {
+        flex-direction: row;
+      }
     }
     .review-content {
       width: 500px;
       font-style: italic;
+      @extend .center-column;
+      p {
+        width: 350px;
+        @include tablet {
+          width: 500px;
+        }
+      }
     }
 }
 
