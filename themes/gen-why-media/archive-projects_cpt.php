@@ -24,6 +24,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
 
+			<h2>Past Works</h2>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
