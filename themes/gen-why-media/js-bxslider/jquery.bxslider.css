@@ -29,6 +29,7 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
+
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -79,7 +80,7 @@
 	color: #666;
 	padding-top: 20px;
 	position: absolute;
-	bottom: 90px;
+	bottom: 40px;
 }
 
 .hero-slider-container .bx-wrapper .bx-default-pager a {
@@ -233,7 +234,7 @@
 
 @media (min-width: 700px) {
 	.hero-slider-container .bx-wrapper .bx-pager  {
-		bottom: 80px;
+		bottom: 60px;
 	}
 	.hero-slider-container .bx-wrapper .bx-default-pager a {
 		width: 15px;
