@@ -8,7 +8,6 @@
  <div class="front-page">
  	<?php 	get_header(); ?>
  </div>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">front-page.php</h4>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -72,7 +71,7 @@
 
 			<!-- What we are doing -->
 
-			<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?><!-- .what-we-doing -->
+			<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?>
 
 			<!-- What People Say -->
 
@@ -118,13 +117,11 @@
 
 			<!-- Upcoming Events -->
 
-			<section class="upcoming-events">
-				<h2 class="header2-a">Upcoming Event</h2>
-			</section><!-- .upcoming-events -->
+      <?php get_template_part( 'template-parts/content', 'events' ); ?>
 
 			<!-- Want to Create Social Change? -->
 
-			<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
+			<?php get_template_part( 'template-parts/content', 'social-change' ); ?>
 
 			<!-- About Us -->
 			<section class="about-us">
@@ -163,7 +160,7 @@
 
 			<!-- Stay Connected With Us -->
 
-			<?php get_template_part( 'template-parts/content', 'social' ); ?><!-- .connect-us -->
+			<?php get_template_part( 'template-parts/content', 'social' ); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

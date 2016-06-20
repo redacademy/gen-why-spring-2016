@@ -1,0 +1,30 @@
+.event-container {
+  .event-info {
+    @extend .center-column;
+  }
+  .event-time-container {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0;
+    }
+    .calender-icon {
+      background: url(../../assets/icons/calender-icon.png) no-repeat;
+      background-size: 100px 100px;
+      height: 100px;
+      width: 100px;
+    }
+    .event-when-where {
+      display: flex;
+      flex-direction: column;
+      .bold {
+        font-weight: bold;
+      }
+    }
+  }
+  .body {
+    p {
+      width: 800px;
+    }
+  }
+}

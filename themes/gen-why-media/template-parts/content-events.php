@@ -7,22 +7,34 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php if ( has_post_thumbnail() ) : ?>
-			<?php the_post_thumbnail( 'full' ); ?>
-		<?php endif; ?>
+<section class="event-container">
+		<h2 class="header2-a">Upcoming Event</h2>
+		<div class=" event-info">
+			<?php $event =  array(
+				'post_type' => 'events_cpt',
+				'posts_per_page' => 1,
+				'order' => 'ASC',
+				'orderby' => 'date');
+			$eventposts = get_posts( $event );
+			foreach ( $eventposts as $post ) : setup_postdata( $post ); ?>
+			<h3 class="header3"><?php the_title(); ?></h3>
 
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+			<div class="event-time-container">
+				<div class="calender-icon">
+					<?php echo CFS()->get( 'month' ); ?>
+					<?php echo CFS()->get( 'day' ); ?>
+				</div>
+				<div class="event-when-where">
+					<p><span class="bold">When: </span><?php echo CFS()->get( 'when' ); ?></p>
+					<p><span class="bold">Where: </span><?php echo CFS()->get( 'where' ); ?></p>
+				</div>
+			</div>
 
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php inhabitent_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php inhabitent_posted_by(); ?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+			<h5 class="header5-b">What's Happening...</h5>
+			<div class="body"><?php echo CFS()->get( 'description' ); ?></div>
+			<?php echo CFS()->get( 'eventbrite_url' ); ?>
 
-	<div class="entry-content">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-content -->
-</article><!-- #post-## -->
+		</div><!-- .event-info -->
+	<?php endforeach;
+	wp_reset_postdata();?>
+</section><!-- .event-container -->
