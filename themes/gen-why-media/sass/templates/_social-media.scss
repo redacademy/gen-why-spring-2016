@@ -32,12 +32,21 @@
   }
   .twit-btn {
     background: $color__twitb;
+    &:hover {
+      background: $color__mainb;
+    }
   }
   .insta-btn {
     background: $color__insta-br;
+    &:hover {
+      background: $color__mainb;
+    }
   }
   .email-btn {
     margin-top: 10px;
     background: $color__trustb;
+    &:hover {
+      background: $color__mainb;
+    }
   }
 }

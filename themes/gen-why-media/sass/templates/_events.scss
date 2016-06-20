@@ -11,8 +11,8 @@
       padding: 5px 30px;
       text-transform: uppercase;
       &:hover {
-        background: $color__lgrey;
-        color: $color__mainb;
+        background: $color__mainb;
+        color: $color__mainw;
       }
     }
   }
@@ -26,9 +26,9 @@
     }
     .calender-icon {
       background: url(../../assets/icons/calender-icon.png) no-repeat;
-      background-size: 100px 100px;
-      height: 100px;
-      width: 100px;
+      background-size: 125px 125px;
+      height: 125px;
+      width: 125px;
       margin-bottom: 20px;
       @extend .center-column;
       @include tablet {
@@ -38,11 +38,11 @@
         h5:first-child {
           font-size: 1rem;
           text-transform: uppercase;
-          transform: translate(14%, -23%);
+          transform: translate(15%,-35%);
         }
         h5:last-child {
-          font-size: 50px;
-          transform: translate(2%, -14%);
+          font-size: 60px;
+          transform: translate(-1%, -14%);
         }
       }
     }
@@ -82,6 +82,16 @@
   }
   .header5-b {
     margin: 0;
+  }
+  h2, h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    @include tablet {
+      font-size: 2.8rem;
+    }
+    @include desktop {
+      font-size: 3.5rem;
+    }
   }
   .body {
     text-align: center;

@@ -1027,10 +1027,12 @@ section h3 {
       justify-content: center;
   overflow: hidden;
   position: relative;
-  height: 400px; }
+  height: 400px;
+  transform: scale(2); }
   @media (min-width: 700px) {
     .hero-slider-container .banner-wrap {
-      height: 600px; } }
+      height: 600px;
+      transform: scale(1); } }
   @media (min-width: 1340px) {
     .hero-slider-container .banner-wrap {
       height: 800px; } }
@@ -1050,8 +1052,9 @@ section h3 {
   width: 50%;
   text-align: center; }
   .hero-slider-container .banner-info h2 {
-    font-size: 1.25rem;
-    margin: 0; }
+    font-size: .9rem;
+    margin: 0;
+    line-height: 1; }
     @media (min-width: 700px) {
       .hero-slider-container .banner-info h2 {
         font-size: 1.8rem;
@@ -1060,17 +1063,18 @@ section h3 {
       .hero-slider-container .banner-info h2 {
         font-size: 2rem; } }
   .hero-slider-container .banner-info h1 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin: 0; }
     @media (min-width: 700px) {
       .hero-slider-container .banner-info h1 {
         font-size: 3.2rem;
-        margin: 1.2rem; } }
+        margin: 2rem 0; } }
     @media (min-width: 1340px) {
       .hero-slider-container .banner-info h1 {
-        font-size: 4.5rem; } }
+        font-size: 4.5rem;
+        margin: 3.5rem 0; } }
   .hero-slider-container .banner-info p {
-    font-size: .9rem;
+    font-size: .5rem;
     margin: 0; }
     @media (min-width: 700px) {
       .hero-slider-container .banner-info p {
@@ -1080,7 +1084,8 @@ section h3 {
       .hero-slider-container .banner-info p {
         font-size: 1.8rem; } }
   .hero-slider-container .banner-info .header4-sub {
-    width: 400px; }
+    width: 150px;
+    line-height: 1; }
     @media (min-width: 700px) {
       .hero-slider-container .banner-info .header4-sub {
         width: 600px; } }
@@ -1284,7 +1289,7 @@ section h3 {
 
 .fom-button {
   border: 3px solid white;
-  padding: 2px 20px; }
+  padding: 7px 20px 3px 20px; }
 
 .fom-button:hover {
   color: white; }
@@ -1405,11 +1410,17 @@ footer .site-info {
         padding: 0 5px; } }
   .connect-us .twit-btn {
     background: #55acee; }
+    .connect-us .twit-btn:hover {
+      background: black; }
   .connect-us .insta-btn {
     background: #673407; }
+    .connect-us .insta-btn:hover {
+      background: black; }
   .connect-us .email-btn {
     margin-top: 10px;
     background: #334b7f; }
+    .connect-us .email-btn:hover {
+      background: black; }
 
 .what-we-doing {
   position: relative; }
@@ -1511,8 +1522,8 @@ footer .site-info {
     padding: 5px 30px;
     text-transform: uppercase; }
     .event-container .event-info a:hover {
-      background: #d8d8d8;
-      color: black; }
+      background: black;
+      color: white; }
   @media (min-width: 700px) {
     .event-container .event-time-container {
       -ms-flex-direction: row;
@@ -1521,9 +1532,9 @@ footer .site-info {
     margin: 0; }
   .event-container .event-time-container .calender-icon {
     background: url(../../assets/icons/calender-icon.png) no-repeat;
-    background-size: 100px 100px;
-    height: 100px;
-    width: 100px;
+    background-size: 125px 125px;
+    height: 125px;
+    width: 125px;
     margin-bottom: 20px; }
     @media (min-width: 700px) {
       .event-container .event-time-container .calender-icon {
@@ -1531,10 +1542,10 @@ footer .site-info {
     .event-container .event-time-container .calender-icon .event-date h5:first-child {
       font-size: 1rem;
       text-transform: uppercase;
-      transform: translate(14%, -23%); }
+      transform: translate(15%, -35%); }
     .event-container .event-time-container .calender-icon .event-date h5:last-child {
-      font-size: 50px;
-      transform: translate(2%, -14%); }
+      font-size: 60px;
+      transform: translate(-1%, -14%); }
   .event-container .event-time-container .event-when-where {
     display: -ms-flexbox;
     display: flex;
@@ -1567,6 +1578,15 @@ footer .site-info {
         font-size: 2rem; } }
   .event-container .header5-b {
     margin: 0; }
+  .event-container h2, .event-container h3 {
+    text-align: center;
+    font-size: 1.8rem; }
+    @media (min-width: 700px) {
+      .event-container h2, .event-container h3 {
+        font-size: 2.8rem; } }
+    @media (min-width: 1340px) {
+      .event-container h2, .event-container h3 {
+        font-size: 3.5rem; } }
   .event-container .body {
     text-align: center; }
     @media (min-width: 700px) {

@@ -9,14 +9,14 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="watchhero">
+			<div class="eventhero">
 				<h1 class="header1">Event Clips</h1>
 			</div>
-			<div class="eventbg watch-center">
+			<div class="eventone-bg watch-center">
 				<h2 class="header2-b h2-change">Bring Your Boomers 2016</h2>
 				<a href="#" class="button button-a fom-button">Find Out More</a>
 			</div>
-			<div class="shortbg watch-center">
+			<div class="eventtwo-bg watch-center">
 				<h2 class="header2-b h2-change">Re-Imagine CBC</h2>
 				<a href="#" class="button button-a fom-button">Find Out More</a>
 			</div>

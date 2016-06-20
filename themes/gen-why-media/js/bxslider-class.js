@@ -2,10 +2,13 @@
 
 jQuery(document).ready(function($){
     $('.bxslider-hero').bxSlider({
-          auto: true
+          auto: true,
+          controls: false
   });
 });
 
 jQuery(document).ready(function($){
-  $('.bxslider-review').bxSlider();
+  $('.bxslider-review').bxSlider({
+    controls: false
+  });
 });
