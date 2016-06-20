@@ -14,15 +14,15 @@ get_header(); ?>
 			</div>
 			<div class="eventbg watch-center">
 				<h2 class="header2-b h2-change">Event Clips</h2>
-				<a href="#" class="button button-a fom-button">Find Out More</a>		
+				<a href="event-clips" class="button button-a fom-button">Find Out More</a>		
 			</div>
 			<div class="shortbg watch-center">
 				<h2 class="header2-b h2-change">Short Videos</h2>
-				<a href="#" class="button button-a fom-button">Find Out More</a>
+				<a href="short-videos" class="button button-a fom-button">Find Out More</a>
 			</div>
 			<div class="docbg watch-center">
 				<h2 class="header2-b h2-change">Documentary</h2>
-				<a href="#" class="button button-a fom-button">Find Out More</a>
+				<a href="documentary" class="button button-a fom-button">Find Out More</a>
 			</div>
 		</main>
 	</div>
