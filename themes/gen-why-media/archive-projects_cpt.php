@@ -25,7 +25,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
 
 			<div class="sub-title">
-				<h2>Past Works</h2>
+				<h2 class="header2-a">Past Works</h2>
 				<?php get_search_form(); ?>
 			</div>
 
