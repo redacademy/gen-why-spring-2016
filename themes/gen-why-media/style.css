@@ -131,7 +131,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: 300;
   line-height: 40px; }
 
-.body-b {
+.body-b,
+.body-b a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -1272,6 +1273,10 @@ section h3 {
 
 .sub-title {
   text-align: center; }
+
+.past-works-container {
+  display: -ms-flexbox;
+  display: flex; }
 
 .h2-change {
   margin-top: auto;
