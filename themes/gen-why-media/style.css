@@ -171,7 +171,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container {
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -181,11 +181,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   -ms-flex-direction: column;
       flex-direction: column; }
 
-.button {
+.button, .event-container .event-info a {
   border-radius: 7px;
   color: white;
   font-size: 20px;
-  padding: 10px; }
+  padding: 5px 30px; }
 
 html {
   font-family: sans-serif;
@@ -1493,30 +1493,82 @@ footer .site-info {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
 
-@media (min-width: 700px) {
-  .event-container .event-time-container {
-    -ms-flex-direction: row;
-        flex-direction: row; } }
-
-.event-container .event-time-container p {
-  margin: 0; }
-
-.event-container .event-time-container .calender-icon {
-  background: url(../../assets/icons/calender-icon.png) no-repeat;
-  background-size: 100px 100px;
-  height: 100px;
-  width: 100px; }
-
-.event-container .event-time-container .event-when-where {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column; }
-  .event-container .event-time-container .event-when-where .bold {
-    font-weight: bold; }
-
-.event-container .header5-b {
-  margin: 0; }
-
-.event-container .body p {
-  width: 800px; }
+.event-container {
+  margin-bottom: 35px; }
+  @media (min-width: 700px) {
+    .event-container {
+      margin-bottom: 50px; } }
+  .event-container .event-info a {
+    background: #ee6c4d;
+    padding: 5px 30px;
+    text-transform: uppercase; }
+    .event-container .event-info a:hover {
+      background: #d8d8d8;
+      color: black; }
+  @media (min-width: 700px) {
+    .event-container .event-time-container {
+      -ms-flex-direction: row;
+          flex-direction: row; } }
+  .event-container .event-time-container p {
+    margin: 0; }
+  .event-container .event-time-container .calender-icon {
+    background: url(../../assets/icons/calender-icon.png) no-repeat;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px; }
+    @media (min-width: 700px) {
+      .event-container .event-time-container .calender-icon {
+        margin-right: 40px; } }
+    .event-container .event-time-container .calender-icon .event-date h5:first-child {
+      font-size: 1rem;
+      text-transform: uppercase;
+      transform: translate(14%, -23%); }
+    .event-container .event-time-container .calender-icon .event-date h5:last-child {
+      font-size: 50px;
+      transform: translate(2%, -14%); }
+  .event-container .event-time-container .event-when-where {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    width: 250px;
+    text-align: center; }
+    @media (min-width: 700px) {
+      .event-container .event-time-container .event-when-where {
+        width: 450px;
+        text-align: left; } }
+    .event-container .event-time-container .event-when-where .bold {
+      font-weight: bold; }
+    .event-container .event-time-container .event-when-where p {
+      margin-bottom: 20px; }
+      @media (min-width: 700px) {
+        .event-container .event-time-container .event-when-where p {
+          margin-bottom: 5px; } }
+  .event-container .header2-a {
+    margin-bottom: 0; }
+    @media (min-width: 700px) {
+      .event-container .header2-a {
+        margin-bottom: 20px;
+        font-size: 3.5rem; } }
+  .event-container .header3 {
+    margin-top: 0; }
+    @media (min-width: 700px) {
+      .event-container .header3 {
+        margin: 0;
+        font-size: 2rem; } }
+  .event-container .header5-b {
+    margin: 0; }
+  .event-container .body {
+    text-align: center; }
+    @media (min-width: 700px) {
+      .event-container .body {
+        text-align: left; } }
+    .event-container .body p {
+      width: 350px; }
+      @media (min-width: 700px) {
+        .event-container .body p {
+          width: 600px; } }
+      @media (min-width: 1340px) {
+        .event-container .body p {
+          width: 800px; } }
