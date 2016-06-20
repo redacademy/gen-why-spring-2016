@@ -111,7 +111,7 @@
 				<div class="latest-event-img">
 					<h2 class="header2-b">Latest Event Clips</h2>
 					<div class="find-out-btn">
-						<a href="#" >Find Out More</a>
+						<a href="event-clips">Find Out More</a>
 					</div>
 				</div>
 			</section><!-- .latest-event -->
