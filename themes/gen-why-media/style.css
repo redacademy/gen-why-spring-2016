@@ -1279,7 +1279,8 @@ section h3 {
 .sub-title {
   text-align: center; }
 
-.past-works-container {
+.past-works-container,
+.projects_cpt {
   display: -ms-flexbox;
   display: flex; }
 
