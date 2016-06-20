@@ -1,6 +1,20 @@
 .event-container {
+  margin-bottom: 35px;
+  @include tablet {
+    margin-bottom: 50px;
+  }
   .event-info {
     @extend .center-column;
+    a {
+      @extend .button;
+      background: $color__oj;
+      padding: 5px 30px;
+      text-transform: uppercase;
+      &:hover {
+        background: $color__lgrey;
+        color: $color__mainb;
+      }
+    }
   }
   .event-time-container {
     @extend .center-column;
@@ -15,23 +29,73 @@
       background-size: 100px 100px;
       height: 100px;
       width: 100px;
+      margin-bottom: 20px;
+      @extend .center-column;
+      @include tablet {
+        margin-right: 40px;
+      }
       .event-date {
+        h5:first-child {
+          font-size: 1rem;
+          text-transform: uppercase;
+          transform: translate(14%, -23%);
+        }
+        h5:last-child {
+          font-size: 50px;
+          transform: translate(2%, -14%);
+        }
       }
     }
     .event-when-where {
       display: flex;
       flex-direction: column;
+      width: 250px;
+      text-align: center;
+      @include tablet {
+        width: 450px;
+        text-align: left;
+      }
       .bold {
         font-weight: bold;
       }
+      p {
+        margin-bottom: 20px;
+        @include tablet {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .header2-a {
+    margin-bottom: 0;
+    @include tablet {
+      margin-bottom: 20px;
+      font-size: 3.5rem;
+    }
+  }
+  .header3 {
+    margin-top: 0;
+    @include tablet {
+      margin: 0;
+      font-size: 2rem;
     }
   }
   .header5-b {
     margin: 0;
   }
   .body {
+    text-align: center;
+    @include tablet {
+      text-align: left;
+    }
     p {
-      width: 800px;
+      width: 350px;
+      @include tablet {
+          width: 600px;
+      }
+      @include desktop {
+          width: 800px;
+      }
     }
   }
 }
