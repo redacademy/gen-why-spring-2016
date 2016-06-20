@@ -20,6 +20,11 @@ get_header(); ?>
 				?>
 			</header><!-- .page-header -->
 
+			<!-- Upcoming Event -->
+
+			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
+
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
