@@ -28,15 +28,16 @@ get_header(); ?>
 				<h2 class="header2-a">Past Works</h2>
 				<?php get_search_form(); ?>
 			</div>
+			<section class="past-works-containter">
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+					<?php
+						get_template_part( 'template-parts/content', 'past-works' );
+					?>
 
-				<?php
-					get_template_part( 'template-parts/content', 'past-works' );
-				?>
-
-			<?php endwhile; ?>
+				<?php endwhile; ?>
+			</section>
 
 			<?php the_posts_navigation(); ?>
 

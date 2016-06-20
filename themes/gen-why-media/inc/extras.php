@@ -141,3 +141,65 @@ function genwhy_watch_documentary() {
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
 
+/* event-clips custom field section */
+
+//Custom Function for setting Featured Image as header for Watch page
+function genwhy_events_clips_header() {
+
+  if( !is_page_template( 'event-clips.php' ) ) {
+    return ;
+  }
+
+   $custom_css = 
+           ".watchhero{
+                  background:
+                 linear-gradient(
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
+                 ),
+                 url('". CFS()->get('header_image') ."');
+               display: flex;
+               background-size: cover;
+               background-position: bottom;
+               height: 45vh;
+               width: 1340px;
+               padding-top: 0;
+               margin: 0 auto;
+               justify-content: center; 
+               align-items: center;
+               color: white;
+           }";
+   wp_add_inline_style( 'genwhy-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'genwhy_events_clips_header' );
+
+//Custom Function for setting Image for Event Clips on Watch page
+function genwhy_events_clips() {
+
+  if( !is_page_template( 'event-clips.php' ) ) {
+    return ;
+  }
+
+   $custom_css = 
+           ".events-clipsbg{
+                  background:
+                 linear-gradient(
+                 rgba(238, 108, 77, 0.55),
+                 rgba(238, 108, 77, 0.55)
+                 ),
+                 url('". CFS()->get('event_clips_image') ."');
+               display: block;
+               background-size: cover;
+               background-position: bottom;
+               height: 39.5vh;
+               margin: 0 auto;
+
+               width: 1340px;
+               padding-top: 0;
+               text-align: center;
+               color: white;
+           }";
+   wp_add_inline_style( 'genwhy-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'genwhy_events_clips' );
+
