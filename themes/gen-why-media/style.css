@@ -954,6 +954,17 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.front-page .site-header {
+  animation: site-header-background 10s 0s 1; }
+  @media (min-width: 700px) {
+    .front-page .site-header {
+      animation: site-header-background 0s 0s 0; } }
+  .front-page .site-header h1 {
+    animation: logo 8s 0s 1; }
+    @media (min-width: 700px) {
+      .front-page .site-header h1 {
+        animation: logo 0s 0s 0; } }
+
 .site-header {
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #000;
