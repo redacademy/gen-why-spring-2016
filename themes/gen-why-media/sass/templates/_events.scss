@@ -3,8 +3,10 @@
     @extend .center-column;
   }
   .event-time-container {
-    display: flex;
-    align-items: center;
+    @extend .center-column;
+    @include tablet {
+      flex-direction: row;
+    }
     p {
       margin: 0;
     }
@@ -21,6 +23,9 @@
         font-weight: bold;
       }
     }
+  }
+  .header5-b {
+    margin: 0;
   }
   .body {
     p {

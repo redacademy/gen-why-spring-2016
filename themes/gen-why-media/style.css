@@ -171,7 +171,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info {
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1483,25 +1483,30 @@ footer .site-info {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
 
-.event-container .event-time-container {
+@media (min-width: 700px) {
+  .event-container .event-time-container {
+    -ms-flex-direction: row;
+        flex-direction: row; } }
+
+.event-container .event-time-container p {
+  margin: 0; }
+
+.event-container .event-time-container .calender-icon {
+  background: url(../../assets/icons/calender-icon.png) no-repeat;
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px; }
+
+.event-container .event-time-container .event-when-where {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center; }
-  .event-container .event-time-container p {
-    margin: 0; }
-  .event-container .event-time-container .calender-icon {
-    background: url(../../assets/icons/calender-icon.png) no-repeat;
-    background-size: 100px 100px;
-    height: 100px;
-    width: 100px; }
-  .event-container .event-time-container .event-when-where {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column; }
-    .event-container .event-time-container .event-when-where .bold {
-      font-weight: bold; }
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .event-container .event-time-container .event-when-where .bold {
+    font-weight: bold; }
+
+.event-container .header5-b {
+  margin: 0; }
 
 .event-container .body p {
   width: 800px; }
