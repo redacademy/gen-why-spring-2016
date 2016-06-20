@@ -21,8 +21,10 @@
 
 			<div class="event-time-container">
 				<div class="calender-icon">
-					<?php echo CFS()->get( 'month' ); ?>
-					<?php echo CFS()->get( 'day' ); ?>
+					<div class="event-date">
+						<p><?php echo CFS()->get( 'month' ); ?></p>
+						<p><?php echo CFS()->get( 'day' ); ?></p>
+					</div>
 				</div>
 				<div class="event-when-where">
 					<p><span class="bold">When: </span><?php echo CFS()->get( 'when' ); ?></p>
