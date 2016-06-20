@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Watch Template
+ * Template Name: Event Clips Page
  *
  * @package Genwhy_Theme
  */

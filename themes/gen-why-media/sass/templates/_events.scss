@@ -3,8 +3,10 @@
     @extend .center-column;
   }
   .event-time-container {
-    display: flex;
-    align-items: center;
+    @extend .center-column;
+    @include tablet {
+      flex-direction: row;
+    }
     p {
       margin: 0;
     }
@@ -13,6 +15,8 @@
       background-size: 100px 100px;
       height: 100px;
       width: 100px;
+      .event-date {
+      }
     }
     .event-when-where {
       display: flex;
@@ -21,6 +25,9 @@
         font-weight: bold;
       }
     }
+  }
+  .header5-b {
+    margin: 0;
   }
   .body {
     p {
