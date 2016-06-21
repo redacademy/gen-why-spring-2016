@@ -1197,7 +1197,7 @@ section h3 {
       .latest-event .latest-event-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) center center;
         height: 450px;
-        width: 95%; } }
+        width: 100%; } }
 
 .video-wrapper {
   position: relative;
@@ -1573,9 +1573,6 @@ footer .site-info {
     height: 300px;
     padding-bottom: 30px;
     width: 100%; }
-    @media (min-width: 1340px) {
-      .what-we-doing .what-we-doing-img {
-        width: 95%; } }
 
 @media (min-width: 1340px) {
   .blue-circle {
@@ -1614,7 +1611,6 @@ footer .site-info {
     @media (min-width: 1340px) {
       .create-change .create-change-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) center center;
-        width: 95%;
         height: 300px; } }
 
 .inspire-btn a {
@@ -1643,8 +1639,7 @@ footer .site-info {
     @media (min-width: 1340px) {
       .prev-parts .prev-parts-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
-        height: 450px;
-        width: 95%; } }
+        height: 450px; } }
     .prev-parts .prev-parts-img .partner-logos img {
       height: 70px; }
       @media (min-width: 700px) {
