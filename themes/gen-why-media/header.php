@@ -27,14 +27,26 @@
 					</a>
 				</div><!-- .site-branding -->
 
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				</nav><!-- #site-navigation -->
+			</header><!-- .site-header -->
+
+			<header id="masthead" class="site-header-mobile" role="banner">
+				<div class="site-branding">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+					</a>
+				</div><!-- .site-branding -->
+
 				<input type="checkbox" id="hamburger"/>
 				<label class="menuicon" for="hamburger">
-				  <span></span>
+					<span></span>
 				</label>
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
+			</header><!-- .site-header-mobile -->
 
-			</header><!-- #masthead -->
 			<div id="content" class="site-content">
