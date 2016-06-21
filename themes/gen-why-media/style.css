@@ -1331,6 +1331,33 @@ section h3 {
   position: relative;
   padding: 15px;
   height: 450px; }
+  .page-template-services .services-hero-banner .services-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../assets/images/harmony_banner.jpg);
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    color: white;
+    margin-bottom: 1px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
   .page-template-services .services-hero-banner .services-hero-title {
     color: #fff;
     z-index: 2;
