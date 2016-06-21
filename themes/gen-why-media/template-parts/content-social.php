@@ -15,7 +15,6 @@
 
 		<div class="twit-connect connect-wrapper">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter-icon.png" alt="Twitter" />
-			<p>TWITTERTWITTERTWITTER</p>
 			<a href="#" class="connect-btn twit-btn">Follow</a>
 		</div>
 

@@ -131,13 +131,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: 300;
   line-height: 40px; }
 
-.body-b,
-.body-b a {
+.body-b, .projects-page h2 a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: bold;
-  line-height: 40px; }
+  line-height: 20px; }
 
 .body-b-rev {
   color: #4a4a4a;
@@ -712,7 +711,7 @@ html, body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   overflow: hidden;
-  width: 0px;
+  width: 0;
   height: 0;
   min-height: 70px;
   transition-duration: 0.2s;
@@ -891,6 +890,9 @@ li {
 .entry-content {
   padding: 20px; }
 
+.site-content {
+  margin-top: 70px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -955,18 +957,79 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.front-page .site-header {
-  animation: site-header-background 10s 0s 1; }
+.front-page .site-header-mobile {
+  animation: site-header-background 6s 0s 1;
+  height: inherit; }
   @media (min-width: 700px) {
-    .front-page .site-header {
+    .front-page .site-header-mobile {
+      display: none;
       animation: site-header-background 0s 0s 0; } }
-  .front-page .site-header h1 {
-    animation: logo 8s 0s 1; }
+  .front-page .site-header-mobile h1 {
+    animation: logo 5s 0s 1;
+    background-size: 60px 60px;
+    background-position: 20px 10px;
+    height: 70px; }
     @media (min-width: 700px) {
-      .front-page .site-header h1 {
+      .front-page .site-header-mobile h1 {
         animation: logo 0s 0s 0; } }
 
+.site-header-mobile {
+  top: 45px;
+  height: inherit;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #000;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  display: inline; }
+  @media (min-width: 700px) {
+    .site-header-mobile {
+      display: none; } }
+  .site-header-mobile a {
+    color: #000;
+    text-transform: uppercase; }
+    .site-header-mobile a:hover {
+      color: #ee6c4d;
+      border-bottom: 1px solid #ee6c4d; }
+  .site-header-mobile h1 {
+    background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
+    background-size: 60px 60px;
+    background-position: 20px 10px;
+    height: 70px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap; }
+
 .site-header {
+  display: none; }
+  @media (min-width: 700px) {
+    .site-header {
+      background-color: transparent;
+      margin: 0 auto;
+      height: 70px;
+      width: 100%;
+      position: absolute;
+      z-index: 99;
+      display: inline; } }
+  .site-header a {
+    color: white;
+    text-transform: uppercase; }
+    .site-header a:hover {
+      color: #ee6c4d;
+      border-bottom: 1px solid #ee6c4d; }
+  .site-header h1 {
+    background: url("../../assets/logos/genwhy-logo-white.png") no-repeat;
+    background-size: 60px 60px;
+    background-position: 20px 10px;
+    height: 70px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap; }
+
+.site-header-fixed {
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #000;
   margin: 0 auto;
@@ -974,22 +1037,21 @@ object {
   height: inherit;
   width: 100%;
   z-index: 999; }
-  .site-header a {
+  .site-header-fixed a {
     color: #000;
     text-transform: uppercase; }
-    .site-header a:hover {
+    .site-header-fixed a:hover {
       color: #ee6c4d;
       border-bottom: 1px solid #ee6c4d; }
-
-.site-header h1 {
-  background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
-  background-size: 60px 60px;
-  background-position: 20px 10px;
-  height: 70px;
-  margin: 0;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap; }
+  .site-header-fixed h1 {
+    background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
+    background-size: 60px 60px;
+    background-position: 20px 10px;
+    height: 70px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap; }
 
 .container {
   display: -ms-flexbox;
@@ -1031,7 +1093,7 @@ section h3 {
   transform: scale(2); }
   @media (min-width: 700px) {
     .hero-slider-container .banner-wrap {
-      height: 600px;
+      height: 500px;
       transform: scale(1); } }
   @media (min-width: 1240px) {
     .hero-slider-container .banner-wrap {
@@ -1267,7 +1329,7 @@ section h3 {
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
-  height: 46vh;
+  height: 22vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1287,12 +1349,28 @@ section h3 {
 
 .projects-page .entry-content {
   margin: 0;
-  padding: 0 40px;
-  width: 78%; }
+  padding: 0 20px;
+  width: 75%; }
+  @media (min-width: 700px) {
+    .projects-page .entry-content {
+      padding: 0 40px;
+      width: 78%; } }
+  .projects-page .entry-content p {
+    font-size: 0.9rem;
+    line-height: 24px; }
 
-.projects-page h2 {
-  font-size: 2rem;
-  margin-bottom: 0; }
+.projects-page h2.header2-a {
+  font-size: 36px;
+  line-height: 0; }
+
+.projects-page h2 a {
+  font-size: 0.8rem;
+  margin: 0; }
+
+.projects-page .entry-title {
+  font-size: 10px;
+  margin: 0 0 -18px;
+  text-align: left; }
 
 .projects-page fieldset {
   border: 1px solid;
@@ -1337,8 +1415,11 @@ section h3 {
       width: 50%; } }
 
 .past-works-container {
-  margin: 60px auto;
-  width: 77%; }
+  margin: 30px auto;
+  width: 88%; }
+  @media (min-width: 700px) {
+    .past-works-container {
+      margin: 60px auto; } }
 
 .h2-change {
   margin-top: auto;

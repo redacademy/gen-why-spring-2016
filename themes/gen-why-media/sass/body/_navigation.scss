@@ -156,9 +156,9 @@ html,body {
 	flex-direction: row;
 	justify-content: space-around;
 	overflow: hidden;
-  width: 0px;
+  width: 0;
   height: 0;
-  	min-height: 70px;
+  min-height: 70px;
   -webkit-transition-duration: $animationDuration;
   -moz-transition-duration: $animationDuration;
   -ms-transition-duration: $animationDuration;
