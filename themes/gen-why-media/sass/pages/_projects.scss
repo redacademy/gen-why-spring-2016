@@ -19,16 +19,33 @@
 	}
 	.entry-content {
 		margin: 0;
-		padding: 0 40px;
-		width: 78%;
+		padding: 0 20px;
+		width: 75%;
+		@include tablet {
+			padding: 0 40px;
+			width: 78%;
+		}
 		p {
 			@extend .body-a;
+			font-size: 0.9rem;
+			line-height: 24px;
 		}
 	}
-	h2 {
-		font-size: 2rem;
-		margin-bottom: 0;
+	h2.header2-a {
+		font-size: 36px;
+		line-height: 0;
 	}
+	h2 a {
+		font-size: 0.8rem;
+		margin: 0;
+		@extend .body-b;
+	}
+	.entry-title {
+		font-size: 10px;
+		margin: 0 0 -18px;
+		text-align: left;
+	}
+
 	fieldset {
 		border: 1px solid;
 		border-color: #ccc #ccc #bbb;
@@ -57,6 +74,11 @@
 	}
 }
 
+// .projects-page .body-b a {
+// 	font-size: 18px;
+// 	line-height: 1;
+// }
+
 .sub-title {
 	text-align: center;
 }
@@ -75,6 +97,9 @@
 }
 
 .past-works-container {
-	margin: 60px auto;
-	width: 77%;
+	margin: 30px auto;
+	@include tablet {
+		margin: 60px auto;
+	}
+	width: 88%;
 }
