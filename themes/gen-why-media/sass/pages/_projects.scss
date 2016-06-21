@@ -12,6 +12,9 @@
 	}
 	.entry-content {
 		width: 78%;
+		p {
+			@extend .body-a;
+		}
 	}
 }
 
