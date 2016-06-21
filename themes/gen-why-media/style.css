@@ -971,15 +971,6 @@ object {
         animation: logo 0s 0s 0; } }
 
 .site-header-mobile {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  animation: site-header-background 3s 0s 1;
-=======
-  top: 45px;
->>>>>>> 2f42ec9a9041293a1ea70430018a974769618df2
-  height: inherit;
->>>>>>> 68fc54e3f0bb2bc59bc95acabe393dc368a69f04
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #000;
   margin: 0 auto;
@@ -1004,15 +995,7 @@ object {
     margin: 0;
     overflow: hidden;
     text-indent: 100%;
-<<<<<<< HEAD
-    white-space: nowrap;
-    animation: logo 3s 0s 1; }
-    @media (min-width: 700px) {
-      .site-header-mobile h1 {
-        animation: logo 0s 0s 0; } }
-=======
     white-space: nowrap; }
->>>>>>> 68fc54e3f0bb2bc59bc95acabe393dc368a69f04
 
 .site-header {
   display: none; }
