@@ -30,7 +30,7 @@ function genwhy_watch_header() {
 		return ;
 	}
 
-   $custom_css = 
+   $custom_css =
            ".watchhero{
                   background:
                  linear-gradient(
@@ -45,7 +45,7 @@ function genwhy_watch_header() {
                width: 1340px;
                padding-top: 0;
                margin: 0 auto;
-               justify-content: center; 
+               justify-content: center;
                align-items: center;
                color: white;
            }";
@@ -60,7 +60,7 @@ function genwhy_watch_event() {
     return ;
   }
 
-   $custom_css = 
+   $custom_css =
            ".eventbg{
                   background:
                  linear-gradient(
@@ -89,7 +89,7 @@ function genwhy_watch_short() {
     return ;
   }
 
-   $custom_css = 
+   $custom_css =
            ".shortbg{
                   background:
                  linear-gradient(
@@ -118,7 +118,7 @@ function genwhy_watch_documentary() {
     return ;
   }
 
-   $custom_css = 
+   $custom_css =
            ".docbg{
                   background:
                  linear-gradient(
@@ -149,7 +149,7 @@ function genwhy_events_clips_header() {
     return ;
   }
 
-   $custom_css = 
+   $custom_css =
            ".eventhero{
                   background:
                  linear-gradient(
@@ -164,7 +164,7 @@ function genwhy_events_clips_header() {
                width: 1340px;
                padding-top: 0;
                margin: 0 auto;
-               justify-content: center; 
+               justify-content: center;
                align-items: center;
                color: white;
                margin-bottom: 1px;
@@ -180,7 +180,7 @@ function genwhy_eventone_clips() {
     return ;
   }
 
-   $custom_css = 
+   $custom_css =
            ".eventone-bg{
                   background:
                  linear-gradient(
@@ -209,7 +209,7 @@ function genwhy_eventtwo_clips() {
     return ;
   }
 
-   $custom_css = 
+   $custom_css =
            ".eventtwo-bg{
                   background:
                  linear-gradient(
@@ -231,3 +231,41 @@ function genwhy_eventtwo_clips() {
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_eventtwo_clips' );
 
+//Custom Function for setting Featured Image as header for Watch page
+function genwhy_services_header() {
+
+  if( !is_page_template( 'services.php' ) ) {
+    return ;
+  }
+
+   $custom_css =
+           ".service-hero{
+                  background:
+                 linear-gradient(
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
+                 ),
+                 url('". CFS()->get('header_image') ."');
+               display: flex;
+               background-size: cover;
+               background-position: center;
+               height: 600px;
+               width: 100%;
+               padding-top: 0;
+               margin: 0 auto;
+               justify-content: center;
+               align-items: center;
+               color: white;
+               margin-bottom: 1px;
+           }";
+   wp_add_inline_style( 'genwhy-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'genwhy_services_header' );
+
+// Archive Projects Title Filter
+function genwhy_filter_titles() {
+	if (is_post_type_archive('projects_cpt')){
+		return 'Projects';
+	}
+}
+add_filter('get_the_archive_title','genwhy_filter_titles');
