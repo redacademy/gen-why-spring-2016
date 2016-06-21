@@ -21,9 +21,10 @@ get_header(); ?>
 			</header><!-- .page-header -->
 
 			<!-- Upcoming Event -->
-
-			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
-
+			<section id="scroll-target">
+				<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
+			</section>
+			
 			<div class="sub-title">
 				<h2 class="header2-a">Past Works</h2>
 				<?php get_search_form(); ?>

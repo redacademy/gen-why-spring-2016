@@ -20,7 +20,7 @@ get_header(); ?>
 						</div>
 				</div><!-- .services-hero-banner -->
 
-				<div class="services-sub-banner">
+				<div id="scroll-target" class="services-sub-banner">
 					<div class="services-info">
 							<p>Gen Why Media is a female owned and operated creative engagement agency. We specialize in new forms of public participation and cross-generational dialogue.</p>
 					</div>

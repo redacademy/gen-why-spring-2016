@@ -12,7 +12,7 @@
 		<?php the_title( '<h1 class="entry-title header1">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div id="scroll-target" class="entry-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(

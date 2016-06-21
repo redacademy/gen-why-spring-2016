@@ -12,9 +12,9 @@ get_header(); ?>
 			<div class="watchhero">
 				<h1 class="header1">Watch</h1>
 			</div>
-			<div class="eventbg watch-center">
+			<div id="scroll-target" class="eventbg watch-center">
 				<h2 class="header2-b h2-change">Event Clips</h2>
-				<a href="event-clips" class="button button-a fom-button">Find Out More</a>		
+				<a href="event-clips" class="button button-a fom-button">Find Out More</a>
 			</div>
 			<div class="shortbg watch-center">
 				<h2 class="header2-b h2-change">Short Videos</h2>
