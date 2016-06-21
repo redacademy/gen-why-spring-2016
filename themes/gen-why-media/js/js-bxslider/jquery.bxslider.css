@@ -16,8 +16,9 @@
 
 .bx-wrapper {
 	position: relative;
+	margin: 0 auto 60px;
 	padding: 0;
-	zoom: 1;
+	*zoom: 1;
 }
 
 .bx-wrapper img {
@@ -29,7 +30,13 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border:  5px solid #fff;
+	left: -5px;
+	background: #fff;
+	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -60,67 +67,24 @@
 
 /* PAGER */
 
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
 .bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
 	display: inline-block;
-	zoom: 1;
-	display: inline;
+	*zoom: 1;
+	*display: inline;
 }
 
-/* Hero Banner Slider */
-
-.hero-slider-container .bx-wrapper .bx-pager  {
-	display: flex;
-  justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: .85em;
-	font-family: Arial;
-	font-weight: bold;
-	color: #666;
-	padding-top: 20px;
-	position: absolute;
-	bottom: 40px;
-}
-
-.hero-slider-container .bx-wrapper .bx-default-pager a {
-	background: rgba(224, 224, 224, 0.6);
-	text-indent: -9999px;
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: 0 5px;
-	outline: 0;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	border: 2px solid rgba(224, 224, 224, 0.6);
-}
-
- .hero-slider-container .bx-wrapper .bx-pager.bx-default-pager a:hover,
- .hero-slider-container .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: transparent;
-	border: 2px solid rgba(224, 224, 224, 0.6);
-}
-
-/* Review Section */
-
-.reviews-container .bx-wrapper .bx-pager  {
-	display: flex;
-  justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: .85em;
-	font-family: Arial;
-	font-weight: bold;
-	color: #666;
-	padding-top: 20px;
-	position: absolute;
-	bottom: 1px;
-}
-
-.reviews-container .bx-wrapper .bx-default-pager a {
-	background: rgba(194, 194, 194, 1);
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -132,13 +96,22 @@
 	border-radius: 5px;
 }
 
- .reviews-container .bx-wrapper .bx-pager.bx-default-pager a:hover,
- .reviews-container .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: rgb(62, 62, 62);
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000;
 }
-
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(images/controls.png) no-repeat -43px -32px;
+}
 
 .bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
@@ -217,7 +190,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: #666;
+	background: #666\9;
 	background: rgba(80, 80, 80, 0.75);
 	width: 100%;
 }
@@ -228,19 +201,4 @@
 	display: block;
 	font-size: .85em;
 	padding: 10px;
-}
-
-/* *** MEDIA QUERIES *** */
-
-@media (min-width: 700px) {
-	.hero-slider-container .bx-wrapper .bx-pager  {
-		bottom: 60px;
-	}
-	.hero-slider-container .bx-wrapper .bx-default-pager a {
-		width: 15px;
-		height: 15px;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
-		border-radius: 10px;
-	}
 }
