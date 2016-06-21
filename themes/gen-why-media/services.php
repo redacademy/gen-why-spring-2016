@@ -11,22 +11,22 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<!-- Service Hero Banner -->
-			<section class="services-hero-banner">
+			<section class="services-hero-container">
 
-				<div class="services-hero-container">
+				<div class="services-hero-banner">
 						<div class="services-hero"></div>
 						<div class="services-hero-title">
 							<h1 class="header1"><?php the_title(); ?></h1>
 						</div>
-				</div><!-- .services-hero-container -->
+				</div><!-- .services-hero-banner -->
 
 				<div class="services-sub-banner">
 					<div class="services-info">
 							<p>Gen Why Media is a female owned and operated creative engagement agency. We specialize in new forms of public participation and cross-generational dialogue.</p>
 					</div>
-					<div class="services-ball"></div>
+					<div class="services-circle"></div>
 				</div><!-- .services-sub-banner -->
-			</section><!-- .services-hero-banner -->
+			</section><!-- .services-hero-container -->
 
 			<!-- What We Offer -->
 
@@ -43,38 +43,47 @@ get_header(); ?>
 							<h3 class="header3-b">Engagement</h3>
 						 </li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Public Art" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/public-art.png" alt="Public Art" />
 							<h3 class="header3-b">Public Art</h3>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Events" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/events.png" alt="Events" />
 							<h3 class="header3-b">Events</h3>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Film" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/film.png" alt="Film" />
 							<h3 class="header3-b">Film</h3>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Connect" />
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/audience.png" alt="Connect" />
 							<h3 class="header3-b">Audience</h3>
 						</li>
 					</ul>
 				</div>
 			</section><!-- .what-we-offer -->
 
-			<?php echo CFS()->get( 'where' ); ?>
 
 			<!-- Want to Create Social Change? -->
-			<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
+			<?php get_template_part( 'template-parts/content', 'social-change' ); ?>
+
+			<!-- Our Story -->
+
+			<section class="our-story-container">
+					<div class="founder-banner"></div>
+					<h2 class="header2-a">Our Story</h2>
+					<div class="our-story-info">
+							<?php echo CFS()->get( 'our_story' ); ?>
+					</div>
+			</section>
 
 			<!-- Previous Partners -->
-			<?php get_template_part( 'template-parts/content', 'prev-parts' ); ?><!-- .prev-parts -->
+			<?php get_template_part( 'template-parts/content', 'prev-parts' ); ?>
 
 			<!-- What we are doing -->
-			<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?><!-- .what-we-doing -->
+			<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?>
 
 			<!-- Stay Connected With Us -->
-			<?php get_template_part( 'template-parts/content', 'social' ); ?><!-- .connect-us -->
+			<?php get_template_part( 'template-parts/content', 'social' ); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

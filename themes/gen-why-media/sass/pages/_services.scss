@@ -12,7 +12,7 @@
 
 // Service Hero Banner
 
-.services-hero-container {
+.services-hero-banner {
   position: relative;
 	padding:15px;
   height: 450px;
@@ -29,7 +29,7 @@
   }
 }
 
-// Orange Banner
+// Sub Banner
 
 .services-sub-banner {
   display: none;
@@ -53,15 +53,15 @@
         font-size: 1.8rem;
       }
   }
-  .services-ball {
+  .services-circle {
     @include desktop {
-      background: $color__oj;
       border-radius: 50%;
       height: 70px;
       left: 666px;
       position: absolute;
       top: 215px;
       width: 70px;
+      background: $color__oj;
     }
   }
 }
@@ -101,7 +101,7 @@
       @include desktop {
         flex: none;
         height: 200px;
-        width: 240px;
+        width: 228px;
       }
       &:last-child {
         @include desktop {
@@ -114,7 +114,7 @@
           height: 80px;
         }
         @include desktop {
-          height: 90px;
+          height: 80px;
         }
       }
       .engagement {
@@ -122,10 +122,11 @@
         margin-bottom: 20px;
         @include tablet {
           height: 50px;
+          margin-bottom: 30px;
         }
         @include desktop {
           height: 60px;
-          margin-bottom: 30px;
+          margin-bottom: 20px;
         }
       }
       h3 {
@@ -137,6 +138,23 @@
           font-size: 2.5rem;
         }
       }
+    }
+  }
+}
+
+// Our Story
+
+.our-story-container {
+  .our-story-info {
+    @extend .center-column;
+  }
+  p {
+    width: 350px;
+    @include tablet {
+      width: 600px;
+    }
+    @include desktop {
+      width: 800px;
     }
   }
 }
