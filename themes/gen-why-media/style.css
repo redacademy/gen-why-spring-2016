@@ -956,7 +956,7 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-header-mobile {
-  animation: site-header-background 10s 0s 1;
+  animation: site-header-background 3s 0s 1;
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #000;
   margin: 0 auto;
@@ -984,7 +984,7 @@ object {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    animation: logo 8s 0s 1; }
+    animation: logo 3s 0s 1; }
     @media (min-width: 700px) {
       .site-header-mobile h1 {
         animation: logo 0s 0s 0; } }
@@ -1016,21 +1016,25 @@ object {
     text-indent: 100%;
     white-space: nowrap; }
 
-.site-header-fixed {
-  background-color: rgba(255, 255, 255, 0.9);
-  border-bottom: 1px solid #000;
-  margin: 0 auto;
-  position: fixed;
-  height: inherit;
-  width: 100%;
-  z-index: 999; }
-  .site-header-fixed a {
+.sticky .site-header {
+  display: none; }
+  @media (min-width: 700px) {
+    .sticky .site-header {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-bottom: 1px solid #000;
+      display: inline;
+      margin: 0 auto;
+      position: fixed;
+      height: inherit;
+      width: 100%;
+      z-index: 999; } }
+  .sticky .site-header a {
     color: #000;
     text-transform: uppercase; }
-    .site-header-fixed a:hover {
+    .sticky .site-header a:hover {
       color: #ee6c4d;
       border-bottom: 1px solid #ee6c4d; }
-  .site-header-fixed h1 {
+  .sticky .site-header h1 {
     background: url("../../assets/logos/genwhy-logo-black.png") no-repeat;
     background-size: 60px 60px;
     background-position: 20px 10px;
@@ -1081,10 +1085,11 @@ section h3 {
   @media (min-width: 700px) {
     .hero-slider-container .banner-wrap {
       height: 500px;
-      transform: scale(1); } }
+      transform: scale(1.2); } }
   @media (min-width: 1240px) {
     .hero-slider-container .banner-wrap {
-      height: 800px; } }
+      height: 800px;
+      transform: scale(1); } }
   .hero-slider-container .banner-wrap .banner-image {
     background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55));
     padding: 0; }

@@ -36,10 +36,11 @@ section {
     transform: scale(2);
     @include tablet {
       height: 500px;
-      transform: scale(1);
+      transform: scale(1.2);
     }
     @include desktop {
       height: 800px;
+      transform: scale(1);
     }
     .banner-image {
       background: linear-gradient($color__lin-b, $color__lin-b);
