@@ -2,7 +2,9 @@
 	.page-header {
 		background: linear-gradient($color__lin-b, $color__lin-b), url('../../assets/images/bg-projects.png') center/cover;
 		height: 210px;
-		// height: 460px;
+		@include desktop {
+			height: 460px;
+		}
 		display: flex;
 		justify-content: center;
 		align-items: center;
