@@ -131,7 +131,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-weight: 300;
   line-height: 40px; }
 
-.body-b {
+.body-b,
+.body-b a {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -1275,8 +1276,22 @@ section h3 {
   -ms-flex-align: center;
       align-items: center; }
 
+.projects-page .entry-header {
+  width: 20%; }
+
 .sub-title {
   text-align: center; }
+
+.past-works-container,
+.projects_cpt {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.past-works-container {
+  margin: 60px auto;
+  width: 77%; }
 
 .h2-change {
   margin-top: auto;
