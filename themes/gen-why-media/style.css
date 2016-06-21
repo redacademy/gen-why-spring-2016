@@ -1276,6 +1276,9 @@ section h3 {
   -ms-flex-align: center;
       align-items: center; }
 
+.projects-page .entry-header {
+  width: 20%; }
+
 .sub-title {
   text-align: center; }
 
