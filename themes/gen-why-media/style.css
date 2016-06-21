@@ -1,9 +1,9 @@
 /*!
-Theme Name: Gen Why Theme
+Theme Name: RED Starter Theme
 Theme URI: http://underscores.me/
-Author: Kurtis Young, Michael Cho, Hunter Winterhalt
+Author: RED Academy
 Author URI: http://www.redacademy.com
-Description: A WordPress starter theme for Gen Why Media
+Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Tags:
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Gen Why Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+RED Starter Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -87,7 +87,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 48px;
   line-height: 60px; }
 
-.header4-sub {
+.header4-sub, .services-sub-banner .services-info {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 36px;
@@ -1083,14 +1083,14 @@ section h3 {
     @media (min-width: 1340px) {
       .hero-slider-container .banner-info p {
         font-size: 1.8rem; } }
-  .hero-slider-container .banner-info .header4-sub {
+  .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
     width: 150px;
     line-height: 1; }
     @media (min-width: 700px) {
-      .hero-slider-container .banner-info .header4-sub {
+      .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
         width: 600px; } }
     @media (min-width: 1340px) {
-      .hero-slider-container .banner-info .header4-sub {
+      .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
         width: 700px; } }
 
 .get-involved ul {
@@ -1306,6 +1306,47 @@ section h3 {
 
 .fom-button:visited {
   color: white; }
+
+.services-hero-container {
+  position: relative;
+  padding: 15px;
+  height: 450px; }
+  .services-hero-container .services-hero-title {
+    color: #fff;
+    z-index: 2;
+    left: 50%;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; }
+
+.services-sub-banner {
+  display: none; }
+  @media (min-width: 700px) {
+    .services-sub-banner {
+      display: -ms-flexbox;
+      display: flex;
+      background: #ee6c4d;
+      height: 250px;
+      width: 100%;
+      -ms-flex-pack: center;
+          justify-content: center;
+      position: relative; } }
+  .services-sub-banner .services-info {
+    font-size: 1.8rem;
+    width: 800px;
+    text-align: center;
+    font-weight: 400; }
+  @media (min-width: 1340px) {
+    .services-sub-banner .services-ball {
+      background: #ee6c4d;
+      border-radius: 50%;
+      height: 70px;
+      left: 666px;
+      position: absolute;
+      top: 215px;
+      width: 70px; } }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;

@@ -1,0 +1,49 @@
+// Service Hero Banner
+
+.services-hero-container {
+  position: relative;
+	padding:15px;
+  height: 450px;
+  .services-hero-title {
+  	color:#fff;
+  	z-index:2;
+    left:50%;
+    position:relative;
+    text-align: center;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:50%;
+  }
+}
+
+// Orange Banner
+
+.services-sub-banner {
+  display: none;
+  @include tablet {
+      display: flex;
+      background: $color__oj;
+      height: 250px;
+      width: 100%;
+      justify-content: center;
+      position: relative;
+  }
+  .services-info {
+      @extend .header4-sub;
+      font-size: 1.8rem;
+      width: 800px;
+      text-align: center;
+      font-weight: 400;
+  }
+  .services-ball {
+    @include desktop {
+      background: $color__oj;
+      border-radius: 50%;
+      height: 70px;
+      left: 666px;
+      position: absolute;
+      top: 215px;
+      width: 70px;
+    }
+  }
+}

@@ -239,17 +239,17 @@ function genwhy_services_header() {
   }
 
    $custom_css =
-           ".service-hero{
-                  background:
+           ".services-hero{
+                background:
                  linear-gradient(
-                 rgba(51, 75, 127, 0.55),
-                 rgba(51, 75, 127, 0.55)
+                 rgba(0, 0, 0, 0.25),
+                 rgba(0, 0, 0, 0.25)
                  ),
                  url('". CFS()->get('header_image') ."');
                display: flex;
                background-size: cover;
                background-position: center;
-               height: 600px;
+               height: 500px;
                width: 100%;
                padding-top: 0;
                margin: 0 auto;
@@ -257,6 +257,17 @@ function genwhy_services_header() {
                align-items: center;
                color: white;
                margin-bottom: 1px;
+							 -webkit-filter: blur(5px);
+						  -moz-filter: blur(5px);
+						  -o-filter: blur(5px);
+						  -ms-filter: blur(5px);
+						  filter: blur(5px);
+							z-index: -1;
+							position:absolute;
+							left:0;
+							right:0;
+							top:0;
+							bottom:0;
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
