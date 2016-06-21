@@ -1268,13 +1268,16 @@ section h3 {
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
-  height: 460px;
+  height: 210px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 1340px) {
+    .projects-page .page-header {
+      height: 460px; } }
 
 .projects-page .entry-header {
   width: 22%; }
