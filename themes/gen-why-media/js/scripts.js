@@ -9,6 +9,11 @@ jQuery(document).ready(function($){
 
 jQuery(document).ready(function($){
   $('.bxslider-review').bxSlider({
-    controls: false
+        controls: false
   });
+});
+
+// Navigation 
+
+jQuery(document).ready(function($){
 });
