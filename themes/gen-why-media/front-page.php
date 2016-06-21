@@ -8,7 +8,6 @@
  <div class="front-page">
  	<?php 	get_header(); ?>
  </div>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">front-page.php</h4>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
