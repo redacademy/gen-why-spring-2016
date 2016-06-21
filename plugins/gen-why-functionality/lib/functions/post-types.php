@@ -225,41 +225,41 @@ function projects_cpt() {
 }
 add_action( 'init', 'projects_cpt', 0 );
 
-// Video Custom Post Type
-function video_cpt() {
+// Event Cips Custom Post Type
+function event_clips_cpt() {
 
 	$labels = array(
-		'name'                  => 'Videos',
-		'singular_name'         => 'Video',
-		'menu_name'             => 'Videos',
-		'name_admin_bar'        => 'Video',
-		'archives'              => 'Video Archives',
-		'parent_item_colon'     => 'Parent Video:',
-		'all_items'             => 'All Videos',
-		'add_new_item'          => 'Add New Video',
+		'name'                  => 'Event Clips',
+		'singular_name'         => 'Event Clip',
+		'menu_name'             => 'Event Clips',
+		'name_admin_bar'        => 'Event Clips',
+		'archives'              => 'Event Clip Archives',
+		'parent_item_colon'     => 'Parent Event Clip:',
+		'all_items'             => 'All Event Clips',
+		'add_new_item'          => 'Add New Event Clip',
 		'add_new'               => 'Add New',
-		'new_item'              => 'New Video',
-		'edit_item'             => 'Edit Video',
-		'update_item'           => 'Update Video',
-		'view_item'             => 'View Video',
-		'search_items'          => 'Search Video',
+		'new_item'              => 'New Event Clip',
+		'edit_item'             => 'Edit Event Clip',
+		'update_item'           => 'Update Event Clip',
+		'view_item'             => 'View Event Clip',
+		'search_items'          => 'Search Event Clip',
 		'not_found'             => 'Not found',
 		'not_found_in_trash'    => 'Not found in Trash',
 		'featured_image'        => 'Featured Image',
 		'set_featured_image'    => 'Set featured image',
 		'remove_featured_image' => 'Remove featured image',
 		'use_featured_image'    => 'Use as featured image',
-		'insert_into_item'      => 'Insert into Video',
-		'uploaded_to_this_item' => 'Uploaded to this Video',
-		'items_list'            => 'Videos list',
-		'items_list_navigation' => 'Videos list navigation',
-		'filter_items_list'     => 'Filter Videos list',
+		'insert_into_item'      => 'Insert into Event Clip',
+		'uploaded_to_this_item' => 'Uploaded to this Event Clip',
+		'items_list'            => 'Event Clips list',
+		'items_list_navigation' => 'Event Clips list navigation',
+		'filter_items_list'     => 'Filter Event Clips list',
 	);
 	$args = array(
-		'label'                 => 'Video',
-		'description'           => 'Add video urls and descriptions',
+		'label'                 => 'Event Clip',
+		'description'           => 'Upload event clips',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'author', 'revisions', ),
+		'supports'              => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -269,13 +269,120 @@ function video_cpt() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
-		'has_archive'           => true,
-		'rewrite'								 => array('slug' => 'videos'),
+		'has_archive'           => 'event_clips',
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capability_type'       => 'post',
+		'capability_type'       => 'page',
 	);
-	register_post_type( 'video', $args );
+	register_post_type( 'event_clips', $args );
 
 }
-add_action( 'init', 'video_cpt', 0 );
+add_action( 'init', 'event_clips_cpt', 0 );
+
+ // Short Videos Custom Post Type
+function short_videos_cpt() {
+
+    $labels = array(
+        'name'                  => 'Short Videos',
+        'singular_name'         => 'Short Video',
+        'menu_name'             => 'Short Videos',
+        'name_admin_bar'        => 'Short Video',
+        'archives'              => 'Short Video Archives',
+        'parent_item_colon'     => 'Parent Short Video:',
+        'all_items'             => 'All Short Videos',
+        'add_new_item'          => 'Add New Short Video',
+        'add_new'               => 'Add New',
+        'new_item'              => 'New Short Video',
+        'edit_item'             => 'Edit Short Video',
+        'update_item'           => 'Update Short Video',
+        'view_item'             => 'View Short Video',
+        'search_items'          => 'Search Short Video',
+        'not_found'             => 'Not found',
+        'not_found_in_trash'    => 'Not found in Trash',
+        'featured_image'        => 'Featured Image',
+        'set_featured_image'    => 'Set featured image',
+        'remove_featured_image' => 'Remove featured image',
+        'use_featured_image'    => 'Use as featured image',
+        'insert_into_item'      => 'Insert into Short Video',
+        'uploaded_to_this_item' => 'Uploaded to this Short Video',
+        'items_list'            => 'Short Videos list',
+        'items_list_navigation' => 'Short Videos list navigation',
+        'filter_items_list'     => 'Filter Short Videos list',
+    );
+    $args = array(
+        'label'                 => 'Short Video',
+        'description'           => 'Upload short videos',
+        'labels'                => $labels,
+        'supports'              => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', ),
+        'hierarchical'          => false,
+        'public'                => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 5,
+        'menu_icon'             => 'dashicons-video-alt2',
+        'show_in_admin_bar'     => true,
+        'show_in_nav_menus'     => true,
+        'can_export'            => true,
+        'has_archive'           => 'short_videos',
+        'exclude_from_search'   => false,
+        'publicly_queryable'    => true,
+        'capability_type'       => 'page',
+    );
+    register_post_type( 'short_video', $args );
+
+}
+add_action( 'init', 'short_videos_cpt', 0 ); 
+
+// Documentary Custom Post Type
+function documentary_cpt() {
+
+	$labels = array(
+		'name'                  => 'Documentaries',
+		'singular_name'         => 'Documentary',
+		'menu_name'             => 'Documentaries',
+		'name_admin_bar'        => 'Documentary',
+		'archives'              => 'Documentary Archives',
+		'parent_item_colon'     => 'Parent Documentary:',
+		'all_items'             => 'All Documentaries',
+		'add_new_item'          => 'Add New Documentary',
+		'add_new'               => 'Add New',
+		'new_item'              => 'New Documentary',
+		'edit_item'             => 'Edit Documentary',
+		'update_item'           => 'Update Documentary',
+		'view_item'             => 'View Documentary',
+		'search_items'          => 'Search Documentary',
+		'not_found'             => 'Not found',
+		'not_found_in_trash'    => 'Not found in Trash',
+		'featured_image'        => 'Featured Image',
+		'set_featured_image'    => 'Set featured image',
+		'remove_featured_image' => 'Remove featured image',
+		'use_featured_image'    => 'Use as featured image',
+		'insert_into_item'      => 'Insert into Documentary',
+		'uploaded_to_this_item' => 'Uploaded to this Documentary',
+		'items_list'            => 'Documentaries list',
+		'items_list_navigation' => 'Documentaries list navigation',
+		'filter_items_list'     => 'Filter documentaries list',
+	);
+	$args = array(
+		'label'                 => 'Documentary',
+		'description'           => 'Upload Documentary',
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', ),
+		'hierarchical'          => false,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+		'menu_position'         => 5,
+		'menu_icon'             => 'dashicons-editor-video',
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => 'documentary',
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+	);
+	register_post_type( 'documentary_cpt', $args );
+
+}
+add_action( 'init', 'documentary_cpt', 0 );

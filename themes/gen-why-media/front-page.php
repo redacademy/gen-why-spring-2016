@@ -8,7 +8,6 @@
  <div class="front-page">
  	<?php 	get_header(); ?>
  </div>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">front-page.php</h4>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -18,13 +17,13 @@
 			<section class="hero-slider-container">
 
 				<ul class="bxslider-hero hero-banner-list">
-					<?php $query = new WP_Query( array(
+					<?php $hero_image = new WP_Query( array(
 						'post_type' => 'banner_images',
 						'posts_per_page' => 10,
 						'order' => 'ASC',
 						'orderby' => 'name')
 					);
-					while ( $query->have_posts()) : $query->the_post();?>
+					while ( $hero_image->have_posts()) : $hero_image->the_post();?>
 
 						<li>
 							<div class="banner-wrap">
@@ -80,13 +79,13 @@
 				<h2 class="header2-a">What Are People Saying About Us</h2>
 
 					<ul class="bxslider-review reviews-list">
-						<?php $query = new WP_Query( array(
+						<?php $review_loop = new WP_Query( array(
 							'post_type' => 'review_cpt',
 							'posts_per_page' => 4,
 							'order' => 'ASC',
 							'orderby' => 'date')
 						);
-						while ( $query->have_posts()) : $query->the_post();?>
+						while ( $review_loop->have_posts()) : $review_loop->the_post();?>
 							<li>
 								<div class="review-wrap">
 									<div class="review-profile">

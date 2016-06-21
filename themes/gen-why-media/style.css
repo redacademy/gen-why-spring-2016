@@ -87,7 +87,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 48px;
   line-height: 60px; }
 
-.header4-sub {
+.header4-sub, .services-sub-banner .services-info {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 36px;
@@ -172,7 +172,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1083,14 +1083,14 @@ section h3 {
     @media (min-width: 1340px) {
       .hero-slider-container .banner-info p {
         font-size: 1.8rem; } }
-  .hero-slider-container .banner-info .header4-sub {
+  .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
     width: 150px;
     line-height: 1; }
     @media (min-width: 700px) {
-      .hero-slider-container .banner-info .header4-sub {
+      .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
         width: 600px; } }
     @media (min-width: 1340px) {
-      .hero-slider-container .banner-info .header4-sub {
+      .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
         width: 700px; } }
 
 .get-involved ul {
@@ -1309,6 +1309,131 @@ section h3 {
 
 .fom-button:visited {
   color: white; }
+
+.page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+  font-size: 2.5rem; }
+  @media (min-width: 700px) {
+    .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+      font-size: 4rem; } }
+  @media (min-width: 1340px) {
+    .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+      font-size: 4.5rem; } }
+
+.page-template-services .services-hero-container {
+  position: relative;
+  padding: 15px;
+  height: 450px; }
+  .page-template-services .services-hero-container .services-hero-title {
+    color: #fff;
+    z-index: 2;
+    left: 50%;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; }
+
+.services-sub-banner {
+  display: none; }
+  @media (min-width: 700px) {
+    .services-sub-banner {
+      display: -ms-flexbox;
+      display: flex;
+      background: #ee6c4d;
+      height: 250px;
+      width: 100%;
+      -ms-flex-pack: center;
+          justify-content: center;
+      position: relative; } }
+  .services-sub-banner .services-info {
+    width: 800px;
+    text-align: center;
+    font-weight: 400; }
+    @media (min-width: 700px) {
+      .services-sub-banner .services-info {
+        font-size: 1.5rem; } }
+    @media (min-width: 1340px) {
+      .services-sub-banner .services-info {
+        font-size: 1.8rem; } }
+  @media (min-width: 1340px) {
+    .services-sub-banner .services-ball {
+      background: #ee6c4d;
+      border-radius: 50%;
+      height: 70px;
+      left: 666px;
+      position: absolute;
+      top: 215px;
+      width: 70px; } }
+
+.what-we-offer {
+  background: white;
+  width: 100%; }
+  .what-we-offer ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    width: 400px; }
+    @media (min-width: 700px) {
+      .what-we-offer ul {
+        width: 800px;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+    @media (min-width: 1340px) {
+      .what-we-offer ul {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        width: 1100px; } }
+    .what-we-offer ul li {
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+      text-align: center; }
+      @media (min-width: 700px) {
+        .what-we-offer ul li {
+          -ms-flex: 1 0 33.33%;
+              flex: 1 0 33.33%;
+          height: 200px;
+          width: 300px; } }
+      @media (min-width: 1340px) {
+        .what-we-offer ul li {
+          -ms-flex: none;
+              flex: none;
+          height: 200px;
+          width: 240px; } }
+      @media (min-width: 1340px) {
+        .what-we-offer ul li:last-child {
+          width: 200px; } }
+      .what-we-offer ul li img {
+        height: 60px; }
+        @media (min-width: 700px) {
+          .what-we-offer ul li img {
+            height: 80px; } }
+        @media (min-width: 1340px) {
+          .what-we-offer ul li img {
+            height: 90px; } }
+      .what-we-offer ul li .engagement {
+        height: 40px;
+        margin-bottom: 20px; }
+        @media (min-width: 700px) {
+          .what-we-offer ul li .engagement {
+            height: 50px; } }
+        @media (min-width: 1340px) {
+          .what-we-offer ul li .engagement {
+            height: 60px;
+            margin-bottom: 30px; } }
+      .what-we-offer ul li h3 {
+        font-size: 1rem; }
+        @media (min-width: 700px) {
+          .what-we-offer ul li h3 {
+            font-size: 1.7rem; } }
+        @media (min-width: 1340px) {
+          .what-we-offer ul li h3 {
+            font-size: 2.5rem; } }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
