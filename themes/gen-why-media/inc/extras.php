@@ -42,7 +42,7 @@ function genwhy_watch_header() {
                background-size: cover;
                background-position: bottom;
                height: 45vh;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                margin: 0 auto;
                justify-content: center;
@@ -73,7 +73,7 @@ function genwhy_watch_event() {
                background-position: bottom;
                height: 39.5vh;
                margin: 0 auto;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                text-align: center;
                color: white;
@@ -102,7 +102,7 @@ function genwhy_watch_short() {
                background-position: bottom;
                height: 39.5vh;
                margin: 0 auto;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                text-align: center;
                color: white;
@@ -131,7 +131,7 @@ function genwhy_watch_documentary() {
                background-position: bottom;
                height: 39.5vh;
                margin: 0 auto;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                text-align: center;
                color: white;
