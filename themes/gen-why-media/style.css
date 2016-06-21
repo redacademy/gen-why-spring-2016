@@ -1280,6 +1280,7 @@ section h3 {
   width: 22%; }
 
 .projects-page .entry-content {
+  margin: 0;
   padding: 0 40px;
   width: 78%; }
 
