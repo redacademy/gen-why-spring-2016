@@ -661,7 +661,7 @@ a {
       left: auto; }
   .main-navigation li {
     float: left;
-    height: 80px;
+    height: 70px;
     margin: 0 auto;
     padding-top: 23px;
     position: relative; }
@@ -714,7 +714,7 @@ html, body {
   overflow: hidden;
   width: 0px;
   height: 0;
-  min-height: 80px;
+  min-height: 20vh;
   transition-duration: 0.2s;
   transition-delay: 0.2s; }
   @media (min-width: 700px) {
@@ -1189,15 +1189,14 @@ section h3 {
   -ms-flex-pack: center;
       justify-content: center; }
   .latest-event .latest-event-img {
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-latest-clips.png) center center;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-latest-clips.png) no-repeat center center;
     background-size: cover;
     height: 300px;
     width: 100%; }
     @media (min-width: 1340px) {
       .latest-event .latest-event-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) center center;
-        height: 450px;
-        width: 100%; } }
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) no-repeat center center;
+        height: 450px; } }
 
 .video-wrapper {
   position: relative;
@@ -1268,13 +1267,14 @@ section h3 {
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
-  height: 210px;
+  height: 46vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  font-size: 1rem; }
   @media (min-width: 1340px) {
     .projects-page .page-header {
       height: 460px; } }
@@ -1286,6 +1286,9 @@ section h3 {
   margin: 0;
   padding: 0 40px;
   width: 78%; }
+
+.projects-page h2 {
+  font-size: 2rem; }
 
 .sub-title {
   text-align: center; }
