@@ -16,9 +16,10 @@
 .past-works-container,
 .projects_cpt {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .past-works-container {
-	width: 77%;
 	margin: 60px auto;
+	width: 77%;
 }

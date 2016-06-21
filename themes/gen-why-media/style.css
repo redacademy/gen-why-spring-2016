@@ -1282,11 +1282,13 @@ section h3 {
 .past-works-container,
 .projects_cpt {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .past-works-container {
-  width: 77%;
-  margin: 60px auto; }
+  margin: 60px auto;
+  width: 77%; }
 
 .h2-change {
   margin-top: auto;
