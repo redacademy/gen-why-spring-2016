@@ -2,7 +2,7 @@
 /**
  * Template part for displaying posts.
  *
- * @package inhabitent_Theme
+ * @package Genwhy_Theme
  */
 
 ?>

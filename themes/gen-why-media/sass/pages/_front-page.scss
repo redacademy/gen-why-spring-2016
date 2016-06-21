@@ -35,7 +35,7 @@ section {
     height: 400px;
     transform: scale(2);
     @include tablet {
-      height: 600px;
+      height: 500px;
       transform: scale(1);
     }
     @include desktop {
