@@ -1292,6 +1292,9 @@ section h3 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+.projects_cpt {
+  width: 50%; }
+
 .past-works-container {
   margin: 60px auto;
   width: 77%; }
