@@ -12,10 +12,40 @@
 
 // Service Hero Banner
 
-.services-hero-container {
+.services-hero-banner {
   position: relative;
 	padding:15px;
   height: 450px;
+  .services-hero{
+       background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
+        ),
+        url(../../assets/images/harmony_banner.jpg);
+      display: flex;
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      width: 100%;
+      padding-top: 0;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      margin-bottom: 1px;
+      -webkit-filter: blur(5px);
+     -moz-filter: blur(5px);
+     -o-filter: blur(5px);
+     -ms-filter: blur(5px);
+     filter: blur(5px);
+     z-index: -1;
+     position:absolute;
+     left:0;
+     right:0;
+     top:0;
+     bottom:0;
+  }
   .services-hero-title {
   	color:#fff;
   	z-index:2;
@@ -29,7 +59,7 @@
   }
 }
 
-// Orange Banner
+// Sub Banner
 
 .services-sub-banner {
   display: none;
@@ -53,15 +83,15 @@
         font-size: 1.8rem;
       }
   }
-  .services-ball {
+  .services-circle {
     @include desktop {
-      background: $color__oj;
       border-radius: 50%;
       height: 70px;
       left: 666px;
       position: absolute;
       top: 215px;
       width: 70px;
+      background: $color__oj;
     }
   }
 }
@@ -101,7 +131,7 @@
       @include desktop {
         flex: none;
         height: 200px;
-        width: 240px;
+        width: 228px;
       }
       &:last-child {
         @include desktop {
@@ -114,7 +144,7 @@
           height: 80px;
         }
         @include desktop {
-          height: 90px;
+          height: 80px;
         }
       }
       .engagement {
@@ -122,10 +152,11 @@
         margin-bottom: 20px;
         @include tablet {
           height: 50px;
+          margin-bottom: 30px;
         }
         @include desktop {
           height: 60px;
-          margin-bottom: 30px;
+          margin-bottom: 20px;
         }
       }
       h3 {
@@ -137,6 +168,23 @@
           font-size: 2.5rem;
         }
       }
+    }
+  }
+}
+
+// Our Story
+
+.our-story-container {
+  .our-story-info {
+    @extend .center-column;
+  }
+  p {
+    width: 350px;
+    @include tablet {
+      width: 600px;
+    }
+    @include desktop {
+      width: 800px;
     }
   }
 }
