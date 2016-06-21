@@ -7,8 +7,22 @@
 		align-items: center;
 		@extend .header1;
 	}
+	.entry-header {
+		width: 20%;
+	}
 }
 
 .sub-title {
 	text-align: center;
+}
+
+.past-works-container,
+.projects_cpt {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.past-works-container {
+	margin: 60px auto;
+	width: 77%;
 }

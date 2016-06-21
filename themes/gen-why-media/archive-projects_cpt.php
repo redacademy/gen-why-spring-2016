@@ -28,7 +28,7 @@ get_header(); ?>
 				<h2 class="header2-a">Past Works</h2>
 				<?php get_search_form(); ?>
 			</div>
-			<section class="past-works-containter">
+			<section class="past-works-container">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 

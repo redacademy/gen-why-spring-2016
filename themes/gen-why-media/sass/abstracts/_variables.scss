@@ -145,7 +145,8 @@ $font__line-height-pre: 1.6;
 	line-height: 40px;
 }
 
-.body-b {
+.body-b,
+.body-b a {
 	color: $color__dgrey;
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 24px;
