@@ -1279,6 +1279,9 @@ section h3 {
 .projects-page .entry-header {
   width: 20%; }
 
+.projects-page .entry-content {
+  width: 80%; }
+
 .sub-title {
   text-align: center; }
 
