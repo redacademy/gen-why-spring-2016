@@ -15,7 +15,10 @@
 .services-hero-banner {
   position: relative;
 	padding:15px;
-  height: 450px;
+  height: 250px;
+  @include tablet {
+    height: 450px;
+  }
   .services-hero{
        background:
         linear-gradient(
@@ -26,7 +29,7 @@
       display: flex;
       background-size: cover;
       background-position: center;
-      height: 500px;
+      height: 250px;
       width: 100%;
       padding-top: 0;
       margin: 0 auto;
@@ -34,17 +37,16 @@
       align-items: center;
       color: white;
       margin-bottom: 1px;
-      -webkit-filter: blur(5px);
-     -moz-filter: blur(5px);
-     -o-filter: blur(5px);
-     -ms-filter: blur(5px);
-     filter: blur(5px);
-     z-index: -1;
-     position:absolute;
-     left:0;
-     right:0;
-     top:0;
-     bottom:0;
+       filter: blur(5px);
+       z-index: -1;
+       position:absolute;
+       left:0;
+       right:0;
+       top:0;
+       bottom:0;
+       @include tablet {
+         height: 500px;
+       }
   }
   .services-hero-title {
   	color:#fff;
@@ -175,16 +177,97 @@
 // Our Story
 
 .our-story-container {
+  .founder-banner {
+    background: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255,0.1)), url(../../assets/images/our-story-banner.jpg) center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    @extend .center-column;
+    @include tablet {
+      height: 450px;
+    }
+    .about-us {
+        color: $color__mainw;
+        @include tablet {
+          display: none;
+        }
+    }
+  }
+  .our-story-title {
+      display: none;
+      @include tablet {
+        display: block;
+      }
+  }
   .our-story-info {
     @extend .center-column;
+    margin: 30px 0;
+    @include tablet {
+      margin-bottom: 50px;
+    }
   }
   p {
     width: 350px;
+    text-align: center;
     @include tablet {
       width: 600px;
+      text-align: left;
     }
     @include desktop {
       width: 800px;
     }
+  }
+  .our-story-circle {
+    @include desktop {
+      border-radius: 50%;
+      height: 70px;
+      left: 666px;
+      position: absolute;
+      bottom: -34px;
+      width: 70px;
+      background: $color__mainw;
+    }
+  }
+}
+
+// Our Team
+.our-team-container {
+  @extend .center-column;
+  iframe {
+    display: none;
+    @include tablet {
+      display: block;
+    }
+  }
+  .our-team-info {
+    display: none;
+    @include tablet {
+      display: block;
+      margin-bottom: 50px;
+    }
+    .header3 {
+      text-align: left;
+    }
+    p {
+      width: 350px;
+      text-align: center;
+      @include tablet {
+        width: 600px;
+        text-align: left;
+      }
+      @include desktop {
+        width: 800px;
+      }
+    }
+  }
+}
+
+// Previous Partners
+
+.prev-part-display {
+  display: none;
+  @include tablet {
+    display: block;
   }
 }
