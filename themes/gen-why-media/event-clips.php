@@ -12,14 +12,11 @@ get_header(); ?>
 			<div class="eventhero">
 				<h1 class="header1">Event Clips</h1>
 			</div>
-			<div class="eventone-bg watch-center">
-				<h2 class="header2-b h2-change">Bring Your Boomers 2016</h2>
-				<a href="#" class="button button-a fom-button">Find Out More</a>
-			</div>
-			<div class="eventtwo-bg watch-center">
-				<h2 class="header2-b h2-change">Re-Imagine CBC</h2>
-				<a href="#" class="button button-a fom-button">Find Out More</a>
-			</div>
+			<?php while ( have_posts() ) : the_post(); ?>
+
+			<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+		<?php endwhile; // End of the loop. ?>
 		</main>
 	</div>
 

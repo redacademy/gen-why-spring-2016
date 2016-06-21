@@ -17,13 +17,13 @@
 			<section class="hero-slider-container">
 
 				<ul class="bxslider-hero hero-banner-list">
-					<?php $hero_image = new WP_Query( array(
+					<?php $hero_image = array(
 						'post_type' => 'banner_images',
 						'posts_per_page' => 10,
 						'order' => 'ASC',
-						'orderby' => 'name')
-					);
-					while ( $hero_image->have_posts()) : $hero_image->the_post();?>
+						'orderby' => 'name');
+            $herobanner = get_posts( $hero_image );
+      			foreach ( $herobanner as $post ) : setup_postdata( $post ); ?>
 
 						<li>
 							<div class="banner-wrap">
@@ -37,7 +37,7 @@
 								</div>
 							</div>
 						</li>
-					<?php endwhile;
+					<?php endforeach;
 									wp_reset_postdata(); ?>
 				</ul>
 
@@ -45,7 +45,7 @@
 
 			<!-- Get Involved -->
 
-			<section class="get-involved container">
+			<section id="scroll-target" class="get-involved container">
 				<div class="">
 					<h2 class="header2-a">Why Get Involved?</h2>
 					<ul>
@@ -79,13 +79,13 @@
 				<h2 class="header2-a">What Are People Saying About Us</h2>
 
 					<ul class="bxslider-review reviews-list">
-						<?php $review_loop = new WP_Query( array(
+						<?php $review_loop = array(
 							'post_type' => 'review_cpt',
 							'posts_per_page' => 4,
 							'order' => 'ASC',
-							'orderby' => 'date')
-						);
-						while ( $review_loop->have_posts()) : $review_loop->the_post();?>
+							'orderby' => 'date');
+              $reviewposts = get_posts( $review_loop );
+        			foreach ( $reviewposts as $post ) : setup_postdata( $post ); ?>
 							<li>
 								<div class="review-wrap">
 									<div class="review-profile">
@@ -99,7 +99,7 @@
 									</div>
 								</div>
 							</li>
-						<?php endwhile;
+						<?php endforeach;
 										wp_reset_postdata(); ?>
 					</ul>
 			</section><!-- .what-people-say -->
