@@ -1288,7 +1288,8 @@ section h3 {
   width: 78%; }
 
 .projects-page h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-bottom: 0; }
 
 .sub-title {
   text-align: center; }
