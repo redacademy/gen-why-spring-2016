@@ -954,20 +954,34 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.front-page .site-header-mobile {
+  animation: site-header-background 6s 0s 1;
+  height: inherit; }
+  @media (min-width: 700px) {
+    .front-page .site-header-mobile {
+      display: none;
+      animation: site-header-background 0s 0s 0; } }
+  .front-page .site-header-mobile h1 {
+    animation: logo 5s 0s 1;
+    background-size: 60px 60px;
+    background-position: 20px 10px;
+    height: 70px; }
+    @media (min-width: 700px) {
+      .front-page .site-header-mobile h1 {
+        animation: logo 0s 0s 0; } }
+
 .site-header-mobile {
-  animation: site-header-background 10s 0s 1;
+  height: inherit;
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #000;
   margin: 0 auto;
   position: fixed;
-  height: inherit;
   width: 100%;
   z-index: 999;
   display: inline; }
   @media (min-width: 700px) {
     .site-header-mobile {
-      display: none;
-      animation: site-header-background 0s 0s 0; } }
+      display: none; } }
   .site-header-mobile a {
     color: #000;
     text-transform: uppercase; }
@@ -982,11 +996,7 @@ object {
     margin: 0;
     overflow: hidden;
     text-indent: 100%;
-    white-space: nowrap;
-    animation: logo 8s 0s 1; }
-    @media (min-width: 700px) {
-      .site-header-mobile h1 {
-        animation: logo 0s 0s 0; } }
+    white-space: nowrap; }
 
 .site-header {
   display: none; }
