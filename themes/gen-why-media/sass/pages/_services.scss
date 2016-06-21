@@ -1,3 +1,15 @@
+.page-template-services {
+  .header1, .header2-a, .header2-b {
+    font-size: 2.5rem;
+    @include tablet {
+      font-size: 4rem;
+    }
+    @include desktop {
+      font-size: 4.5rem;
+    }
+}
+
+
 // Service Hero Banner
 
 .services-hero-container {
@@ -13,6 +25,7 @@
     top:50%;
     transform:translate(-50%, -50%);
     width:50%;
+    }
   }
 }
 
@@ -30,10 +43,15 @@
   }
   .services-info {
       @extend .header4-sub;
-      font-size: 1.8rem;
       width: 800px;
       text-align: center;
       font-weight: 400;
+      @include tablet {
+        font-size: 1.5rem;
+      }
+      @include desktop {
+        font-size: 1.8rem;
+      }
   }
   .services-ball {
     @include desktop {
@@ -44,6 +62,81 @@
       position: absolute;
       top: 215px;
       width: 70px;
+    }
+  }
+}
+
+// What We Offer
+
+.what-we-offer {
+  background: $color__mainw;
+  width: 100%;
+  div {
+    @extend .center-column;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    width: 400px;
+    @include tablet {
+      width: 800px;
+      justify-content: center;
+    }
+    @include desktop {
+      flex-wrap: nowrap;
+      width: 1100px;
+    }
+    li {
+      flex: 1 0 50%;
+      text-align: center;
+      @include tablet {
+        flex: 1 0 33.33%;
+        height: 200px;
+        width: 300px;
+      }
+      @include desktop {
+        flex: none;
+        height: 200px;
+        width: 240px;
+      }
+      &:last-child {
+        @include desktop {
+          width: 200px;
+        }
+      }
+      img {
+        height: 60px;
+        @include tablet {
+          height: 80px;
+        }
+        @include desktop {
+          height: 90px;
+        }
+      }
+      .engagement {
+        height: 40px;
+        margin-bottom: 20px;
+        @include tablet {
+          height: 50px;
+        }
+        @include desktop {
+          height: 60px;
+          margin-bottom: 30px;
+        }
+      }
+      h3 {
+        font-size: 1rem;
+        @include tablet {
+          font-size: 1.7rem;
+        }
+        @include desktop {
+          font-size: 2.5rem;
+        }
+      }
     }
   }
 }

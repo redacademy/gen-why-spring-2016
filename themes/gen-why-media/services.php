@@ -29,9 +29,38 @@ get_header(); ?>
 			</section><!-- .services-hero-banner -->
 
 			<!-- What We Offer -->
-			<section class="what-we-offer">
 
-			</section>
+			<section class="what-we-offer container">
+				<div>
+					<h2 class="header2-a">What We Offer</h2>
+					<ul>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Web" />
+							<h3 class="header3-b">Web</h3>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate-icon.png" alt="Engagement" class="engagement" />
+							<h3 class="header3-b">Engagement</h3>
+						 </li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Public Art" />
+							<h3 class="header3-b">Public Art</h3>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Events" />
+							<h3 class="header3-b">Events</h3>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Film" />
+							<h3 class="header3-b">Film</h3>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Connect" />
+							<h3 class="header3-b">Audience</h3>
+						</li>
+					</ul>
+				</div>
+			</section><!-- .what-we-offer -->
 
 			<?php echo CFS()->get( 'where' ); ?>
 
