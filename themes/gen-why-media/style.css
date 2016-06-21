@@ -1291,6 +1291,12 @@ section h3 {
   font-size: 2rem;
   margin-bottom: 0; }
 
+.projects-page fieldset {
+  border: 0; }
+
+.projects-page button {
+  background: none; }
+
 .sub-title {
   text-align: center; }
 
