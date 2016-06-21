@@ -1,7 +1,7 @@
 .projects-page {
 	.page-header {
 		background: linear-gradient($color__lin-b, $color__lin-b), url('../../assets/images/bg-projects.png') center/cover;
-		height: 46vh;
+		height: 22vh;
 		@include desktop {
 			height: 460px;
 		}

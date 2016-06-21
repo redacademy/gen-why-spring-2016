@@ -890,6 +890,9 @@ li {
 .entry-content {
   padding: 20px; }
 
+.site-content {
+  margin-top: 70px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -971,6 +974,7 @@ object {
         animation: logo 0s 0s 0; } }
 
 .site-header-mobile {
+  top: 45px;
   height: inherit;
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #000;
@@ -1325,7 +1329,7 @@ section h3 {
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
-  height: 46vh;
+  height: 22vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
