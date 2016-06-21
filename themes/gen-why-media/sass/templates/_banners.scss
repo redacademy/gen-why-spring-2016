@@ -13,11 +13,11 @@
   }
 }
 .blue-circle {
-  @include desktop {
+  @include tablet {
     background: $color__trustb;
     border-radius: 50%;
     height: 70px;
-    left: 666px;
+    left: 48%;
     position: absolute;
     top: 265px;
     width: 70px;

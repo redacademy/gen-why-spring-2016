@@ -9,7 +9,6 @@
     }
 }
 
-
 // Service Hero Banner
 
 .services-hero-banner {
@@ -86,10 +85,10 @@
       }
   }
   .services-circle {
-    @include desktop {
+    @include tablet {
       border-radius: 50%;
       height: 70px;
-      left: 666px;
+      left: 48%;
       position: absolute;
       top: 215px;
       width: 70px;
@@ -219,10 +218,10 @@
     }
   }
   .our-story-circle {
-    @include desktop {
+    @include tablet {
       border-radius: 50%;
       height: 70px;
-      left: 666px;
+      left: 48%;
       position: absolute;
       bottom: -34px;
       width: 70px;

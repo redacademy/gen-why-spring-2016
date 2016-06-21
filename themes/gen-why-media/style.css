@@ -998,7 +998,7 @@ object {
       justify-content: center;
   margin: 0 auto;
   width: 400px; }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .container {
       width: 1240px; } }
 
@@ -1012,7 +1012,7 @@ section h3 {
     section h2,
     section h3 {
       font-size: 2.8rem; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .home h2, .home h3,
     section h2,
     section h3 {
@@ -1033,7 +1033,7 @@ section h3 {
     .hero-slider-container .banner-wrap {
       height: 600px;
       transform: scale(1); } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .hero-slider-container .banner-wrap {
       height: 800px; } }
   .hero-slider-container .banner-wrap .banner-image {
@@ -1059,7 +1059,7 @@ section h3 {
       .hero-slider-container .banner-info h2 {
         font-size: 1.8rem;
         margin: 1rem; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .hero-slider-container .banner-info h2 {
         font-size: 2rem; } }
   .hero-slider-container .banner-info h1 {
@@ -1069,7 +1069,7 @@ section h3 {
       .hero-slider-container .banner-info h1 {
         font-size: 3.2rem;
         margin: 2rem 0; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .hero-slider-container .banner-info h1 {
         font-size: 4.5rem;
         margin: 3.5rem 0; } }
@@ -1080,7 +1080,7 @@ section h3 {
       .hero-slider-container .banner-info p {
         font-size: 1.4rem;
         margin: 1rem; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .hero-slider-container .banner-info p {
         font-size: 1.8rem; } }
   .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
@@ -1089,7 +1089,7 @@ section h3 {
     @media (min-width: 700px) {
       .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
         width: 600px; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .hero-slider-container .banner-info .header4-sub, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
         width: 700px; } }
 
@@ -1109,7 +1109,7 @@ section h3 {
       width: 800px;
       -ms-flex-pack: center;
           justify-content: center; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .get-involved ul {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
@@ -1124,13 +1124,13 @@ section h3 {
             flex: none;
         height: 200px;
         width: 300px; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .get-involved ul li {
         -ms-flex: none;
             flex: none;
         height: 200px;
         width: 300px; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .get-involved ul li:last-child {
         width: 200px; } }
     .get-involved ul li img {
@@ -1138,7 +1138,7 @@ section h3 {
       @media (min-width: 700px) {
         .get-involved ul li img {
           height: 80px; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .get-involved ul li img {
           height: 90px; } }
     .get-involved ul li .collaborate {
@@ -1147,7 +1147,7 @@ section h3 {
       @media (min-width: 700px) {
         .get-involved ul li .collaborate {
           height: 50px; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .get-involved ul li .collaborate {
           height: 60px;
           margin-bottom: 30px; } }
@@ -1156,7 +1156,7 @@ section h3 {
       @media (min-width: 700px) {
         .get-involved ul li h3 {
           font-size: 1.7rem; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .get-involved ul li h3 {
           font-size: 2.5rem; } }
 
@@ -1193,7 +1193,7 @@ section h3 {
     background-size: cover;
     height: 300px;
     width: 100%; }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .latest-event .latest-event-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) no-repeat center center;
         height: 450px; } }
@@ -1207,7 +1207,7 @@ section h3 {
   @media (min-width: 700px) {
     .video-wrapper {
       padding-bottom: 45%; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .video-wrapper {
       width: 1120px;
       margin: 0 auto;
@@ -1220,7 +1220,7 @@ section h3 {
   left: 0;
   width: 100%;
   height: 100%; }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .video-wrapper iframe {
       width: 95%;
       height: 85%; } }
@@ -1233,7 +1233,7 @@ section h3 {
       -ms-flex-direction: row;
           flex-direction: row;
       width: 700px; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .about-us .founder-profile {
       width: 900px; } }
   .about-us .founder-profile h3 {
@@ -1250,7 +1250,7 @@ section h3 {
         text-align: left;
         font-size: 1rem;
         line-height: 1.5; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .about-us .founder-profile p {
         font-size: 1.2rem; } }
   @media (min-width: 700px) {
@@ -1275,7 +1275,7 @@ section h3 {
   -ms-flex-align: center;
       align-items: center;
   font-size: 1rem; }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .projects-page .page-header {
       height: 460px; } }
 
@@ -1327,7 +1327,7 @@ section h3 {
   @media (min-width: 700px) {
     .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
       font-size: 4rem; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
       font-size: 4.5rem; } }
 
@@ -1394,14 +1394,14 @@ section h3 {
     @media (min-width: 700px) {
       .services-sub-banner .services-info {
         font-size: 1.5rem; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .services-sub-banner .services-info {
         font-size: 1.8rem; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 700px) {
     .services-sub-banner .services-circle {
       border-radius: 50%;
       height: 70px;
-      left: 666px;
+      left: 48%;
       position: absolute;
       top: 215px;
       width: 70px;
@@ -1426,7 +1426,7 @@ section h3 {
         width: 800px;
         -ms-flex-pack: center;
             justify-content: center; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .what-we-offer ul {
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
@@ -1441,13 +1441,13 @@ section h3 {
               flex: 1 0 33.33%;
           height: 200px;
           width: 300px; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .what-we-offer ul li {
           -ms-flex: none;
               flex: none;
           height: 200px;
           width: 228px; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .what-we-offer ul li:last-child {
           width: 200px; } }
       .what-we-offer ul li img {
@@ -1455,7 +1455,7 @@ section h3 {
         @media (min-width: 700px) {
           .what-we-offer ul li img {
             height: 80px; } }
-        @media (min-width: 1340px) {
+        @media (min-width: 1240px) {
           .what-we-offer ul li img {
             height: 80px; } }
       .what-we-offer ul li .engagement {
@@ -1465,7 +1465,7 @@ section h3 {
           .what-we-offer ul li .engagement {
             height: 50px;
             margin-bottom: 30px; } }
-        @media (min-width: 1340px) {
+        @media (min-width: 1240px) {
           .what-we-offer ul li .engagement {
             height: 60px;
             margin-bottom: 20px; } }
@@ -1474,7 +1474,7 @@ section h3 {
         @media (min-width: 700px) {
           .what-we-offer ul li h3 {
             font-size: 1.7rem; } }
-        @media (min-width: 1340px) {
+        @media (min-width: 1240px) {
           .what-we-offer ul li h3 {
             font-size: 2.5rem; } }
 
@@ -1512,15 +1512,15 @@ section h3 {
     .our-story-container p {
       width: 600px;
       text-align: left; } }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .our-story-container p {
       width: 800px; } }
 
-@media (min-width: 1340px) {
+@media (min-width: 700px) {
   .our-story-container .our-story-circle {
     border-radius: 50%;
     height: 70px;
-    left: 666px;
+    left: 48%;
     position: absolute;
     bottom: -34px;
     width: 70px;
@@ -1547,7 +1547,7 @@ section h3 {
       .our-team-container .our-team-info p {
         width: 600px;
         text-align: left; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .our-team-container .our-team-info p {
         width: 800px; } }
 
@@ -1581,7 +1581,7 @@ section h3 {
 .contact-us-container h2 + p,
 .contact-us-container .address {
   display: none; }
-  @media (min-width: 1340px) {
+  @media (min-width: 1240px) {
     .contact-us-container h2 + p,
     .contact-us-container .address {
       display: block; } }
@@ -1691,12 +1691,12 @@ footer .site-info {
     padding-bottom: 30px;
     width: 100%; }
 
-@media (min-width: 1340px) {
+@media (min-width: 700px) {
   .blue-circle {
     background: #334b7f;
     border-radius: 50%;
     height: 70px;
-    left: 666px;
+    left: 48%;
     position: absolute;
     top: 265px;
     width: 70px; } }
@@ -1725,7 +1725,7 @@ footer .site-info {
     background-size: cover;
     height: 300px;
     width: 100%; }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .create-change .create-change-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) center center;
         height: 300px; } }
@@ -1753,7 +1753,7 @@ footer .site-info {
     background-size: cover;
     height: 300px;
     width: 100%; }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .prev-parts .prev-parts-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
         height: 450px; } }
@@ -1763,7 +1763,7 @@ footer .site-info {
         .prev-parts .prev-parts-img .partner-logos img {
           height: 120px;
           margin: 0 5px; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
 
@@ -1839,7 +1839,7 @@ footer .site-info {
     @media (min-width: 700px) {
       .event-container h2, .event-container h3 {
         font-size: 2.8rem; } }
-    @media (min-width: 1340px) {
+    @media (min-width: 1240px) {
       .event-container h2, .event-container h3 {
         font-size: 3.5rem; } }
   .event-container .body {
@@ -1852,7 +1852,7 @@ footer .site-info {
       @media (min-width: 700px) {
         .event-container .body p {
           width: 600px; } }
-      @media (min-width: 1340px) {
+      @media (min-width: 1240px) {
         .event-container .body p {
           width: 800px; } }
 
