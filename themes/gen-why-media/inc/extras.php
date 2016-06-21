@@ -42,7 +42,7 @@ function genwhy_watch_header() {
                background-size: cover;
                background-position: bottom;
                height: 45vh;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                margin: 0 auto;
                justify-content: center;
@@ -73,7 +73,7 @@ function genwhy_watch_event() {
                background-position: bottom;
                height: 39.5vh;
                margin: 0 auto;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                text-align: center;
                color: white;
@@ -102,7 +102,7 @@ function genwhy_watch_short() {
                background-position: bottom;
                height: 39.5vh;
                margin: 0 auto;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                text-align: center;
                color: white;
@@ -131,7 +131,7 @@ function genwhy_watch_documentary() {
                background-position: bottom;
                height: 39.5vh;
                margin: 0 auto;
-               width: 1340px;
+               width: 100%;
                padding-top: 0;
                text-align: center;
                color: white;
@@ -140,98 +140,9 @@ function genwhy_watch_documentary() {
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
 
-/* event-clips custom field section */
 
-//Custom Function for setting Featured Image as header for Watch page
-function genwhy_events_clips_header() {
 
-  if( !is_page_template( 'event-clips.php' ) ) {
-    return ;
-  }
-
-   $custom_css =
-           ".eventhero{
-                  background:
-                 linear-gradient(
-                 rgba(51, 75, 127, 0.55),
-                 rgba(51, 75, 127, 0.55)
-                 ),
-                 url('". CFS()->get('event_clips_header_image') ."');
-               display: flex;
-               background-size: cover;
-               background-position: bottom;
-               height: 45vh;
-               width: 1340px;
-               padding-top: 0;
-               margin: 0 auto;
-               justify-content: center;
-               align-items: center;
-               color: white;
-               margin-bottom: 1px;
-           }";
-   wp_add_inline_style( 'genwhy-style', $custom_css );
-}
-add_action( 'wp_enqueue_scripts', 'genwhy_events_clips_header' );
-
-//Custom Function for setting Image for Event Clips on Watch page
-function genwhy_eventone_clips() {
-
-  if( !is_page_template( 'event-clips.php' ) ) {
-    return ;
-  }
-
-   $custom_css =
-           ".eventone-bg{
-                  background:
-                 linear-gradient(
-                 rgba(51, 75, 127, 0.55),
-                 rgba(51, 75, 127, 0.55)
-                 ),
-                 url('". CFS()->get('clip_one_image') ."');
-               display: block;
-               background-size: cover;
-               background-position: bottom;
-               height: 39.5vh;
-               margin: 0 auto;
-               width: 1340px;
-               padding-top: 0;
-               text-align: center;
-               color: white;
-           }";
-   wp_add_inline_style( 'genwhy-style', $custom_css );
-}
-add_action( 'wp_enqueue_scripts', 'genwhy_eventone_clips' );
-
-//Custom Function for setting Image for Event Clips on Watch page
-function genwhy_eventtwo_clips() {
-
-  if( !is_page_template( 'event-clips.php' ) ) {
-    return ;
-  }
-
-   $custom_css =
-           ".eventtwo-bg{
-                  background:
-                 linear-gradient(
-                 rgba(51, 75, 127, 0.55),
-                 rgba(51, 75, 127, 0.55)
-                 ),
-                 url('". CFS()->get('clip_two_image') ."');
-               display: block;
-               background-size: cover;
-               background-position: bottom;
-               height: 39.5vh;
-               margin: 0 auto;
-               width: 1340px;
-               padding-top: 0;
-               text-align: center;
-               color: white;
-           }";
-   wp_add_inline_style( 'genwhy-style', $custom_css );
-}
-add_action( 'wp_enqueue_scripts', 'genwhy_eventtwo_clips' );
-
-//Custom Function for setting Featured Image as header for Watch page
+//Custom Function for setting Featured Image as header for Services page
 function genwhy_services_header() {
 
   if( !is_page_template( 'services.php' ) ) {

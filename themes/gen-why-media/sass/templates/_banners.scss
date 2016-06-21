@@ -10,9 +10,6 @@
     height: 300px;
     padding-bottom: 30px;
     width: 100%;
-    @include desktop {
-      width: 95%;
-    }
   }
 }
 .blue-circle {
@@ -56,7 +53,6 @@
     width: 100%;
       @include desktop {
         background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-social-change.png) center center;
-        width: 95%;
         height: 300px;
       }
   }
@@ -93,7 +89,6 @@
     @include desktop {
       background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
       height: 450px;
-      width: 95%;
     }
     .partner-logos {
       img {
