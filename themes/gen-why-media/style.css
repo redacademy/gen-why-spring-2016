@@ -172,7 +172,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .our-story-info, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1330,14 +1330,17 @@ section h3 {
 .page-template-services .services-hero-banner {
   position: relative;
   padding: 15px;
-  height: 450px; }
+  height: 250px; }
+  @media (min-width: 700px) {
+    .page-template-services .services-hero-banner {
+      height: 450px; } }
   .page-template-services .services-hero-banner .services-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../assets/images/harmony_banner.jpg);
     display: -ms-flexbox;
     display: flex;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 250px;
     width: 100%;
     padding-top: 0;
     margin: 0 auto;
@@ -1348,16 +1351,16 @@ section h3 {
     color: white;
     margin-bottom: 1px;
     -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+            filter: blur(5px);
     z-index: -1;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0; }
+    @media (min-width: 700px) {
+      .page-template-services .services-hero-banner .services-hero {
+        height: 500px; } }
   .page-template-services .services-hero-banner .services-hero-title {
     color: #fff;
     z-index: 2;
@@ -1471,14 +1474,84 @@ section h3 {
           .what-we-offer ul li h3 {
             font-size: 2.5rem; } }
 
+.our-story-container .founder-banner {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  position: relative; }
+  @media (min-width: 700px) {
+    .our-story-container .founder-banner {
+      height: 450px; } }
+  .our-story-container .founder-banner .about-us {
+    color: white; }
+    @media (min-width: 700px) {
+      .our-story-container .founder-banner .about-us {
+        display: none; } }
+
+.our-story-container .our-story-title {
+  display: none; }
+  @media (min-width: 700px) {
+    .our-story-container .our-story-title {
+      display: block; } }
+
+.our-story-container .our-story-info {
+  margin: 30px 0; }
+  @media (min-width: 700px) {
+    .our-story-container .our-story-info {
+      margin-bottom: 50px; } }
+
 .our-story-container p {
-  width: 350px; }
+  width: 350px;
+  text-align: center; }
   @media (min-width: 700px) {
     .our-story-container p {
-      width: 600px; } }
+      width: 600px;
+      text-align: left; } }
   @media (min-width: 1340px) {
     .our-story-container p {
       width: 800px; } }
+
+@media (min-width: 1340px) {
+  .our-story-container .our-story-circle {
+    border-radius: 50%;
+    height: 70px;
+    left: 666px;
+    position: absolute;
+    bottom: -34px;
+    width: 70px;
+    background: white; } }
+
+.our-team-container iframe {
+  display: none; }
+  @media (min-width: 700px) {
+    .our-team-container iframe {
+      display: block; } }
+
+.our-team-container .our-team-info {
+  display: none; }
+  @media (min-width: 700px) {
+    .our-team-container .our-team-info {
+      display: block;
+      margin-bottom: 50px; } }
+  .our-team-container .our-team-info .header3 {
+    text-align: left; }
+  .our-team-container .our-team-info p {
+    width: 350px;
+    text-align: center; }
+    @media (min-width: 700px) {
+      .our-team-container .our-team-info p {
+        width: 600px;
+        text-align: left; } }
+    @media (min-width: 1340px) {
+      .our-team-container .our-team-info p {
+        width: 800px; } }
+
+.prev-part-display {
+  display: none; }
+  @media (min-width: 700px) {
+    .prev-part-display {
+      display: block; } }
 
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;

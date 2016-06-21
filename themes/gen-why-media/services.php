@@ -69,15 +69,31 @@ get_header(); ?>
 			<!-- Our Story -->
 
 			<section class="our-story-container">
-					<div class="founder-banner"></div>
-					<h2 class="header2-a">Our Story</h2>
+					<div class="founder-banner">
+						<h2 class="header2-a about-us">About Us</h2>
+						<div class="our-story-circle"></div>
+					</div>
+					<h2 class="header2-a our-story-title">Our Story</h2>
 					<div class="our-story-info">
 							<?php echo CFS()->get( 'our_story' ); ?>
 					</div>
+			</section><!-- .our-story-container -->
+
+			<!-- Our Team -->
+
+			<section class="our-team-container">
+				<iframe src="https://player.vimeo.com/video/23997768" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div class="our-team-info">
+						<h2 class="header2-a our-story-title">Our Team</h2>
+						<?php echo CFS()->get( 'our_team' ); ?>
+				</div>
 			</section>
 
 			<!-- Previous Partners -->
-			<?php get_template_part( 'template-parts/content', 'prev-parts' ); ?>
+			<section class="prev-part-display">
+					<?php get_template_part( 'template-parts/content', 'prev-parts' ); ?>
+			</section>
+
 
 			<!-- What we are doing -->
 			<?php get_template_part( 'template-parts/content', 'what-we-do' ); ?>
