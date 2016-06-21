@@ -1280,7 +1280,10 @@ section h3 {
       height: 460px; } }
 
 .projects-page .entry-header {
-  width: 22%; }
+  width: 25%; }
+  @media (min-width: 700px) {
+    .projects-page .entry-header {
+      width: 22%; } }
 
 .projects-page .entry-content {
   margin: 0;
@@ -1292,13 +1295,30 @@ section h3 {
   margin-bottom: 0; }
 
 .projects-page fieldset {
-  border-radius: 2px;
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  height: 28px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
+  position: relative;
+  text-align: left;
   width: 300px; }
 
-.projects-page button {
+.projects-page input {
+  padding: 0;
+  border: none;
   background: none; }
+
+.projects-page button {
+  background: none;
+  border-bottom: 0;
+  border-radius: 0;
+  border-right: none;
+  border-top: 0;
+  padding: 0.4em 0.7em;
+  position: absolute;
+  right: 0; }
 
 .sub-title {
   text-align: center; }
@@ -1311,7 +1331,10 @@ section h3 {
       flex-wrap: wrap; }
 
 .projects_cpt {
-  width: 50%; }
+  width: 100%; }
+  @media (min-width: 700px) {
+    .projects_cpt {
+      width: 50%; } }
 
 .past-works-container {
   margin: 60px auto;

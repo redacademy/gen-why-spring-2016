@@ -12,7 +12,10 @@
 		font-size: 1rem;
 	}
 	.entry-header {
-		width: 22%;
+		width: 25%;
+		@include tablet {
+			width: 22%;
+		}
 	}
 	.entry-content {
 		margin: 0;
@@ -27,13 +30,30 @@
 		margin-bottom: 0;
 	}
 	fieldset {
-		border-radius: 2px;
+		border: 1px solid;
+		border-color: #ccc #ccc #bbb;
+		border-radius: 3px;
+		height: 28px;
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 20px;
+		position: relative;
+		text-align: left;
 		width: 300px;
+	}
+	input {
+		padding: 0;
+		border: none;
+		background: none;
 	}
 	button {
 		background: none;
+		border-bottom: 0;
+		border-radius: 0;
+		border-right: none;
+		border-top: 0;
+		padding: 0.4em 0.7em;
+		position: absolute;
+		right: 0;
 	}
 }
 
@@ -48,7 +68,10 @@
 }
 
 .projects_cpt {
-	width: 50%;
+	width: 100%;
+	@include tablet {
+		width: 50%;
+	}
 }
 
 .past-works-container {
