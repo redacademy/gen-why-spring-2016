@@ -1284,6 +1284,10 @@ section h3 {
   display: -ms-flexbox;
   display: flex; }
 
+.past-works-container {
+  width: 77%;
+  margin: 60px auto; }
+
 .h2-change {
   margin-top: auto;
   padding-top: 5rem; }
