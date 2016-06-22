@@ -145,7 +145,7 @@ add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
 //Custom Function for setting header Image for Event Clips Page
 function genwhy_event_post_header() {
 
-  if( !is_page_template( 'event-clips.php' ) ) {
+  if( !is_page_template( 'event-clips' ) ) {
     return ;
   }
 
