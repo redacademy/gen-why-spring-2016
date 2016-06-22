@@ -47,7 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* custom typography */
 .header1, .projects-page .page-header {
   color: white;
-  font-family: "helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 72px;
   font-weight: bold;
   line-height: 80px;
@@ -542,6 +542,26 @@ table {
 
 header {
   text-align: center; }
+
+div input[type=text],
+div input[type=email],
+div textarea {
+  border-color: #4a4a4a; }
+
+/* searchform */
+::-webkit-input-placeholder {
+  color: #4a4a4a; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #4a4a4a; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #4a4a4a; }
+
+:-ms-input-placeholder {
+  color: #4a4a4a; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -1340,12 +1360,17 @@ section h3 {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  font-size: 1rem; }
+  -ms-flex-align: end;
+      align-items: flex-end; }
   @media (min-width: 1240px) {
     .projects-page .page-header {
       height: 460px; } }
+  .projects-page .page-header h1 {
+    font-size: 38px; }
+    @media (min-width: 700px) {
+      .projects-page .page-header h1 {
+        font-size: 72px;
+        padding-bottom: 100px; } }
 
 .projects-page .entry-header {
   width: 25%; }
@@ -1354,6 +1379,7 @@ section h3 {
       width: 22%; } }
 
 .projects-page .entry-content {
+  line-height: 2;
   margin: 0;
   padding: 0 20px;
   width: 75%; }
@@ -1364,10 +1390,18 @@ section h3 {
   .projects-page .entry-content p {
     font-size: 0.9rem;
     line-height: 24px; }
+    @media (min-width: 700px) {
+      .projects-page .entry-content p {
+        font-size: 1.2rem;
+        line-height: 1.6; } }
 
 .projects-page h2 a {
   font-size: 0.8rem;
   margin: 0; }
+  @media (min-width: 700px) {
+    .projects-page h2 a {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
 
 .projects-page .entry-title {
   font-size: 10px;
@@ -1376,7 +1410,7 @@ section h3 {
 
 .projects-page fieldset {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border-color: #4a4a4a;
   border-radius: 3px;
   height: 28px;
   margin: 0 auto;
@@ -1384,14 +1418,24 @@ section h3 {
   position: relative;
   text-align: left;
   width: 300px; }
+  @media (min-width: 700px) {
+    .projects-page fieldset {
+      height: 60px;
+      width: 700px; } }
 
 .projects-page input {
   padding: 0;
+  color: #4a4a4a;
   border: none;
   background: none; }
+  @media (min-width: 700px) {
+    .projects-page input {
+      height: 59px;
+      width: 600px; } }
 
 .projects-page button {
   background: none;
+  border-color: #4a4a4a;
   border-bottom: 0;
   border-radius: 0;
   border-right: none;
@@ -1399,10 +1443,26 @@ section h3 {
   padding: 0.4em 0.7em;
   position: absolute;
   right: 0; }
+  @media (min-width: 700px) {
+    .projects-page button {
+      padding: 0.7em 1.8em; }
+      .projects-page button .fa {
+        font-size: 38px;
+        color: #4a4a4a; } }
 
 .sub-title {
   margin-top: 90px;
   text-align: center; }
+  @media (min-width: 700px) {
+    .sub-title {
+      margin-top: 120px; } }
+  .sub-title .header2-a {
+    font-size: 36px;
+    line-height: 0; }
+    @media (min-width: 700px) {
+      .sub-title .header2-a {
+        font-size: 56px;
+        margin-bottom: 60px; } }
 
 .past-works-container,
 .projects_cpt {
@@ -1422,7 +1482,8 @@ section h3 {
   width: 88%; }
   @media (min-width: 700px) {
     .past-works-container {
-      margin: 60px auto; } }
+      margin: 60px auto;
+      width: 78%; } }
 
 .h2-change {
   margin-top: auto;
@@ -1673,6 +1734,16 @@ section h3 {
     .prev-part-display {
       display: block; } }
 
+h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 40px; }
+  @media (min-width: 700px) {
+    h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 80px; } }
+
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
   background-position: bottom;
@@ -1681,17 +1752,22 @@ section h3 {
       align-items: center;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 22vh;
   -ms-flex-pack: center;
       justify-content: center;
   padding: 0 70px;
   width: 100%; }
+  @media (min-width: 700px) {
+    .contact-us-container .entry-header {
+      height: 400px; } }
 
 .contact-us-container h2 {
   text-align: center;
+  font-size: 24px;
   font-weight: 200; }
   @media (min-width: 700px) {
     .contact-us-container h2 {
+      font-size: 56px;
       font-weight: normal; } }
 
 .contact-us-container h2 + p,
@@ -1798,6 +1874,9 @@ footer .site-info {
     .connect-us .email-btn:hover {
       background: black; }
 
+.connect-wrapper {
+  width: 320px; }
+
 .what-we-doing {
   position: relative; }
   .what-we-doing .what-we-doing-img {
@@ -1885,38 +1964,54 @@ footer .site-info {
 
 .event-container {
   margin-bottom: 35px; }
+  .event-container p,
+  .event-container .header5-b {
+    font-size: 16px;
+    margin-top: 0; }
+    @media (min-width: 700px) {
+      .event-container p,
+      .event-container .header5-b {
+        font-size: 24px;
+        font-weight: 300; } }
   @media (min-width: 700px) {
     .event-container {
       margin-bottom: 50px; } }
-  .event-container .event-info a {
-    background: #ee6c4d;
-    padding: 5px 30px;
-    text-transform: uppercase; }
-    .event-container .event-info a:hover {
-      background: black;
-      color: white; }
+  .event-container .event-info {
+    position: relative; }
+    .event-container .event-info a {
+      background: #ee6c4d;
+      padding: 5px 30px;
+      text-transform: uppercase; }
+      .event-container .event-info a:hover {
+        background: black;
+        color: white; }
   @media (min-width: 700px) {
     .event-container .event-time-container {
       -ms-flex-direction: row;
-          flex-direction: row; } }
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      width: 880px; } }
   .event-container .event-time-container p {
     margin: 0; }
   .event-container .event-time-container .calender-icon {
     background: url(../../assets/icons/calender-icon.png) no-repeat;
-    background-size: 125px 125px;
-    height: 125px;
-    width: 125px;
+    background-size: 150px 138px;
+    height: 150px;
+    width: 150px;
     margin-bottom: 20px; }
     @media (min-width: 700px) {
       .event-container .event-time-container .calender-icon {
         margin-right: 40px; } }
+    .event-container .event-time-container .calender-icon .event-date h5 {
+      font-weight: 400; }
     .event-container .event-time-container .calender-icon .event-date h5:first-child {
-      font-size: 1rem;
+      font-size: 22px;
       text-transform: uppercase;
-      transform: translate(15%, -35%); }
+      transform: translate(10%, -60%); }
     .event-container .event-time-container .calender-icon .event-date h5:last-child {
-      font-size: 60px;
-      transform: translate(-1%, -14%); }
+      font-size: 66px;
+      transform: translate(-1%, -18%); }
   .event-container .event-time-container .event-when-where {
     display: -ms-flexbox;
     display: flex;
@@ -1926,34 +2021,49 @@ footer .site-info {
     text-align: center; }
     @media (min-width: 700px) {
       .event-container .event-time-container .event-when-where {
-        width: 450px;
+        width: 630px;
         text-align: left; } }
-    .event-container .event-time-container .event-when-where .bold {
-      font-weight: bold; }
     .event-container .event-time-container .event-when-where p {
-      margin-bottom: 20px; }
+      margin: 0 auto 30px;
+      width: 210px; }
       @media (min-width: 700px) {
         .event-container .event-time-container .event-when-where p {
-          margin-bottom: 5px; } }
+          font-size: 22px;
+          margin: 0 0 5px;
+          width: 480px; } }
+    .event-container .event-time-container .event-when-where .bold {
+      font-weight: bold; }
   .event-container .header2-a {
-    font-size: 24px;
-    letter-spacing: 2px;
-    line-height: 1;
-    margin-bottom: 0; }
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    line-height: 0;
+    margin-top: 40px; }
     @media (min-width: 700px) {
       .event-container .header2-a {
-        margin-bottom: 20px;
-        font-size: 3.5rem; } }
+        font-weight: 500;
+        margin: 80px auto 60px;
+        font-size: 2.4rem;
+        line-height: 2; } }
   .event-container .header3 {
-    margin-top: 0;
-    font-size: 24px;
-    font-weight: 500; }
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase; }
     @media (min-width: 700px) {
       .event-container .header3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 1.8px;
         margin: 0;
-        font-size: 2rem; } }
+        top: -28px;
+        left: 530px;
+        position: absolute; } }
   .event-container .header5-b {
     margin: 0; }
+    @media (min-width: 700px) {
+      .event-container .header5-b {
+        font-weight: 500; } }
   .event-container h2, .event-container h3 {
     text-align: center;
     font-size: 1.8rem; }
