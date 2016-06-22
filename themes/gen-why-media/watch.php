@@ -22,7 +22,7 @@ get_header(); ?>
 			</div>
 			<div class="docbg watch-center">
 				<h2 class="header2-b h2-change">Documentary</h2>
-				<a href="documentary" class="button button-a fom-button">Find Out More</a>
+				<a href="http://www.fracturedland.com/" class="button button-a fom-button">Find Out More</a>
 			</div>
 		</main>
 	</div>
