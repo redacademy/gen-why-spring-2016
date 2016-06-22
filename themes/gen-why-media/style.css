@@ -1516,32 +1516,34 @@ section h3 {
     .page-template-services .services-hero-banner {
       height: 450px; } }
   .page-template-services .services-hero-banner .services-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../assets/images/harmony_banner.jpg);
-    display: -ms-flexbox;
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width: 100%;
-    padding-top: 0;
-    margin: 0 auto;
-    -ms-flex-pack: center;
-        justify-content: center;
     -ms-flex-align: center;
         align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../assets/images/harmony_banner.jpg) no-repeat center;
+    background-size: cover;
+    bottom: 0;
     color: white;
-    margin-bottom: 1px;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-filter: blur(5px);
             filter: blur(5px);
-    z-index: -1;
-    position: absolute;
+    height: 250px;
+    -ms-flex-pack: center;
+        justify-content: center;
     left: 0;
+    margin-bottom: 1px;
+    margin: 0 auto;
+    padding-top: 0;
+    position: absolute;
     right: 0;
     top: 0;
-    bottom: 0; }
+    width: 100%;
+    z-index: -1; }
     @media (min-width: 700px) {
       .page-template-services .services-hero-banner .services-hero {
         height: 500px; } }
+    @media (min-width: 1240px) {
+      .page-template-services .services-hero-banner .services-hero {
+        background-attachment: fixed; } }
   .page-template-services .services-hero-banner .services-hero-title {
     color: #fff;
     z-index: 2;
@@ -1664,6 +1666,9 @@ section h3 {
   @media (min-width: 700px) {
     .our-story-container .founder-banner {
       height: 450px; } }
+  @media (min-width: 1240px) {
+    .our-story-container .founder-banner {
+      background-attachment: fixed; } }
   .our-story-container .founder-banner .about-us {
     color: white; }
     @media (min-width: 700px) {

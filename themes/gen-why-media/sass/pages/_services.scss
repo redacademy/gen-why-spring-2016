@@ -18,33 +18,35 @@
   @include tablet {
     height: 450px;
   }
-  .services-hero{
-       background:
-        linear-gradient(
-        rgba(0, 0, 0, 0.25),
-        rgba(0, 0, 0, 0.25)
-        ),
-        url(../../assets/images/harmony_banner.jpg);
-      display: flex;
-      background-size: cover;
-      background-position: center;
-      height: 250px;
-      width: 100%;
-      padding-top: 0;
-      margin: 0 auto;
-      justify-content: center;
+  .services-hero {
       align-items: center;
+      background:
+       linear-gradient(
+       rgba(0, 0, 0, 0.25),
+       rgba(0, 0, 0, 0.25)
+       ),
+       url(../../assets/images/harmony_banner.jpg) no-repeat center;
+      background-size: cover;
+      bottom:0;
       color: white;
+      display: flex;
+      filter: blur(5px);
+      height: 250px;
+      justify-content: center;
+      left:0;
       margin-bottom: 1px;
-       filter: blur(5px);
-       z-index: -1;
-       position:absolute;
-       left:0;
-       right:0;
-       top:0;
-       bottom:0;
+      margin: 0 auto;
+      padding-top: 0;
+      position:absolute;
+      right:0;
+      top:0;
+      width: 100%;
+      z-index: -1;
        @include tablet {
          height: 500px;
+       }
+       @include desktop {
+         background-attachment: fixed;
        }
   }
   .services-hero-title {
@@ -185,6 +187,9 @@
     @extend .center-column;
     @include tablet {
       height: 450px;
+    }
+    @include desktop {
+      background-attachment: fixed;
     }
     .about-us {
         color: $color__mainw;
