@@ -1,4 +1,7 @@
 .event-container {
+  p {
+    font-size: 14px;
+  }
   margin-bottom: 35px;
   @include tablet {
     margin-bottom: 50px;
@@ -29,7 +32,7 @@
       background-size: 150px 138px;
       height: 150px;
       width: 150px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       // background-size: 125px 125px;
       // height: 125px;
       // width: 125px;
@@ -63,6 +66,11 @@
       flex-direction: column;
       width: 250px;
       text-align: center;
+      p {
+        // font-size: 14px;
+        width: 210px;
+        margin: 0 auto 30px;
+      }
       @include tablet {
         width: 450px;
         text-align: left;
@@ -71,10 +79,11 @@
         font-weight: bold;
       }
       p {
-        font-size: 16px;
-        width: 200px;
-        margin: 0 auto 20px;
+        // font-size: 16px;
+        // width: 200px;
+        // margin: 0 auto 20px;
         // margin-bottom: 20px;
+
         @include tablet {
           margin-bottom: 5px;
         }
@@ -103,6 +112,7 @@
     }
   }
   .header5-b {
+    // font-size: 14px;
     margin: 0;
   }
   h2, h3 {
