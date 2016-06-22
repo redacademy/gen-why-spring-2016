@@ -14,6 +14,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
+			<div class="404-banner">What</div>
 				<header class="page-header">
 					<h1 class="page-title"><?php echo esc_html( 'Oops! That page can&rsquo;t be found.' ); ?></h1>
 				</header><!-- .page-header -->
@@ -28,17 +29,17 @@ get_header(); ?>
 					<?php if ( genwhy_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
 					<div class="widget widget_categories">
 						<h2 class="widget-title"><?php echo esc_html( 'Most Used Categories' ); ?></h2>
-						<ul>
-						<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-						?>
-						</ul>
+					<ul>
+					<?php
+						wp_list_categories( array(
+							'orderby'    => 'count',
+							'order'      => 'DESC',
+							'show_count' => 1,
+							'title_li'   => '',
+							'number'     => 10,
+						) );
+					?>
+					</ul>
 					</div><!-- .widget -->
 					<?php endif; ?>
 
@@ -54,3 +55,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
+
+
