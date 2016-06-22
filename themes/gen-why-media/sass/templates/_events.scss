@@ -28,6 +28,7 @@
     @include tablet {
       flex-direction: row;
       justify-content: space-between;
+      margin-bottom: 60px;
       width: 880px;
     }
     p {
@@ -42,7 +43,7 @@
       @extend .center-column;
       @include tablet {
         margin-bottom: 0;
-        transform: translate(38%, -13%);
+        transform: translate(8%, -13%);
       }
       .event-date {
         h5 {
@@ -92,7 +93,7 @@
     @include tablet {
       font-weight: 500;
       margin: 40px 0 0 0;
-      font-size: 2.4rem;
+      font-size: 2.6rem;
       line-height: 2;
     }
   }
@@ -102,11 +103,11 @@
     font-weight: 500;
     text-transform: uppercase;
     @include tablet {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       font-weight: 600;
       letter-spacing: 1.8px;
       margin: 0;
-      transform: translate(3.5%, 71%);
+      transform: translate(14%, 26%);
     }
   }
   .header5-b {
@@ -136,7 +137,7 @@
           width: 600px;
       }
       @include desktop {
-          width: 800px;
+          width: 930px;
       }
     }
   }

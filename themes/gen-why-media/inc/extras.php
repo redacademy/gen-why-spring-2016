@@ -140,6 +140,67 @@ function genwhy_watch_documentary() {
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
 
+
+//Custom Function for setting header Image for Event Clips Page
+function genwhy_event_post_header() {
+
+  if( !is_page_template( 'event-clips.php' ) ) {
+    return ;
+  }
+
+   $custom_css =
+           ".watchhero{
+                  background:
+                 linear-gradient(
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
+                 ),
+                 url('". CFS()->get('upload_background_image') ."');
+               display: flex;
+               background-size: cover;
+               background-position: bottom;
+               height: 45vh;
+               width: 100%;
+               padding-top: 0;
+               margin: 0 auto;
+               justify-content: center;
+               align-items: center;
+               color: white;
+           }";
+   wp_add_inline_style( 'genwhy-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'genwhy_event_post_header' );
+
+//Custom Function for setting header Image for Short-Videos Page
+function genwhy_short_video_header() {
+
+  if( !is_page_template( 'short-videos.php' ) ) {
+    return ;
+  }
+
+   $custom_css =
+           ".watchhero{
+                  background:
+                 linear-gradient(
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
+                 ),
+                 url('". CFS()->get('upload_background_image') ."');
+               display: flex;
+               background-size: cover;
+               background-position: bottom;
+               height: 45vh;
+               width: 100%;
+               padding-top: 0;
+               margin: 0 auto;
+               justify-content: center;
+               align-items: center;
+               color: white;
+           }";
+   wp_add_inline_style( 'genwhy-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'genwhy_short_video_header' );
+
 // Archive Projects Title Filter
 function genwhy_filter_titles() {
 	if (is_post_type_archive('projects_cpt')){
@@ -147,3 +208,5 @@ function genwhy_filter_titles() {
 	}
 }
 add_filter('get_the_archive_title','genwhy_filter_titles');
+
+?>
