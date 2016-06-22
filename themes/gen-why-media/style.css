@@ -543,6 +543,20 @@ table {
 header {
   text-align: center; }
 
+::-webkit-input-placeholder {
+  color: #4a4a4a; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #4a4a4a; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #4a4a4a; }
+
+:-ms-input-placeholder {
+  color: #4a4a4a; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -1339,13 +1353,17 @@ section h3 {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-align: center;
-      align-items: center; }
+  -ms-flex-align: end;
+      align-items: flex-end; }
   @media (min-width: 1240px) {
     .projects-page .page-header {
       height: 460px; } }
   .projects-page .page-header h1 {
     font-size: 38px; }
+    @media (min-width: 700px) {
+      .projects-page .page-header h1 {
+        font-size: 72px;
+        padding-bottom: 100px; } }
 
 .projects-page .entry-header {
   width: 25%; }
@@ -1365,14 +1383,18 @@ section h3 {
   .projects-page .entry-content p {
     font-size: 0.9rem;
     line-height: 24px; }
-
-.projects-page .sub-title .header2-a {
-  font-size: 36px;
-  line-height: 0; }
+    @media (min-width: 700px) {
+      .projects-page .entry-content p {
+        font-size: 1.2rem;
+        line-height: 1.6; } }
 
 .projects-page h2 a {
   font-size: 0.8rem;
   margin: 0; }
+  @media (min-width: 700px) {
+    .projects-page h2 a {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
 
 .projects-page .entry-title {
   font-size: 10px;
@@ -1381,7 +1403,7 @@ section h3 {
 
 .projects-page fieldset {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border-color: #4a4a4a;
   border-radius: 3px;
   height: 28px;
   margin: 0 auto;
@@ -1389,14 +1411,24 @@ section h3 {
   position: relative;
   text-align: left;
   width: 300px; }
+  @media (min-width: 700px) {
+    .projects-page fieldset {
+      height: 60px;
+      width: 700px; } }
 
 .projects-page input {
   padding: 0;
+  color: #4a4a4a;
   border: none;
   background: none; }
+  @media (min-width: 700px) {
+    .projects-page input {
+      height: 59px;
+      width: 600px; } }
 
 .projects-page button {
   background: none;
+  border-color: #4a4a4a;
   border-bottom: 0;
   border-radius: 0;
   border-right: none;
@@ -1404,10 +1436,25 @@ section h3 {
   padding: 0.4em 0.7em;
   position: absolute;
   right: 0; }
+  @media (min-width: 700px) {
+    .projects-page button {
+      padding: 0.7em 1.8em; }
+      .projects-page button .fa {
+        font-size: 38px;
+        color: #4a4a4a; } }
 
 .sub-title {
   margin-top: 90px;
   text-align: center; }
+  @media (min-width: 700px) {
+    .sub-title {
+      margin-top: 120px; } }
+  .sub-title .header2-a {
+    font-size: 36px;
+    line-height: 0; }
+    @media (min-width: 700px) {
+      .sub-title .header2-a {
+        font-size: 56px; } }
 
 .past-works-container,
 .projects_cpt {
@@ -1427,7 +1474,8 @@ section h3 {
   width: 88%; }
   @media (min-width: 700px) {
     .past-works-container {
-      margin: 60px auto; } }
+      margin: 60px auto;
+      width: 78%; } }
 
 .h2-change {
   margin-top: auto;
@@ -1894,20 +1942,30 @@ footer .site-info {
   .event-container .header5-b {
     font-size: 16px;
     margin-top: 0; }
+    @media (min-width: 700px) {
+      .event-container p,
+      .event-container .header5-b {
+        font-size: 24px;
+        font-weight: 300; } }
   @media (min-width: 700px) {
     .event-container {
       margin-bottom: 50px; } }
-  .event-container .event-info a {
-    background: #ee6c4d;
-    padding: 5px 30px;
-    text-transform: uppercase; }
-    .event-container .event-info a:hover {
-      background: black;
-      color: white; }
+  .event-container .event-info {
+    position: relative; }
+    .event-container .event-info a {
+      background: #ee6c4d;
+      padding: 5px 30px;
+      text-transform: uppercase; }
+      .event-container .event-info a:hover {
+        background: black;
+        color: white; }
   @media (min-width: 700px) {
     .event-container .event-time-container {
       -ms-flex-direction: row;
-          flex-direction: row; } }
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      width: 880px; } }
   .event-container .event-time-container p {
     margin: 0; }
   .event-container .event-time-container .calender-icon {
@@ -1935,28 +1993,32 @@ footer .site-info {
         flex-direction: column;
     width: 250px;
     text-align: center; }
-    .event-container .event-time-container .event-when-where p {
-      width: 210px;
-      margin: 0 auto 30px; }
     @media (min-width: 700px) {
       .event-container .event-time-container .event-when-where {
-        width: 450px;
+        width: 630px;
         text-align: left; } }
+    .event-container .event-time-container .event-when-where p {
+      margin: 0 auto 30px;
+      width: 210px; }
+      @media (min-width: 700px) {
+        .event-container .event-time-container .event-when-where p {
+          font-size: 22px;
+          margin: 0 0 5px;
+          width: 480px; } }
     .event-container .event-time-container .event-when-where .bold {
       font-weight: bold; }
-    @media (min-width: 700px) {
-      .event-container .event-time-container .event-when-where p {
-        margin-bottom: 5px; } }
   .event-container .header2-a {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
     line-height: 0;
     margin-top: 40px; }
     @media (min-width: 700px) {
       .event-container .header2-a {
-        margin-bottom: 20px;
-        font-size: 3.5rem; } }
+        font-weight: 500;
+        margin: 80px auto 60px;
+        font-size: 2.4rem;
+        line-height: 2; } }
   .event-container .header3 {
     margin-top: 8px;
     font-size: 20px;
@@ -1964,10 +2026,18 @@ footer .site-info {
     text-transform: uppercase; }
     @media (min-width: 700px) {
       .event-container .header3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 1.8px;
         margin: 0;
-        font-size: 2rem; } }
+        top: -28px;
+        left: 530px;
+        position: absolute; } }
   .event-container .header5-b {
     margin: 0; }
+    @media (min-width: 700px) {
+      .event-container .header5-b {
+        font-weight: 500; } }
   .event-container h2, .event-container h3 {
     text-align: center;
     font-size: 1.8rem; }

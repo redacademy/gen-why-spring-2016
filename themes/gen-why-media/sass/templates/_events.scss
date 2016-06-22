@@ -3,12 +3,17 @@
   .header5-b {
     font-size: 16px;
     margin-top: 0;
+    @include tablet {
+      font-size: 24px;
+      font-weight: 300;
+    }
   }
   margin-bottom: 35px;
   @include tablet {
     margin-bottom: 50px;
   }
   .event-info {
+    position: relative;
     @extend .center-column;
     a {
       @extend .button;
@@ -25,6 +30,8 @@
     @extend .center-column;
     @include tablet {
       flex-direction: row;
+      justify-content: space-between;
+      width: 880px;
     }
     p {
       margin: 0;
@@ -68,39 +75,36 @@
       flex-direction: column;
       width: 250px;
       text-align: center;
+      @include tablet {
+        width: 630px;
+        text-align: left;
+      }
       p {
         // font-size: 14px;
-        width: 210px;
         margin: 0 auto 30px;
-      }
-      @include tablet {
-        width: 450px;
-        text-align: left;
+        width: 210px;
+        @include tablet {
+          font-size: 22px;
+          margin: 0 0 5px;
+          width: 480px;
+        }
       }
       .bold {
         font-weight: bold;
       }
-      p {
-        // font-size: 16px;
-        // width: 200px;
-        // margin: 0 auto 20px;
-        // margin-bottom: 20px;
-
-        @include tablet {
-          margin-bottom: 5px;
-        }
-      }
     }
   }
   .header2-a {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
     line-height: 0;
     margin-top: 40px;
     @include tablet {
-      margin-bottom: 20px;
-      font-size: 3.5rem;
+      font-weight: 500;
+      margin: 80px auto 60px;
+      font-size: 2.4rem;
+      line-height: 2;
     }
   }
   .header3 {
@@ -109,13 +113,21 @@
     font-weight: 500;
     text-transform: uppercase;
     @include tablet {
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 1.8px;
       margin: 0;
-      font-size: 2rem;
+      top: -28px;
+      left: 530px;
+      position: absolute;
     }
   }
   .header5-b {
     // font-size: 14px;
     margin: 0;
+    @include tablet {
+      font-weight: 500;
+    }
   }
   h2, h3 {
     text-align: center;

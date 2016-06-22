@@ -76,3 +76,19 @@ table {
 header {
 	text-align: center;
 }
+
+::-webkit-input-placeholder {
+   color: $color__dgrey;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $color__dgrey;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $color__dgrey;  
+}
+
+:-ms-input-placeholder {  
+   color: $color__dgrey;  
+}
