@@ -1355,22 +1355,33 @@ section h3 {
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
-  height: 22vh;
+  height: 120px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-align: end;
-      align-items: flex-end; }
+  -ms-flex-align: center;
+      align-items: center;
+  transform: translateY(59%); }
+  @media (min-width: 700px) {
+    .projects-page .page-header {
+      height: 300px;
+      transform: translateY(0); } }
   @media (min-width: 1240px) {
     .projects-page .page-header {
-      height: 460px; } }
+      height: 460px;
+      background-attachment: fixed; } }
   .projects-page .page-header h1 {
     font-size: 38px; }
     @media (min-width: 700px) {
       .projects-page .page-header h1 {
-        font-size: 72px;
-        padding-bottom: 100px; } }
+        font-size: 72px; } }
+
+.projects-page .events-services-container {
+  margin-top: 120px; }
+  @media (min-width: 700px) {
+    .projects-page .events-services-container {
+      margin-top: 0; } }
 
 .projects-page .entry-header {
   width: 25%; }
@@ -1967,130 +1978,136 @@ footer .site-info {
         .prev-parts .prev-parts-img .partner-logos img {
           margin: 0 20px; } }
 
-.event-container {
-  margin-bottom: 35px; }
-  .event-container p,
-  .event-container .header5-b {
-    font-size: 16px;
-    margin-top: 0; }
-    @media (min-width: 700px) {
-      .event-container p,
-      .event-container .header5-b {
-        font-size: 24px;
-        font-weight: 300; } }
+.event-container p,
+.event-container .header5-b {
+  font-size: 16px;
+  margin-top: 0; }
   @media (min-width: 700px) {
-    .event-container {
-      margin-bottom: 50px; } }
-  .event-container .event-info {
-    position: relative; }
-    .event-container .event-info a {
-      background: #ee6c4d;
-      padding: 5px 30px;
-      text-transform: uppercase; }
-      .event-container .event-info a:hover {
-        background: black;
-        color: white; }
-  @media (min-width: 700px) {
-    .event-container .event-time-container {
-      -ms-flex-direction: row;
-          flex-direction: row;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-      width: 880px; } }
-  .event-container .event-time-container p {
-    margin: 0; }
-  .event-container .event-time-container .calender-icon {
-    background: url(../../assets/icons/calender-icon.png) no-repeat;
-    background-size: 150px 138px;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 20px; }
-    @media (min-width: 700px) {
-      .event-container .event-time-container .calender-icon {
-        margin-right: 40px; } }
-    .event-container .event-time-container .calender-icon .event-date h5 {
-      font-weight: 400; }
-    .event-container .event-time-container .calender-icon .event-date h5:first-child {
-      font-size: 22px;
-      text-transform: uppercase;
-      transform: translate(10%, -60%); }
-    .event-container .event-time-container .calender-icon .event-date h5:last-child {
-      font-size: 66px;
-      transform: translate(-1%, -18%); }
-  .event-container .event-time-container .event-when-where {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    width: 250px;
-    text-align: center; }
-    @media (min-width: 700px) {
-      .event-container .event-time-container .event-when-where {
-        width: 630px;
-        text-align: left; } }
-    .event-container .event-time-container .event-when-where p {
-      margin: 0 auto 30px;
-      width: 210px; }
-      @media (min-width: 700px) {
-        .event-container .event-time-container .event-when-where p {
-          font-size: 22px;
-          margin: 0 0 5px;
-          width: 480px; } }
-    .event-container .event-time-container .event-when-where .bold {
-      font-weight: bold; }
-  .event-container .header2-a {
-    font-size: 23px;
-    font-weight: 600;
-    letter-spacing: 1.8px;
-    line-height: 0;
-    margin-top: 40px; }
-    @media (min-width: 700px) {
-      .event-container .header2-a {
-        font-weight: 500;
-        margin: 80px auto 60px;
-        font-size: 2.4rem;
-        line-height: 2; } }
-  .event-container .header3 {
-    margin-top: 8px;
-    font-size: 20px;
-    font-weight: 500;
+    .event-container p,
+    .event-container .header5-b {
+      font-size: 24px;
+      font-weight: 300;
+      margin-bottom: 35px; } }
+
+.event-container .event-info {
+  position: relative; }
+  .event-container .event-info a {
+    background: #ee6c4d;
+    padding: 5px 30px;
     text-transform: uppercase; }
-    @media (min-width: 700px) {
-      .event-container .header3 {
-        font-size: 1.6rem;
-        font-weight: 600;
-        letter-spacing: 1.8px;
-        margin: 0;
-        top: -28px;
-        left: 530px;
-        position: absolute; } }
-  .event-container .header5-b {
-    margin: 0; }
-    @media (min-width: 700px) {
-      .event-container .header5-b {
-        font-weight: 500; } }
-  .event-container h2, .event-container h3 {
-    text-align: center;
-    font-size: 1.8rem; }
-    @media (min-width: 700px) {
-      .event-container h2, .event-container h3 {
-        font-size: 2.8rem; } }
-    @media (min-width: 1240px) {
-      .event-container h2, .event-container h3 {
-        font-size: 3.5rem; } }
-  .event-container .body {
+    .event-container .event-info a:hover {
+      background: black;
+      color: white; }
+
+@media (min-width: 700px) {
+  .event-container .event-time-container {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 880px; } }
+
+.event-container .event-time-container p {
+  margin: 0; }
+
+.event-container .event-time-container .calender-icon {
+  background: url(../../assets/icons/calender-icon.png) no-repeat;
+  background-size: 150px 138px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px; }
+  @media (min-width: 700px) {
+    .event-container .event-time-container .calender-icon {
+      margin-bottom: 0;
+      transform: translate(38%, -13%); } }
+  .event-container .event-time-container .calender-icon .event-date h5 {
+    font-weight: 400; }
+  .event-container .event-time-container .calender-icon .event-date h5:first-child {
+    font-size: 22px;
+    text-transform: uppercase;
+    transform: translate(2%, -61%);
     text-align: center; }
+  .event-container .event-time-container .calender-icon .event-date h5:last-child {
+    font-size: 66px;
+    transform: translate(-3%, -18%); }
+
+.event-container .event-time-container .event-when-where {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 250px;
+  text-align: center; }
+  @media (min-width: 700px) {
+    .event-container .event-time-container .event-when-where {
+      width: 630px;
+      text-align: left; } }
+  .event-container .event-time-container .event-when-where p {
+    margin: 0 auto 30px;
+    width: 210px; }
     @media (min-width: 700px) {
-      .event-container .body {
-        text-align: left; } }
-    .event-container .body p {
-      width: 350px; }
-      @media (min-width: 700px) {
-        .event-container .body p {
-          width: 600px; } }
-      @media (min-width: 1240px) {
-        .event-container .body p {
-          width: 800px; } }
+      .event-container .event-time-container .event-when-where p {
+        font-size: 22px;
+        margin: 0 0 5px;
+        width: 480px; } }
+  .event-container .event-time-container .event-when-where .bold {
+    font-weight: bold; }
+
+.event-container .header2-a {
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  line-height: 0;
+  margin-top: 40px; }
+  @media (min-width: 700px) {
+    .event-container .header2-a {
+      font-weight: 500;
+      margin: 40px 0 0 0;
+      font-size: 2.4rem;
+      line-height: 2; } }
+
+.event-container .header3 {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase; }
+  @media (min-width: 700px) {
+    .event-container .header3 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 1.8px;
+      margin: 0;
+      transform: translate(3.5%, 71%); } }
+
+.event-container .header5-b {
+  margin: 0; }
+  @media (min-width: 700px) {
+    .event-container .header5-b {
+      font-weight: 500; } }
+
+.event-container h2, .event-container h3 {
+  text-align: center;
+  font-size: 1.8rem; }
+  @media (min-width: 700px) {
+    .event-container h2, .event-container h3 {
+      font-size: 2.8rem; } }
+  @media (min-width: 1240px) {
+    .event-container h2, .event-container h3 {
+      font-size: 3.5rem; } }
+
+.event-container .body {
+  text-align: center; }
+  @media (min-width: 700px) {
+    .event-container .body {
+      text-align: left; } }
+  .event-container .body p {
+    width: 350px; }
+    @media (min-width: 700px) {
+      .event-container .body p {
+        width: 600px; } }
+    @media (min-width: 1240px) {
+      .event-container .body p {
+        width: 800px; } }
 
 .bx-wrapper {
   margin: 0; }
