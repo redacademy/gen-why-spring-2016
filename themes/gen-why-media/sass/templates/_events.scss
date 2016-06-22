@@ -71,7 +71,10 @@
         font-weight: bold;
       }
       p {
-        margin-bottom: 20px;
+        font-size: 16px;
+        width: 200px;
+        margin: 0 auto 20px;
+        // margin-bottom: 20px;
         @include tablet {
           margin-bottom: 5px;
         }
@@ -79,17 +82,18 @@
     }
   }
   .header2-a {
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 600;
     letter-spacing: 2px;
-    line-height: 1;
-    margin-bottom: 0;
+    line-height: 0;
+    margin-top: 40px;
     @include tablet {
       margin-bottom: 20px;
       font-size: 3.5rem;
     }
   }
   .header3 {
-    margin-top: 8;
+    margin-top: 8px;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
