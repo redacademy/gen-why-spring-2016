@@ -1355,14 +1355,14 @@ section h3 {
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
-  height: 120px;
+  height: 130px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  transform: translateY(59%); }
+  transform: translateY(54%); }
   @media (min-width: 700px) {
     .projects-page .page-header {
       height: 300px;
@@ -1522,7 +1522,7 @@ section h3 {
 .page-template-services .services-hero-banner {
   position: relative;
   padding: 15px;
-  height: 250px; }
+  height: 200px; }
   @media (min-width: 700px) {
     .page-template-services .services-hero-banner {
       height: 450px; } }
@@ -1551,9 +1551,7 @@ section h3 {
     z-index: -1; }
     @media (min-width: 700px) {
       .page-template-services .services-hero-banner .services-hero {
-        height: 500px; } }
-    @media (min-width: 1240px) {
-      .page-template-services .services-hero-banner .services-hero {
+        height: 500px;
         background-attachment: fixed; } }
   .page-template-services .services-hero-banner .services-hero-title {
     color: #fff;
@@ -1669,16 +1667,15 @@ section h3 {
             font-size: 2.5rem; } }
 
 .our-story-container .founder-banner {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) center;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
   background-size: cover;
   height: 200px;
   width: 100%;
   position: relative; }
   @media (min-width: 700px) {
     .our-story-container .founder-banner {
-      height: 450px; } }
-  @media (min-width: 1240px) {
-    .our-story-container .founder-banner {
+      background-size: 200% 80%;
+      height: 450px;
       background-attachment: fixed; } }
   .our-story-container .founder-banner .about-us {
     color: white; }
@@ -1982,9 +1979,12 @@ footer .site-info {
   .prev-parts .prev-parts-img {
     border-bottom: 10px #ee6c4d solid;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
-    background-size: cover;
+    background-size: 150% 150%;
     height: 300px;
     width: 100%; }
+    @media (min-width: 700px) {
+      .prev-parts .prev-parts-img {
+        background-attachment: fixed; } }
     @media (min-width: 1240px) {
       .prev-parts .prev-parts-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;

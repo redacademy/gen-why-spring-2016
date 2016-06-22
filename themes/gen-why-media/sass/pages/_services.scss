@@ -14,7 +14,7 @@
 .services-hero-banner {
   position: relative;
 	padding:15px;
-  height: 250px;
+  height: 200px;
   @include tablet {
     height: 450px;
   }
@@ -44,8 +44,6 @@
       z-index: -1;
        @include tablet {
          height: 500px;
-       }
-       @include desktop {
          background-attachment: fixed;
        }
   }
@@ -179,16 +177,15 @@
 
 .our-story-container {
   .founder-banner {
-    background: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255,0.1)), url(../../assets/images/our-story-banner.jpg) center;
+    background: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255,0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
     width: 100%;
     position: relative;
     @extend .center-column;
     @include tablet {
+      background-size: 200% 80%;
       height: 450px;
-    }
-    @include desktop {
       background-attachment: fixed;
     }
     .about-us {

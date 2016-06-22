@@ -3,18 +3,21 @@ window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequest
 }
 
 jQuery(document).ready(function() {
- console.log('wtf')
-  jQuery('.bxslider-review').bxSlider({
-      controls: false
-  });
 
-  jQuery('.bxslider-hero').bxSlider({
-      auto: true,
-      controls: false
-  });
+    // Review Bxslider
+    jQuery('.bxslider-review').bxSlider({
+        controls: false
+    });
 
-  var $body =   jQuery('body'),
-        $target =  jQuery('#scroll-target'),
+    // Front Page Hero Bxslider
+    jQuery('.bxslider-hero').bxSlider({
+        auto: true,
+        controls: false
+    });
+
+    // Sticky Header
+    var $body = jQuery('body'),
+        $target = jQuery('#scroll-target'),
         targetoffsetTop,
         resizetimer,
         stickyclass = 'sticky' //class to add to BODY when header should be sticky
@@ -24,7 +27,7 @@ jQuery(document).ready(function() {
     }
 
     function makesticky() {
-        var scrollTop =  jQuery(document).scrollTop()
+        var scrollTop = jQuery(document).scrollTop()
         if (scrollTop >= targetoffsetTop) {
             if (!$body.hasClass(stickyclass)) {
                 $body.addClass(stickyclass);
@@ -36,19 +39,34 @@ jQuery(document).ready(function() {
         }
     }
 
-      updateCoords();
+    updateCoords();
 
-      jQuery(window).on('scroll', function() {
-          requestAnimationFrame(makesticky);
-      });
+    jQuery(window).on('scroll', function() {
+        requestAnimationFrame(makesticky);
+    });
 
-      jQuery(window).on('resize', function() {
-          clearTimeout(resizetimer);
-          resizetimer = setTimeout(function() {
-              $body.removeClass(stickyclass);
-              updateCoords();
-              makesticky();
-          }, 50);
-      });
+    jQuery(window).on('resize', function() {
+        clearTimeout(resizetimer);
+        resizetimer = setTimeout(function() {
+            $body.removeClass(stickyclass);
+            updateCoords();
+            makesticky();
+        }, 50);
+    });
 
+    // Parallax Scrolling
+    var $window = jQuery(window); //You forgot this line in the above example
+
+    jQuery('div[data-type="background"]').each(function() {
+        var $bgobj = jQuery(this); // assigning the object
+        jQuery(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+            // Put together our final background position
+            var coords = '50% ' + yPos + 'px';
+            // Move the background
+            $bgobj.css({
+                'background-position': coords
+            });
+        });
+    });
 });
