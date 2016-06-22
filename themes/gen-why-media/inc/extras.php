@@ -41,13 +41,14 @@ function genwhy_watch_header() {
                display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 45vh;
+               height: 130px;
                width: 100%;
                padding-top: 0;
                margin: 0 auto;
                justify-content: center;
                align-items: center;
                color: white;
+							 transform: translateY(54%);
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
@@ -140,7 +141,6 @@ function genwhy_watch_documentary() {
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
 
-// Functions for Event Clips Page
 
 //Custom Function for setting header Image for Event Clips Page
 function genwhy_event_post_header() {
@@ -171,6 +171,36 @@ function genwhy_event_post_header() {
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_event_post_header' );
+
+//Custom Function for setting header Image for Short-Videos Page
+function genwhy_short_video_header() {
+
+  if( !is_page_template( 'short-videos.php' ) ) {
+    return ;
+  }
+
+   $custom_css =
+           ".watchhero{
+                  background:
+                 linear-gradient(
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
+                 ),
+                 url('". CFS()->get('upload_background_image') ."');
+               display: flex;
+               background-size: cover;
+               background-position: bottom;
+               height: 45vh;
+               width: 100%;
+               padding-top: 0;
+               margin: 0 auto;
+               justify-content: center;
+               align-items: center;
+               color: white;
+           }";
+   wp_add_inline_style( 'genwhy-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'genwhy_short_video_header' );
 
 // Archive Projects Title Filter
 function genwhy_filter_titles() {

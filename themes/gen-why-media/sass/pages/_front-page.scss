@@ -226,15 +226,25 @@ section {
   .latest-event-img {
     @extend .center-column;
     background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-latest-clips.png) no-repeat center center;
-    background-size: cover;
+    background-size: 200% 170%;
     height: 300px;
     width: 100%;
+    @include tablet {
+      background-attachment: fixed;
+      background-size: 219% 142%;
+    }
     @include desktop {
       background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-latest-clips.png) no-repeat center center fixed;
-      background-size: cover;
+      background-size: 200% 200%;
       height: 450px;
     }
   }
+}
+
+// Upcoming Events
+
+.events-front-page {
+  margin-bottom: 50px;
 }
 
 // About Us
