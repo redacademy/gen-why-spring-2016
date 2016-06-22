@@ -206,7 +206,7 @@ add_action( 'wp_enqueue_scripts', 'genwhy_short_video_header' );
 
 function genwhy_eventclip_posts() {
 
-  if( !is_page_template( 'event-clips.php' ) ) {
+  if( !is_page_template( 'event_clips.php' ) ) {
     return ;
   }
 
@@ -217,7 +217,7 @@ function genwhy_eventclip_posts() {
                    rgba(51, 75, 127, 0.55),
                    rgba(51, 75, 127, 0.55)
                  ),
-                 url('". CFS()->get('documentary_image') ."');
+                 url('". CFS()->get('upload_background_image') ."');
                display: block;
                background-size: cover;
                background-position: bottom;
@@ -230,7 +230,7 @@ function genwhy_eventclip_posts() {
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
-add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
+add_action( 'wp_enqueue_scripts', 'genwhy_eventclip_posts' );
 
 
 // Archive Projects Title Filter
