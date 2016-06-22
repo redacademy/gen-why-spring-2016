@@ -77,6 +77,18 @@ header {
 	text-align: center;
 }
 
+div {
+	input[type=text],
+	input[type=email],
+	textarea {
+		border-color: $color__dgrey;
+	}
+}
+
+
+/* searchform */
+
+
 ::-webkit-input-placeholder {
    color: $color__dgrey;
 }

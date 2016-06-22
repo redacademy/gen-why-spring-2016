@@ -543,6 +543,12 @@ table {
 header {
   text-align: center; }
 
+div input[type=text],
+div input[type=email],
+div textarea {
+  border-color: #4a4a4a; }
+
+/* searchform */
 ::-webkit-input-placeholder {
   color: #4a4a4a; }
 
@@ -1454,7 +1460,8 @@ section h3 {
     line-height: 0; }
     @media (min-width: 700px) {
       .sub-title .header2-a {
-        font-size: 56px; } }
+        font-size: 56px;
+        margin-bottom: 60px; } }
 
 .past-works-container,
 .projects_cpt {
@@ -1726,6 +1733,16 @@ section h3 {
     .prev-part-display {
       display: block; } }
 
+h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 40px; }
+  @media (min-width: 700px) {
+    h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 80px; } }
+
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
   background-position: bottom;
@@ -1734,17 +1751,22 @@ section h3 {
       align-items: center;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 22vh;
   -ms-flex-pack: center;
       justify-content: center;
   padding: 0 70px;
   width: 100%; }
+  @media (min-width: 700px) {
+    .contact-us-container .entry-header {
+      height: 400px; } }
 
 .contact-us-container h2 {
   text-align: center;
+  font-size: 24px;
   font-weight: 200; }
   @media (min-width: 700px) {
     .contact-us-container h2 {
+      font-size: 56px;
       font-weight: normal; } }
 
 .contact-us-container h2 + p,
