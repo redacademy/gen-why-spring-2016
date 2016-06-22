@@ -82,17 +82,17 @@
   .prev-parts-img {
     border-bottom: 10px $color__oj solid;
     @extend .center-column;
-    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
     background-size: cover;
     height: 300px;
     width: 100%;
     @include desktop {
-      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
       height: 450px;
     }
     .partner-logos {
       img {
-        height: 70px;
+        height: 60px;
         @include tablet {
           height: 120px;
           margin: 0 5px;
