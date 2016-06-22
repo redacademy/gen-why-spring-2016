@@ -1258,7 +1258,8 @@ section h3 {
     width: 100%; }
     @media (min-width: 1240px) {
       .latest-event .latest-event-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) no-repeat center center;
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) no-repeat center center fixed;
+        background-size: cover;
         height: 450px; } }
 
 .video-wrapper {
@@ -1800,7 +1801,7 @@ footer .site-info {
 .what-we-doing {
   position: relative; }
   .what-we-doing .what-we-doing-img {
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-what-we-doing.png) no-repeat center;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-what-we-doing.png) no-repeat center center fixed;
     background-size: cover;
     height: 300px;
     padding-bottom: 30px;
@@ -1836,14 +1837,14 @@ footer .site-info {
   -ms-flex-align: center;
       align-items: center; }
   .create-change .create-change-img {
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-social-change.png) center center;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-social-change.png) no-repeat center center;
     background-size: cover;
     height: 300px;
     width: 100%; }
     @media (min-width: 1240px) {
       .create-change .create-change-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) center center;
-        height: 300px; } }
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
+        background-size: cover; } }
 
 .inspire-btn a {
   background: #176a47;
@@ -1870,7 +1871,7 @@ footer .site-info {
     width: 100%; }
     @media (min-width: 1240px) {
       .prev-parts .prev-parts-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
         height: 450px; } }
     .prev-parts .prev-parts-img .partner-logos img {
       height: 60px; }

@@ -230,7 +230,8 @@ section {
     height: 300px;
     width: 100%;
     @include desktop {
-      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-latest-clips.png) no-repeat center center;
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-latest-clips.png) no-repeat center center fixed;
+      background-size: cover;
       height: 450px;
     }
   }
