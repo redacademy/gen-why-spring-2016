@@ -1,4 +1,9 @@
 .event-container {
+  p,
+  .header5-b {
+    font-size: 16px;
+    margin-top: 0;
+  }
   margin-bottom: 35px;
   @include tablet {
     margin-bottom: 50px;
@@ -26,23 +31,35 @@
     }
     .calender-icon {
       background: url(../../assets/icons/calender-icon.png) no-repeat;
-      background-size: 125px 125px;
-      height: 125px;
-      width: 125px;
+      background-size: 150px 138px;
+      height: 150px;
+      width: 150px;
       margin-bottom: 20px;
+      // background-size: 125px 125px;
+      // height: 125px;
+      // width: 125px;
+      // margin-bottom: 20px;
       @extend .center-column;
       @include tablet {
         margin-right: 40px;
       }
       .event-date {
+        h5 {
+          font-weight: 400;
+        }
         h5:first-child {
-          font-size: 1rem;
+          font-size: 22px;
           text-transform: uppercase;
-          transform: translate(15%,-35%);
+          transform: translate(10%,-60%);
+          // font-size: 1rem;
+          // text-transform: uppercase;
+          // transform: translate(15%,-35%);
         }
         h5:last-child {
-          font-size: 60px;
-          transform: translate(-1%, -14%);
+          font-size: 66px;
+          transform: translate(-1%, -18%);
+          // font-size: 60px;
+          // transform: translate(-1%, -14%);
         }
       }
     }
@@ -51,6 +68,11 @@
       flex-direction: column;
       width: 250px;
       text-align: center;
+      p {
+        // font-size: 14px;
+        width: 210px;
+        margin: 0 auto 30px;
+      }
       @include tablet {
         width: 450px;
         text-align: left;
@@ -59,7 +81,11 @@
         font-weight: bold;
       }
       p {
-        margin-bottom: 20px;
+        // font-size: 16px;
+        // width: 200px;
+        // margin: 0 auto 20px;
+        // margin-bottom: 20px;
+
         @include tablet {
           margin-bottom: 5px;
         }
@@ -67,20 +93,28 @@
     }
   }
   .header2-a {
-    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 0;
+    margin-top: 40px;
     @include tablet {
       margin-bottom: 20px;
       font-size: 3.5rem;
     }
   }
   .header3 {
-    margin-top: 0;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
     @include tablet {
       margin: 0;
       font-size: 2rem;
     }
   }
   .header5-b {
+    // font-size: 14px;
     margin: 0;
   }
   h2, h3 {

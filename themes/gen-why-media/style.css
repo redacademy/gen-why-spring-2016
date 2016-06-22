@@ -47,7 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* custom typography */
 .header1, .projects-page .page-header {
   color: white;
-  font-family: "helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 72px;
   font-weight: bold;
   line-height: 80px;
@@ -1274,7 +1274,6 @@ section h3 {
     .video-wrapper {
       width: 1120px;
       margin: 0 auto;
-      margin-left: 180px;
       padding-bottom: 40%; } }
 
 .video-wrapper iframe {
@@ -1285,48 +1284,53 @@ section h3 {
   height: 100%; }
   @media (min-width: 1240px) {
     .video-wrapper iframe {
-      width: 95%;
+      width: 100%;
       height: 85%; } }
 
-.about-us .founder-profile {
-  width: 300px;
-  margin: 0 auto; }
-  @media (min-width: 700px) {
-    .about-us .founder-profile {
-      -ms-flex-direction: row;
-          flex-direction: row;
-      width: 700px; } }
+.about-us {
+  margin-bottom: 20px; }
   @media (min-width: 1240px) {
-    .about-us .founder-profile {
-      width: 900px; } }
-  .about-us .founder-profile h3 {
-    margin: 0; }
+    .about-us .our-team {
+      margin-top: 0; } }
+  .about-us .founder-profile {
+    width: 300px;
+    margin: 0 auto; }
     @media (min-width: 700px) {
-      .about-us .founder-profile h3 {
-        text-align: left; } }
-  .about-us .founder-profile p {
-    text-align: center;
-    font-size: .9rem;
-    line-height: 1.8; }
-    @media (min-width: 700px) {
-      .about-us .founder-profile p {
-        text-align: left;
-        font-size: 1rem;
-        line-height: 1.5; } }
+      .about-us .founder-profile {
+        -ms-flex-direction: row;
+            flex-direction: row;
+        width: 700px; } }
     @media (min-width: 1240px) {
-      .about-us .founder-profile p {
-        font-size: 1.2rem; } }
-  @media (min-width: 700px) {
-    .about-us .founder-profile .about-text {
-      margin-left: 40px; } }
-  @media (min-width: 700px) {
-    .about-us .founder-profile .about-text {
-      margin-left: 60px; } }
-  .about-us .founder-profile .display-on-desk {
-    display: none; }
+      .about-us .founder-profile {
+        width: 900px; } }
+    .about-us .founder-profile h3 {
+      margin: 0; }
+      @media (min-width: 700px) {
+        .about-us .founder-profile h3 {
+          text-align: left; } }
+    .about-us .founder-profile p {
+      text-align: center;
+      font-size: .9rem;
+      line-height: 1.8; }
+      @media (min-width: 700px) {
+        .about-us .founder-profile p {
+          text-align: left;
+          font-size: 1rem;
+          line-height: 1.5; } }
+      @media (min-width: 1240px) {
+        .about-us .founder-profile p {
+          font-size: 1.2rem; } }
     @media (min-width: 700px) {
-      .about-us .founder-profile .display-on-desk {
-        display: block; } }
+      .about-us .founder-profile .about-text {
+        margin-left: 40px; } }
+    @media (min-width: 700px) {
+      .about-us .founder-profile .about-text {
+        margin-left: 60px; } }
+    .about-us .founder-profile .display-on-desk {
+      display: none; }
+      @media (min-width: 700px) {
+        .about-us .founder-profile .display-on-desk {
+          display: block; } }
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;
@@ -1336,11 +1340,12 @@ section h3 {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center;
-  font-size: 1rem; }
+      align-items: center; }
   @media (min-width: 1240px) {
     .projects-page .page-header {
       height: 460px; } }
+  .projects-page .page-header h1 {
+    font-size: 38px; }
 
 .projects-page .entry-header {
   width: 25%; }
@@ -1349,6 +1354,7 @@ section h3 {
       width: 22%; } }
 
 .projects-page .entry-content {
+  line-height: 2;
   margin: 0;
   padding: 0 20px;
   width: 75%; }
@@ -1360,7 +1366,7 @@ section h3 {
     font-size: 0.9rem;
     line-height: 24px; }
 
-.projects-page h2.header2-a {
+.projects-page .sub-title .header2-a {
   font-size: 36px;
   line-height: 0; }
 
@@ -1400,6 +1406,7 @@ section h3 {
   right: 0; }
 
 .sub-title {
+  margin-top: 90px;
   text-align: center; }
 
 .past-works-container,
@@ -1863,16 +1870,16 @@ footer .site-info {
       justify-content: center; }
   .prev-parts .prev-parts-img {
     border-bottom: 10px #ee6c4d solid;
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
     background-size: cover;
     height: 300px;
     width: 100%; }
     @media (min-width: 1240px) {
       .prev-parts .prev-parts-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-watch-picture.png) no-repeat center center;
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
         height: 450px; } }
     .prev-parts .prev-parts-img .partner-logos img {
-      height: 70px; }
+      height: 60px; }
       @media (min-width: 700px) {
         .prev-parts .prev-parts-img .partner-logos img {
           height: 120px;
@@ -1883,6 +1890,10 @@ footer .site-info {
 
 .event-container {
   margin-bottom: 35px; }
+  .event-container p,
+  .event-container .header5-b {
+    font-size: 16px;
+    margin-top: 0; }
   @media (min-width: 700px) {
     .event-container {
       margin-bottom: 50px; } }
@@ -1901,20 +1912,22 @@ footer .site-info {
     margin: 0; }
   .event-container .event-time-container .calender-icon {
     background: url(../../assets/icons/calender-icon.png) no-repeat;
-    background-size: 125px 125px;
-    height: 125px;
-    width: 125px;
+    background-size: 150px 138px;
+    height: 150px;
+    width: 150px;
     margin-bottom: 20px; }
     @media (min-width: 700px) {
       .event-container .event-time-container .calender-icon {
         margin-right: 40px; } }
+    .event-container .event-time-container .calender-icon .event-date h5 {
+      font-weight: 400; }
     .event-container .event-time-container .calender-icon .event-date h5:first-child {
-      font-size: 1rem;
+      font-size: 22px;
       text-transform: uppercase;
-      transform: translate(15%, -35%); }
+      transform: translate(10%, -60%); }
     .event-container .event-time-container .calender-icon .event-date h5:last-child {
-      font-size: 60px;
-      transform: translate(-1%, -14%); }
+      font-size: 66px;
+      transform: translate(-1%, -18%); }
   .event-container .event-time-container .event-when-where {
     display: -ms-flexbox;
     display: flex;
@@ -1922,25 +1935,33 @@ footer .site-info {
         flex-direction: column;
     width: 250px;
     text-align: center; }
+    .event-container .event-time-container .event-when-where p {
+      width: 210px;
+      margin: 0 auto 30px; }
     @media (min-width: 700px) {
       .event-container .event-time-container .event-when-where {
         width: 450px;
         text-align: left; } }
     .event-container .event-time-container .event-when-where .bold {
       font-weight: bold; }
-    .event-container .event-time-container .event-when-where p {
-      margin-bottom: 20px; }
-      @media (min-width: 700px) {
-        .event-container .event-time-container .event-when-where p {
-          margin-bottom: 5px; } }
+    @media (min-width: 700px) {
+      .event-container .event-time-container .event-when-where p {
+        margin-bottom: 5px; } }
   .event-container .header2-a {
-    margin-bottom: 0; }
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 0;
+    margin-top: 40px; }
     @media (min-width: 700px) {
       .event-container .header2-a {
         margin-bottom: 20px;
         font-size: 3.5rem; } }
   .event-container .header3 {
-    margin-top: 0; }
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase; }
     @media (min-width: 700px) {
       .event-container .header3 {
         margin: 0;
