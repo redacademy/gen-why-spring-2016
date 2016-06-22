@@ -145,26 +145,27 @@ add_action( 'wp_enqueue_scripts', 'genwhy_watch_documentary' );
 //Custom Function for setting header Image for Event Clips Page
 function genwhy_event_post_header() {
 
-  if( !is_page_template( 'event-clips' ) ) {
+  if( !is_page_template( 'event-clips.php' ) ) {
     return ;
   }
 
    $custom_css =
-           ".eventbg{
+           ".watchhero{
                   background:
                  linear-gradient(
-                 rgba(238, 108, 77, 0.55),
-                 rgba(238, 108, 77, 0.55)
+                 rgba(51, 75, 127, 0.55),
+                 rgba(51, 75, 127, 0.55)
                  ),
                  url('". CFS()->get('upload_background_image') ."');
-               display: block;
+               display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 39.5vh;
-               margin: 0 auto;
+               height: 45vh;
                width: 100%;
                padding-top: 0;
-               text-align: center;
+               margin: 0 auto;
+               justify-content: center;
+               align-items: center;
                color: white;
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
