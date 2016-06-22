@@ -11,7 +11,8 @@ h1.entry-title.header1 {
 
 .contact-us-container {
 	.entry-header {
-		background: linear-gradient(180deg,$color__lin-b 0,$color__lin-b),$color__lin-b url("../../assets/images/bg-watch-picture.png") no-repeat bottom;
+		background: linear-gradient(180deg,$color__lin-b 0,$color__lin-b),$color__lin-b url("../../assets/images/truth_banner_blur.jpg") no-repeat bottom;
+		background-size: cover;
 		align-items: center;
 		display: flex;
 		height: 130px;
@@ -20,13 +21,14 @@ h1.entry-title.header1 {
 		width: 100%;
 		transform: translateY(54%);
 		@include tablet {
-			background-size: 100% 105%;
+			background-size: 116% 107%;
 			height: 400px;
 			transform: translateY(0);
 			background-attachment: fixed;
 		}
 		@include desktop {
-			height: 460px;
+			height: 500px;
+			background-size: 104% 113%;
 		}
 	}
 	h2 {
