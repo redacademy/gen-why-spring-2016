@@ -81,8 +81,16 @@ h1.entry-title.header1 {
 	}
 }
 
-span.wpcf7-list-item {	/* Form Check-box */
+span.first {	/* Form Check-box */
     margin-left: 0em;
+}
+
+.wpcf7-form p:nth-child(6) {
+	display: flex;
+	justify-content: center;
+	@include tablet {
+		justify-content: flex-start;
+	}
 }
 
 input.send-btn {

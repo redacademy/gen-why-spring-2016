@@ -1803,9 +1803,19 @@ h1.entry-title.header1, .projects-page h1.entry-title.page-header {
     .comments {
       width: 540px; } }
 
-span.wpcf7-list-item {
+span.first {
   /* Form Check-box */
   margin-left: 0em; }
+
+.wpcf7-form p:nth-child(6) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  @media (min-width: 700px) {
+    .wpcf7-form p:nth-child(6) {
+      -ms-flex-pack: start;
+          justify-content: flex-start; } }
 
 input.send-btn {
   background: url("../../assets/buttons/cta-inspire.png");
@@ -1834,12 +1844,22 @@ footer .site-info {
 
 .connect-us {
   padding-bottom: 100px; }
-  @media (min-width: 700px) {
-    .connect-us .connect-container {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center; } }
+  .connect-us .connect-container {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    @media (min-width: 700px) {
+      .connect-us .connect-container {
+        -ms-flex-align: initial;
+            -ms-grid-row-align: initial;
+            align-items: initial;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: center;
+            justify-content: center; } }
   .connect-us .connect-wrapper {
     padding-top: 10px;
     -ms-flex-pack: justify;
