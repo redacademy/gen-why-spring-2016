@@ -41,14 +41,13 @@ function genwhy_watch_header() {
                display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 130px;
+               height: 50vh;
                width: 100%;
                padding-top: 0;
                margin: 0 auto;
                justify-content: center;
                align-items: center;
                color: white;
-							 transform: translateY(54%);
            }";
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
