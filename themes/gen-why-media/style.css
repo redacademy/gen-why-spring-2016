@@ -1879,6 +1879,24 @@ footer .site-info {
 .wp-logo {
   display: none; }
 
+.error-404 {
+  background-color: darkkhaki;
+  padding-top: 180px; }
+  .error-404 .404-banner {
+    background-color: black;
+    height: 300px; }
+  .error-404 .search-btn {
+    display: none; }
+  .error-404 .search-field {
+    display: inline-block;
+    text-transform: none; }
+  .error-404 ul {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .error-404 h2 {
+    font-size: 1.8rem;
+    text-align: left; }
+
 .connect-us {
   padding-bottom: 100px; }
   .connect-us .connect-container {

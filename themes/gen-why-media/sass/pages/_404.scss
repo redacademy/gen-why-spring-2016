@@ -1,0 +1,25 @@
+.error-404 {
+	background-color: darkkhaki;
+	padding-top: 180px;
+	.404-banner {
+		background-color: black;
+		height: 300px;
+	}
+	// width: 1240px;
+	.search-btn {
+		display: none;
+	}
+	.search-field {
+		display: inline-block;
+		text-transform: none;
+	}
+	ul {
+		flex-direction: column;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+		text-align: left;
+	}
+}
+
