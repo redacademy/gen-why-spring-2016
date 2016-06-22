@@ -1873,6 +1873,9 @@ footer .site-info {
     .connect-us .email-btn:hover {
       background: black; }
 
+.connect-wrapper {
+  width: 320px; }
+
 .what-we-doing {
   position: relative; }
   .what-we-doing .what-we-doing-img {
