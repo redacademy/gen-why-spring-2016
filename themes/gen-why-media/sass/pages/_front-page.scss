@@ -231,11 +231,11 @@ section {
     width: 100%;
     @include tablet {
       background-attachment: fixed;
-      background-size: 150% 180%;
+      background-size: 219% 142%;
     }
     @include desktop {
       background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/bg-latest-clips.png) no-repeat center center fixed;
-      background-size: 160% 200%;
+      background-size: 200% 200%;
       height: 450px;
     }
   }
