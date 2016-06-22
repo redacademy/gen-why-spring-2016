@@ -10,7 +10,7 @@
 <!-- Previous Partners -->
 
 <section class="prev-parts">
-	<div class="prev-parts-img">
+	<div class="prev-parts-img" data-type="background" data-speed="10">
 		<h2 class="header2-b">Previous Partners</h2>
 
 		<div class="partner-logos">

@@ -116,8 +116,10 @@
 			</section><!-- .latest-event -->
 
 			<!-- Upcoming Event -->
+      <section class="events-front-page">
+        			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
+      </section>
 
-			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
 
 			<!-- Want to Create Social Change? -->
 
