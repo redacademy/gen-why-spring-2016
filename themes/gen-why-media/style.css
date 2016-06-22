@@ -1361,8 +1361,9 @@ section h3 {
     line-height: 24px; }
 
 .projects-page h2.header2-a {
-  font-size: 36px;
-  line-height: 0; }
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 1; }
 
 .projects-page h2 a {
   font-size: 0.8rem;
