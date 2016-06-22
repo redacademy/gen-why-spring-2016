@@ -2026,6 +2026,7 @@ footer .site-info {
         flex-direction: row;
     -ms-flex-pack: justify;
         justify-content: space-between;
+    margin-bottom: 60px;
     width: 880px; } }
 
 .event-container .event-time-container p {
@@ -2040,7 +2041,7 @@ footer .site-info {
   @media (min-width: 700px) {
     .event-container .event-time-container .calender-icon {
       margin-bottom: 0;
-      transform: translate(38%, -13%); } }
+      transform: translate(8%, -13%); } }
   .event-container .event-time-container .calender-icon .event-date h5 {
     font-weight: 400; }
   .event-container .event-time-container .calender-icon .event-date h5:first-child {
@@ -2084,7 +2085,7 @@ footer .site-info {
     .event-container .header2-a {
       font-weight: 500;
       margin: 40px 0 0 0;
-      font-size: 2.4rem;
+      font-size: 2.6rem;
       line-height: 2; } }
 
 .event-container .header3 {
@@ -2094,11 +2095,11 @@ footer .site-info {
   text-transform: uppercase; }
   @media (min-width: 700px) {
     .event-container .header3 {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       font-weight: 600;
       letter-spacing: 1.8px;
       margin: 0;
-      transform: translate(3.5%, 71%); } }
+      transform: translate(14%, 26%); } }
 
 .event-container .header5-b {
   margin: 0; }
@@ -2128,7 +2129,7 @@ footer .site-info {
         width: 600px; } }
     @media (min-width: 1240px) {
       .event-container .body p {
-        width: 800px; } }
+        width: 930px; } }
 
 .bx-wrapper {
   margin: 0; }
