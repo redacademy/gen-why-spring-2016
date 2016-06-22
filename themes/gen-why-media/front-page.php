@@ -107,7 +107,7 @@
 			<!-- Latest Event Clips -->
 
 			<section class="latest-event">
-				<div class="latest-event-img">
+				<div class="latest-event-img" data-type="background" data-speed="10">
 					<h2 class="header2-b">Latest Event Clips</h2>
 					<div class="find-out-btn">
 						<a href="event-clips">Find Out More</a>

@@ -178,15 +178,18 @@
 .our-story-container {
   .founder-banner {
     background: linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255,0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: 160% 160%;
     height: 200px;
     width: 100%;
     position: relative;
     @extend .center-column;
     @include tablet {
-      background-size: 200% 80%;
+      background-size: 224% 130%;
       height: 450px;
       background-attachment: fixed;
+      @include desktop {
+         background-size: 164% 143%;
+      }
     }
     .about-us {
         color: $color__mainw;

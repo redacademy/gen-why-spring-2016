@@ -1273,14 +1273,21 @@ section h3 {
       justify-content: center; }
   .latest-event .latest-event-img {
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-latest-clips.png) no-repeat center center;
-    background-size: cover;
+    background-size: 200% 170%;
     height: 300px;
     width: 100%; }
+    @media (min-width: 700px) {
+      .latest-event .latest-event-img {
+        background-attachment: fixed;
+        background-size: 150% 180%; } }
     @media (min-width: 1240px) {
       .latest-event .latest-event-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) no-repeat center center fixed;
-        background-size: cover;
+        background-size: 160% 200%;
         height: 450px; } }
+
+.events-front-page {
+  margin-bottom: 50px; }
 
 .video-wrapper {
   position: relative;
@@ -1668,15 +1675,18 @@ section h3 {
 
 .our-story-container .founder-banner {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
-  background-size: cover;
+  background-size: 160% 160%;
   height: 200px;
   width: 100%;
   position: relative; }
   @media (min-width: 700px) {
     .our-story-container .founder-banner {
-      background-size: 200% 80%;
+      background-size: 224% 130%;
       height: 450px;
       background-attachment: fixed; } }
+  @media (min-width: 700px) and (min-width: 1240px) {
+    .our-story-container .founder-banner {
+      background-size: 164% 143%; } }
   .our-story-container .founder-banner .about-us {
     color: white; }
     @media (min-width: 700px) {
@@ -1914,20 +1924,25 @@ footer .site-info {
 .what-we-doing {
   position: relative; }
   .what-we-doing .what-we-doing-img {
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-what-we-doing.png) no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-what-we-doing.png) no-repeat center center;
+    background-size: 150% 190%;
     height: 300px;
     padding-bottom: 30px;
     width: 100%; }
+    @media (min-width: 700px) {
+      .what-we-doing .what-we-doing-img {
+        background-attachment: fixed;
+        background-size: 180% 200%; } }
+    @media (min-width: 1240px) {
+      .what-we-doing .what-we-doing-img {
+        background-size: 190% 200%; } }
 
 @media (min-width: 700px) {
   .blue-circle {
     background: #334b7f;
     border-radius: 50%;
     height: 70px;
-    left: 48%;
-    position: absolute;
-    top: 265px;
+    transform: translate(-5%, -52%);
     width: 70px; } }
 
 .find-out-btn a {
@@ -1951,13 +1966,16 @@ footer .site-info {
       align-items: center; }
   .create-change .create-change-img {
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-social-change.png) no-repeat center center;
-    background-size: cover;
+    background-size: 204% 189%;
     height: 300px;
     width: 100%; }
+    @media (min-width: 700px) {
+      .create-change .create-change-img {
+        background-attachment: fixed; } }
     @media (min-width: 1240px) {
       .create-change .create-change-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
-        background-size: cover; } }
+        background-size: 204% 189%; } }
 
 .inspire-btn a {
   background: #176a47;
@@ -1979,15 +1997,16 @@ footer .site-info {
   .prev-parts .prev-parts-img {
     border-bottom: 10px #ee6c4d solid;
     background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
-    background-size: 150% 150%;
     height: 300px;
     width: 100%; }
     @media (min-width: 700px) {
       .prev-parts .prev-parts-img {
-        background-attachment: fixed; } }
+        background-attachment: fixed;
+        background-size: 170% 180%; } }
     @media (min-width: 1240px) {
       .prev-parts .prev-parts-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
+        background-size: 131% 199%;
         height: 450px; } }
     .prev-parts .prev-parts-img .partner-logos img {
       height: 60px; }
