@@ -6,10 +6,10 @@
  */
 
 get_header(); ?>
-
+<h4 style="position:fixed;top:100px;left:0;z-index:600;">short-videos.php</h4>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="watchhero">
+			<div class="watchhero .shortbg">
 				<h1 class="header1">Short Videos</h1>
 			</div>
 			<div id="scroll-target" class="docbg watch-center">
