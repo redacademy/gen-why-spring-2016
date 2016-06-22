@@ -14,7 +14,7 @@ get_header(); ?>
 			<section class="services-hero-container">
 
 				<div class="services-hero-banner">
-						<div class="services-hero"></div>
+						<div class="services-hero" data-type="background" data-speed="10"></div>
 						<div class="services-hero-title">
 							<h1 class="header1"><?php the_title(); ?></h1>
 						</div>
@@ -69,7 +69,7 @@ get_header(); ?>
 			<!-- Our Story -->
 
 			<section class="our-story-container">
-					<div class="founder-banner">
+					<div class="founder-banner" data-type="background" data-speed="10">
 						<h2 class="header2-a about-us">About Us</h2>
 						<div class="our-story-circle"></div>
 					</div>

@@ -1,11 +1,11 @@
 .projects-page {
 	.page-header {
 		background: linear-gradient($color__lin-b, $color__lin-b), url('../../assets/images/bg-projects.png') center/cover;
-		height: 120px;
+		height: 130px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		transform: translateY(59%);
+		transform: translateY(54%);
 		@extend .header1;
 		@include tablet {
 			height: 300px;
