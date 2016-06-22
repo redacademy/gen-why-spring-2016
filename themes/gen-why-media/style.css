@@ -1940,9 +1940,10 @@ footer .site-info {
         margin-bottom: 20px;
         font-size: 3.5rem; } }
   .event-container .header3 {
-    margin-top: 0;
-    font-size: 24px;
-    font-weight: 500; }
+    margin-top: 8;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase; }
     @media (min-width: 700px) {
       .event-container .header3 {
         margin: 0;

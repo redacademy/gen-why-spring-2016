@@ -77,9 +77,10 @@
     }
   }
   .header3 {
-    margin-top: 0;
-    font-size: 24px;
+    margin-top: 8;
+    font-size: 20px;
     font-weight: 500;
+    text-transform: uppercase;
     @include tablet {
       margin: 0;
       font-size: 2rem;
