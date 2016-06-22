@@ -11,18 +11,23 @@ h1.entry-title.header1 {
 
 .contact-us-container {
 	.entry-header {
-		background: linear-gradient(180deg,$color__lin-b 0,$color__lin-b),$color__lin-b url("../../assets/images/bg-watch-picture.png") no-repeat;
-		background-position: bottom;
-		background-size: cover;
+		background: linear-gradient(180deg,$color__lin-b 0,$color__lin-b),$color__lin-b url("../../assets/images/bg-watch-picture.png") no-repeat bottom;
 		align-items: center;
 		display: flex;
-		height: 22vh;
-		@include tablet {
-			height: 400px;
-		}
+		height: 130px;
 		justify-content: center;
 		padding: 0 70px;
 		width: 100%;
+		transform: translateY(54%);
+		@include tablet {
+			background-size: 100% 105%;
+			height: 400px;
+			transform: translateY(0);
+			background-attachment: fixed;
+		}
+		@include desktop {
+			height: 460px;
+		}
 	}
 	h2 {
 		text-align: center;
@@ -34,7 +39,7 @@ h1.entry-title.header1 {
 			font-weight: normal;
 		}
 	}
-	h2+p,
+	h2 + p,
 	.address {
 		display: none;
 		@extend .body-a;
@@ -58,17 +63,17 @@ h1.entry-title.header1 {
 
 	input:-moz-placeholder,
 	textarea:-moz-placeholder { /* Firefox 18- */
-		@extend .form-font;  
+		@extend .form-font;
 	}
 
 	input::-moz-placeholder,
 	textarea::-moz-placeholder {  /* Firefox 19+ */
-		@extend .form-font;  
+		@extend .form-font;
 	}
 
 	input:-ms-input-placeholder,
-	textarea:-ms-input-placeholder {  
-		@extend .form-font;  
+	textarea:-ms-input-placeholder {
+		@extend .form-font;
 	}
 }
 

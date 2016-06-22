@@ -1279,11 +1279,11 @@ section h3 {
     @media (min-width: 700px) {
       .latest-event .latest-event-img {
         background-attachment: fixed;
-        background-size: 150% 180%; } }
+        background-size: 219% 142%; } }
     @media (min-width: 1240px) {
       .latest-event .latest-event-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-latest-clips.png) no-repeat center center fixed;
-        background-size: 160% 200%;
+        background-size: 200% 200%;
         height: 450px; } }
 
 .events-front-page {
@@ -1372,12 +1372,12 @@ section h3 {
   transform: translateY(54%); }
   @media (min-width: 700px) {
     .projects-page .page-header {
-      height: 300px;
-      transform: translateY(0); } }
+      height: 400px;
+      transform: translateY(0);
+      background-attachment: fixed; } }
   @media (min-width: 1240px) {
     .projects-page .page-header {
-      height: 460px;
-      background-attachment: fixed; } }
+      height: 460px; } }
   .projects-page .page-header h1 {
     font-size: 38px; }
     @media (min-width: 700px) {
@@ -1502,6 +1502,11 @@ section h3 {
     .past-works-container {
       margin: 60px auto;
       width: 78%; } }
+
+@media (min-width: 700px) {
+  .watchhero {
+    transform: translateY(0);
+    height: 400px; } }
 
 .h2-change {
   margin-top: auto;
@@ -1768,21 +1773,26 @@ h1.entry-title.header1, .projects-page h1.entry-title.page-header {
       line-height: 80px; } }
 
 .contact-us-container .entry-header {
-  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat;
-  background-position: bottom;
-  background-size: cover;
+  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat bottom;
   -ms-flex-align: center;
       align-items: center;
   display: -ms-flexbox;
   display: flex;
-  height: 22vh;
+  height: 130px;
   -ms-flex-pack: center;
       justify-content: center;
   padding: 0 70px;
-  width: 100%; }
+  width: 100%;
+  transform: translateY(54%); }
   @media (min-width: 700px) {
     .contact-us-container .entry-header {
-      height: 400px; } }
+      background-size: 100% 105%;
+      height: 400px;
+      transform: translateY(0);
+      background-attachment: fixed; } }
+  @media (min-width: 1240px) {
+    .contact-us-container .entry-header {
+      height: 460px; } }
 
 .contact-us-container h2 {
   text-align: center;

@@ -1,3 +1,9 @@
+.watchhero {
+	@include tablet {
+		transform: translateY(0);
+		height: 400px;
+	}
+}
 .h2-change {
 	margin-top: auto;
 	padding-top: 5rem;
@@ -15,6 +21,3 @@
 .fom-button:visited {
 	color: $color__mainw;
 }
-
-
- 
