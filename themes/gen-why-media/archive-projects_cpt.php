@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">archive-projects.php</h4>
 
 	<div id="primary" class="content-area projects-page">
 		<main id="main" class="site-main" role="main">
@@ -21,10 +20,10 @@ get_header(); ?>
 			</header><!-- .page-header -->
 
 			<!-- Upcoming Event -->
-			<section id="scroll-target">
+			<section id="scroll-target" class="events-services-container">
 				<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
 			</section>
-			
+
 			<div class="sub-title">
 				<h2 class="header2-a">Past Works</h2>
 				<?php get_search_form(); ?>
