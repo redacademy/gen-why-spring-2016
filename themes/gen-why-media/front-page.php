@@ -124,6 +124,7 @@
 			<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
 
 			<!-- About Us -->
+
 			<section class="about-us">
 					<h2 class="header2-a">About Us</h2>
 
@@ -132,7 +133,7 @@
 						></iframe>
 					</div><!-- .video-wrapper-->
 
-					<h2 class="header2-a">Our Team</h2>
+					<h2 class="header2-a our-team">Our Team</h2>
 					<div class="founder-profile">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tara-pic.png" alt="Tara" />
 
