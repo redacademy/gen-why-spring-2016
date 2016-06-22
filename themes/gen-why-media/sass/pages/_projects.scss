@@ -9,6 +9,9 @@
 		justify-content: center;
 		align-items: center;
 		@extend .header1;
+		h1 {
+			font-size: 38px;
+		}
 	}
 	.entry-header {
 		width: 25%;
@@ -17,6 +20,7 @@
 		}
 	}
 	.entry-content {
+		line-height: 2;
 		margin: 0;
 		padding: 0 20px;
 		width: 75%;
@@ -30,10 +34,10 @@
 			line-height: 24px;
 		}
 	}
-	// h2.header2-a {
-	// 	font-size: 36px;
-	// 	line-height: 0;
-	// }
+	.sub-title .header2-a {
+		font-size: 36px;
+		line-height: 0;
+	}
 	h2 a {
 		font-size: 0.8rem;
 		margin: 0;
