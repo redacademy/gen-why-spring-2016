@@ -120,7 +120,6 @@
         			<?php get_template_part( 'template-parts/content', 'events' ); ?><!-- .upcoming-event -->
       </section>
 
-
 			<!-- Want to Create Social Change? -->
 
 			<?php get_template_part( 'template-parts/content', 'social-change' ); ?><!-- .create-change -->
