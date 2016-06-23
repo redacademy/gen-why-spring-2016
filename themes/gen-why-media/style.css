@@ -171,7 +171,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-container .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1903,6 +1903,52 @@ footer .site-info {
   .error-404 h2 {
     font-size: 1.8rem;
     text-align: left; }
+
+.video-hero {
+  background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-watch-picture.png);
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+  width: 100%;
+  padding-top: 0;
+  margin: 0 auto;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  color: white; }
+
+.fom-button {
+  border: 3px solid white;
+  padding: 7px 20px 3px 20px; }
+
+.fom-button:hover {
+  color: white; }
+
+.fom-button:visited {
+  color: white; }
+
+.video-container {
+  position: relative; }
+  .video-container .video-banner-imgs {
+    position: relative;
+    background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)); }
+    .video-container .video-banner-imgs img {
+      width: 100%;
+      display: block;
+      z-index: -1;
+      position: relative; }
+  .video-container .video-title-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center; }
+    .video-container .video-title-button a {
+      color: white; }
 
 .connect-us {
   padding-bottom: 100px; }
