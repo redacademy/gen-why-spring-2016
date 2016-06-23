@@ -8,13 +8,11 @@
  */
 
 get_header(); ?>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">404.php</h4>
 <div class="nav-background"></div>
 	<div id="primary" class="content-area 404">
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
-			<div class="404-banner">What</div>
 				<header class="page-header">
 					<h1 class="page-title"><?php echo esc_html( 'Oops! That page can&rsquo;t be found.' ); ?></h1>
 				</header><!-- .page-header -->

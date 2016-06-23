@@ -563,6 +563,10 @@ div textarea {
 :-ms-input-placeholder {
   color: #4a4a4a; }
 
+.search-page fieldset,
+.error-404 fieldset {
+  padding: 0.75em .625em .75em; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -1936,8 +1940,6 @@ footer .site-info {
         width: 70%; } }
   .search-page .projects_cpt {
     width: 100%; }
-  .search-page fieldset {
-    padding: 0.75em .625em .75em; }
   .search-page article:nth-child(3) {
     margin-top: 38px; }
   .search-page h1,
@@ -1958,8 +1960,8 @@ footer .site-info {
   background: #4a4a4a; }
 
 .error-404 {
-  background-color: darkkhaki;
-  padding-top: 180px; }
+  background-color: whitesmoke;
+  padding: 80px; }
   .error-404 .404-banner {
     background-color: black;
     height: 300px; }
