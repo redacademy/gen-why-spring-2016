@@ -5,13 +5,13 @@
  * @package Genwhy_Theme
  */?>
 <div class="projects-page">
-	<?get_header(); ?>
+	<?php get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
-
+			
 			<header class="page-header" data-type="background" data-speed="10">
 				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
