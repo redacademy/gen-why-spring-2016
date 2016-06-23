@@ -1,6 +1,28 @@
 .search-page {
-	.main {
+	section.search-form {
+	    margin: 80px auto 30px;
+	}
+	.site-main {
 		margin: 0 auto;
-		width: 80%;
+		width: 980px;
+	}
+	article:nth-child(3) {
+	    margin-top: 38px;
+	}
+	h1,
+	h2,
+	a,
+	p {
+		margin: 0;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 1rem;
+		text-align: left;
+	}
+	a {
+		font-size: 28px;
 	}
 }
