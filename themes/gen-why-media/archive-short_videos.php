@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Short Videos Page
+ * 
  *
  * @package Genwhy_Theme
  */

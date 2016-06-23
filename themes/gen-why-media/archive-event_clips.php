@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Event Clips Page
+ *
  *
  * @package Genwhy_Theme
  */
