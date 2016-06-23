@@ -24,6 +24,12 @@ a {
 	}
 }
 
+/* Current Menus Highlight */
+
+.projects-page .menu li:nth-child(1) a {
+  color: $color__oj;
+}
+
 /* Menus */
 
 .site-branding {
