@@ -2035,6 +2035,14 @@ footer .site-info {
         width: 50%; } }
     .video-container .video-title-button a {
       color: white; }
+    .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+      font-size: 1.8rem; }
+      @media (min-width: 700px) {
+        .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+          font-size: 2.5rem; } }
+      @media (min-width: 1240px) {
+        .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+          font-size: 3.3rem; } }
   .video-container h2 {
     font-size: 2rem; }
     @media (min-width: 700px) {
