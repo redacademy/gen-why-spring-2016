@@ -1,10 +1,9 @@
 <?php
 /**
- * Template for showing Archive Short Video
+ * Template for showing archive short videos.
  *
  * @package Genwhy_Theme
  */
-
 get_header(); ?>
 
 
