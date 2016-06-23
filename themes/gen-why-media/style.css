@@ -1687,12 +1687,13 @@ section h3 {
   position: relative; }
   @media (min-width: 700px) {
     .our-story-container .founder-banner {
-      background-size: 224% 130%;
-      height: 450px;
+      background-size: 220% 105%;
+      height: 300px;
       background-attachment: fixed; } }
   @media (min-width: 700px) and (min-width: 1240px) {
     .our-story-container .founder-banner {
-      background-size: 164% 143%; } }
+      height: 450px;
+      background-size: 164% 120%; } }
   .our-story-container .founder-banner .about-us {
     color: white; }
     @media (min-width: 700px) {
@@ -1848,11 +1849,17 @@ span.first {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   @media (min-width: 700px) {
     .wpcf7-form p:nth-child(6) {
       -ms-flex-pack: start;
           justify-content: flex-start; } }
+
+.wpcf7-form .ajax-loader {
+  height: 20px;
+  width: 20px; }
 
 input.send-btn {
   background: url("../../assets/buttons/cta-inspire.png");

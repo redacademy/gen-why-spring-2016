@@ -190,11 +190,12 @@
     position: relative;
     @extend .center-column;
     @include tablet {
-      background-size: 224% 130%;
-      height: 450px;
+      background-size: 220% 105%;
+      height: 300px;
       background-attachment: fixed;
       @include desktop {
-         background-size: 164% 143%;
+        height: 450px;
+         background-size: 164% 120%;
       }
     }
     .about-us {

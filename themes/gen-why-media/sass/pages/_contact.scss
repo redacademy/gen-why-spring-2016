@@ -62,7 +62,6 @@ h1.entry-title.header1 {
 	textarea::-webkit-input-placeholder {
 		@extend .form-font;
 	}
-
 	input:-moz-placeholder,
 	textarea:-moz-placeholder { /* Firefox 18- */
 		@extend .form-font;
@@ -92,14 +91,20 @@ span.first {	/* Form Check-box */
     margin-left: 0em;
 }
 
-.wpcf7-form p:nth-child(6) {
+.wpcf7-form {
+	p:nth-child(6) {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	@include tablet {
 		justify-content: flex-start;
 	}
 }
-
+.ajax-loader {
+	height: 20px;
+	width: 20px;
+}
+}
 input.send-btn {
 	background: url("../../assets/buttons/cta-inspire.png");
 	width: 207px;
