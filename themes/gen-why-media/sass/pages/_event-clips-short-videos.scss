@@ -2,8 +2,8 @@
 .video-hero {
 			background:
 			linear-gradient(
-			rgba(51, 75, 127, 0.55),
-			rgba(51, 75, 127, 0.55)
+			$color__lin-b,
+			$color__lin-b
 			),
 			url(../../assets/images/bg-watch-picture.png);
 		display: flex;
@@ -16,6 +16,12 @@
 		justify-content: center;
 		align-items: center;
 		color: white;
+		h1 {
+			font-size: 3.2rem;
+			@include tablet {
+				font-size: 4.2rem;
+			}
+		}
 }
 .fom-button {
 	border: 3px solid $color__mainw;
@@ -32,14 +38,21 @@
 	.video-banner-imgs {
 		position: relative;
 		background: linear-gradient(
-		rgba(51, 75, 127, 0.55),
-		rgba(51, 75, 127, 0.55)
+		$color__lin-b,
+		$color__lin-b
 		);
 		img {
 			width: 100%;
 			display: block;
 			z-index: -1;
 			position: relative;
+			height: 200px;
+			@include tablet {
+				height: 250px;
+			}
+			@include desktop {
+				height: 300px;
+			}
 		}
 	}
 	.video-title-button {
@@ -47,12 +60,23 @@
 		top:50%;
 		left:50%;
 		transform:translate(-50%, -50%);
-		width:50%;
+		width:100%;
 		text-align: center;
 		@extend .center-column;
+		@include tablet {
+			width: 50%;
+		}
 		a {
 			color: $color__mainw;
 		}
 	}
-
+	h2 {
+		font-size: 2rem;
+		@include tablet {
+			font-size: 2.8rem;
+		}
+		@include desktop {
+			font-size: 3.5rem;
+		}
+	}
 }

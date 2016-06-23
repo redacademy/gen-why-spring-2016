@@ -1965,6 +1965,11 @@ footer .site-info {
   -ms-flex-align: center;
       align-items: center;
   color: white; }
+  .video-hero h1 {
+    font-size: 3.2rem; }
+    @media (min-width: 700px) {
+      .video-hero h1 {
+        font-size: 4.2rem; } }
 
 .fom-button {
   border: 3px solid white;
@@ -1985,16 +1990,34 @@ footer .site-info {
       width: 100%;
       display: block;
       z-index: -1;
-      position: relative; }
+      position: relative;
+      height: 200px; }
+      @media (min-width: 700px) {
+        .video-container .video-banner-imgs img {
+          height: 250px; } }
+      @media (min-width: 1240px) {
+        .video-container .video-banner-imgs img {
+          height: 300px; } }
   .video-container .video-title-button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 100%;
     text-align: center; }
+    @media (min-width: 700px) {
+      .video-container .video-title-button {
+        width: 50%; } }
     .video-container .video-title-button a {
       color: white; }
+  .video-container h2 {
+    font-size: 2rem; }
+    @media (min-width: 700px) {
+      .video-container h2 {
+        font-size: 2.8rem; } }
+    @media (min-width: 1240px) {
+      .video-container h2 {
+        font-size: 3.5rem; } }
 
 .connect-us {
   padding-bottom: 100px; }
