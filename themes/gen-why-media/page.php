@@ -6,7 +6,7 @@
  */?>
 <div class="contact-us-page">
 
-	<?get_header(); ?>
+	<?php get_header(); ?>
 
 	<div id="primary" class="content-area contact-us-wrapper">
 		<main id="main" class="site-main contact-us-container" role="main">
