@@ -3,9 +3,10 @@
  * Template Name: Watch Template
  *
  * @package Genwhy_Theme
- */
-
-get_header(); ?>
+ */?>
+<div class="watch-page">
+	
+<?get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -27,4 +28,5 @@ get_header(); ?>
 		</main>
 	</div>
 
+</div>
 <?php get_footer(); ?>
