@@ -12,15 +12,15 @@
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
+	</header><!-- .entry-header -->
 
+	<div class="entry-content">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 			<?php genwhy_posted_on(); ?> / <?php genwhy_comment_count(); ?> / <?php genwhy_posted_by(); ?>
 		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
 
-	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive event clips.
+ * Template for showing Archive Short Video
  *
  * @package Genwhy_Theme
  */
@@ -20,6 +20,7 @@ get_header(); ?>
 				?>
 				<h1 class="header1">Short Videos</h1>
 			</div>
+
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 

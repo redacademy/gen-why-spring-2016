@@ -1241,7 +1241,7 @@ section h3 {
           font-size: 1.7rem; } }
       @media (min-width: 1240px) {
         .get-involved ul li h3 {
-          font-size: 2.5rem; } }
+          font-size: 2.1rem; } }
 
 .reviews-container {
   margin-bottom: 30px; }
@@ -1502,6 +1502,44 @@ section h3 {
     .past-works-container {
       margin: 60px auto;
       width: 78%; } }
+
+.nav-background {
+  height: 70px;
+  background: #4a4a4a; }
+
+.single .projects_cpt {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  max-width: 80%;
+  margin: 120px auto; }
+  @media (min-width: 700px) {
+    .single .projects_cpt {
+      max-width: 80%;
+      margin: 120px auto; } }
+
+.single .entry-content {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  @media (min-width: 700px) {
+    .single .entry-content {
+      width: 50%;
+      padding: 0 0 0 80px;
+      margin: 0; } }
+
+.single .nav-previous {
+  float: none;
+  text-align: center;
+  width: 100%;
+  margin: 100px auto; }
+  @media (min-width: 700px) {
+    .single .nav-previous {
+      float: none;
+      text-align: center;
+      width: 100%;
+      margin: 100px auto; } }
 
 .h2-change {
   margin-top: auto;
@@ -1886,6 +1924,14 @@ footer .site-info {
 .wp-logo {
   display: none; }
 
+.search-page .main {
+  margin: 0 auto;
+  width: 80%; }
+
+.nav-background {
+  height: 70px;
+  background: #4a4a4a; }
+
 .error-404 {
   background-color: darkkhaki;
   padding-top: 180px; }
@@ -2069,7 +2115,7 @@ footer .site-info {
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase; }
-  .inspire-btn a:hover {
+  .inspire-btn a:hover, .inspire-btn a:focus {
     background: #fff;
     color: #176a47; }
 
