@@ -5,7 +5,16 @@
 	}
 	.site-main {
 		margin: 0 auto;
-		width: 980px;
+		width: 100%;
+		@include tablet {
+			width: 70%;
+		}
+	}
+	.projects_cpt {
+		width: 100%;
+	}
+	fieldset {
+		padding: 0.75em .625em .75em;
 	}
 	article:nth-child(3) {
 	    margin-top: 38px;

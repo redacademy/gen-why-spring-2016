@@ -1930,7 +1930,14 @@ footer .site-info {
     margin: 80px auto 30px; }
   .search-page .site-main {
     margin: 0 auto;
-    width: 980px; }
+    width: 100%; }
+    @media (min-width: 700px) {
+      .search-page .site-main {
+        width: 70%; } }
+  .search-page .projects_cpt {
+    width: 100%; }
+  .search-page fieldset {
+    padding: 0.75em .625em .75em; }
   .search-page article:nth-child(3) {
     margin-top: 38px; }
   .search-page h1,
