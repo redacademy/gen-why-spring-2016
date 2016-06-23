@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">single.php</h4>
 <div class="nav-background"></div>
 	<div id="primary" class="content-area single">
 		<main id="main" class="site-main" role="main">
