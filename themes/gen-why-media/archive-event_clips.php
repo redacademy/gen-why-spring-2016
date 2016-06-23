@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * The template for displaying archive event clips.
  *
  * @package Genwhy_Theme
  */
@@ -21,7 +21,7 @@ get_header(); ?>
 			foreach ( $eventposts as $post ) : setup_postdata( $post ); ?>
 
 					<h2 class="header2-b h2-change"><?php the_title(); ?></h2>
-					<a href="event-clips" class="button button-a fom-button">Find Out More</a>
+					<a href="#" class="button button-a fom-button">Find Out More</a>
 			</div>
 			<!-- <div class="shortbg watch-center">
 				<h2 class="header2-b h2-change"></h2>

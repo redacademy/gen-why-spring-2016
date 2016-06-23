@@ -18,7 +18,7 @@ get_header(); ?>
 			</div>
 			<div class="shortbg watch-center">
 				<h2 class="header2-b h2-change">Short Videos</h2>
-				<a href="/short_videos" class="button button-a fom-button">Find Out More</a>
+				<a href="/short_video" class="button button-a fom-button">Find Out More</a>
 			</div>
 			<div class="docbg watch-center">
 				<h2 class="header2-b h2-change">Documentary</h2>
