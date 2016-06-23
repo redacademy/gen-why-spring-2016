@@ -1,0 +1,39 @@
+.nav-background {
+    height: 70px;
+    background: $color__dgrey;
+}
+
+.single {
+	.projects_cpt {
+		display: flex;
+		justify-content: center;
+		max-width: 80%;
+		margin: 120px auto;
+		@include tablet {
+			max-width: 80%;
+			margin: 120px auto;
+		}
+	}
+	.entry-content {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		@include tablet{
+			width: 50%;
+			padding: 0 0 0 80px;
+			margin: 0;
+		}
+	}
+	.nav-previous {
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin: 100px auto;
+		@include tablet{
+			float: none;
+			text-align: center;
+			width: 100%;
+			margin: 100px auto;
+		}
+	}
+}

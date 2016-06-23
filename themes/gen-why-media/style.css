@@ -171,7 +171,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: 14px;
   line-height: 40px; }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-container .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1241,7 +1241,7 @@ section h3 {
           font-size: 1.7rem; } }
       @media (min-width: 1240px) {
         .get-involved ul li h3 {
-          font-size: 2.5rem; } }
+          font-size: 2.1rem; } }
 
 .reviews-container {
   margin-bottom: 30px; }
@@ -1502,6 +1502,44 @@ section h3 {
     .past-works-container {
       margin: 60px auto;
       width: 78%; } }
+
+.nav-background {
+  height: 70px;
+  background: #4a4a4a; }
+
+.single .projects_cpt {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  max-width: 80%;
+  margin: 120px auto; }
+  @media (min-width: 700px) {
+    .single .projects_cpt {
+      max-width: 80%;
+      margin: 120px auto; } }
+
+.single .entry-content {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  @media (min-width: 700px) {
+    .single .entry-content {
+      width: 50%;
+      padding: 0 0 0 80px;
+      margin: 0; } }
+
+.single .nav-previous {
+  float: none;
+  text-align: center;
+  width: 100%;
+  margin: 100px auto; }
+  @media (min-width: 700px) {
+    .single .nav-previous {
+      float: none;
+      text-align: center;
+      width: 100%;
+      margin: 100px auto; } }
 
 .h2-change {
   margin-top: auto;
@@ -1886,6 +1924,14 @@ footer .site-info {
 .wp-logo {
   display: none; }
 
+.search-page .main {
+  margin: 0 auto;
+  width: 80%; }
+
+.nav-background {
+  height: 70px;
+  background: #4a4a4a; }
+
 .error-404 {
   background-color: darkkhaki;
   padding-top: 180px; }
@@ -1903,6 +1949,52 @@ footer .site-info {
   .error-404 h2 {
     font-size: 1.8rem;
     text-align: left; }
+
+.video-hero {
+  background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-watch-picture.png);
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+  width: 100%;
+  padding-top: 0;
+  margin: 0 auto;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  color: white; }
+
+.fom-button {
+  border: 3px solid white;
+  padding: 7px 20px 3px 20px; }
+
+.fom-button:hover {
+  color: white; }
+
+.fom-button:visited {
+  color: white; }
+
+.video-container {
+  position: relative; }
+  .video-container .video-banner-imgs {
+    position: relative;
+    background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)); }
+    .video-container .video-banner-imgs img {
+      width: 100%;
+      display: block;
+      z-index: -1;
+      position: relative; }
+  .video-container .video-title-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center; }
+    .video-container .video-title-button a {
+      color: white; }
 
 .connect-us {
   padding-bottom: 100px; }
@@ -2023,7 +2115,7 @@ footer .site-info {
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase; }
-  .inspire-btn a:hover {
+  .inspire-btn a:hover, .inspire-btn a:focus {
     background: #fff;
     color: #176a47; }
 
