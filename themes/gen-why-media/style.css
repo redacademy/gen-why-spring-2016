@@ -1343,8 +1343,8 @@ section h3 {
       .about-us .founder-profile {
         width: 900px; } }
     .about-us .founder-profile img {
-      height: 236px;
-      width: 229px; }
+      min-height: 236px;
+      min-width: 229px; }
     .about-us .founder-profile h3 {
       margin: 0; }
       @media (min-width: 700px) {
