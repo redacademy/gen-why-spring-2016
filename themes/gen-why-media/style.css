@@ -1924,9 +1924,27 @@ footer .site-info {
 .wp-logo {
   display: none; }
 
-.search-page .main {
-  margin: 0 auto;
-  width: 80%; }
+.search-page {
+  margin-bottom: 100px; }
+  .search-page section.search-form {
+    margin: 80px auto 30px; }
+  .search-page .site-main {
+    margin: 0 auto;
+    width: 980px; }
+  .search-page article:nth-child(3) {
+    margin-top: 38px; }
+  .search-page h1,
+  .search-page h2,
+  .search-page a,
+  .search-page p {
+    margin: 0; }
+  .search-page h1 {
+    font-size: 3rem; }
+  .search-page h2 {
+    font-size: 1rem;
+    text-align: left; }
+  .search-page a {
+    font-size: 28px; }
 
 .nav-background {
   height: 70px;
