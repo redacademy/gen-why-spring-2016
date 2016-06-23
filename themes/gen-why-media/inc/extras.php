@@ -21,7 +21,7 @@ function genwhy_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'genwhy_body_classes' );
 
-/////////////// watch page ////////////////////
+/* watch page */
 
 //Custom Function for setting Featured Image as header for Watch page
 function genwhy_watch_header() {
@@ -202,7 +202,6 @@ function genwhy_short_video_header() {
 add_action( 'wp_enqueue_scripts', 'genwhy_short_video_header' );
 
 //Custom Function for setting Image for Event-Clip Posts on Event-Clips page
-
 function genwhy_eventclip_posts() {
 
   if( !is_page_template( 'event_clips.php' ) ) {
@@ -230,7 +229,6 @@ function genwhy_eventclip_posts() {
    wp_add_inline_style( 'genwhy-style', $custom_css );
 }
 add_action( 'wp_enqueue_scripts', 'genwhy_eventclip_posts' );
-
 
 // Archive Projects Title Filter
 function genwhy_filter_titles() {
