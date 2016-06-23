@@ -1342,6 +1342,9 @@ section h3 {
     @media (min-width: 1240px) {
       .about-us .founder-profile {
         width: 900px; } }
+    .about-us .founder-profile img {
+      height: 236px;
+      width: 229px; }
     .about-us .founder-profile h3 {
       margin: 0; }
       @media (min-width: 700px) {
@@ -2328,7 +2331,7 @@ footer .site-info {
       font-weight: 600;
       letter-spacing: 1.8px;
       margin: 0;
-      transform: translate(14%, 26%); } }
+      transform: translate(6%, 26%); } }
 
 .event-container .header5-b {
   margin: 0; }

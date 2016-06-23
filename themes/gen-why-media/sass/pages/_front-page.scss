@@ -292,6 +292,10 @@ section {
     @include desktop {
       width: 900px;
     }
+    img {
+      height: 236px;
+      width: 229px;
+    }
     h3 {
       margin: 0;
       @include tablet {
