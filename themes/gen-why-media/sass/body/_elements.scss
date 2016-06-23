@@ -103,3 +103,8 @@ div {
 :-ms-input-placeholder {  
    color: $color__dgrey;  
 }
+
+.search-page fieldset,
+.error-404 fieldset {
+	padding: 0.75em .625em .75em;
+}
