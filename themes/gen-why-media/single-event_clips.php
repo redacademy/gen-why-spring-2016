@@ -7,7 +7,6 @@
 
 get_header(); ?>
 
-<div class="nav-background"></div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -16,7 +15,6 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'single-video' ); ?>
 
 			<?php the_post_navigation(); ?>
-
 
 		<?php endwhile; // End of the loop. ?>
 
