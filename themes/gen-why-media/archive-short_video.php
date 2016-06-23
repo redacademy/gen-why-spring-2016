@@ -1,6 +1,6 @@
 <?php
 /**
- * Template for showing Archive Short Videos
+ * Template for showing Archive Short Video
  *
  * @package Genwhy_Theme
  */
@@ -14,7 +14,7 @@ get_header(); ?>
 			</div>
 			<div id="scroll-target" class="docbg watch-center">
 				<?php $event =  array(
-				'post_type' => 'short_videos_cpt',
+				'post_type' => 'short_video_cpt',
 				'posts_per_page' => 5,
 				'order' => 'ASC',
 				'orderby' => 'date');
