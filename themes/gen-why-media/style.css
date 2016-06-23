@@ -646,6 +646,11 @@ a {
   a:hover, a:active {
     outline: 0; }
 
+/* Current Menus Highlight */
+.projects-page .menu li:nth-child(1) a,
+.services-page .menu li:nth-child(4) a {
+  color: #ee6c4d; }
+
 /* Menus */
 .site-branding {
   animation: site-branding-width 8s 0s 1;

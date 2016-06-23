@@ -3,9 +3,10 @@
  * Template Name: Services page
  *
  * @package Genwhy_Theme
- */
+ */?>
+<div class="services-page">
 
-get_header(); ?>
+<?get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -103,6 +104,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
