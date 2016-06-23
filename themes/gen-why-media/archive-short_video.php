@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="watchhero">
+			<div class="watchheroshort">
 				<h1 class="header1">Short Videos</h1>
 			</div>
 			<div id="scroll-target" class="docbg watch-center">
