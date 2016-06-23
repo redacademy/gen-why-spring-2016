@@ -6,6 +6,7 @@
  */
 
 get_header(); ?>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="watchhero">
@@ -23,10 +24,6 @@ get_header(); ?>
 					<h2 class="header2-b h2-change"><?php the_title(); ?></h2>
 					<a href="#" class="button button-a fom-button">Find Out More</a>
 			</div>
-			<!-- <div class="shortbg watch-center">
-				<h2 class="header2-b h2-change"></h2>
-				<a href="short-videos" class="button button-a fom-button">Find Out More</a>
-			</div> -->
 		</main>
 		<?php endforeach;
 	wp_reset_postdata();?>
