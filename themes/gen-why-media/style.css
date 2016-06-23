@@ -1240,11 +1240,11 @@ section h3 {
       margin-bottom: 20px; }
       @media (min-width: 700px) {
         .get-involved ul li .collaborate {
-          height: 50px; } }
+          height: 50px;
+          margin-bottom: 30px; } }
       @media (min-width: 1240px) {
         .get-involved ul li .collaborate {
-          height: 60px;
-          margin-bottom: 30px; } }
+          height: 60px; } }
     .get-involved ul li h3 {
       font-size: 1rem; }
       @media (min-width: 700px) {
@@ -1252,7 +1252,7 @@ section h3 {
           font-size: 1.7rem; } }
       @media (min-width: 1240px) {
         .get-involved ul li h3 {
-          font-size: 2.1rem; } }
+          font-size: 2rem; } }
 
 .reviews-container {
   margin-bottom: 30px; }
@@ -1696,7 +1696,7 @@ section h3 {
           -ms-flex: none;
               flex: none;
           height: 200px;
-          width: 228px; } }
+          width: 200px; } }
       @media (min-width: 1240px) {
         .what-we-offer ul li:last-child {
           width: 200px; } }
@@ -1707,7 +1707,7 @@ section h3 {
             height: 80px; } }
         @media (min-width: 1240px) {
           .what-we-offer ul li img {
-            height: 80px; } }
+            height: 70px; } }
       .what-we-offer ul li .engagement {
         height: 40px;
         margin-bottom: 20px; }
@@ -1718,7 +1718,7 @@ section h3 {
         @media (min-width: 1240px) {
           .what-we-offer ul li .engagement {
             height: 60px;
-            margin-bottom: 20px; } }
+            margin-bottom: 10px; } }
       .what-we-offer ul li h3 {
         font-size: 1rem; }
         @media (min-width: 700px) {
@@ -1726,7 +1726,7 @@ section h3 {
             font-size: 1.7rem; } }
         @media (min-width: 1240px) {
           .what-we-offer ul li h3 {
-            font-size: 2.5rem; } }
+            font-size: 2rem; } }
 
 .our-story-container .founder-banner {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
