@@ -20,14 +20,8 @@
 		</div>
 	</section>
 
-		<div id="scroll-target" class="entry-content">
+		<div id="scroll-target" class="entry-content single-video-content body-a">
 			<?php the_content(); ?>
-			<?php
-				wp_link_pages( array(
-					'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
-					'after'  => '</div>',
-				) );
-			?>
 		</div><!-- .entry-content -->
 
 </article><!-- #post-## -->
