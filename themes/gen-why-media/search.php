@@ -9,7 +9,7 @@ get_header(); ?>
 <h4 style="position:fixed;top:100px;left:0;z-index:600;">search.php</h4>
 <div class="nav-background"></div>
 
-	<section id="primary" class="content-area">
+	<section id="primary" class="content-area search-page">
 		<main id="main" class="site-main" role="main">
 		<section class="search-form">
 			<?php get_search_form(); ?>

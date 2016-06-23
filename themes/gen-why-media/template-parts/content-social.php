@@ -15,13 +15,13 @@
 
 		<div class="twit-connect connect-wrapper">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter-icon.png" alt="Twitter" />
-			<a href="#" class="connect-btn twit-btn">Follow</a>
+			<a href="https://twitter.com/genwhymedia" class="connect-btn twit-btn">Follow</a>
 		</div>
 
 		<div class="insta-connect connect-wrapper">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram-icon.png" alt="Instagram" />
 			<img src="" alt="" />
-			<a href="#" class="connect-btn insta-btn">Follow</a>
+			<a href="https://www.instagram.com/genwhymedia" class="connect-btn insta-btn">Follow</a>
 		</div>
 
 		<div class="email-connect connect-wrapper">

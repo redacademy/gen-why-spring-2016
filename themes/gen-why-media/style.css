@@ -1541,11 +1541,6 @@ section h3 {
       width: 100%;
       margin: 100px auto; } }
 
-@media (min-width: 700px) {
-  .watchhero {
-    transform: translateY(0);
-    height: 400px; } }
-
 .h2-change {
   margin-top: auto;
   padding-top: 5rem; }
@@ -1576,10 +1571,13 @@ section h3 {
   @media (min-width: 700px) {
     .page-template-services .services-hero-banner {
       height: 450px; } }
+  @media (min-width: 1240px) {
+    .page-template-services .services-hero-banner {
+      height: 550px; } }
   .page-template-services .services-hero-banner .services-hero {
     -ms-flex-align: center;
         align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../assets/images/harmony_banner.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../assets/images/harmony_banner.jpg) no-repeat center top;
     background-size: cover;
     bottom: 0;
     color: white;
@@ -1603,6 +1601,9 @@ section h3 {
       .page-template-services .services-hero-banner .services-hero {
         height: 500px;
         background-attachment: fixed; } }
+    @media (min-width: 1240px) {
+      .page-template-services .services-hero-banner .services-hero {
+        height: 600px; } }
   .page-template-services .services-hero-banner .services-hero-title {
     color: #fff;
     z-index: 2;
@@ -1724,12 +1725,13 @@ section h3 {
   position: relative; }
   @media (min-width: 700px) {
     .our-story-container .founder-banner {
-      background-size: 224% 130%;
-      height: 450px;
+      background-size: 220% 105%;
+      height: 300px;
       background-attachment: fixed; } }
   @media (min-width: 700px) and (min-width: 1240px) {
     .our-story-container .founder-banner {
-      background-size: 164% 143%; } }
+      height: 450px;
+      background-size: 164% 120%; } }
   .our-story-container .founder-banner .about-us {
     color: white; }
     @media (min-width: 700px) {
@@ -1811,7 +1813,8 @@ h1.entry-title.header1, .projects-page h1.entry-title.page-header {
       line-height: 80px; } }
 
 .contact-us-container .entry-header {
-  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/bg-watch-picture.png") no-repeat bottom;
+  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/truth_banner_blur.jpg") no-repeat bottom;
+  background-size: cover;
   -ms-flex-align: center;
       align-items: center;
   display: -ms-flexbox;
@@ -1824,13 +1827,14 @@ h1.entry-title.header1, .projects-page h1.entry-title.page-header {
   transform: translateY(54%); }
   @media (min-width: 700px) {
     .contact-us-container .entry-header {
-      background-size: 100% 105%;
+      background-size: 116% 107%;
       height: 400px;
       transform: translateY(0);
       background-attachment: fixed; } }
   @media (min-width: 1240px) {
     .contact-us-container .entry-header {
-      height: 460px; } }
+      height: 500px;
+      background-size: 104% 113%; } }
 
 .contact-us-container h2 {
   text-align: center;
@@ -1883,11 +1887,17 @@ span.first {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   @media (min-width: 700px) {
     .wpcf7-form p:nth-child(6) {
       -ms-flex-pack: start;
           justify-content: flex-start; } }
+
+.wpcf7-form .ajax-loader {
+  height: 20px;
+  width: 20px; }
 
 input.send-btn {
   background: url("../../assets/buttons/cta-inspire.png");
@@ -2055,7 +2065,7 @@ footer .site-info {
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase; }
-  .inspire-btn a:hover {
+  .inspire-btn a:hover, .inspire-btn a:focus {
     background: #fff;
     color: #176a47; }
 
