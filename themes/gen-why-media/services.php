@@ -76,7 +76,7 @@
 					</div>
 					<h2 class="header2-a our-story-title">Our Story</h2>
 					<div class="our-story-info">
-							<?php echo CFS()->get( 'our_story' ); ?>
+							<?php echo wp_kses_post(CFS()->get( 'our_story' )); ?>
 					</div>
 			</section><!-- .our-story-container -->
 
@@ -86,7 +86,7 @@
 				<iframe src="https://player.vimeo.com/video/23997768" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="our-team-info">
 						<h2 class="header2-a our-story-title">Our Team</h2>
-						<?php echo CFS()->get( 'our_team' ); ?>
+						<?php echo wp_kses_post(CFS()->get( 'our_team' )); ?>
 				</div>
 			</section>
 
