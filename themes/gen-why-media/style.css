@@ -2270,7 +2270,7 @@ footer .site-info {
   @media (min-width: 700px) {
     .event-container .event-time-container .calender-icon {
       margin-bottom: 0;
-      transform: translate(8%, -13%); } }
+      transform: translate(41%, -13%); } }
   .event-container .event-time-container .calender-icon .event-date h5 {
     font-weight: 400; }
   .event-container .event-time-container .calender-icon .event-date h5:first-child {
