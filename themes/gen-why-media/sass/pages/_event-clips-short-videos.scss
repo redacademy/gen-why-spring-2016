@@ -34,28 +34,23 @@
 	color: $color__mainw;
 }
 
-.video-container {
+.video-banner-imgs {
 	position: relative;
-	.video-banner-imgs {
+	background: linear-gradient( $color__lin-b, $color__lin-b );
+	img {
+		width: 100%;
+		display: block;
+		z-index: -1;
 		position: relative;
-		background: linear-gradient(
-		$color__lin-b,
-		$color__lin-b
-		);
-		img {
-			width: 100%;
-			display: block;
-			z-index: -1;
-			position: relative;
-			height: 225px;
-			@include tablet {
-				height: 250px;
-			}
-			@include desktop {
-				height: 300px;
-			}
+		height: 225px;
+		@include tablet {
+			height: 250px;
+		}
+		@include desktop {
+			height: 300px;
 		}
 	}
+}
 	.video-title-button {
 		position: absolute;
 		top:50%;
@@ -80,7 +75,11 @@
 			}
 		}
 	}
-		h2 {
+
+.video-container {
+	position: relative;
+
+	h2 {
 		font-size: 2rem;
 		@include tablet {
 			font-size: 2.8rem;
