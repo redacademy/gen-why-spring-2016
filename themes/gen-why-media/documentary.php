@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="watchhero">
-				<h1 class="header1">Event Clips</h1>
+				<h1 class="banner-text">Event Clips</h1>
 			</div>
 			<div class="eventbg watch-center">
 				<h2 class="header2-b h2-change">Bring Your Boomers 2016</h2>

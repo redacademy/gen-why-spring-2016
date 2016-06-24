@@ -45,7 +45,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 /* custom colors */
 /* custom typography */
-.header1, .projects-page .page-header {
+.banner-text, .projects-page .page-header {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 72px;
@@ -53,7 +53,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   line-height: 80px;
   text-transform: uppercase; }
 
-.header2-a {
+.content-title-dark {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
@@ -1485,11 +1485,11 @@ section h3 {
   @media (min-width: 700px) {
     .sub-title {
       margin-top: 120px; } }
-  .sub-title .header2-a {
+  .sub-title .content-title-dark {
     font-size: 36px;
     line-height: 0; }
     @media (min-width: 700px) {
-      .sub-title .header2-a {
+      .sub-title .content-title-dark {
         font-size: 56px;
         margin-bottom: 60px; } }
 
@@ -1566,13 +1566,13 @@ section h3 {
 .fom-button:visited {
   color: white; }
 
-.page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+.page-template-services .banner-text, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
   font-size: 2.5rem; }
   @media (min-width: 700px) {
-    .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+    .page-template-services .banner-text, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
       font-size: 4rem; } }
   @media (min-width: 1240px) {
-    .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+    .page-template-services .banner-text, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
       font-size: 4.5rem; } }
 
 .page-template-services .services-hero-banner {
@@ -1813,12 +1813,12 @@ section h3 {
     .prev-part-display {
       display: block; } }
 
-h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+h1.entry-title.banner-text, .projects-page h1.entry-title.page-header {
   font-size: 46px;
   font-weight: 500;
   line-height: 40px; }
   @media (min-width: 700px) {
-    h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+    h1.entry-title.banner-text, .projects-page h1.entry-title.page-header {
       font-size: 72px;
       font-weight: 700;
       line-height: 80px; } }
@@ -2044,13 +2044,13 @@ footer .site-info {
         width: 50%; } }
     .video-container .video-title-button a {
       color: white; }
-    .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+    .video-container .video-title-button .banner-text, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
       font-size: 1.8rem; }
       @media (min-width: 700px) {
-        .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+        .video-container .video-title-button .banner-text, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
           font-size: 2.5rem; } }
       @media (min-width: 1240px) {
-        .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+        .video-container .video-title-button .banner-text, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
           font-size: 3.3rem; } }
   .video-container h2 {
     font-size: 2rem; }
@@ -2304,14 +2304,14 @@ footer .site-info {
   .event-container .event-time-container .event-when-where .bold {
     font-weight: bold; }
 
-.event-container .header2-a {
+.event-container .content-title-dark {
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1.8px;
   line-height: 0;
   margin-top: 40px; }
   @media (min-width: 700px) {
-    .event-container .header2-a {
+    .event-container .content-title-dark {
       font-weight: 500;
       margin: 40px 0 0 0;
       font-size: 2.6rem;

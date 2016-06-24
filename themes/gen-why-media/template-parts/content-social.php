@@ -10,7 +10,7 @@
 <!-- Stay Connected With Us -->
 
 <section class="connect-us">
-	<h2 class="header2-a">Stay Connected With Us</h2>
+	<h2 class="content-title-dark">Stay Connected With Us</h2>
 	<div class="connect-container">
 
 		<div class="twit-connect connect-wrapper">

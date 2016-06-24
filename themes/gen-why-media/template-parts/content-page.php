@@ -9,7 +9,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header" >
-			<?php the_title( '<h1 class="entry-title header1">', '</h1>' ); ?>
+			<?php the_title( '<h1 class="entry-title banner-text">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<div id="scroll-target" class="entry-content">

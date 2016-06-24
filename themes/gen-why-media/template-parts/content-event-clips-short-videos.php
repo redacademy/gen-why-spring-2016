@@ -15,7 +15,7 @@
 					<?php endif; ?>
 				</div>
 				<div class="video-title-button">
-					<?php the_title( sprintf( '<h2 class="entry-title header2-a"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+					<?php the_title( sprintf( '<h2 class="entry-title content-title-dark"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 					<a href="<?php echo esc_url( get_permalink() ) ?>" class="button fom-button">Find Out More</a>
 				</div>
 		</div><!-- .clip-contain -->

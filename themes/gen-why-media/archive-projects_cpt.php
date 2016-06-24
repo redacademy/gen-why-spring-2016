@@ -25,7 +25,7 @@
 			</section>
 
 			<div class="sub-title">
-				<h2 class="header2-a">Past Works</h2>
+				<h2 class="content-title-dark">Past Works</h2>
 				<?php get_search_form(); ?>
 			</div>
 			<section class="past-works-container">

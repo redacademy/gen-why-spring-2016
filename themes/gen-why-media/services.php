@@ -17,7 +17,7 @@
 				<div class="services-hero-banner">
 						<div class="services-hero" data-type="background" data-speed="10"></div>
 						<div class="services-hero-title">
-							<h1 class="header1"><?php the_title(); ?></h1>
+							<h1 class="banner-text"><?php the_title(); ?></h1>
 						</div>
 				</div><!-- .services-hero-banner -->
 
@@ -33,7 +33,7 @@
 
 			<section class="what-we-offer container">
 				<div>
-					<h2 class="header2-a">What We Offer</h2>
+					<h2 class="content-title-dark">What We Offer</h2>
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Web" />
@@ -71,10 +71,10 @@
 
 			<section class="our-story-container">
 					<div class="founder-banner" data-type="background" data-speed="10">
-						<h2 class="header2-a about-us">About Us</h2>
+						<h2 class="content-title-dark about-us">About Us</h2>
 						<div class="our-story-circle"></div>
 					</div>
-					<h2 class="header2-a our-story-title">Our Story</h2>
+					<h2 class="content-title-dark our-story-title">Our Story</h2>
 					<div class="our-story-info">
 							<?php echo CFS()->get( 'our_story' ); ?>
 					</div>
@@ -85,7 +85,7 @@
 			<section class="our-team-container">
 				<iframe src="https://player.vimeo.com/video/23997768" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="our-team-info">
-						<h2 class="header2-a our-story-title">Our Team</h2>
+						<h2 class="content-title-dark our-story-title">Our Team</h2>
 						<?php echo CFS()->get( 'our_team' ); ?>
 				</div>
 			</section>

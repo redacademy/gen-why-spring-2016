@@ -11,7 +11,7 @@
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="watchhero">
-				<h1 class="header1">Watch</h1>
+				<h1 class="banner-text">Watch</h1>
 			</div>
 			<div id="scroll-target" class="eventbg watch-center">
 				<h2 class="header2-b h2-change">Event Clips</h2>

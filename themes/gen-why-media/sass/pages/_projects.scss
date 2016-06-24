@@ -6,7 +6,7 @@
 		justify-content: center;
 		align-items: center;
 		transform: translateY(54%);
-		@extend .header1;
+		@extend .banner-text;
 		@include tablet {
 			height: 400px;
 			transform: translateY(0);
@@ -124,7 +124,7 @@
 	@include tablet {
 		margin-top: 120px;
 	}
-	.header2-a {
+	.content-title-dark {
 		font-size: 36px;
 		line-height: 0;
 		@include tablet {

@@ -32,7 +32,7 @@
 								</div>
 								<div class="banner-info">
 									<h2 class="header2-b">We Value...</h2>
-									<h1 class="header1"><?php the_title(); ?></h1>
+									<h1 class="banner-text"><?php the_title(); ?></h1>
 									<div class="header4-sub"><?php the_content(); ?></div>
 								</div>
 							</div>
@@ -47,7 +47,7 @@
 
 			<section id="scroll-target" class="get-involved container">
 				<div class="">
-					<h2 class="header2-a">Why Get Involved?</h2>
+					<h2 class="content-title-dark">Why Get Involved?</h2>
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/community-icon.png" alt="Community" />
@@ -76,7 +76,7 @@
 			<!-- What People Say -->
 
 		<section class="reviews-container">
-				<h2 class="header2-a">What Are People Saying About Us</h2>
+				<h2 class="content-title-dark">What Are People Saying About Us</h2>
 
 					<ul class="bxslider-review reviews-list">
 						<?php $review_loop = array(
@@ -127,14 +127,14 @@
 			<!-- About Us -->
 
 			<section class="about-us">
-					<h2 class="header2-a">About Us</h2>
+					<h2 class="content-title-dark">About Us</h2>
 
 					<div class="video-wrapper">
 						<iframe width: "560"; height: "349"; src="https://www.youtube.com/embed/SfAVSLcA250" frameborder="0" allowfullscreen
 						></iframe>
 					</div><!-- .video-wrapper-->
 
-					<h2 class="header2-a our-team">Our Team</h2>
+					<h2 class="content-title-dark our-team">Our Team</h2>
 					<div class="founder-profile">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tara-pic.png" alt="Tara" />
 
