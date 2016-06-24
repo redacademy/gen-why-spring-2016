@@ -31,7 +31,7 @@
 									<?php the_post_thumbnail('full'); ?>
 								</div>
 								<div class="banner-info">
-									<h2 class="header2-b">We Value...</h2>
+									<h2 class="content-header-light">We Value...</h2>
 									<h1 class="main-header"><?php the_title(); ?></h1>
 									<div class="header4-sub"><?php the_content(); ?></div>
 								</div>
@@ -108,7 +108,7 @@
 
 			<section class="latest-event">
 				<div class="latest-event-img" data-type="background" data-speed="10">
-					<h2 class="header2-b">Latest Event Clips</h2>
+					<h2 class="content-header-light">Latest Event Clips</h2>
 					<div class="find-out-btn">
 						<a href="<?php echo get_post_type_archive_link( 'event_clips' ); ?>">Find Out More</a>
 					</div>

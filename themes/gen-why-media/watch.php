@@ -14,15 +14,15 @@
 				<h1 class="main-header">Watch</h1>
 			</div>
 			<div id="scroll-target" class="eventbg watch-center">
-				<h2 class="header2-b h2-change">Event Clips</h2>
+				<h2 class="content-header-light h2-change">Event Clips</h2>
 				<a href="<?php echo get_post_type_archive_link( 'event_clips' ); ?>" class="button button-a fom-button">Find Out More</a>
 			</div>
 			<div class="shortbg watch-center">
-				<h2 class="header2-b h2-change">Short Videos</h2>
+				<h2 class="content-header-light h2-change">Short Videos</h2>
 				<a href="<?php echo get_post_type_archive_link( 'short_video' ); ?>" class="button button-a fom-button">Find Out More</a>
 			</div>
 			<div class="docbg watch-center">
-				<h2 class="header2-b h2-change">Documentary</h2>
+				<h2 class="content-header-light h2-change">Documentary</h2>
 				<a href="http://www.fracturedland.com/" class="button button-a fom-button">Find Out More</a>
 			</div>
 		</main>

@@ -11,7 +11,7 @@
 
 <section class="prev-parts">
 	<div class="prev-parts-img" data-type="background" data-speed="10">
-		<h2 class="header2-b">Previous Partners</h2>
+		<h2 class="content-header-light">Previous Partners</h2>
 
 		<div class="partner-logos">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/hip-health.png" alt="Hip Health" />
