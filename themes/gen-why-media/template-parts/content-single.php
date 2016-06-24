@@ -18,7 +18,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php genwhy_posted_on(); ?> / <?php genwhy_comment_count(); ?> / <?php genwhy_posted_by(); ?>
+			<?php genwhy_posted_on(); ?>
 		</div><!-- .entry-meta -->
 
 		<?php the_content(); ?>

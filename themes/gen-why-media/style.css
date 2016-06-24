@@ -1543,17 +1543,12 @@ section h3 {
       padding: 0 0 0 80px;
       margin: 0; } }
 
-.single .nav-previous {
-  float: none;
-  text-align: center;
-  width: 100%;
-  margin: 100px auto; }
-  @media (min-width: 700px) {
-    .single .nav-previous {
-      float: none;
-      text-align: center;
-      width: 100%;
-      margin: 100px auto; } }
+.single .post-navigation a {
+  padding: 10px 30px;
+  background: black;
+  color: white; }
+  .single .post-navigation a:hover {
+    background: #ee6c4d; }
 
 .h2-change {
   margin-top: auto;

@@ -24,16 +24,14 @@
 			margin: 0;
 		}
 	}
-	.nav-previous {
-		float: none;
-		text-align: center;
-		width: 100%;
-		margin: 100px auto;
-		@include tablet{
-			float: none;
-			text-align: center;
-			width: 100%;
-			margin: 100px auto;
-		}
-	}
+  .post-navigation {
+    a {
+      padding: 10px 30px;
+      background: $color__mainb;
+      color: $color__mainw;
+      &:hover {
+        background: $color__oj;
+      }
+    }
+  }
 }
