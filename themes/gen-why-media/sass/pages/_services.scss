@@ -1,5 +1,5 @@
 .page-template-services {
-  .header1, .header2-a, .header2-b {
+  .main-header, .content-header-dark, .content-header-light {
     font-size: 2.5rem;
     @include tablet {
       font-size: 4rem;
@@ -258,7 +258,7 @@
       display: block;
       margin-bottom: 50px;
     }
-    .header3 {
+    .colored-header {
       text-align: left;
     }
     p {

@@ -17,7 +17,7 @@
 				<div class="services-hero-banner">
 						<div class="services-hero" data-type="background" data-speed="10"></div>
 						<div class="services-hero-title">
-							<h1 class="header1"><?php the_title(); ?></h1>
+							<h1 class="main-header"><?php the_title(); ?></h1>
 						</div>
 				</div><!-- .services-hero-banner -->
 
@@ -33,31 +33,31 @@
 
 			<section class="what-we-offer container">
 				<div>
-					<h2 class="header2-a">What We Offer</h2>
+					<h2 class="content-header-dark">What We Offer</h2>
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Web" />
-							<h3 class="header3-b">Web</h3>
+							<h3 class="colored-header-b">Web</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate-icon.png" alt="Engagement" class="engagement" />
-							<h3 class="header3-b">Engagement</h3>
+							<h3 class="colored-header-b">Engagement</h3>
 						 </li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/public-art.png" alt="Public Art" />
-							<h3 class="header3-b">Public Art</h3>
+							<h3 class="colored-header-b">Public Art</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/events.png" alt="Events" />
-							<h3 class="header3-b">Events</h3>
+							<h3 class="colored-header-b">Events</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/film.png" alt="Film" />
-							<h3 class="header3-b">Film</h3>
+							<h3 class="colored-header-b">Film</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/audience.png" alt="Connect" />
-							<h3 class="header3-b">Audience</h3>
+							<h3 class="colored-header-b">Audience</h3>
 						</li>
 					</ul>
 				</div>
@@ -71,10 +71,10 @@
 
 			<section class="our-story-container">
 					<div class="founder-banner" data-type="background" data-speed="10">
-						<h2 class="header2-a about-us">About Us</h2>
+						<h2 class="content-header-dark about-us">About Us</h2>
 						<div class="our-story-circle"></div>
 					</div>
-					<h2 class="header2-a our-story-title">Our Story</h2>
+					<h2 class="content-header-dark our-story-title">Our Story</h2>
 					<div class="our-story-info">
 							<?php echo wp_kses_post(CFS()->get( 'our_story' )); ?>
 					</div>
@@ -85,8 +85,8 @@
 			<section class="our-team-container">
 				<iframe src="https://player.vimeo.com/video/23997768" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<div class="our-team-info">
-						<h2 class="header2-a our-story-title">Our Team</h2>
-						<?php echo wp_kses_post(CFS()->get( 'our_team' )); ?>
+						<h2 class="content-header-dark our-story-title">Our Team</h2>
+					<?php echo wp_kses_post(CFS()->get( 'our_team' )); ?>
 				</div>
 			</section>
 

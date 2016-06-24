@@ -8,7 +8,7 @@
 ?>
 
 <section class="event-container">
-		<h2 class="header2-a">Upcoming Events</h2>
+		<h2 class="content-header-dark">Upcoming Events</h2>
 		<div class=" event-info">
 			<?php $event =  array(
 				'post_type' => 'events_cpt',
@@ -17,7 +17,7 @@
 				'orderby' => 'date');
 			$eventposts = get_posts( $event );
 			foreach ( $eventposts as $post ) : setup_postdata( $post ); ?>
-			<h3 class="header3"><?php the_title(); ?></h3>			
+			<h3 class="colored-header"><?php the_title(); ?></h3>			
 			<div class="event-time-container">
 				<div class="calender-icon">
 					<div class="event-date">

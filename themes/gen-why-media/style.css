@@ -43,150 +43,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-/* custom colors */
-/* custom typography */
-.header1, .projects-page .page-header {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 80px;
-  text-transform: uppercase; }
-
-.header2-a {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px; }
-
-.header2-b {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px; }
-
-.header3 {
-  color: #ee6c4d;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px; }
-
-.header3-b {
-  color: #176a47;
-  font-family: "Avenir", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 40px; }
-
-.header4 {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 48px;
-  line-height: 60px; }
-
-.header4-sub, .services-sub-banner .services-info {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px; }
-
-.header5-b {
-  color: #176a47;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 40px; }
-
-.header5-rev {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px; }
-
-.button-a {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 24px;
-  text-transform: uppercase; }
-
-.button-b {
-  color: #334b7f;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px; }
-
-.body-a, .projects-page .entry-content p, .contact-us-container h2 + p,
-.contact-us-container .address {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 40px; }
-
-.body-b, .projects-page h2 a {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 20px; }
-
-.body-b-rev {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-style: italic;
-  line-height: 40px; }
-
-.menu-clear {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase; }
-
-.menu-solid {
-  color: black;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase; }
-
-.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
-.contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
-.contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
-.contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
-.contact-form-7-container textarea:-ms-input-placeholder {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  line-height: 40px; }
-
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-container .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-direction: column;
-      flex-direction: column; }
-
-.button, .event-container .event-info a {
-  border-radius: 7px;
-  color: white;
-  font-size: 20px;
-  padding: 5px 30px; }
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -363,6 +219,134 @@ td,
 th {
   padding: 0; }
 
+/* custom colors */
+/* custom typography */
+.main-header, .projects-page .page-header {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 80px;
+  text-transform: uppercase; }
+
+.content-header-dark {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 60px; }
+
+.content-header-light {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 60px; }
+
+.colored-header {
+  color: #ee6c4d;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 60px; }
+
+.colored-header-b {
+  color: #176a47;
+  font-family: "Avenir", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.header4 {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 48px;
+  line-height: 60px; }
+
+.header4-sub, .services-sub-banner .services-info {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 60px; }
+
+.header5-b {
+  color: #176a47;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px; }
+
+.header5-rev {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.button-a {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.button-b {
+  color: #334b7f;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.body-a, .projects-page .entry-content p, .contact-us-container h2 + p,
+.contact-us-container .address {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px; }
+
+.body-b, .projects-page h2 a {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px; }
+
+.body-b-rev {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px; }
+
+.menu-clear {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  text-transform: uppercase; }
+
+.menu-solid {
+  color: black;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  text-transform: uppercase; }
+
+.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
+.contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
+.contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
+.contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
+.contact-form-7-container textarea:-ms-input-placeholder {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 40px; }
+
 /* content-area Delay Apprence */
 @keyframes site-branding-width {
   0% {
@@ -414,6 +398,22 @@ th {
     background-position: 20px 10px;
     height: 100vh;
     width: 100%; } }
+
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-container .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.button, .event-container .event-info a {
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  padding: 5px 30px; }
 
 /*--------------------------------------------------------------
 # Embedded Fonts
@@ -1488,11 +1488,11 @@ section h3 {
   @media (min-width: 700px) {
     .sub-title {
       margin-top: 120px; } }
-  .sub-title .header2-a {
+  .sub-title .content-header-dark {
     font-size: 36px;
     line-height: 0; }
     @media (min-width: 700px) {
-      .sub-title .header2-a {
+      .sub-title .content-header-dark {
         font-size: 56px;
         margin-bottom: 60px; } }
 
@@ -1564,13 +1564,13 @@ section h3 {
 .fom-button:visited {
   color: white; }
 
-.page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .content-header-light {
   font-size: 2.5rem; }
   @media (min-width: 700px) {
-    .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .content-header-light {
       font-size: 4rem; } }
   @media (min-width: 1240px) {
-    .page-template-services .header1, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .header2-a, .page-template-services .header2-b {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .content-header-light {
       font-size: 4.5rem; } }
 
 .page-template-services .services-hero-banner {
@@ -1792,7 +1792,7 @@ section h3 {
     .our-team-container .our-team-info {
       display: block;
       margin-bottom: 50px; } }
-  .our-team-container .our-team-info .header3 {
+  .our-team-container .our-team-info .colored-header {
     text-align: left; }
   .our-team-container .our-team-info p {
     width: 350px;
@@ -1811,12 +1811,12 @@ section h3 {
     .prev-part-display {
       display: block; } }
 
-h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
   font-size: 46px;
   font-weight: 500;
   line-height: 40px; }
   @media (min-width: 700px) {
-    h1.entry-title.header1, .projects-page h1.entry-title.page-header {
+    h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
       font-size: 72px;
       font-weight: 700;
       line-height: 80px; } }
@@ -2042,13 +2042,13 @@ footer .site-info {
         width: 50%; } }
     .video-container .video-title-button a {
       color: white; }
-    .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+    .video-container .video-title-button .main-header, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
       font-size: 1.8rem; }
       @media (min-width: 700px) {
-        .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+        .video-container .video-title-button .main-header, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
           font-size: 2.5rem; } }
       @media (min-width: 1240px) {
-        .video-container .video-title-button .header1, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+        .video-container .video-title-button .main-header, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
           font-size: 3.3rem; } }
   .video-container h2 {
     font-size: 2rem; }
@@ -2302,26 +2302,26 @@ footer .site-info {
   .event-container .event-time-container .event-when-where .bold {
     font-weight: bold; }
 
-.event-container .header2-a {
+.event-container .content-header-dark {
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1.8px;
   line-height: 0;
   margin-top: 40px; }
   @media (min-width: 700px) {
-    .event-container .header2-a {
+    .event-container .content-header-dark {
       font-weight: 500;
       margin: 40px 0 0 0;
       font-size: 2.6rem;
       line-height: 2; } }
 
-.event-container .header3 {
+.event-container .colored-header {
   margin-top: 8px;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase; }
   @media (min-width: 700px) {
-    .event-container .header3 {
+    .event-container .colored-header {
       font-size: 1.7rem;
       font-weight: 600;
       letter-spacing: 1.8px;

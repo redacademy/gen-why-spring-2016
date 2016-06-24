@@ -48,7 +48,7 @@ $font__line-height-pre: 1.6;
 
 /* custom typography */
 
-.header1 {
+.main-header {
 	color: $color__mainw;
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 72px;
@@ -57,7 +57,7 @@ $font__line-height-pre: 1.6;
 	text-transform: uppercase;
 }
 
-.header2-a {
+.content-header-dark {
 	color: $color__dgrey;
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 56px;
@@ -65,7 +65,7 @@ $font__line-height-pre: 1.6;
 	line-height: 60px;
 }
 
-.header2-b {
+.content-header-light {
 	color: $color__mainw;
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 56px;
@@ -73,7 +73,7 @@ $font__line-height-pre: 1.6;
 	line-height: 60px;
 }
 
-.header3{
+.colored-header{
 	color: $color__oj;
 	font-family: "Helvetica Neue", sans-serif;
 	font-size: 36px;
@@ -81,7 +81,7 @@ $font__line-height-pre: 1.6;
 	line-height: 60px;
 }
 
-.header3-b {
+.colored-header-b {
 	color: $color__dg;
 	font-family: "Avenir", sans-serif;
 	font-size: 36px;

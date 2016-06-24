@@ -16,7 +16,7 @@
 		</div><!-- .entry-header -->
 
 		<div class="content-title video-title-button">
-					<?php the_title( '<h1 class="entry-title header1">', '</h1>' ); ?>
+					<?php the_title( '<h1 class="entry-title main-header">', '</h1>' ); ?>
 		</div>
 	</section>
 

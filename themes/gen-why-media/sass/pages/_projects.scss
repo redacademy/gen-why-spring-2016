@@ -6,7 +6,7 @@
 		justify-content: center;
 		align-items: center;
 		transform: translateY(54%);
-		@extend .header1;
+		@extend .main-header;
 		@include tablet {
 			height: 400px;
 			transform: translateY(0);
@@ -124,7 +124,7 @@
 	@include tablet {
 		margin-top: 120px;
 	}
-	.header2-a {
+	.content-header-dark {
 		font-size: 36px;
 		line-height: 0;
 		@include tablet {
