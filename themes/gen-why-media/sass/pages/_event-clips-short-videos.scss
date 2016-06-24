@@ -1,27 +1,24 @@
 
 .video-hero {
-			background:
-			linear-gradient(
-			$color__lin-b,
-			$color__lin-b
-			),
-			url(../../assets/images/bg-watch-picture.png);
-		display: flex;
-		background-size: cover;
-		background-position: bottom;
-		height: 400px;
-		width: 100%;
-		padding-top: 0;
-		margin: 0 auto;
-		justify-content: center;
-		align-items: center;
-		color: white;
-		h1 {
-			font-size: 3.2rem;
-			@include tablet {
-				font-size: 4.2rem;
-			}
+	background:
+	linear-gradient( $color__lin-b, $color__lin-b ),
+	url(../../assets/images/bg-watch-picture.png);
+	display: flex;
+	background-size: cover;
+	background-position: bottom;
+	height: 400px;
+	width: 100%;
+	padding-top: 0;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	h1 {
+		font-size: 3.2rem;
+		@include tablet {
+			font-size: 4.2rem;
 		}
+	}
 }
 .fom-button {
 	border: 3px solid $color__mainw;

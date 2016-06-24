@@ -196,23 +196,23 @@ section {
     margin-right: 35px;
     }
   }
-    .review-wrap {
-      @extend .center-column;
-      @include tablet {
-        flex-direction: row;
-      }
+  .review-wrap {
+    @extend .center-column;
+    @include tablet {
+      flex-direction: row;
     }
-    .review-content {
+  }
+  .review-content {
+    width: 500px;
+    font-style: italic;
+    @extend .center-column;
+  }
+  p {
+    width: 350px;
+    @include tablet {
       width: 500px;
-      font-style: italic;
-      @extend .center-column;
-      p {
-        width: 350px;
-        @include tablet {
-          width: 500px;
-        }
-      }
     }
+  }
 }
 
 // Latest Event Clips

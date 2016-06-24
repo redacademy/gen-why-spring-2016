@@ -1276,11 +1276,11 @@ section h3 {
   .reviews-container .review-content {
     width: 500px;
     font-style: italic; }
-    .reviews-container .review-content p {
-      width: 350px; }
-      @media (min-width: 700px) {
-        .reviews-container .review-content p {
-          width: 500px; } }
+  .reviews-container p {
+    width: 350px; }
+    @media (min-width: 700px) {
+      .reviews-container p {
+        width: 500px; } }
 
 .latest-event {
   display: -ms-flexbox;
