@@ -272,7 +272,7 @@ th {
     height: 100vh;
     width: 100%; } }
 
-.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1333,51 +1333,56 @@ section h3 {
 
 .about-us {
   margin-bottom: 20px; }
+
+@media (min-width: 1240px) {
+  .our-team {
+    margin-top: 0; } }
+
+.founder-profile {
+  width: 300px;
+  margin: 0 auto; }
+  @media (min-width: 700px) {
+    .founder-profile {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      width: 700px; } }
   @media (min-width: 1240px) {
-    .about-us .our-team {
-      margin-top: 0; } }
-  .about-us .founder-profile {
-    width: 300px;
-    margin: 0 auto; }
+    .founder-profile {
+      width: 900px; } }
+  .founder-profile img {
+    min-height: 236px;
+    min-width: 229px; }
+  .founder-profile h3 {
+    margin: 0; }
     @media (min-width: 700px) {
-      .about-us .founder-profile {
-        -ms-flex-direction: row;
-            flex-direction: row;
-        width: 700px; } }
+      .founder-profile h3 {
+        text-align: left; } }
+  .founder-profile p {
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.8; }
+    @media (min-width: 700px) {
+      .founder-profile p {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.5; } }
     @media (min-width: 1240px) {
-      .about-us .founder-profile {
-        width: 900px; } }
-    .about-us .founder-profile img {
-      min-height: 236px;
-      min-width: 229px; }
-    .about-us .founder-profile h3 {
-      margin: 0; }
-      @media (min-width: 700px) {
-        .about-us .founder-profile h3 {
-          text-align: left; } }
-    .about-us .founder-profile p {
-      text-align: center;
-      font-size: .9rem;
-      line-height: 1.8; }
-      @media (min-width: 700px) {
-        .about-us .founder-profile p {
-          text-align: left;
-          font-size: 1rem;
-          line-height: 1.5; } }
-      @media (min-width: 1240px) {
-        .about-us .founder-profile p {
-          font-size: 1.2rem; } }
-    @media (min-width: 700px) {
-      .about-us .founder-profile .about-text {
-        margin-left: 40px; } }
-    @media (min-width: 700px) {
-      .about-us .founder-profile .about-text {
-        margin-left: 60px; } }
-    .about-us .founder-profile .display-on-desk {
-      display: none; }
-      @media (min-width: 700px) {
-        .about-us .founder-profile .display-on-desk {
-          display: block; } }
+      .founder-profile p {
+        font-size: 1.2rem; } }
+
+@media (min-width: 700px) {
+  .about-text {
+    margin-left: 40px; } }
+
+@media (min-width: 700px) {
+  .about-text {
+    margin-left: 60px; } }
+
+.display-on-desk {
+  display: none; }
+  @media (min-width: 700px) {
+    .display-on-desk {
+      display: block; } }
 
 .projects-page .page-header {
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url("../../assets/images/bg-projects.png") center/cover;

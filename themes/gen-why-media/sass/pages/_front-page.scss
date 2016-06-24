@@ -260,6 +260,7 @@ section {
     padding-bottom: 40%;
   }
 }
+
 .video-wrapper iframe {
   position: absolute;
   top: 0;
@@ -271,60 +272,65 @@ section {
     height: 85%;
   }
 }
+
 .about-us {
   margin-bottom: 20px;
-  .our-team {
-      @include desktop {
-          margin-top: 0;
-      }
+}
+
+.our-team {
+    @include desktop {
+        margin-top: 0;
+    }
+}
+
+.founder-profile {
+  @extend .center-column;
+  width: 300px;
+  margin: 0 auto;
+  @include tablet {
+    flex-direction: row;
+    width: 700px;
   }
-  .founder-profile {
-    @extend .center-column;
-    width: 300px;
-    margin: 0 auto;
+  @include desktop {
+    width: 900px;
+  }
+  img {
+    min-height: 236px;
+    min-width: 229px;
+  }
+  h3 {
+    margin: 0;
     @include tablet {
-      flex-direction: row;
-      width: 700px;
+      text-align: left;
+    }
+  }
+  p {
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.8;
+    @include tablet {
+      text-align: left;
+      font-size: 1rem;
+      line-height: 1.5;
     }
     @include desktop {
-      width: 900px;
+      font-size: 1.2rem;
     }
-    img {
-      min-height: 236px;
-      min-width: 229px;
-    }
-    h3 {
-      margin: 0;
-      @include tablet {
-        text-align: left;
-      }
-    }
-    p {
-      text-align: center;
-      font-size: .9rem;
-      line-height: 1.8;
-      @include tablet {
-        text-align: left;
-        font-size: 1rem;
-        line-height: 1.5;
-      }
-      @include desktop {
-        font-size: 1.2rem;
-      }
-    }
-    .about-text {
-      @include tablet {
-        margin-left: 40px;
-      }
-      @include tablet {
-        margin-left: 60px;
-      }
-    }
-    .display-on-desk {
-      display: none;
-      @include tablet {
-        display: block;
-      }
-    }
+  }
+}
+
+.about-text {
+  @include tablet {
+    margin-left: 40px;
+  }
+  @include tablet {
+    margin-left: 60px;
+  }
+}
+
+.display-on-desk {
+  display: none;
+  @include tablet {
+    display: block;
   }
 }
