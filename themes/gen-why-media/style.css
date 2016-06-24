@@ -1561,8 +1561,9 @@ section h3 {
   padding: 10px 30px;
   background: black;
   color: white; }
-  .single .post-navigation a:hover {
-    background: #ee6c4d; }
+
+.single .post-navigation a:hover {
+  background: #ee6c4d; }
 
 .h2-change {
   margin-top: auto;
