@@ -43,150 +43,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-/* custom colors */
-/* custom typography */
-.banner-text, .projects-page .page-header {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 80px;
-  text-transform: uppercase; }
-
-.content-title-dark {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px; }
-
-.header2-b {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px; }
-
-.header3 {
-  color: #ee6c4d;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px; }
-
-.header3-b {
-  color: #176a47;
-  font-family: "Avenir", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 40px; }
-
-.header4 {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 48px;
-  line-height: 60px; }
-
-.header4-sub, .services-sub-banner .services-info {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px; }
-
-.header5-b {
-  color: #176a47;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 40px; }
-
-.header5-rev {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px; }
-
-.button-a {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 24px;
-  text-transform: uppercase; }
-
-.button-b {
-  color: #334b7f;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px; }
-
-.body-a, .projects-page .entry-content p, .contact-us-container h2 + p,
-.contact-us-container .address {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 40px; }
-
-.body-b, .projects-page h2 a {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 20px; }
-
-.body-b-rev {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-style: italic;
-  line-height: 40px; }
-
-.menu-clear {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase; }
-
-.menu-solid {
-  color: black;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase; }
-
-.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
-.contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
-.contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
-.contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
-.contact-form-7-container textarea:-ms-input-placeholder {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  line-height: 40px; }
-
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-container .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-direction: column;
-      flex-direction: column; }
-
-.button, .event-container .event-info a {
-  border-radius: 7px;
-  color: white;
-  font-size: 20px;
-  padding: 5px 30px; }
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -363,6 +219,134 @@ td,
 th {
   padding: 0; }
 
+/* custom colors */
+/* custom typography */
+.banner-text, .projects-page .page-header {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 80px;
+  text-transform: uppercase; }
+
+.content-title-dark {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 60px; }
+
+.header2-b {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 60px; }
+
+.header3 {
+  color: #ee6c4d;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 60px; }
+
+.header3-b {
+  color: #176a47;
+  font-family: "Avenir", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.header4 {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 48px;
+  line-height: 60px; }
+
+.header4-sub, .services-sub-banner .services-info {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 60px; }
+
+.header5-b {
+  color: #176a47;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px; }
+
+.header5-rev {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.button-a {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+.button-b {
+  color: #334b7f;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px; }
+
+.body-a, .projects-page .entry-content p, .contact-us-container h2 + p,
+.contact-us-container .address {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px; }
+
+.body-b, .projects-page h2 a {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px; }
+
+.body-b-rev {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px; }
+
+.menu-clear {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  text-transform: uppercase; }
+
+.menu-solid {
+  color: black;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  text-transform: uppercase; }
+
+.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
+.contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
+.contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
+.contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
+.contact-form-7-container textarea:-ms-input-placeholder {
+  color: #4a4a4a;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 40px; }
+
 /* content-area Delay Apprence */
 @keyframes site-branding-width {
   0% {
@@ -414,6 +398,22 @@ th {
     background-position: 20px 10px;
     height: 100vh;
     width: 100%; } }
+
+.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-container .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.button, .event-container .event-info a {
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  padding: 5px 30px; }
 
 /*--------------------------------------------------------------
 # Embedded Fonts
@@ -1240,11 +1240,11 @@ section h3 {
       margin-bottom: 20px; }
       @media (min-width: 700px) {
         .get-involved ul li .collaborate {
-          height: 50px; } }
+          height: 50px;
+          margin-bottom: 30px; } }
       @media (min-width: 1240px) {
         .get-involved ul li .collaborate {
-          height: 60px;
-          margin-bottom: 30px; } }
+          height: 60px; } }
     .get-involved ul li h3 {
       font-size: 1rem; }
       @media (min-width: 700px) {
@@ -1252,7 +1252,7 @@ section h3 {
           font-size: 1.7rem; } }
       @media (min-width: 1240px) {
         .get-involved ul li h3 {
-          font-size: 2.1rem; } }
+          font-size: 2rem; } }
 
 .reviews-container {
   margin-bottom: 30px; }
@@ -1342,6 +1342,9 @@ section h3 {
     @media (min-width: 1240px) {
       .about-us .founder-profile {
         width: 900px; } }
+    .about-us .founder-profile img {
+      min-height: 236px;
+      min-width: 229px; }
     .about-us .founder-profile h3 {
       margin: 0; }
       @media (min-width: 700px) {
@@ -1696,7 +1699,7 @@ section h3 {
           -ms-flex: none;
               flex: none;
           height: 200px;
-          width: 228px; } }
+          width: 200px; } }
       @media (min-width: 1240px) {
         .what-we-offer ul li:last-child {
           width: 200px; } }
@@ -1707,7 +1710,7 @@ section h3 {
             height: 80px; } }
         @media (min-width: 1240px) {
           .what-we-offer ul li img {
-            height: 80px; } }
+            height: 70px; } }
       .what-we-offer ul li .engagement {
         height: 40px;
         margin-bottom: 20px; }
@@ -1718,7 +1721,7 @@ section h3 {
         @media (min-width: 1240px) {
           .what-we-offer ul li .engagement {
             height: 60px;
-            margin-bottom: 20px; } }
+            margin-bottom: 10px; } }
       .what-we-offer ul li h3 {
         font-size: 1rem; }
         @media (min-width: 700px) {
@@ -1726,7 +1729,7 @@ section h3 {
             font-size: 1.7rem; } }
         @media (min-width: 1240px) {
           .what-we-offer ul li h3 {
-            font-size: 2.5rem; } }
+            font-size: 2rem; } }
 
 .our-story-container .founder-banner {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
@@ -2328,7 +2331,7 @@ footer .site-info {
       font-weight: 600;
       letter-spacing: 1.8px;
       margin: 0;
-      transform: translate(14%, 26%); } }
+      transform: translate(6%, 26%); } }
 
 .event-container .header5-b {
   margin: 0; }
