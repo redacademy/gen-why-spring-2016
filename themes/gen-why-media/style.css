@@ -243,14 +243,14 @@ th {
   font-weight: 500;
   line-height: 60px; }
 
-.header3 {
+.colored-header {
   color: #ee6c4d;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 36px;
   font-weight: normal;
   line-height: 60px; }
 
-.header3-b {
+.colored-header-b {
   color: #176a47;
   font-family: "Avenir", sans-serif;
   font-size: 36px;
@@ -1792,7 +1792,7 @@ section h3 {
     .our-team-container .our-team-info {
       display: block;
       margin-bottom: 50px; } }
-  .our-team-container .our-team-info .header3 {
+  .our-team-container .our-team-info .colored-header {
     text-align: left; }
   .our-team-container .our-team-info p {
     width: 350px;
@@ -2315,13 +2315,13 @@ footer .site-info {
       font-size: 2.6rem;
       line-height: 2; } }
 
-.event-container .header3 {
+.event-container .colored-header {
   margin-top: 8px;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase; }
   @media (min-width: 700px) {
-    .event-container .header3 {
+    .event-container .colored-header {
       font-size: 1.7rem;
       font-weight: 600;
       letter-spacing: 1.8px;

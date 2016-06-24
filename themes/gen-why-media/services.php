@@ -37,27 +37,27 @@
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Web" />
-							<h3 class="header3-b">Web</h3>
+							<h3 class="colored-header-b">Web</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate-icon.png" alt="Engagement" class="engagement" />
-							<h3 class="header3-b">Engagement</h3>
+							<h3 class="colored-header-b">Engagement</h3>
 						 </li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/public-art.png" alt="Public Art" />
-							<h3 class="header3-b">Public Art</h3>
+							<h3 class="colored-header-b">Public Art</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/events.png" alt="Events" />
-							<h3 class="header3-b">Events</h3>
+							<h3 class="colored-header-b">Events</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/film.png" alt="Film" />
-							<h3 class="header3-b">Film</h3>
+							<h3 class="colored-header-b">Film</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/audience.png" alt="Connect" />
-							<h3 class="header3-b">Audience</h3>
+							<h3 class="colored-header-b">Audience</h3>
 						</li>
 					</ul>
 				</div>

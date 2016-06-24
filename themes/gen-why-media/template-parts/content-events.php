@@ -17,7 +17,7 @@
 				'orderby' => 'date');
 			$eventposts = get_posts( $event );
 			foreach ( $eventposts as $post ) : setup_postdata( $post ); ?>
-			<h3 class="header3"><?php the_title(); ?></h3>			
+			<h3 class="colored-header"><?php the_title(); ?></h3>			
 			<div class="event-time-container">
 				<div class="calender-icon">
 					<div class="event-date">

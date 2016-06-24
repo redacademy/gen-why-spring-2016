@@ -51,19 +51,19 @@
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/community-icon.png" alt="Community" />
-							<h3 class="header3-b">Community</h3>
+							<h3 class="colored-header-b">Community</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/shape-your-city.png" alt="Shape Your City" />
-							<h3 class="header3-b">Shape Your City</h3>
+							<h3 class="colored-header-b">Shape Your City</h3>
 						 </li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate-icon.png" alt="Collaborate" class="collaborate"/>
-							<h3 class="header3-b">Collaborate</h3>
+							<h3 class="colored-header-b">Collaborate</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Connect" />
-							<h3 class="header3-b">Connect</h3>
+							<h3 class="colored-header-b">Connect</h3>
 						</li>
 					</ul>
 				</div>
@@ -139,7 +139,7 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tara-pic.png" alt="Tara" />
 
 						<div class="about-text">
-							<h3 class="header3">Tara Mahoney</h3>
+							<h3 class="colored-header">Tara Mahoney</h3>
 							<p class="body-a">Meet our Co-Founder Tara. Creative director, documentary maker, and exhuberant PhD academic with a heart for social change!</p>
 							<p class="display-on-desk body-a">Tara is currently completing her PhD in Communications at Simon Fraser University. Her research explores emerging cultural forms of political engagement.</p>
 						</div>
@@ -149,7 +149,7 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fiona-pic.png" alt="Fiona" />
 
 						<div class="about-text">
-							<h3 class="header3">Fiona Rayher</h3>
+							<h3 class="colored-header">Fiona Rayher</h3>
 							<p class="body-a">Fiona is Gen Why's other half. Co-founder, Artistic director and social minded documentary maker. Fiona is a human rights activist to the core.</p>
 							<p class="display-on-desk body-a"> Social minded documentary maker, in various human rights groups and hopes to bring change. Her first feature documentary, recently released, titled Fractured Land, has been extensively reviewed by the CBC, Globe and Mail, National Post, Huffington Post, and others.</p>
 						</div>
