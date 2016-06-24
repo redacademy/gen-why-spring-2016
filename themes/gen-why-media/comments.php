@@ -13,8 +13,6 @@
 if ( post_password_required() ) {
 	return;
 }
-?>
-<h4 style="position:fixed;top:100px;left:0;z-index:600;">comments.php</h4>
 
 <div id="comments" class="comments-area">
 
