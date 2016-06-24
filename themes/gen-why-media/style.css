@@ -1578,13 +1578,19 @@ section h3 {
 .fom-button:visited {
   color: white; }
 
-.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .content-header-light {
+.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header,
+.page-template-services .content-header-dark,
+.page-template-services .content-header-light {
   font-size: 2.5rem; }
   @media (min-width: 700px) {
-    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .content-header-light {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header,
+    .page-template-services .content-header-dark,
+    .page-template-services .content-header-light {
       font-size: 4rem; } }
   @media (min-width: 1240px) {
-    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .content-header-light {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header,
+    .page-template-services .content-header-dark,
+    .page-template-services .content-header-light {
       font-size: 4.5rem; } }
 
 .page-template-services .services-hero-banner {
@@ -1693,52 +1699,52 @@ section h3 {
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
         width: 1100px; } }
-    .what-we-offer ul li {
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
-      text-align: center; }
-      @media (min-width: 700px) {
-        .what-we-offer ul li {
-          -ms-flex: 1 0 33.33%;
-              flex: 1 0 33.33%;
-          height: 200px;
-          width: 300px; } }
-      @media (min-width: 1240px) {
-        .what-we-offer ul li {
-          -ms-flex: none;
-              flex: none;
-          height: 200px;
-          width: 200px; } }
-      @media (min-width: 1240px) {
-        .what-we-offer ul li:last-child {
-          width: 200px; } }
-      .what-we-offer ul li img {
-        height: 60px; }
-        @media (min-width: 700px) {
-          .what-we-offer ul li img {
-            height: 80px; } }
-        @media (min-width: 1240px) {
-          .what-we-offer ul li img {
-            height: 70px; } }
-      .what-we-offer ul li .engagement {
-        height: 40px;
-        margin-bottom: 20px; }
-        @media (min-width: 700px) {
-          .what-we-offer ul li .engagement {
-            height: 50px;
-            margin-bottom: 30px; } }
-        @media (min-width: 1240px) {
-          .what-we-offer ul li .engagement {
-            height: 60px;
-            margin-bottom: 10px; } }
-      .what-we-offer ul li h3 {
-        font-size: 1rem; }
-        @media (min-width: 700px) {
-          .what-we-offer ul li h3 {
-            font-size: 1.7rem; } }
-        @media (min-width: 1240px) {
-          .what-we-offer ul li h3 {
-            font-size: 2rem; } }
+  .what-we-offer li {
+    -ms-flex: 1 0 50%;
+        flex: 1 0 50%;
+    text-align: center; }
+    @media (min-width: 700px) {
+      .what-we-offer li {
+        -ms-flex: 1 0 33.33%;
+            flex: 1 0 33.33%;
+        height: 200px;
+        width: 300px; } }
+    @media (min-width: 1240px) {
+      .what-we-offer li {
+        -ms-flex: none;
+            flex: none;
+        height: 200px;
+        width: 200px; } }
+  @media (min-width: 1240px) {
+    .what-we-offer li:last-child {
+      width: 200px; } }
+  .what-we-offer img {
+    height: 60px; }
+    @media (min-width: 700px) {
+      .what-we-offer img {
+        height: 80px; } }
+    @media (min-width: 1240px) {
+      .what-we-offer img {
+        height: 70px; } }
+  .what-we-offer .engagement {
+    height: 40px;
+    margin-bottom: 20px; }
+    @media (min-width: 700px) {
+      .what-we-offer .engagement {
+        height: 50px;
+        margin-bottom: 30px; } }
+    @media (min-width: 1240px) {
+      .what-we-offer .engagement {
+        height: 60px;
+        margin-bottom: 10px; } }
+  .what-we-offer h3 {
+    font-size: 1rem; }
+    @media (min-width: 700px) {
+      .what-we-offer h3 {
+        font-size: 1.7rem; } }
+    @media (min-width: 1240px) {
+      .what-we-offer h3 {
+        font-size: 2rem; } }
 
 .our-story-container .founder-banner {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
