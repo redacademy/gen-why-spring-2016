@@ -1111,7 +1111,7 @@ section h3 {
     section h3 {
       font-size: 3.5rem; } }
 
-.hero-slider-container .banner-wrap {
+.banner-wrap {
   -ms-flex-align: center;
       align-items: center;
   display: -ms-flexbox;
@@ -1123,17 +1123,17 @@ section h3 {
   height: 400px;
   transform: scale(2); }
   @media (min-width: 700px) {
-    .hero-slider-container .banner-wrap {
+    .banner-wrap {
       height: 500px;
       transform: scale(1.2); } }
   @media (min-width: 1240px) {
-    .hero-slider-container .banner-wrap {
+    .banner-wrap {
       height: 800px;
       transform: scale(1); } }
-  .hero-slider-container .banner-wrap .banner-image {
+  .banner-wrap .banner-image {
     background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55));
     padding: 0; }
-  .hero-slider-container .banner-wrap img {
+  .banner-wrap img {
     z-index: -1;
     position: relative;
     display: block; }

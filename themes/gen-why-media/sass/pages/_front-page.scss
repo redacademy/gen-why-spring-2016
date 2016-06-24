@@ -25,33 +25,34 @@ section {
 
 // Hero Slider
 
-.hero-slider-container {
-  .banner-wrap {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    height: 400px;
-    transform: scale(2);
-    @include tablet {
-      height: 500px;
-      transform: scale(1.2);
-    }
-    @include desktop {
-      height: 800px;
-      transform: scale(1);
-    }
-    .banner-image {
-      background: linear-gradient($color__lin-b, $color__lin-b);
-      padding: 0;
-    }
-    img {
-      z-index: -1;
-      position: relative;
-      display: block;
-    }
+.banner-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  transform: scale(2);
+  @include tablet {
+    height: 500px;
+    transform: scale(1.2);
   }
+  @include desktop {
+    height: 800px;
+    transform: scale(1);
+  }
+  .banner-image {
+    background: linear-gradient($color__lin-b, $color__lin-b);
+    padding: 0;
+  }
+  img {
+    z-index: -1;
+    position: relative;
+    display: block;
+  }
+}
+
+.hero-slider-container {
   .banner-info {
     position: absolute;
     top:50%;
