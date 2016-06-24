@@ -32,7 +32,7 @@
 								</div>
 								<div class="banner-info">
 									<h2 class="header2-b">We Value...</h2>
-									<h1 class="banner-text"><?php the_title(); ?></h1>
+									<h1 class="main-header"><?php the_title(); ?></h1>
 									<div class="header4-sub"><?php the_content(); ?></div>
 								</div>
 							</div>

@@ -17,7 +17,7 @@ get_header(); ?>
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
-				<h1 class="banner-text">Event Clips</h1>
+				<h1 class="main-header">Event Clips</h1>
 			</div>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>

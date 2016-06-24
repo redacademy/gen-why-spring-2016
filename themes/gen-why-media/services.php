@@ -17,7 +17,7 @@
 				<div class="services-hero-banner">
 						<div class="services-hero" data-type="background" data-speed="10"></div>
 						<div class="services-hero-title">
-							<h1 class="banner-text"><?php the_title(); ?></h1>
+							<h1 class="main-header"><?php the_title(); ?></h1>
 						</div>
 				</div><!-- .services-hero-banner -->
 

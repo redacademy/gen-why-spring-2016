@@ -221,7 +221,7 @@ th {
 
 /* custom colors */
 /* custom typography */
-.banner-text, .projects-page .page-header {
+.main-header, .projects-page .page-header {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 72px;
@@ -1564,13 +1564,13 @@ section h3 {
 .fom-button:visited {
   color: white; }
 
-.page-template-services .banner-text, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
+.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
   font-size: 2.5rem; }
   @media (min-width: 700px) {
-    .page-template-services .banner-text, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
       font-size: 4rem; } }
   @media (min-width: 1240px) {
-    .page-template-services .banner-text, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
       font-size: 4.5rem; } }
 
 .page-template-services .services-hero-banner {
@@ -1811,12 +1811,12 @@ section h3 {
     .prev-part-display {
       display: block; } }
 
-h1.entry-title.banner-text, .projects-page h1.entry-title.page-header {
+h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
   font-size: 46px;
   font-weight: 500;
   line-height: 40px; }
   @media (min-width: 700px) {
-    h1.entry-title.banner-text, .projects-page h1.entry-title.page-header {
+    h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
       font-size: 72px;
       font-weight: 700;
       line-height: 80px; } }
@@ -2042,13 +2042,13 @@ footer .site-info {
         width: 50%; } }
     .video-container .video-title-button a {
       color: white; }
-    .video-container .video-title-button .banner-text, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+    .video-container .video-title-button .main-header, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
       font-size: 1.8rem; }
       @media (min-width: 700px) {
-        .video-container .video-title-button .banner-text, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+        .video-container .video-title-button .main-header, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
           font-size: 2.5rem; } }
       @media (min-width: 1240px) {
-        .video-container .video-title-button .banner-text, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
+        .video-container .video-title-button .main-header, .video-container .video-title-button .projects-page .page-header, .projects-page .video-container .video-title-button .page-header {
           font-size: 3.3rem; } }
   .video-container h2 {
     font-size: 2rem; }
