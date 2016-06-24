@@ -51,19 +51,19 @@
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/community-icon.png" alt="Community" />
-							<h3 class="colored-header-b">Community</h3>
+							<h3 class="colored-header-dark">Community</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/shape-your-city.png" alt="Shape Your City" />
-							<h3 class="colored-header-b">Shape Your City</h3>
+							<h3 class="colored-header-dark">Shape Your City</h3>
 						 </li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate-icon.png" alt="Collaborate" class="collaborate"/>
-							<h3 class="colored-header-b">Collaborate</h3>
+							<h3 class="colored-header-dark">Collaborate</h3>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/connect-icon.png" alt="Connect" />
-							<h3 class="colored-header-b">Connect</h3>
+							<h3 class="colored-header-dark">Connect</h3>
 						</li>
 					</ul>
 				</div>
