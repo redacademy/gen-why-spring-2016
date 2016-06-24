@@ -14,11 +14,11 @@ get_header(); ?>
 			</div>
 			<div class="eventbg watch-center">
 				<h2 class="content-header-light h2-change">Bring Your Boomers 2016</h2>
-				<a href="" class="button button-a fom-button">Find Out More</a>		
+				<a href="" class="button button-font fom-button">Find Out More</a>		
 			</div>
 			<div class=" watch-center">
 				<h2 class="content-header-light h2-change">Re-Imagine CBC</h2>
-				<a href="short-videos" class="button button-a fom-button">Find Out More</a>
+				<a href="short-videos" class="button button-font fom-button">Find Out More</a>
 			</div>
 		</main>
 	</div>

@@ -20,7 +20,7 @@
 		</div>
 	</section>
 
-		<div id="scroll-target" class="entry-content single-video-content body-a">
+		<div id="scroll-target" class="entry-content single-video-content main-font">
 			<?php the_content(); ?>
 		</div><!-- .entry-content -->
 

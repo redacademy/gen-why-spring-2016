@@ -1,6 +1,6 @@
 .event-container {
   p,
-  .header5-b {
+  .colored-title {
     font-size: 16px;
     margin-top: 0;
     @include tablet {
@@ -110,7 +110,7 @@
       transform: translate(6%,26%);
     }
   }
-  .header5-b {
+  .colored-title {
     margin: 0;
     @include tablet {
       font-weight: 500;

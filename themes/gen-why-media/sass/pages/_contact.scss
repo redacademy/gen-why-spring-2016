@@ -44,7 +44,7 @@ h1.entry-title.main-header {
 	h2 + p,
 	.address {
 		display: none;
-		@extend .body-a;
+		@extend .main-font;
 		@include desktop {
 			display: block;
 		}
