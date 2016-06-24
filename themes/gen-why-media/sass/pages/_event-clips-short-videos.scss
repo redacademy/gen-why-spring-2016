@@ -34,6 +34,19 @@
 	color: $color__mainw;
 }
 
+.video-container {
+	position: relative;
+	h2 {
+		font-size: 2rem;
+		@include tablet {
+			font-size: 2.8rem;
+		}
+		@include desktop {
+			font-size: 3.5rem;
+		}
+	}
+}
+
 .video-banner-imgs {
 	position: relative;
 	background: linear-gradient( $color__lin-b, $color__lin-b );
@@ -51,59 +64,44 @@
 		}
 	}
 }
-	.video-title-button {
-		position: absolute;
-		top:50%;
-		left:50%;
-		transform:translate(-50%, -50%);
-		width:100%;
-		text-align: center;
-		@extend .center-column;
-		@include tablet {
-			width: 50%;
-		}
-		a {
-			color: $color__mainw;
-		}
-		.main-header {
-			font-size: 1.8rem;
-			@include tablet {
-				font-size: 2.5rem;
-			}
-			@include desktop {
-				font-size: 3.3rem;
-			}
-		}
+.video-title-button {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	width:100%;
+	text-align: center;
+	@extend .center-column;
+	@include tablet {
+		width: 50%;
 	}
-
-.video-container {
-	position: relative;
-
-	h2 {
-		font-size: 2rem;
+	a {
+		color: $color__mainw;
+	}
+	.main-header {
+		font-size: 1.8rem;
 		@include tablet {
-			font-size: 2.8rem;
+			font-size: 2.5rem;
 		}
 		@include desktop {
-			font-size: 3.5rem;
+			font-size: 3.3rem;
 		}
 	}
 }
 
 // Single Event Clips and Short Videos
-.single {
-	.single-video-content {
-		padding: 20px;
-		@include tablet {
-			margin: 0 auto;
-			width: 80%;
-		}
-		@include desktop {
-			width: 60%;
-		}
-		p:first-child, p:nth-child(4), p:nth-child(5) {
-				display: flex;
-				justify-content: center;
-		}
+
+.single-video-content {
+	padding: 20px;
+	@include tablet {
+		margin: 0 auto;
+		width: 80%;
+	}
+	@include desktop {
+		width: 60%;
+	}
+	p:first-child, p:nth-child(4), p:nth-child(5) {
+			display: flex;
+			justify-content: center;
 	}
 }
