@@ -37,7 +37,7 @@ function genwhy_watch_header() {
                  rgba(51, 75, 127, 0.55),
                  rgba(51, 75, 127, 0.55)
                  ),
-                 url('". CFS()->get('header_image') ."');
+                 url('". wp_kses_post(CFS()->get('header_image')) ."');
                display: flex;
                background-size: cover;
                background-position: bottom;
@@ -67,7 +67,7 @@ function genwhy_watch_event() {
                  rgba(238, 108, 77, 0.55),
                  rgba(238, 108, 77, 0.55)
                  ),
-                 url('". CFS()->get('event_clips_image') ."');
+                 url('". wp_kses_post(CFS()->get('event_clips_image')) ."');
                display: block;
                background-size: cover;
                background-position: bottom;
@@ -96,7 +96,7 @@ function genwhy_watch_short() {
                  rgba(23, 106, 71, 0.55),
                  rgba(23, 106, 71, 0.55)
                  ),
-                 url('". CFS()->get('short_videos_image') ."');
+                 url('". wp_kses_post(CFS()->get('short_videos_image'))."');
                display: block;
                background-size: cover;
                background-position: bottom;
@@ -125,7 +125,7 @@ function genwhy_watch_documentary() {
                    rgba(51, 75, 127, 0.55),
                    rgba(51, 75, 127, 0.55)
                  ),
-                 url('". CFS()->get('documentary_image') ."');
+                 url('". wp_kses_post(CFS()->get('documentary_image')) ."');
                display: block;
                background-size: cover;
                background-position: bottom;
@@ -155,7 +155,7 @@ function genwhy_event_post_header() {
                  rgba(51, 75, 127, 0.55),
                  rgba(51, 75, 127, 0.55)
                  ),
-                 url('". CFS()->get('upload_background_image') ."');
+                 url('". wp_kses_post(CFS()->get('upload_background_image')) ."');
                display: flex;
                background-size: cover;
                background-position: bottom;
@@ -185,7 +185,7 @@ function genwhy_short_video_header() {
                  rgba(51, 75, 127, 0.55),
                  rgba(51, 75, 127, 0.55)
                  ),
-                 url('". CFS()->get('upload_background_image') ."');
+                 url('". wp_kses_post(CFS()->get('upload_background_image')) ."');
                display: flex;
                background-size: cover;
                background-position: bottom;
@@ -215,7 +215,7 @@ function genwhy_eventclip_posts() {
                    rgba(51, 75, 127, 0.55),
                    rgba(51, 75, 127, 0.55)
                  ),
-                 url('". CFS()->get('upload_background_image') ."');
+                 url('". wp_kses_post(CFS()->get('upload_background_image')) ."');
                display: block;
                background-size: cover;
                background-position: bottom;
