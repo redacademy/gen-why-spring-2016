@@ -272,7 +272,7 @@ th {
     height: 100vh;
     width: 100%; } }
 
-.center-column, .hero-slider-container .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .about-us .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1138,53 +1138,53 @@ section h3 {
     position: relative;
     display: block; }
 
-.hero-slider-container .banner-info {
+.banner-info {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
   text-align: center; }
-  .hero-slider-container .banner-info h2 {
+  .banner-info h2 {
     font-size: .9rem;
     margin: 0;
     line-height: 1; }
     @media (min-width: 700px) {
-      .hero-slider-container .banner-info h2 {
+      .banner-info h2 {
         font-size: 1.8rem;
         margin: 1rem; } }
     @media (min-width: 1240px) {
-      .hero-slider-container .banner-info h2 {
+      .banner-info h2 {
         font-size: 2rem; } }
-  .hero-slider-container .banner-info h1 {
+  .banner-info h1 {
     font-size: 1.2rem;
     margin: 0; }
     @media (min-width: 700px) {
-      .hero-slider-container .banner-info h1 {
+      .banner-info h1 {
         font-size: 3.2rem;
         margin: 2rem 0; } }
     @media (min-width: 1240px) {
-      .hero-slider-container .banner-info h1 {
+      .banner-info h1 {
         font-size: 4.5rem;
         margin: 3.5rem 0; } }
-  .hero-slider-container .banner-info p {
+  .banner-info p {
     font-size: .5rem;
     margin: 0; }
     @media (min-width: 700px) {
-      .hero-slider-container .banner-info p {
+      .banner-info p {
         font-size: 1.4rem;
         margin: 1rem; } }
     @media (min-width: 1240px) {
-      .hero-slider-container .banner-info p {
+      .banner-info p {
         font-size: 1.8rem; } }
-  .hero-slider-container .banner-info .subtitle, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
+  .banner-info .subtitle, .banner-info .services-sub-banner .services-info, .services-sub-banner .banner-info .services-info {
     width: 150px;
     line-height: 1; }
     @media (min-width: 700px) {
-      .hero-slider-container .banner-info .subtitle, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
+      .banner-info .subtitle, .banner-info .services-sub-banner .services-info, .services-sub-banner .banner-info .services-info {
         width: 600px; } }
     @media (min-width: 1240px) {
-      .hero-slider-container .banner-info .subtitle, .hero-slider-container .banner-info .services-sub-banner .services-info, .services-sub-banner .hero-slider-container .banner-info .services-info {
+      .banner-info .subtitle, .banner-info .services-sub-banner .services-info, .services-sub-banner .banner-info .services-info {
         width: 700px; } }
 
 .get-involved ul {
