@@ -192,21 +192,21 @@
       background-attachment: fixed;
       @include desktop {
         height: 450px;
-         background-size: 164% 120%;
+        background-size: 164% 120%;
       }
     }
     .about-us {
-        color: $color__mainw;
-        @include tablet {
-          display: none;
-        }
+      color: $color__mainw;
+      @include tablet {
+        display: none;
+      }
     }
   }
   .our-story-title {
-      display: none;
-      @include tablet {
-        display: block;
-      }
+    display: none;
+    @include tablet {
+      display: block;
+    }
   }
   .our-story-info {
     @extend .center-column;
@@ -257,16 +257,16 @@
     .colored-header {
       text-align: left;
     }
-    p {
-      width: 350px;
-      text-align: center;
-      @include tablet {
-        width: 600px;
-        text-align: left;
-      }
-      @include desktop {
-        width: 800px;
-      }
+  }
+  p {
+    width: 350px;
+    text-align: center;
+    @include tablet {
+      width: 600px;
+      text-align: left;
+    }
+    @include desktop {
+      width: 800px;
     }
   }
 }

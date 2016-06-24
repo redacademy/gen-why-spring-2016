@@ -1814,16 +1814,17 @@ section h3 {
       margin-bottom: 50px; } }
   .our-team-container .our-team-info .colored-header {
     text-align: left; }
-  .our-team-container .our-team-info p {
-    width: 350px;
-    text-align: center; }
-    @media (min-width: 700px) {
-      .our-team-container .our-team-info p {
-        width: 600px;
-        text-align: left; } }
-    @media (min-width: 1240px) {
-      .our-team-container .our-team-info p {
-        width: 800px; } }
+
+.our-team-container p {
+  width: 350px;
+  text-align: center; }
+  @media (min-width: 700px) {
+    .our-team-container p {
+      width: 600px;
+      text-align: left; } }
+  @media (min-width: 1240px) {
+    .our-team-container p {
+      width: 800px; } }
 
 .prev-part-display {
   display: none; }
