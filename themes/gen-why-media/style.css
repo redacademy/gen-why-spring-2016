@@ -367,7 +367,7 @@ th {
   font-weight: normal;
   line-height: 40px; }
 
-.main-font, .projects-page .entry-content p, .contact-us-container h2 + p,
+.main-font, .projects-page p, .contact-us-container h2 + p,
 .contact-us-container .address {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
@@ -1402,11 +1402,12 @@ section h3 {
   @media (min-width: 1240px) {
     .projects-page .page-header {
       height: 460px; } }
-  .projects-page .page-header h1 {
-    font-size: 38px; }
-    @media (min-width: 700px) {
-      .projects-page .page-header h1 {
-        font-size: 72px; } }
+
+.projects-page h1 {
+  font-size: 38px; }
+  @media (min-width: 700px) {
+    .projects-page h1 {
+      font-size: 72px; } }
 
 .projects-page .events-services-container {
   margin-top: 120px; }
@@ -1429,13 +1430,14 @@ section h3 {
     .projects-page .entry-content {
       padding: 0 40px;
       width: 78%; } }
-  .projects-page .entry-content p {
-    font-size: 0.9rem;
-    line-height: 24px; }
-    @media (min-width: 700px) {
-      .projects-page .entry-content p {
-        font-size: 1.2rem;
-        line-height: 1.6; } }
+
+.projects-page p {
+  font-size: 0.9rem;
+  line-height: 24px; }
+  @media (min-width: 700px) {
+    .projects-page p {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
 
 .projects-page h2 a {
   font-size: 0.8rem;
@@ -1487,10 +1489,12 @@ section h3 {
   right: 0; }
   @media (min-width: 700px) {
     .projects-page button {
-      padding: 0.7em 1.8em; }
-      .projects-page button .fa {
-        font-size: 38px;
-        color: #4a4a4a; } }
+      padding: 0.7em 1.8em; } }
+
+@media (min-width: 700px) {
+  .projects-page .fa-search {
+    font-size: 38px;
+    color: #4a4a4a; } }
 
 .sub-title {
   margin-top: 90px;
