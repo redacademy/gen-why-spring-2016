@@ -110,7 +110,7 @@
 				<div class="latest-event-img" data-type="background" data-speed="10">
 					<h2 class="header2-b">Latest Event Clips</h2>
 					<div class="find-out-btn">
-						<a href="/event-clips">Find Out More</a>
+						<a href="<?php echo get_post_type_archive_link( 'event_clips' ); ?>">Find Out More</a>
 					</div>
 				</div>
 			</section><!-- .latest-event -->
