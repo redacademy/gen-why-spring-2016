@@ -8,7 +8,7 @@
 ?>
 
 <section class="event-container">
-		<h2 class="content-title-dark">Upcoming Events</h2>
+		<h2 class="content-header-dark">Upcoming Events</h2>
 		<div class=" event-info">
 			<?php $event =  array(
 				'post_type' => 'events_cpt',

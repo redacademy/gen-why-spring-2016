@@ -229,7 +229,7 @@ th {
   line-height: 80px;
   text-transform: uppercase; }
 
-.content-title-dark {
+.content-header-dark {
   color: #4a4a4a;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
@@ -1488,11 +1488,11 @@ section h3 {
   @media (min-width: 700px) {
     .sub-title {
       margin-top: 120px; } }
-  .sub-title .content-title-dark {
+  .sub-title .content-header-dark {
     font-size: 36px;
     line-height: 0; }
     @media (min-width: 700px) {
-      .sub-title .content-title-dark {
+      .sub-title .content-header-dark {
         font-size: 56px;
         margin-bottom: 60px; } }
 
@@ -1564,13 +1564,13 @@ section h3 {
 .fom-button:visited {
   color: white; }
 
-.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
+.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .header2-b {
   font-size: 2.5rem; }
   @media (min-width: 700px) {
-    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .header2-b {
       font-size: 4rem; } }
   @media (min-width: 1240px) {
-    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-title-dark, .page-template-services .header2-b {
+    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header, .page-template-services .content-header-dark, .page-template-services .header2-b {
       font-size: 4.5rem; } }
 
 .page-template-services .services-hero-banner {
@@ -2302,14 +2302,14 @@ footer .site-info {
   .event-container .event-time-container .event-when-where .bold {
     font-weight: bold; }
 
-.event-container .content-title-dark {
+.event-container .content-header-dark {
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1.8px;
   line-height: 0;
   margin-top: 40px; }
   @media (min-width: 700px) {
-    .event-container .content-title-dark {
+    .event-container .content-header-dark {
       font-weight: 500;
       margin: 40px 0 0 0;
       font-size: 2.6rem;
