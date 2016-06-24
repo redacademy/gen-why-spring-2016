@@ -1208,51 +1208,56 @@ section h3 {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
       width: 1100px; } }
-  .get-involved ul li {
-    -ms-flex: 1 0 50%;
-        flex: 1 0 50%;
-    text-align: center; }
-    @media (min-width: 700px) {
-      .get-involved ul li {
-        -ms-flex: none;
-            flex: none;
-        height: 200px;
-        width: 300px; } }
-    @media (min-width: 1240px) {
-      .get-involved ul li {
-        -ms-flex: none;
-            flex: none;
-        height: 200px;
-        width: 300px; } }
-    @media (min-width: 1240px) {
-      .get-involved ul li:last-child {
-        width: 200px; } }
-    .get-involved ul li img {
-      height: 60px; }
-      @media (min-width: 700px) {
-        .get-involved ul li img {
-          height: 80px; } }
-      @media (min-width: 1240px) {
-        .get-involved ul li img {
-          height: 90px; } }
-    .get-involved ul li .collaborate {
-      height: 40px;
-      margin-bottom: 20px; }
-      @media (min-width: 700px) {
-        .get-involved ul li .collaborate {
-          height: 50px;
-          margin-bottom: 30px; } }
-      @media (min-width: 1240px) {
-        .get-involved ul li .collaborate {
-          height: 60px; } }
-    .get-involved ul li h3 {
-      font-size: 1rem; }
-      @media (min-width: 700px) {
-        .get-involved ul li h3 {
-          font-size: 1.7rem; } }
-      @media (min-width: 1240px) {
-        .get-involved ul li h3 {
-          font-size: 2rem; } }
+
+.get-involved li {
+  -ms-flex: 1 0 50%;
+      flex: 1 0 50%;
+  text-align: center; }
+  @media (min-width: 700px) {
+    .get-involved li {
+      -ms-flex: none;
+          flex: none;
+      height: 200px;
+      width: 300px; } }
+  @media (min-width: 1240px) {
+    .get-involved li {
+      -ms-flex: none;
+          flex: none;
+      height: 200px;
+      width: 300px; } }
+
+@media (min-width: 1240px) {
+  .get-involved li:last-child {
+    width: 200px; } }
+
+.get-involved img {
+  height: 60px; }
+  @media (min-width: 700px) {
+    .get-involved img {
+      height: 80px; } }
+  @media (min-width: 1240px) {
+    .get-involved img {
+      height: 90px; } }
+
+.get-involved .collaborate {
+  height: 40px;
+  margin-bottom: 20px; }
+  @media (min-width: 700px) {
+    .get-involved .collaborate {
+      height: 50px;
+      margin-bottom: 30px; } }
+  @media (min-width: 1240px) {
+    .get-involved .collaborate {
+      height: 60px; } }
+
+.get-involved h3 {
+  font-size: 1rem; }
+  @media (min-width: 700px) {
+    .get-involved h3 {
+      font-size: 1.7rem; } }
+  @media (min-width: 1240px) {
+    .get-involved h3 {
+      font-size: 2rem; } }
 
 .reviews-container {
   margin-bottom: 30px; }
