@@ -60,9 +60,9 @@
       background-attachment: fixed;
     }
     @include desktop {
-        background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
-        background-size: 204% 189%;
-      }
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
+      background-size: 204% 189%;
+    }
   }
 }
 .inspire-btn {
@@ -88,32 +88,32 @@
 .prev-parts {
   display: flex;
   justify-content: center;
-  .prev-parts-img {
-    border-bottom: 10px $color__oj solid;
-    @extend .center-column;
-    background: linear-gradient(180deg, $color__lin-b, $color__lin-b), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
-    height: 300px;
-    width: 100%;
-    @include tablet {
-      background-attachment: fixed;
-      background-size: 170% 180%;
-    }
-    @include desktop {
-      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
-      background-size: 131% 199%;
-      height: 450px;
-    }
-    .partner-logos {
-      img {
-        height: 60px;
-        @include tablet {
-          height: 120px;
-          margin: 0 5px;
-        }
-        @include desktop {
-          margin: 0 20px;
-        }
-      }
-    }
+}
+
+.prev-parts-img {
+  border-bottom: 10px $color__oj solid;
+  @extend .center-column;
+  background: linear-gradient(180deg, $color__lin-b, $color__lin-b), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
+  height: 300px;
+  width: 100%;
+  @include tablet {
+    background-attachment: fixed;
+    background-size: 170% 180%;
+  }
+  @include desktop {
+    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
+    background-size: 131% 199%;
+    height: 450px;
+  }
+}
+
+.partner-logos img {
+  height: 60px;
+  @include tablet {
+    height: 120px;
+    margin: 0 5px;
+  }
+  @include desktop {
+    margin: 0 20px;
   }
 }

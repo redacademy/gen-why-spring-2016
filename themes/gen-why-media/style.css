@@ -283,7 +283,7 @@ th {
     height: 100vh;
     width: 100%; } }
 
-.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1834,7 +1834,7 @@ h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
   @media (min-width: 1240px) {
     .contact-us-container h2 + p,
     .contact-us-container .address {
-      display: block; } }
+      display: inherit; } }
 
 .contact-us-container .entry-content > p {
   max-width: 1020px;
@@ -2178,29 +2178,31 @@ footer .site-info {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
-  .prev-parts .prev-parts-img {
-    border-bottom: 10px #ee6c4d solid;
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
-    height: 300px;
-    width: 100%; }
-    @media (min-width: 700px) {
-      .prev-parts .prev-parts-img {
-        background-attachment: fixed;
-        background-size: 170% 180%; } }
-    @media (min-width: 1240px) {
-      .prev-parts .prev-parts-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
-        background-size: 131% 199%;
-        height: 450px; } }
-    .prev-parts .prev-parts-img .partner-logos img {
-      height: 60px; }
-      @media (min-width: 700px) {
-        .prev-parts .prev-parts-img .partner-logos img {
-          height: 120px;
-          margin: 0 5px; } }
-      @media (min-width: 1240px) {
-        .prev-parts .prev-parts-img .partner-logos img {
-          margin: 0 20px; } }
+
+.prev-parts-img {
+  border-bottom: 10px #ee6c4d solid;
+  background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center;
+  height: 300px;
+  width: 100%; }
+  @media (min-width: 700px) {
+    .prev-parts-img {
+      background-attachment: fixed;
+      background-size: 170% 180%; } }
+  @media (min-width: 1240px) {
+    .prev-parts-img {
+      background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
+      background-size: 131% 199%;
+      height: 450px; } }
+
+.partner-logos img {
+  height: 60px; }
+  @media (min-width: 700px) {
+    .partner-logos img {
+      height: 120px;
+      margin: 0 5px; } }
+  @media (min-width: 1240px) {
+    .partner-logos img {
+      margin: 0 20px; } }
 
 .event-container p,
 .event-container .colored-title {

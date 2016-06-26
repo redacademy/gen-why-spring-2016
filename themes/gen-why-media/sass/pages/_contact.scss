@@ -46,7 +46,7 @@ h1.entry-title.main-header {
 		display: none;
 		@extend .main-font;
 		@include desktop {
-			display: block;
+			display: inherit;
 		}
 	}
 	.entry-content>p {
