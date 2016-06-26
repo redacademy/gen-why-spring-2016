@@ -231,6 +231,17 @@ th {
     /* style */
     width: 80px; } }
 
+/* Hiding Menuicon During Logo Animation */
+@keyframes hiding-menuicon {
+  0% {
+    /* style */
+    opacity: 0; }
+  98% {
+    opacity: 0; }
+  100% {
+    /* style */
+    opacity: 1; } }
+
 /* site-header Background Animation */
 
 @keyframes site-header-background {
@@ -704,6 +715,7 @@ li {
   overflow: hidden; }
 
 .menuicon {
+  animation: hiding-menuicon 6s 0s 1;
   position: absolute;
   z-index: 1000;
   top: 22px;

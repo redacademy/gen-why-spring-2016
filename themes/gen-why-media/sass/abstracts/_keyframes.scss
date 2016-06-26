@@ -14,6 +14,22 @@
 	}
 }
 
+/* Hiding Menuicon During Logo Animation */
+
+@keyframes hiding-menuicon {
+	0% {
+		/* style */
+		opacity: 0;
+	}
+	98% {
+		opacity: 0;
+	}
+	100% {
+		/* style */
+		opacity: 1;
+	}
+}
+
 /* site-header Background Animation */
 
 @-webkit-keyframes site-header-background {
