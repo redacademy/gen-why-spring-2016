@@ -2011,27 +2011,9 @@ footer .site-info {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center; }
-  @media (min-width: 700px) {
-    .video-title-button {
-      width: 50%; } }
-  .video-title-button .main-header, .video-title-button .projects-page .page-header, .projects-page .video-title-button .page-header {
-    font-size: 1.8rem; }
-    @media (min-width: 700px) {
-      .video-title-button .main-header, .video-title-button .projects-page .page-header, .projects-page .video-title-button .page-header {
-        font-size: 2.5rem; } }
-    @media (min-width: 1240px) {
-      .video-title-button .main-header, .video-title-button .projects-page .page-header, .projects-page .video-title-button .page-header {
-        font-size: 3.3rem; } }
 
 .single-video-content {
   padding: 20px; }
-  @media (min-width: 700px) {
-    .single-video-content {
-      margin: 0 auto;
-      width: 80%; } }
-  @media (min-width: 1240px) {
-    .single-video-content {
-      width: 60%; } }
   .single-video-content p:first-child, .single-video-content p:nth-child(4), .single-video-content p:nth-child(5) {
     display: -ms-flexbox;
     display: flex;
