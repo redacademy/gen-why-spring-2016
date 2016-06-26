@@ -288,7 +288,6 @@ th {
   font-size: 20px;
   padding: 5px 30px; }
 
-/* custom typography */
 .main-header, .projects-page .page-header {
   color: white;
   font-family: "Helvetica Neue", sans-serif;
@@ -661,44 +660,6 @@ a {
   position: absolute;
   width: 80px; }
 
-.main-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
-  .main-navigation ul {
-    list-style: none;
-    margin: 0; }
-    @media (min-width: 700px) {
-      .main-navigation ul {
-        padding-left: 70px; } }
-    .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5em;
-      left: -999em; }
-      .main-navigation ul ul ul {
-        left: -999em;
-        top: 0; }
-      .main-navigation ul ul li:hover > ul,
-      .main-navigation ul ul li.focus > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
-    .main-navigation ul li:hover > ul,
-    .main-navigation ul li.focus > ul {
-      left: auto; }
-  .main-navigation li {
-    float: left;
-    height: 70px;
-    margin: 0 auto;
-    padding-top: 23px;
-    position: relative; }
-  .main-navigation a {
-    display: block;
-    text-decoration: none; }
-
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -723,7 +684,6 @@ a {
   text-align: right;
   width: 50%; }
 
-/* Hamberger Menu Slider */
 /* Configuration Parameters */
 html, body {
   margin: 0;
@@ -742,15 +702,19 @@ html, body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   overflow: hidden;
-  width: 0;
   height: 0;
+  margin: 0;
   min-height: 70px;
+  width: 0;
   transition-duration: 0.2s;
   transition-delay: 0.2s; }
   @media (min-width: 700px) {
     .menu {
-      width: 100vw;
-      height: 100%; } }
+      height: 100%;
+      padding-left: 70px;
+      width: 100vw; } }
+  .menu li {
+    padding-top: 23px; }
 
 #hamburger:checked ~ nav .menu {
   -ms-flex-direction: column;
