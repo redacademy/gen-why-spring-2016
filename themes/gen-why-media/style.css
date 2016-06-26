@@ -283,7 +283,7 @@ th {
     height: 100vh;
     width: 100%; } }
 
-.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts-img, .event-container .event-info, .event-container .event-time-container, .event-container .event-time-container .calender-icon {
+.center-column, .banner-info, .get-involved div, .reviews-container .review-profile, .reviews-container .review-wrap, .reviews-container .review-content, .latest-event .latest-event-img, .founder-profile, .what-we-offer div, .our-story-container .founder-banner, .our-story-container .our-story-info, .our-team-container, .video-title-button, .connect-us .connect-wrapper, .what-we-doing, .what-we-doing .what-we-doing-img, .create-change .create-change-img, .prev-parts-img, .event-info, .event-time-container, .calender-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -293,7 +293,8 @@ th {
   -ms-flex-direction: column;
       flex-direction: column; }
 
-.button, .event-container .event-info a {
+.button, .event-info a,
+.event-info a:visited {
   border-radius: 7px;
   color: white;
   font-size: 20px;
@@ -2215,71 +2216,6 @@ footer .site-info {
       font-weight: 300;
       margin-bottom: 35px; } }
 
-.event-container .event-info {
-  position: relative; }
-  .event-container .event-info a {
-    background: #ee6c4d;
-    padding: 5px 30px;
-    text-transform: uppercase; }
-    .event-container .event-info a:hover {
-      background: black;
-      color: white; }
-
-@media (min-width: 700px) {
-  .event-container .event-time-container {
-    -ms-flex-direction: row;
-        flex-direction: row;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    margin-bottom: 60px;
-    width: 880px; } }
-
-.event-container .event-time-container p {
-  margin: 0; }
-
-.event-container .event-time-container .calender-icon {
-  background: url(../../assets/icons/calender-icon.png) no-repeat;
-  background-size: 150px 138px;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 20px; }
-  @media (min-width: 700px) {
-    .event-container .event-time-container .calender-icon {
-      margin-bottom: 0;
-      transform: translate(41%, -13%); } }
-  .event-container .event-time-container .calender-icon .event-date h5 {
-    font-weight: 400; }
-  .event-container .event-time-container .calender-icon .event-date h5:first-child {
-    font-size: 22px;
-    text-transform: uppercase;
-    transform: translate(2%, -61%);
-    text-align: center; }
-  .event-container .event-time-container .calender-icon .event-date h5:last-child {
-    font-size: 66px;
-    transform: translate(-3%, -18%); }
-
-.event-container .event-time-container .event-when-where {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  width: 250px;
-  text-align: center; }
-  @media (min-width: 700px) {
-    .event-container .event-time-container .event-when-where {
-      width: 630px;
-      text-align: left; } }
-  .event-container .event-time-container .event-when-where p {
-    margin: 0 auto 30px;
-    width: 210px; }
-    @media (min-width: 700px) {
-      .event-container .event-time-container .event-when-where p {
-        font-size: 22px;
-        margin: 0 0 5px;
-        width: 480px; } }
-  .event-container .event-time-container .event-when-where .bold {
-    font-weight: bold; }
-
 .event-container .content-header-dark {
   font-size: 23px;
   font-weight: 600;
@@ -2322,18 +2258,88 @@ footer .site-info {
     .event-container h2, .event-container h3 {
       font-size: 3.5rem; } }
 
-.event-container .body {
+.event-info {
+  position: relative; }
+  .event-info a,
+  .event-info a:visited {
+    background: #ee6c4d;
+    padding: 5px 30px;
+    text-transform: uppercase; }
+    .event-info a:hover,
+    .event-info a:visited:hover {
+      background: black;
+      color: white; }
+
+@media (min-width: 700px) {
+  .event-time-container {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-bottom: 60px;
+    width: 880px; } }
+
+.event-time-container p {
+  margin: 0; }
+
+.event-when-where {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 250px;
   text-align: center; }
   @media (min-width: 700px) {
-    .event-container .body {
+    .event-when-where {
+      width: 630px;
       text-align: left; } }
-  .event-container .body p {
+  .event-when-where p {
+    margin: 0 auto 30px;
+    width: 210px; }
+    @media (min-width: 700px) {
+      .event-when-where p {
+        font-size: 22px;
+        margin: 0 0 5px;
+        width: 480px; } }
+  .event-when-where .bold {
+    font-weight: bold; }
+
+.calender-icon {
+  background: url(../../assets/icons/calender-icon.png) no-repeat;
+  background-size: 150px 138px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px; }
+  @media (min-width: 700px) {
+    .calender-icon {
+      margin-bottom: 0;
+      transform: translate(41%, -13%); } }
+
+.event-date h5 {
+  font-weight: 400; }
+
+.event-date h5:first-child {
+  font-size: 22px;
+  text-transform: uppercase;
+  transform: translate(2%, -61%);
+  text-align: center; }
+
+.event-date h5:last-child {
+  font-size: 66px;
+  transform: translate(-3%, -18%); }
+
+.body {
+  text-align: center; }
+  @media (min-width: 700px) {
+    .body {
+      text-align: left; } }
+  .body p {
     width: 350px; }
     @media (min-width: 700px) {
-      .event-container .body p {
+      .body p {
         width: 600px; } }
     @media (min-width: 1240px) {
-      .event-container .body p {
+      .body p {
         width: 930px; } }
 
 .bx-wrapper {
