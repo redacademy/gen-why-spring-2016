@@ -306,7 +306,8 @@ th {
   font-size: 72px;
   font-weight: bold;
   line-height: 80px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 .content-header-dark {
   color: #4a4a4a;
@@ -501,12 +502,13 @@ html {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   box-sizing: inherit; }
 
-a {
-  text-decoration: none; }
-
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
+  body a,
+  body a:visited {
+    color: white;
+    text-decoration: none; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -573,10 +575,6 @@ div textarea {
 
 :-ms-input-placeholder {
   color: #4a4a4a; }
-
-.search-page fieldset,
-.error-404 fieldset {
-  padding: 0.75em .625em .75em; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -873,6 +871,10 @@ li {
 /* Globel */
 .entry-content {
   padding: 20px; }
+
+.search-page fieldset,
+.error-404 fieldset {
+  padding: 0.75em .625em .75em; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1972,11 +1974,6 @@ footer .site-info {
   -ms-flex-align: center;
       align-items: center;
   color: white; }
-  .video-hero h1 {
-    font-size: 3.2rem; }
-    @media (min-width: 700px) {
-      .video-hero h1 {
-        font-size: 4.2rem; } }
 
 .fom-button {
   border: 3px solid white;
@@ -1990,14 +1987,6 @@ footer .site-info {
 
 .video-container {
   position: relative; }
-  .video-container h2 {
-    font-size: 2rem; }
-    @media (min-width: 700px) {
-      .video-container h2 {
-        font-size: 2.8rem; } }
-    @media (min-width: 1240px) {
-      .video-container h2 {
-        font-size: 3.5rem; } }
 
 .video-banner-imgs {
   position: relative;
@@ -2025,8 +2014,6 @@ footer .site-info {
   @media (min-width: 700px) {
     .video-title-button {
       width: 50%; } }
-  .video-title-button a {
-    color: white; }
   .video-title-button .main-header, .video-title-button .projects-page .page-header, .projects-page .video-title-button .page-header {
     font-size: 1.8rem; }
     @media (min-width: 700px) {
