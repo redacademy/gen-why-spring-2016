@@ -29,17 +29,17 @@ $desktop-width: 1240px;
 }
  // Extends
  .center-column {
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 flex-direction: column;
- }
- .button {
-     border-radius: 7px;
-     color: $color__mainw;
-     font-size: 20px;
-     padding: 5px 30px;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+ border-radius: 7px;
+ color: $color__mainw;
+ font-size: 20px;
+ padding: 5px 30px;
+}
 
  // custom typography
 
@@ -60,7 +60,7 @@ $desktop-width: 1240px;
 .menu-solid,
 .form-font {
   font-family: "Helvetica Neue", sans-serif;
- }
+}
 
 .main-header,
 .content-header-light,
@@ -69,7 +69,7 @@ $desktop-width: 1240px;
 .button-font,
 .menu-clear {
   color: $color__mainw;
- }
+}
 
 .content-header-dark,
 .title-review,
@@ -125,7 +125,7 @@ $desktop-width: 1240px;
 .button-font,
 .info-font {
   font-size: 24px;
- }
+}
 
 .colored-header,
 .colored-header-dark,
@@ -140,11 +140,11 @@ $desktop-width: 1240px;
   text-transform: uppercase;
 }
 
- .content-header-dark,
- .content-header-light {
+.content-header-dark,
+.content-header-light {
   font-size: 56px;
   font-weight: 500;
- }
+}
 
 .content-header-dark,
 .colored-header {
@@ -155,59 +155,81 @@ $desktop-width: 1240px;
   color: $color__text-main;
 }
 
- .colored-header{
+.colored-header{
   color: $color__oj;
   margin: 0;
- }
+}
 
- .main-header {
-  font-size: 72px;
+h1 {
+  // font-size: 1.2rem;
+  // margin: 0;
+  // @include tablet {
+  //   font-size: 3.2rem;
+  //   margin: 2rem 0;
+  // }
+  // @include desktop {
+  //   font-size: 4.5rem;
+  //   margin: 3.5rem 0;
+  // }
+}
+
+.main-header {
+  font-size: 24px;
+  margin: 0;
   line-height: 80px;
   text-align: center;
- }
+  @include tablet {
+    font-size: 64px;
+    margin: 2rem 0;
+  }
+  @include desktop {
+    font-size: 72px;
+    margin: 3.5rem 0;
+  }
+}
 
- .colored-header-dark {
+.colored-header-dark {
   color: $color__dg;
   font-family: "Avenir", sans-serif;
- }
+}
 
- .title {
+.title {
   font-size: 48px;
- }
+}
 
- .colored-title {
+.colored-title {
   color: $color__dg;
- }
+}
 
- .button-font {
+.button-font {
   line-height: 24px;
- }
+}
 
- .alt-button-font {
+.alt-button-font {
   color: $color__trustb;
- }
+}
 
- .main-font {
+.main-font {
   font-weight: 300;
- }
+}
 
- .info-font {
+.info-font {
   line-height: 20px;
- }
+}
 
- .review {
+.review {
   font-style: italic;
- }
+}
 
- .menu-clear,
- .menu-solid {
+.menu-clear,
+.menu-solid {
   font-size: 20px;
- }
+}
 
- .menu-solid {
+.menu-solid {
   color: $color__mainb;
- }
+}
 
- .form-font {
+.form-font {
   font-size: 14px;
- }
+}

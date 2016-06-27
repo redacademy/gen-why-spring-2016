@@ -4,24 +4,25 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 400px;
-  @include desktop {
-    width: 1240px;
+  // width: 400px;
+  max-width: 1240px;
+  // @include desktop {
+  //   width: 1240px;
+  // }
+}
+.home,
+section {
+  h2, h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    @include tablet {
+      font-size: 2.8rem;
+    }
+    @include desktop {
+      font-size: 3.5rem;
+    }
   }
 }
-// .home,
-// section {
-//   h2, h3 {
-//     text-align: center;
-//     font-size: 1.8rem;
-//     @include tablet {
-//       font-size: 2.8rem;
-//     }
-//     @include desktop {
-//       font-size: 3.5rem;
-//     }
-//   }
-// }
 
 // Hero Slider
 

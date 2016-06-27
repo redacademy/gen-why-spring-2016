@@ -448,9 +448,18 @@ th {
   margin: 0; }
 
 .main-header, .projects-page .page-header {
-  font-size: 72px;
+  font-size: 24px;
+  margin: 0;
   line-height: 80px;
   text-align: center; }
+  @media (min-width: 700px) {
+    .main-header, .projects-page .page-header {
+      font-size: 64px;
+      margin: 2rem 0; } }
+  @media (min-width: 1240px) {
+    .main-header, .projects-page .page-header {
+      font-size: 72px;
+      margin: 3.5rem 0; } }
 
 .colored-header-dark {
   color: #176a47;
@@ -1107,10 +1116,23 @@ object {
   -ms-flex-pack: center;
       justify-content: center;
   margin: 0 auto;
-  width: 400px; }
+  max-width: 1240px; }
+
+.home h2, .home h3,
+section h2,
+section h3 {
+  text-align: center;
+  font-size: 1.8rem; }
+  @media (min-width: 700px) {
+    .home h2, .home h3,
+    section h2,
+    section h3 {
+      font-size: 2.8rem; } }
   @media (min-width: 1240px) {
-    .container {
-      width: 1240px; } }
+    .home h2, .home h3,
+    section h2,
+    section h3 {
+      font-size: 3.5rem; } }
 
 .banner-wrap {
   -ms-flex-align: center;
