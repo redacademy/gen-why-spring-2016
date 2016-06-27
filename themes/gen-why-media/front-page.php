@@ -57,7 +57,7 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/shape-your-city.png" alt="Shape Your City" />
 							<h3 class="colored-header-dark">Shape Your City</h3>
 						 </li>
-						<li>
+						<li class="collaborate-container">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/collaborate-icon.png" alt="Collaborate" class="collaborate"/>
 							<h3 class="colored-header-dark">Collaborate</h3>
 						</li>

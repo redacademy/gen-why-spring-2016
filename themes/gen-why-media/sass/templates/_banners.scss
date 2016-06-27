@@ -5,17 +5,17 @@
   position: relative;
   .what-we-doing-img {
     @extend .center-column;
-    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-what-we-doing.png) no-repeat center center;
-    background-size: 150% 190%;
+    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/what-we-do-banner.png) no-repeat center center;
+    background-size: 300%;
     height: 300px;
     padding-bottom: 30px;
     width: 100%;
     @include tablet {
       background-attachment: fixed;
-      background-size: 180% 200%;
+      background-size: 250%;
     }
     @include desktop {
-      background-size: 190% 200%;
+      background-size: 150%;
     }
   }
 }
