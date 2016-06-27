@@ -1880,18 +1880,23 @@ span.first {
   height: 20px;
   width: 20px; }
 
-input.send-btn {
-  background: url("../../assets/buttons/cta-inspire.png");
-  width: 207px;
-  text-indent: 200px;
+input.send-btn,
+input.send-btn:hover {
   box-shadow: none;
-  border: none;
-  height: 40px; }
+  border: 2px solid #176a47;
+  border-radius: 9px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  padding: 20px 60px; }
+
+input.send-btn {
+  background-color: #176a47;
+  color: #fff; }
 
 input.send-btn:hover {
-  background: url("../../assets/buttons/cta-inspire-inverse.png");
-  background-size: cover;
-  box-shadow: none; }
+  background: #fff;
+  color: #176a47; }
 
 .address {
   padding: 150px 138px 0 0; }
