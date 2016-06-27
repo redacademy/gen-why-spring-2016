@@ -97,10 +97,15 @@ span.first {	/* Form Check-box */
 	}
 }
 
-input.send-btn {
+input[type=submit].send-btn {
 	@extend .color-btn;
+	box-shadow: none;
+	margin-top: 28px;
 }
 
 .address {
-	padding: 150px 138px 0 0;
+	padding: 0 148px 0 0;
+	p {
+		margin-top: 14px;
+	}
 }

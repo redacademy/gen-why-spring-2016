@@ -87,11 +87,11 @@
   width: 100%;
   @include tablet {
     background-attachment: fixed;
-    background-size: 170% 180%;
+    background-size: 300%;
   }
   @include desktop {
     background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
-    background-size: 131% 199%;
+    background-size: 200%;
     height: 450px;
   }
 }
