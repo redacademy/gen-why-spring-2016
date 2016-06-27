@@ -1235,7 +1235,7 @@ object {
     width: 350px; }
     @media (min-width: 700px) {
       .get-involved ul {
-        width: 800px;
+        width: 700px;
         -ms-flex-pack: center;
             justify-content: center; } }
     @media (min-width: 1240px) {
@@ -2143,11 +2143,11 @@ footer .site-info {
   @media (min-width: 700px) {
     .prev-parts-img {
       background-attachment: fixed;
-      background-size: 170% 180%; } }
+      background-size: 300%; } }
   @media (min-width: 1240px) {
     .prev-parts-img {
       background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/prev_part_banner.jpeg) no-repeat center center fixed;
-      background-size: 131% 199%;
+      background-size: 200%;
       height: 450px; } }
 
 .partner-logos img {
@@ -2195,7 +2195,7 @@ footer .site-info {
       font-weight: 600;
       letter-spacing: 1.8px;
       margin: 0;
-      transform: translate(6%, 26%); } }
+      transform: translate(19%, 68%); } }
 
 .event-container .colored-title {
   margin: 0; }
@@ -2230,7 +2230,7 @@ footer .site-info {
     -ms-flex-pack: justify;
         justify-content: space-between;
     margin-bottom: 60px;
-    width: 880px; } }
+    width: 700px; } }
 
 .event-time-container p {
   margin: 0; }
@@ -2244,8 +2244,8 @@ footer .site-info {
   text-align: center; }
   @media (min-width: 700px) {
     .event-when-where {
-      width: 630px;
-      text-align: left; } }
+      text-align: left;
+      transform: translate(-93%, -8%); } }
   .event-when-where p {
     margin: 0 auto 30px;
     width: 210px; }
@@ -2266,7 +2266,7 @@ footer .site-info {
   @media (min-width: 700px) {
     .calender-icon {
       margin-bottom: 0;
-      transform: translate(41%, -13%); } }
+      transform: translate(27%, -13%); } }
 
 .event-date h5 {
   font-weight: 400; }
