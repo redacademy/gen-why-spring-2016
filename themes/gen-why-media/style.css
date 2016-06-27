@@ -2027,23 +2027,19 @@ footer .site-info {
       align-items: center;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column; }
+  margin-bottom: 30px; }
   @media (min-width: 700px) {
     .connect-container {
       -ms-flex-align: start;
           -ms-grid-row-align: flex-start;
           align-items: flex-start;
-      -ms-flex-direction: row;
-          flex-direction: row;
       -ms-flex-pack: center;
           justify-content: center; } }
 
 .connect-wrapper {
-  padding: 10px 0 100px;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  margin: 0 40px;
+  margin: 0 30px;
   width: 320px; }
 
 .connect-btn,
