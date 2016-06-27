@@ -441,6 +441,7 @@ th {
 .content-header-light {
   font-size: 28px;
   font-weight: 500;
+  letter-spacing: 4px;
   margin: 0; }
   @media (min-width: 700px) {
     .content-header-dark,
@@ -475,7 +476,7 @@ th {
       margin: 2rem 0; } }
   @media (min-width: 1240px) {
     .main-header, .projects-page .page-header {
-      font-size: 72px;
+      font-size: 82px;
       margin: 3.5rem 0; } }
 
 .colored-header-dark {
@@ -518,15 +519,17 @@ th {
 .contact-form-7-container textarea:-ms-input-placeholder {
   font-size: 14px; }
 
-.color-btn, input.send-btn, .inspire-btn a {
+.color-btn, input[type=submit].send-btn, .inspire-btn a {
   background: #176a47;
+  border: 1px solid #176a47;
   border-radius: 9px;
   color: #fff;
   font-size: 24px;
+  font-weight: 100;
   padding: 20px 60px;
   text-decoration: none;
   text-transform: uppercase; }
-  .color-btn:hover, input.send-btn:hover, .inspire-btn a:hover, .color-btn:focus, input.send-btn:focus, .inspire-btn a:focus {
+  .color-btn:hover, input[type=submit].send-btn:hover, .inspire-btn a:hover, .color-btn:focus, input[type=submit].send-btn:focus, .inspire-btn a:focus {
     background: #fff;
     color: #176a47; }
 
@@ -553,16 +556,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy */
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  margin: 0 1.5em; }
+  margin: 0 2em; }
 
 address {
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 pre {
   background: #eee;
@@ -622,10 +625,10 @@ hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 ul, ol {
-  margin: 0 0 1.5em 3em; }
+  margin: 0 0 2em 4em; }
 
 ul {
   list-style: none;
@@ -638,13 +641,13 @@ ol {
 li > ul,
 li > ol {
   margin-bottom: 0;
-  margin-left: 1.5em; }
+  margin-left: 2em; }
 
 dt {
   font-weight: bold; }
 
 dd {
-  margin: 0 1.5em 1.5em; }
+  margin: 0 2em 2em; }
 
 img {
   height: auto;
@@ -653,7 +656,7 @@ img {
   /* Adhere to container width. */ }
 
 table {
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
   width: 100%; }
 
 header {
@@ -896,12 +899,12 @@ li {
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 2em; }
 
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1.5em; }
+  margin-left: 2em; }
 
 .aligncenter {
   clear: both;
@@ -921,7 +924,7 @@ li {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -938,7 +941,7 @@ li {
   display: block; }
 
 .hentry {
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 .updated:not(.published) {
   display: none; }
@@ -950,11 +953,11 @@ li {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0; }
+  margin: 2em 0 0; }
 
 .page-links {
   clear: both;
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 /* Asides */
 .blog .format-aside .entry-title,
@@ -995,7 +998,7 @@ object {
 
 /* Captions */
 .wp-caption {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   max-width: 100%; }
   .wp-caption img[class*="wp-image-"] {
     display: block;
@@ -1009,7 +1012,7 @@ object {
 
 /* Galleries*/
 .gallery {
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 .gallery-item {
   display: inline-block;
@@ -1390,10 +1393,12 @@ object {
     .projects-page .page-header {
       height: 400px;
       transform: translateY(0);
-      background-attachment: fixed; } }
+      background-attachment: fixed;
+      margin: 0; } }
   @media (min-width: 1240px) {
     .projects-page .page-header {
-      height: 460px; } }
+      height: 460px;
+      margin: 0; } }
 
 .projects-page h1 {
   font-size: 38px; }
@@ -1489,14 +1494,10 @@ object {
     color: #4a4a4a; } }
 
 .sub-title {
-  margin-top: 90px;
   text-align: center; }
-  @media (min-width: 700px) {
-    .sub-title {
-      margin-top: 120px; } }
   .sub-title .content-header-dark {
     font-size: 36px;
-    line-height: 0; }
+    line-height: 3; }
     @media (min-width: 700px) {
       .sub-title .content-header-dark {
         font-size: 56px;
@@ -1893,8 +1894,14 @@ span.first {
   height: 20px;
   width: 20px; }
 
+input[type=submit].send-btn {
+  box-shadow: none;
+  margin-top: 28px; }
+
 .address {
-  padding: 150px 138px 0 0; }
+  padding: 0 148px 0 0; }
+  .address p {
+    margin-top: 14px; }
 
 footer .site-info {
   margin: 0 auto;
