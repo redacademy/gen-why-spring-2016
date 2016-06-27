@@ -556,16 +556,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy */
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  margin: 0 1.5em; }
+  margin: 0 2em; }
 
 address {
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 pre {
   background: #eee;
@@ -625,10 +625,10 @@ hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 ul, ol {
-  margin: 0 0 1.5em 3em; }
+  margin: 0 0 2em 4em; }
 
 ul {
   list-style: none;
@@ -641,13 +641,13 @@ ol {
 li > ul,
 li > ol {
   margin-bottom: 0;
-  margin-left: 1.5em; }
+  margin-left: 2em; }
 
 dt {
   font-weight: bold; }
 
 dd {
-  margin: 0 1.5em 1.5em; }
+  margin: 0 2em 2em; }
 
 img {
   height: auto;
@@ -656,7 +656,7 @@ img {
   /* Adhere to container width. */ }
 
 table {
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
   width: 100%; }
 
 header {
@@ -899,12 +899,12 @@ li {
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 2em; }
 
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1.5em; }
+  margin-left: 2em; }
 
 .aligncenter {
   clear: both;
@@ -924,7 +924,7 @@ li {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -941,7 +941,7 @@ li {
   display: block; }
 
 .hentry {
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 .updated:not(.published) {
   display: none; }
@@ -953,11 +953,11 @@ li {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0; }
+  margin: 2em 0 0; }
 
 .page-links {
   clear: both;
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 /* Asides */
 .blog .format-aside .entry-title,
@@ -998,7 +998,7 @@ object {
 
 /* Captions */
 .wp-caption {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   max-width: 100%; }
   .wp-caption img[class*="wp-image-"] {
     display: block;
@@ -1012,7 +1012,7 @@ object {
 
 /* Galleries*/
 .gallery {
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
 
 .gallery-item {
   display: inline-block;
@@ -1494,14 +1494,13 @@ object {
     color: #4a4a4a; } }
 
 .sub-title {
-  margin-top: 90px;
   text-align: center; }
   @media (min-width: 700px) {
     .sub-title {
       margin-top: 120px; } }
   .sub-title .content-header-dark {
     font-size: 36px;
-    line-height: 0; }
+    line-height: 3; }
     @media (min-width: 700px) {
       .sub-title .content-header-dark {
         font-size: 56px;

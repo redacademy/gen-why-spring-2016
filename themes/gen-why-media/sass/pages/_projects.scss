@@ -118,14 +118,14 @@
 }
 
 .sub-title {
-	margin-top: 90px;
+	// margin-top: 90px;
 	text-align: center;
 	@include tablet {
 		margin-top: 120px;
 	}
 	.content-header-dark {
 		font-size: 36px;
-		line-height: 0;
+		line-height: 3;
 		@include tablet {
 			font-size: 56px;
 			margin-bottom: 60px;
