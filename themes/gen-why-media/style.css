@@ -433,8 +433,19 @@ th {
 
 .content-header-dark,
 .content-header-light {
-  font-size: 56px;
-  font-weight: 500; }
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0; }
+  @media (min-width: 700px) {
+    .content-header-dark,
+    .content-header-light {
+      font-size: 36px;
+      margin: 1rem; } }
+  @media (min-width: 1240px) {
+    .content-header-dark,
+    .content-header-light {
+      font-size: 40px;
+      font-size: 2rem; } }
 
 .content-header-dark,
 .colored-header {
@@ -1117,22 +1128,6 @@ object {
       justify-content: center;
   margin: 0 auto;
   max-width: 1240px; }
-
-.home h2, .home h3,
-section h2,
-section h3 {
-  text-align: center;
-  font-size: 1.8rem; }
-  @media (min-width: 700px) {
-    .home h2, .home h3,
-    section h2,
-    section h3 {
-      font-size: 2.8rem; } }
-  @media (min-width: 1240px) {
-    .home h2, .home h3,
-    section h2,
-    section h3 {
-      font-size: 3.5rem; } }
 
 .banner-wrap {
   -ms-flex-align: center;

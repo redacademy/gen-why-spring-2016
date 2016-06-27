@@ -140,10 +140,32 @@ $desktop-width: 1240px;
   text-transform: uppercase;
 }
 
+// h2 {
+//   font-size: .9rem;
+//   margin: 0;
+//   line-height: 1;
+//   @include tablet {
+//     font-size: 1.8rem;
+//     margin: 1rem;
+//   }
+//   @include desktop {
+//     font-size: 2rem;
+//   }
+// }
+
 .content-header-dark,
 .content-header-light {
-  font-size: 56px;
+  font-size: 18px;
   font-weight: 500;
+  margin: 0;
+  @include tablet {
+    font-size: 36px;
+    margin: 1rem;
+  }
+  @include desktop {
+    font-size: 40px; // should be 56px
+    font-size: 2rem;
+  }
 }
 
 .content-header-dark,
