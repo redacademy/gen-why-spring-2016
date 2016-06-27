@@ -518,6 +518,18 @@ th {
 .contact-form-7-container textarea:-ms-input-placeholder {
   font-size: 14px; }
 
+.color-btn, input.send-btn, .inspire-btn a {
+  background: #176a47;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px 60px;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .color-btn:hover, input.send-btn:hover, .inspire-btn a:hover, .color-btn:focus, input.send-btn:focus, .inspire-btn a:focus {
+    background: #fff;
+    color: #176a47; }
+
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
@@ -1538,21 +1550,6 @@ object {
 .fom-button:visited {
   color: white; }
 
-.page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header,
-.page-template-services .content-header-dark,
-.page-template-services .content-header-light {
-  font-size: 2.5rem; }
-  @media (min-width: 700px) {
-    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header,
-    .page-template-services .content-header-dark,
-    .page-template-services .content-header-light {
-      font-size: 4rem; } }
-  @media (min-width: 1240px) {
-    .page-template-services .main-header, .page-template-services .projects-page .page-header, .projects-page .page-template-services .page-header,
-    .page-template-services .content-header-dark,
-    .page-template-services .content-header-light {
-      font-size: 4.5rem; } }
-
 .page-template-services .services-hero-banner {
   position: relative;
   padding: 15px;
@@ -1621,10 +1618,10 @@ object {
     font-weight: 400; }
     @media (min-width: 700px) {
       .services-sub-banner .services-info {
-        font-size: 1.5rem; } }
+        font-size: 1.2rem; } }
     @media (min-width: 1240px) {
       .services-sub-banner .services-info {
-        font-size: 1.8rem; } }
+        font-size: 1.4rem; } }
   @media (min-width: 700px) {
     .services-sub-banner .services-circle {
       border-radius: 50%;
@@ -1880,24 +1877,6 @@ span.first {
   height: 20px;
   width: 20px; }
 
-input.send-btn,
-input.send-btn:hover {
-  box-shadow: none;
-  border: 2px solid #176a47;
-  border-radius: 9px;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: 200;
-  padding: 20px 60px; }
-
-input.send-btn {
-  background-color: #176a47;
-  color: #fff; }
-
-input.send-btn:hover {
-  background: #fff;
-  color: #176a47; }
-
 .address {
   padding: 150px 138px 0 0; }
 
@@ -2126,18 +2105,6 @@ footer .site-info {
       .create-change .create-change-img {
         background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
         background-size: 204% 189%; } }
-
-.inspire-btn a {
-  background: #176a47;
-  border-radius: 7px;
-  color: #fff;
-  font-size: 20px;
-  padding: 10px;
-  text-decoration: none;
-  text-transform: uppercase; }
-  .inspire-btn a:hover, .inspire-btn a:focus {
-    background: #fff;
-    color: #176a47; }
 
 .prev-parts {
   display: -ms-flexbox;

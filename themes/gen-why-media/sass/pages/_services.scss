@@ -1,15 +1,4 @@
 .page-template-services {
-  .main-header, 
-  .content-header-dark, 
-  .content-header-light {
-    font-size: 2.5rem;
-    @include tablet {
-      font-size: 4rem;
-    }
-    @include desktop {
-      font-size: 4.5rem;
-    }
-  }
   .services-hero-banner { // Service Hero Banner
     position: relative;
   	padding:15px;
@@ -80,10 +69,10 @@
     text-align: center;
     font-weight: 400;
     @include tablet {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     @include desktop {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
     }
   }
   .services-circle {

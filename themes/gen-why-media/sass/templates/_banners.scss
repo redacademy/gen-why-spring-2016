@@ -67,18 +67,7 @@
 }
 .inspire-btn {
   a {
-    background: $color__dg;
-    border-radius: 7px;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    &:hover,
-    &:focus {
-      background: #fff;
-      color: $color__dg;
-    }
+    @extend .color-btn;
   }
 }
 

@@ -97,25 +97,8 @@ span.first {	/* Form Check-box */
 	}
 }
 
-input.send-btn,
-input.send-btn:hover {
-	box-shadow: none;
-	border: 2px solid $color__dg;
-	border-radius: 9px;
-	font-family: "Helvetica Neue", sans-serif;
-	font-size: 24px;
-	font-weight: 200;
-	padding: 20px 60px;
-}
-
 input.send-btn {
-	background-color: $color__dg;
-	color: $color__background-body;
-}
-
-input.send-btn:hover {
-	background: $color__background-body;
-	color: $color__dg;
+	@extend .color-btn;
 }
 
 .address {

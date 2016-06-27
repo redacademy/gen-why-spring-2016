@@ -232,3 +232,19 @@ $desktop-width: 1240px;
 .form-font {
   font-size: 14px;
 }
+
+.color-btn {
+  background: $color__dg;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: $color__dg;
+  }
+}
+
