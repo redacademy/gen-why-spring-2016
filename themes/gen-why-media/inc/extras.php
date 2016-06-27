@@ -41,7 +41,7 @@ function genwhy_watch_header() {
                display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 50vh;
+               height: 480px;
                width: 100%;
                padding-top: 0;
                margin: 0 auto;
@@ -71,7 +71,7 @@ function genwhy_watch_event() {
                display: block;
                background-size: cover;
                background-position: bottom;
-               height: 39.5vh;
+               height: 380px;
                margin: 0 auto;
                width: 100%;
                padding-top: 0;
@@ -100,7 +100,7 @@ function genwhy_watch_short() {
                display: block;
                background-size: cover;
                background-position: bottom;
-               height: 39.5vh;
+               height: 380px;
                margin: 0 auto;
                width: 100%;
                padding-top: 0;
@@ -129,7 +129,7 @@ function genwhy_watch_documentary() {
                display: block;
                background-size: cover;
                background-position: bottom;
-               height: 39.5vh;
+               height: 380px;
                margin: 0 auto;
                width: 100%;
                padding-top: 0;
@@ -159,7 +159,7 @@ function genwhy_event_post_header() {
                display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 45vh;
+               height: 450px;
                width: 100%;
                padding-top: 0;
                margin: 0 auto;
@@ -189,7 +189,7 @@ function genwhy_short_video_header() {
                display: flex;
                background-size: cover;
                background-position: bottom;
-               height: 45vh;
+               height: 450px;
                width: 100%;
                padding-top: 0;
                margin: 0 auto;
@@ -219,7 +219,7 @@ function genwhy_eventclip_posts() {
                display: block;
                background-size: cover;
                background-position: bottom;
-               height: 39.5vh;
+               height: 380px;
                margin: 0 auto;
                width: 100%;
                padding-top: 0;
