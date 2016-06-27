@@ -447,7 +447,7 @@ th {
     .content-header-light {
       font-size: 46px;
       font-weight: 500;
-      margin: 1rem; } }
+      margin: 3rem; } }
   @media (min-width: 1240px) {
     .content-header-dark,
     .content-header-light {
@@ -2279,12 +2279,12 @@ footer .site-info {
 .event-date h5:first-child {
   font-size: 22px;
   text-transform: uppercase;
-  transform: translate(2%, -61%);
+  transform: translate(2%, 18%);
   text-align: center; }
 
 .event-date h5:last-child {
   font-size: 66px;
-  transform: translate(-3%, -18%); }
+  transform: translate(-3%, -6%); }
 
 .body {
   text-align: center; }
@@ -2300,7 +2300,7 @@ footer .site-info {
       .body p {
         width: 930px; } }
 
-.bx-wrapper {
+div.bx-wrapper {
   margin: 0; }
 
 /* Hero Banner Slider */
