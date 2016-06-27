@@ -13,12 +13,6 @@
 	justify-content: center;
 	align-items: center;
 	color: white;
-	// h1 {
-	// 	font-size: 3.2rem;
-	// 	@include tablet {
-	// 		font-size: 4.2rem;
-	// 	}
-	// }
 }
 .fom-button {
 	border: 3px solid $color__mainw;
@@ -33,15 +27,6 @@
 
 .video-container {
 	position: relative;
-	// h2 {
-	// 	font-size: 2rem;
-	// 	@include tablet {
-	// 		font-size: 2.8rem;
-	// 	}
-	// 	@include desktop {
-	// 		font-size: 3.5rem;
-	// 	}
-	// }
 }
 
 .video-banner-imgs {
@@ -69,31 +54,12 @@
 	width:100%;
 	text-align: center;
 	@extend .center-column;
-	// @include tablet {
-	// 	width: 50%;
-	// }
-	// // .main-header {
-	// // 	font-size: 1.8rem;
-	// // 	@include tablet {
-	// // 		font-size: 2.5rem;
-	// // 	}
-	// // 	@include desktop {
-	// // 		font-size: 3.3rem;
-	// // 	}
-	// // }
 }
 
 // Single Event Clips and Short Videos
 
 .single-video-content {
 	padding: 20px;
-	// @include tablet {
-	// 	margin: 0 auto;
-	// 	width: 80%;
-	// }
-	// @include desktop {
-	// 	width: 60%;
-	// }
 	p:first-child, p:nth-child(4), p:nth-child(5) {
 			display: flex;
 			justify-content: center;
