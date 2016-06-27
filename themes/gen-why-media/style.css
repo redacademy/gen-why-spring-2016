@@ -2015,6 +2015,10 @@ footer .site-info {
     -ms-flex-pack: center;
         justify-content: center; }
 
+.single .entry-content {
+  margin: 0 auto;
+  text-align: center; }
+
 .connect-container {
   -ms-flex-align: center;
       align-items: center;
