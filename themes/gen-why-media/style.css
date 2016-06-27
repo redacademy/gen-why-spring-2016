@@ -299,132 +299,190 @@ th {
   font-size: 20px;
   padding: 5px 30px; }
 
-.main-header, .projects-page .page-header {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 80px;
-  text-transform: uppercase;
-  text-align: center; }
+.main-header, .projects-page .page-header,
+.content-header-dark,
+.content-header-light,
+.colored-header,
+.title,
+.subtitle,
+.services-sub-banner .services-info,
+.colored-title,
+.title-review,
+.alt-button-font,
+.main-font,
+.projects-page p,
+.contact-us-container h2 + p,
+.contact-us-container .address,
+.review,
+.button-font,
+.info-font,
+.projects-page h2 a,
+.menu-clear,
+.menu-solid,
+.form-font,
+.contact-form-7-container input::-webkit-input-placeholder,
+.contact-form-7-container textarea::-webkit-input-placeholder,
+.contact-form-7-container input:-moz-placeholder,
+.contact-form-7-container textarea:-moz-placeholder,
+.contact-form-7-container input::-moz-placeholder,
+.contact-form-7-container textarea::-moz-placeholder,
+.contact-form-7-container input:-ms-input-placeholder,
+.contact-form-7-container textarea:-ms-input-placeholder {
+  font-family: "Helvetica Neue", sans-serif; }
 
-.content-header-dark {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
+.main-header, .projects-page .page-header,
+.content-header-light,
+.title,
+.subtitle,
+.services-sub-banner .services-info,
+.button-font,
+.menu-clear {
+  color: white; }
+
+.content-header-dark,
+.title-review,
+.main-font,
+.projects-page p,
+.contact-us-container h2 + p,
+.contact-us-container .address,
+.info-font,
+.projects-page h2 a,
+.review,
+.form-font,
+.contact-form-7-container input::-webkit-input-placeholder,
+.contact-form-7-container textarea::-webkit-input-placeholder,
+.contact-form-7-container input:-moz-placeholder,
+.contact-form-7-container textarea:-moz-placeholder,
+.contact-form-7-container input::-moz-placeholder,
+.contact-form-7-container textarea::-moz-placeholder,
+.contact-form-7-container input:-ms-input-placeholder,
+.contact-form-7-container textarea:-ms-input-placeholder {
+  color: #4a4a4a; }
+
+.colored-header,
+.colored-header-dark,
+.subtitle,
+.services-sub-banner .services-info,
+.title-review,
+.button-font,
+.alt-button-font {
+  font-weight: normal; }
+
+.main-header, .projects-page .page-header,
+.colored-title,
+.info-font,
+.projects-page h2 a,
+.menu-clear,
+.menu-solid {
+  font-weight: bold; }
+
+.content-header-dark,
+.content-header-light,
+.colored-header,
+.colored-header-dark,
+.subtitle,
+.services-sub-banner .services-info,
+.title,
+.menu-clear,
+.menu-solid {
   line-height: 60px; }
 
+.colored-title,
+.title-review,
+.alt-button-font,
+.main-font,
+.projects-page p,
+.contact-us-container h2 + p,
+.contact-us-container .address,
+.review,
+.form-font,
+.contact-form-7-container input::-webkit-input-placeholder,
+.contact-form-7-container textarea::-webkit-input-placeholder,
+.contact-form-7-container input:-moz-placeholder,
+.contact-form-7-container textarea:-moz-placeholder,
+.contact-form-7-container input::-moz-placeholder,
+.contact-form-7-container textarea::-moz-placeholder,
+.contact-form-7-container input:-ms-input-placeholder,
+.contact-form-7-container textarea:-ms-input-placeholder {
+  line-height: 40px; }
+
+.colored-title,
+.title-review,
+.alt-button-font,
+.main-font,
+.projects-page p,
+.contact-us-container h2 + p,
+.contact-us-container .address,
+.review,
+.button-font,
+.info-font,
+.projects-page h2 a {
+  font-size: 24px; }
+
+.colored-header,
+.colored-header-dark,
+.subtitle,
+.services-sub-banner .services-info {
+  font-size: 36px; }
+
+.main-header, .projects-page .page-header,
+.button-font,
+.menu-clear,
+.menu-solid {
+  text-transform: uppercase; }
+
+.content-header-dark,
 .content-header-light {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
   font-size: 56px;
-  font-weight: 500;
-  line-height: 60px; }
+  font-weight: 500; }
 
-.colored-header {
-  color: #ee6c4d;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px; }
+.main-header, .projects-page .page-header {
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center; }
 
 .colored-header-dark {
   color: #176a47;
-  font-family: "Avenir", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 40px; }
+  font-family: "Avenir", sans-serif; }
+
+.colored-header {
+  color: #ee6c4d; }
 
 .title {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 48px;
-  line-height: 60px; }
-
-.subtitle, .services-sub-banner .services-info {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px; }
+  font-size: 48px; }
 
 .colored-title {
-  color: #176a47;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 40px; }
-
-.title-review {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px; }
+  color: #176a47; }
 
 .button-font {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 24px;
-  text-transform: uppercase; }
+  line-height: 24px; }
 
 .alt-button-font {
-  color: #334b7f;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px; }
+  color: #334b7f; }
 
 .main-font, .projects-page p, .contact-us-container h2 + p,
 .contact-us-container .address {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 40px; }
+  font-weight: 300; }
 
 .info-font, .projects-page h2 a {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
   line-height: 20px; }
 
 .review {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-style: italic;
-  line-height: 40px; }
+  font-style: italic; }
 
-.menu-clear {
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase; }
+.menu-clear,
+.menu-solid {
+  font-size: 20px; }
 
 .menu-solid {
-  color: black;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase; }
+  color: black; }
 
 .form-font, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
 .contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
 .contact-form-7-container textarea:-ms-input-placeholder {
-  color: #4a4a4a;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  line-height: 40px; }
+  font-size: 14px; }
 
 /*--------------------------------------------------------------
 # Embedded Fonts
