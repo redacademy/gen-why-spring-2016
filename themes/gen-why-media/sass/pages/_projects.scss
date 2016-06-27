@@ -55,14 +55,14 @@
 			line-height: 1.6;
 		}
 	}
-	h2 a {
-		@extend .colored-title;
-		// font-size: 0.8rem;
+	a {
+		color: $color__dgrey;
+		font-size: 0.8rem;
 		margin: 0;
 		@extend .info-font;
 		@include tablet {
-			// font-size: 1.2rem;
-			// line-height: 1.6;
+			font-size: 1.2rem;
+			line-height: 1.6;
 		}
 	}
 	.entry-title {
