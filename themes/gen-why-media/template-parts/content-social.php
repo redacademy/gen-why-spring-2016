@@ -14,22 +14,16 @@
 	<div class="connect-container">
 
 		<div class="twit-connect connect-wrapper">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter-icon.png" alt="Twitter" />
-			<a href="https://twitter.com/genwhymedia" class="connect-btn twit-btn">Follow</a>
-		</div>
+			<a href="https://twitter.com/genwhymedia" ><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter-icon.png" alt="Twitter" /></a>
+		</div><!-- .twit-connect -->
 
 		<div class="insta-connect connect-wrapper">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram-icon.png" alt="Instagram" />
-			<img src="" alt="" />
-			<a href="https://www.instagram.com/genwhymedia" class="connect-btn insta-btn">Follow</a>
-		</div>
+			<a href="https://www.instagram.com/genwhymedia">	<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram-icon.png" alt="Instagram" /></a>
+		</div><!-- .insta-connect -->
 
 		<div class="email-connect connect-wrapper">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/mail-icon.png" alt="Email" />
-			<p>Want to know about our next event?</p>
-			<input type="text" name="name" placeholder="Type your email here...">
-			<a href="#" class="connect-btn email-btn">Subscribe</a>
-		</div>
+			<a href="/contact"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/mail-icon.png" alt="Email" /></a>
+		</div><!-- .email-connect -->
 
 	</div><!-- .connect-container -->
 </section><!-- .connect-us -->
