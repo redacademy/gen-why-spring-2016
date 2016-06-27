@@ -12,13 +12,14 @@ html {
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
 }
+
+a {
+	color: $color__mainw;
+	text-decoration: none;
+}
+
 body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
-	a,
-	a:visited {
-		color: $color__mainw;
-		text-decoration: none;
-	}
 }
 
 blockquote, q {

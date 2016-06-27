@@ -56,8 +56,7 @@
 .event-info {
   position: relative;
   @extend .center-column;
-  a,
-  a:visited {
+  a {
     @extend .button;
     background: $color__oj;
     padding: 5px 30px;

@@ -293,8 +293,7 @@ th {
   -ms-flex-direction: column;
       flex-direction: column; }
 
-.button, .event-info a,
-.event-info a:visited {
+.button, .event-info a {
   border-radius: 7px;
   color: white;
   font-size: 20px;
@@ -417,7 +416,7 @@ th {
   line-height: 60px;
   text-transform: uppercase; }
 
-.form-font, .contact-us-container h2, .contact-form-7-container input::-webkit-input-placeholder,
+.form-font, .contact-form-7-container input::-webkit-input-placeholder,
 .contact-form-7-container textarea::-webkit-input-placeholder, .contact-form-7-container input:-moz-placeholder,
 .contact-form-7-container textarea:-moz-placeholder, .contact-form-7-container input::-moz-placeholder,
 .contact-form-7-container textarea::-moz-placeholder, .contact-form-7-container input:-ms-input-placeholder,
@@ -502,13 +501,13 @@ html {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   box-sizing: inherit; }
 
+a {
+  color: white;
+  text-decoration: none; }
+
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
-  body a,
-  body a:visited {
-    color: white;
-    text-decoration: none; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -645,7 +644,7 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: white; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -1814,15 +1813,6 @@ h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
       height: 500px;
       background-size: 104% 113%; } }
 
-.contact-us-container h2 {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 200; }
-  @media (min-width: 700px) {
-    .contact-us-container h2 {
-      font-size: 56px;
-      font-weight: normal; } }
-
 .contact-us-container h2 + p,
 .contact-us-container .address {
   display: none; }
@@ -2217,13 +2207,11 @@ footer .site-info {
 
 .event-info {
   position: relative; }
-  .event-info a,
-  .event-info a:visited {
+  .event-info a {
     background: #ee6c4d;
     padding: 5px 30px;
     text-transform: uppercase; }
-    .event-info a:hover,
-    .event-info a:visited:hover {
+    .event-info a:hover {
       background: black;
       color: white; }
 
