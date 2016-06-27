@@ -316,7 +316,7 @@ th {
 .review,
 .button-font,
 .info-font,
-.projects-page a,
+.projects-page h2 a,
 .menu-clear,
 .menu-solid,
 .form-font,
@@ -346,7 +346,7 @@ th {
 .contact-us-container h2 + p,
 .contact-us-container .address,
 .info-font,
-.projects-page a,
+.projects-page h2 a,
 .review,
 .form-font,
 .contact-form-7-container input::-webkit-input-placeholder,
@@ -371,7 +371,7 @@ th {
 .main-header, .projects-page .page-header,
 .colored-title,
 .info-font,
-.projects-page a,
+.projects-page h2 a,
 .menu-clear,
 .menu-solid {
   font-weight: bold; }
@@ -416,7 +416,7 @@ th {
 .review,
 .button-font,
 .info-font,
-.projects-page a {
+.projects-page h2 a {
   font-size: 24px; }
 
 .colored-header,
@@ -498,7 +498,7 @@ th {
 .contact-us-container .address {
   font-weight: 300; }
 
-.info-font, .projects-page a {
+.info-font, .projects-page h2 a {
   line-height: 20px; }
 
 .review {
@@ -1442,12 +1442,12 @@ h2 {
       font-size: 1.2rem;
       line-height: 1.6; } }
 
-.projects-page a {
+.projects-page h2 a {
   color: #4a4a4a;
   font-size: 0.8rem;
   margin: 0; }
   @media (min-width: 700px) {
-    .projects-page a {
+    .projects-page h2 a {
       font-size: 1.2rem;
       line-height: 1.6; } }
 
