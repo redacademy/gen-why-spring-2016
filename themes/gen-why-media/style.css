@@ -307,6 +307,7 @@ th {
 .subtitle,
 .services-sub-banner .services-info,
 .colored-title,
+.projects-page h2 a,
 .title-review,
 .alt-button-font,
 .main-font,
@@ -370,6 +371,7 @@ th {
 
 .main-header, .projects-page .page-header,
 .colored-title,
+.projects-page h2 a,
 .info-font,
 .projects-page h2 a,
 .menu-clear,
@@ -387,7 +389,7 @@ th {
 .menu-solid {
   line-height: 60px; }
 
-.colored-title,
+.colored-title, .projects-page h2 a,
 .title-review,
 .alt-button-font,
 .main-font,
@@ -406,7 +408,7 @@ th {
 .contact-form-7-container textarea:-ms-input-placeholder {
   line-height: 40px; }
 
-.colored-title,
+.colored-title, .projects-page h2 a,
 .title-review,
 .alt-button-font,
 .main-font,
@@ -441,7 +443,6 @@ th {
 .content-header-light {
   font-size: 28px;
   font-weight: 500;
-  letter-spacing: 3px;
   margin: 0; }
   @media (min-width: 700px) {
     .content-header-dark,
@@ -486,7 +487,7 @@ th {
 .title {
   font-size: 48px; }
 
-.colored-title {
+.colored-title, .projects-page h2 a {
   color: #176a47; }
 
 .button-font {
@@ -1437,12 +1438,7 @@ object {
       line-height: 1.6; } }
 
 .projects-page h2 a {
-  font-size: 0.8rem;
   margin: 0; }
-  @media (min-width: 700px) {
-    .projects-page h2 a {
-      font-size: 1.2rem;
-      line-height: 1.6; } }
 
 .projects-page .entry-title {
   font-size: 10px;
@@ -2161,12 +2157,16 @@ footer .site-info {
       margin: 0 20px; } }
 
 .event-container p,
-.event-container .colored-title {
+.event-container .colored-title,
+.event-container .projects-page h2 a, .projects-page h2
+.event-container a {
   font-size: 16px;
   margin-top: 0; }
   @media (min-width: 700px) {
     .event-container p,
-    .event-container .colored-title {
+    .event-container .colored-title,
+    .event-container .projects-page h2 a, .projects-page h2
+    .event-container a {
       font-size: 24px;
       font-weight: 300;
       margin-bottom: 35px; } }
@@ -2197,10 +2197,10 @@ footer .site-info {
       margin: 0;
       transform: translate(19%, 68%); } }
 
-.event-container .colored-title {
+.event-container .colored-title, .event-container .projects-page h2 a, .projects-page h2 .event-container a {
   margin: 0; }
   @media (min-width: 700px) {
-    .event-container .colored-title {
+    .event-container .colored-title, .event-container .projects-page h2 a, .projects-page h2 .event-container a {
       font-weight: 500; } }
 
 .event-container h2, .event-container h3 {
