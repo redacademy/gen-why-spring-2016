@@ -646,16 +646,13 @@ textarea {
 /* Links */
 a {
   color: royalblue; }
-  a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
+    color: midnightblue;
     outline: 0; }
 
-/* Current Menus Highlight */
+/* Highlight Current Menus */
 .projects-page .menu li:nth-child(1) a,
 .watch-page .menu li:nth-child(2) a,
 .services-page .menu li:nth-child(4) a,

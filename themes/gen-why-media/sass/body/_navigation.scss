@@ -7,24 +7,24 @@
 a {
 	color: $color__link;
 
-	&:visited {
-		color: $color__link-visited;
-	}
-	&:hover,
-	&:focus,
-	&:active {
+	// &:visited {
+	// 	color: $color__link-visited;
+	// }
+	// &:hover,
+	// &:focus,
+	// &:active {
+ //  }
+  &:focus {
+    outline: thin dotted;
+  }
+  &:hover,
+  &:active {
 		color: $color__link-hover;
-	}
-	&:focus {
-		outline: thin dotted;
-	}
-	&:hover,
-	&:active {
 		outline: 0;
 	}
 }
 
-/* Current Menus Highlight */
+/* Highlight Current Menus */
 
 .projects-page .menu li:nth-child(1) a,
 .watch-page .menu li:nth-child(2) a,
