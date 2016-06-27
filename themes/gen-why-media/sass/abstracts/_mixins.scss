@@ -143,19 +143,6 @@ $desktop-width: 1240px;
   text-transform: uppercase;
 }
 
-// h2 {
-//   font-size: .9rem;
-//   margin: 0;
-//   line-height: 1;
-//   @include tablet {
-//     font-size: 1.8rem;
-//     margin: 1rem;
-//   }
-//   @include desktop {
-//     font-size: 2rem;
-//   }
-// }
-
 .content-header-dark,
 .content-header-light {
   font-size: 28px;
@@ -167,8 +154,7 @@ $desktop-width: 1240px;
     margin: 3rem;
   }
   @include desktop {
-    font-size: 56px; // should be 56px
-    // font-size: 2rem;
+    font-size: 56px;
   }
 }
 
@@ -184,19 +170,6 @@ $desktop-width: 1240px;
 .colored-header{
   color: $color__oj;
   margin: 0;
-}
-
-h1 {
-  // font-size: 1.2rem;
-  // margin: 0;
-  // @include tablet {
-  //   font-size: 3.2rem;
-  //   margin: 2rem 0;
-  // }
-  // @include desktop {
-  //   font-size: 4.5rem;
-  //   margin: 3.5rem 0;
-  // }
 }
 
 .main-header {
