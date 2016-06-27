@@ -9,10 +9,6 @@
 		justify-content: center;
 		max-width: 80%;
 		margin: 120px auto;
-		@include tablet {
-			max-width: 80%;
-			margin: 120px auto;
-		}
 	}
 	.entry-content {
 		width: 100%;
@@ -20,8 +16,7 @@
 		margin: 0;
 		@include tablet {
 			width: 50%;
-			padding: 0 0 0 80px;
-			margin: 0;
+			padding-left: 80px;
 		}
 	}
 	.post-navigation {
