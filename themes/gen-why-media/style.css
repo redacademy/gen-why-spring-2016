@@ -443,7 +443,7 @@ th {
 .content-header-light {
   font-size: 28px;
   font-weight: 500;
-  margin: 0; }
+  margin: 2rem; }
   @media (min-width: 700px) {
     .content-header-dark,
     .content-header-light {
@@ -525,14 +525,18 @@ th {
   border: 1px solid #176a47;
   border-radius: 9px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
-  padding: 20px 60px;
+  padding: 10px 30px;
   text-decoration: none;
   text-transform: uppercase; }
   .color-btn:hover, input[type=submit].send-btn:hover, .inspire-btn a:hover, .color-btn:focus, input[type=submit].send-btn:focus, .inspire-btn a:focus {
     background: #fff;
     color: #176a47; }
+  @media (min-width: 700px) {
+    .color-btn, input[type=submit].send-btn, .inspire-btn a {
+      font-size: 24px;
+      padding: 20px 60px; } }
 
 /*--------------------------------------------------------------
 # Embedded Fonts
@@ -1150,6 +1154,9 @@ object {
       justify-content: center;
   margin: 0 auto;
   max-width: 1240px; }
+
+h2 {
+  text-align: center; }
 
 .banner-wrap {
   -ms-flex-align: center;
@@ -2068,7 +2075,7 @@ footer .site-info {
 .what-we-doing {
   position: relative; }
   .what-we-doing .what-we-doing-img {
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/what-we-do-banner.png) no-repeat center center;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/what-we-do-banner.png) no-repeat center center;
     background-size: 300%;
     height: 300px;
     padding-bottom: 30px;
@@ -2079,6 +2086,7 @@ footer .site-info {
         background-size: 250%; } }
     @media (min-width: 1240px) {
       .what-we-doing .what-we-doing-img {
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/what-we-do-banner.png) no-repeat center center;
         background-size: 150%; } }
 
 @media (min-width: 700px) {
@@ -2109,17 +2117,18 @@ footer .site-info {
   -ms-flex-align: center;
       align-items: center; }
   .create-change .create-change-img {
-    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/bg-social-change.png) no-repeat center center;
-    background-size: 204% 189%;
+    background: linear-gradient(180deg, rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)), url(../../assets/images/social-change.png) no-repeat center center;
+    background-size: 400%;
     height: 300px;
     width: 100%; }
     @media (min-width: 700px) {
       .create-change .create-change-img {
-        background-attachment: fixed; } }
+        background-attachment: fixed;
+        background-size: 300%; } }
     @media (min-width: 1240px) {
       .create-change .create-change-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
-        background-size: 204% 189%; } }
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/social-change.png) no-repeat center center fixed;
+        background-size: 200%; } }
 
 .prev-parts {
   display: -ms-flexbox;
