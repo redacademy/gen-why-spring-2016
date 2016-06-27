@@ -441,7 +441,7 @@ th {
 .content-header-light {
   font-size: 28px;
   font-weight: 500;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   margin: 0; }
   @media (min-width: 700px) {
     .content-header-dark,
