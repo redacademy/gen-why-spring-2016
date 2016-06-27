@@ -1175,6 +1175,8 @@ h2 {
     z-index: -1;
     position: relative;
     display: block; }
+  .banner-wrap h2 {
+    margin: 0; }
 
 .banner-info {
   position: absolute;
