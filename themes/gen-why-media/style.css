@@ -1251,15 +1251,9 @@ object {
   padding-bottom: 56%;
   /* 16:9 */
   padding-top: 25px;
-  height: 0; }
-  @media (min-width: 700px) {
-    .video-wrapper {
-      padding-bottom: 45%; } }
-  @media (min-width: 1240px) {
-    .video-wrapper {
-      width: 1120px;
-      margin: 0 auto;
-      padding-bottom: 40%; } }
+  height: 0;
+  max-width: 1120px;
+  margin: 0 auto; }
 
 .video-wrapper iframe {
   position: absolute;
@@ -1293,16 +1287,6 @@ object {
   .founder-profile img {
     min-height: 236px;
     min-width: 229px; }
-  .founder-profile p {
-    font-size: .9rem;
-    line-height: 1.8; }
-    @media (min-width: 700px) {
-      .founder-profile p {
-        font-size: 1rem;
-        line-height: 1.5; } }
-    @media (min-width: 1240px) {
-      .founder-profile p {
-        font-size: 1.2rem; } }
 
 .about-text {
   margin-left: 6%; }

@@ -251,14 +251,14 @@
   padding-bottom: 56%; /* 16:9 */
   padding-top: 25px;
   height: 0;
-  @include tablet {
-    padding-bottom: 45%;
-  }
-  @include desktop {
-    width: 1120px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding-bottom: 40%;
-  }
+  // @include tablet {
+  //   padding-bottom: 45%;
+  // }
+  // @include desktop {
+  //   padding-bottom: 40%;
+  // }
 }
 
 .video-wrapper iframe {
@@ -298,17 +298,17 @@
     min-height: 236px;
     min-width: 229px;
   }
-  p {
-    font-size: .9rem;
-    line-height: 1.8;
-    @include tablet {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-    @include desktop {
-      font-size: 1.2rem;
-    }
-  }
+  // p {
+  //   font-size: .9rem;
+  //   line-height: 1.8;
+  //   @include tablet {
+  //     font-size: 1rem;
+  //     line-height: 1.5;
+  //   }
+  //   @include desktop {
+  //     font-size: 1.2rem;
+  //   }
+  // }
 }
 
 .about-text {
