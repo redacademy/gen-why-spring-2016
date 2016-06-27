@@ -1698,10 +1698,10 @@ object {
     font-size: 1rem; }
     @media (min-width: 700px) {
       .what-we-offer h3 {
-        font-size: 1.7rem; } }
+        font-size: 1.2rem; } }
     @media (min-width: 1240px) {
       .what-we-offer h3 {
-        font-size: 2rem; } }
+        font-size: 1.6rem; } }
 
 .our-story-container .founder-banner {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../assets/images/our-story-banner.jpg) no-repeat center center;
