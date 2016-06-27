@@ -1393,10 +1393,12 @@ object {
     .projects-page .page-header {
       height: 400px;
       transform: translateY(0);
-      background-attachment: fixed; } }
+      background-attachment: fixed;
+      margin: 0; } }
   @media (min-width: 1240px) {
     .projects-page .page-header {
-      height: 460px; } }
+      height: 460px;
+      margin: 0; } }
 
 .projects-page h1 {
   font-size: 38px; }

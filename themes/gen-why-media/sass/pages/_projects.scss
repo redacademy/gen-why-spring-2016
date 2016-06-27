@@ -11,9 +11,11 @@
 			height: 400px;
 			transform: translateY(0);
 			background-attachment: fixed;
+			margin: 0;
 		}
 		@include desktop {
 			height: 460px;
+			margin: 0;
 		}
 	}
 	h1 {
