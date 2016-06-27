@@ -146,9 +146,18 @@ $desktop-width: 1240px;
   font-weight: 500;
  }
 
+.content-header-dark,
+.colored-header {
+  text-align: center;
+}
+
 .content-header-dark {
   color: $color__text-main;
 }
+
+ .colored-header{
+  color: $color__oj;
+ }
 
  .main-header {
   font-size: 72px;
@@ -159,10 +168,6 @@ $desktop-width: 1240px;
  .colored-header-dark {
   color: $color__dg;
   font-family: "Avenir", sans-serif;
- }
-
- .colored-header{
-  color: $color__oj;
  }
 
  .title {

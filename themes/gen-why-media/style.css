@@ -436,8 +436,15 @@ th {
   font-size: 56px;
   font-weight: 500; }
 
+.content-header-dark,
+.colored-header {
+  text-align: center; }
+
 .content-header-dark {
   color: #404040; }
+
+.colored-header {
+  color: #ee6c4d; }
 
 .main-header, .projects-page .page-header {
   font-size: 72px;
@@ -447,9 +454,6 @@ th {
 .colored-header-dark {
   color: #176a47;
   font-family: "Avenir", sans-serif; }
-
-.colored-header {
-  color: #ee6c4d; }
 
 .title {
   font-size: 48px; }
@@ -498,6 +502,7 @@ button,
 input,
 select,
 textarea {
+  color: #404040;
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -1105,22 +1110,6 @@ object {
   @media (min-width: 1240px) {
     .container {
       width: 1240px; } }
-
-.home h2, .home h3,
-section h2,
-section h3 {
-  text-align: center;
-  font-size: 1.8rem; }
-  @media (min-width: 700px) {
-    .home h2, .home h3,
-    section h2,
-    section h3 {
-      font-size: 2.8rem; } }
-  @media (min-width: 1240px) {
-    .home h2, .home h3,
-    section h2,
-    section h3 {
-      font-size: 3.5rem; } }
 
 .banner-wrap {
   -ms-flex-align: center;
