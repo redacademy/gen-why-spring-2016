@@ -4,25 +4,8 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  // width: 400px;
   max-width: 1240px;
-  // @include desktop {
-  //   width: 1240px;
-  // }
 }
-// .home,
-// section {
-//   h2, h3 {
-//     text-align: center;
-//     font-size: 1.8rem;
-//     @include tablet {
-//       font-size: 2.8rem;
-//     }
-//     @include desktop {
-//       font-size: 3.5rem;
-//     }
-//   }
-// }
 
 // Hero Slider
 
@@ -85,41 +68,7 @@
       font-size: 1.8rem
     }
   }
-  // .subtitle {
-  //   width: 150px;
-  //   line-height: 1;
-  //   @include tablet {
-  //     width: 600px;
-  //   }
-  //   @include desktop {
-  //     width: 700px;
-  //   }
-  // }
 }
-  // h1 {
-  //   font-size: 1.2rem;
-  //   margin: 0;
-  //   @include tablet {
-  //     font-size: 3.2rem;
-  //     margin: 2rem 0;
-  //   }
-  //   @include desktop {
-  //       font-size: 4.5rem;
-  //       margin: 3.5rem 0;
-  //   }
-  // }
-  // h2 {
-  //   font-size: .9rem;
-  //   margin: 0;
-  //   line-height: 1;
-  //   @include tablet {
-  //     font-size: 1.8rem;
-  //     margin: 1rem;
-  //   }
-  //   @include desktop {
-  //     font-size: 2rem;
-  //   }
-  // }
 
 // Get Involved
 
@@ -152,17 +101,7 @@
       height: 200px;
       width: 300px;
     }
-    // @include desktop {
-    //   flex: none;
-    //   height: 200px;
-    //   width: 300px;
-    // }
   }
-  // li:last-child {
-  //   @include desktop {
-  //     width: 200px;
-  //   }
-  // }
   img {
     height: 60px;
     @include tablet {
@@ -183,15 +122,6 @@
       height: 60px;
     }
   }
-  // h3 {
-  //   font-size: 1rem;
-  //   @include tablet {
-  //     font-size: 1.7rem;
-  //   }
-  //   @include desktop {
-  //     font-size: 2rem;
-  //   }
-  // }
 }
 
 // What People Say
@@ -267,12 +197,6 @@
   height: 0;
     max-width: 1120px;
     margin: 0 auto;
-  // @include tablet {
-  //   padding-bottom: 45%;
-  // }
-  // @include desktop {
-  //   padding-bottom: 40%;
-  // }
 }
 
 .video-wrapper iframe {
@@ -312,17 +236,6 @@
     min-height: 236px;
     min-width: 229px;
   }
-  // p {
-  //   font-size: .9rem;
-  //   line-height: 1.8;
-  //   @include tablet {
-  //     font-size: 1rem;
-  //     line-height: 1.5;
-  //   }
-  //   @include desktop {
-  //     font-size: 1.2rem;
-  //   }
-  // }
 }
 
 .about-text {
