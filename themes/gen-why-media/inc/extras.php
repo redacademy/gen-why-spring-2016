@@ -231,10 +231,16 @@ function genwhy_eventclip_posts() {
 add_action( 'wp_enqueue_scripts', 'genwhy_eventclip_posts' );
 
 // Archive Projects Title Filter
-function genwhy_filter_titles() {
+function genwhy_filter_titles($title) {
 	if (is_post_type_archive('projects_cpt')){
-		return 'Projects';
-	}
+		$title = 'Projects';
+	} else if (is_post_type_archive('event_clips')){
+    $title = 'Event Clips';
+
+  } else if (is_post_type_archive('short_video')) {
+    $title = 'Short Videos'; 
+  }
+  return $title;
 }
 add_filter('get_the_archive_title','genwhy_filter_titles');
 
