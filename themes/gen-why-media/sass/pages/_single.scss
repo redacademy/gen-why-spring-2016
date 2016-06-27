@@ -1,6 +1,6 @@
 .nav-background {
-    height: 70px;
-    background: $color__dgrey;
+	height: 70px;
+	background: $color__dgrey;
 }
 
 .single {
@@ -9,29 +9,24 @@
 		justify-content: center;
 		max-width: 80%;
 		margin: 120px auto;
-		@include tablet {
-			max-width: 80%;
-			margin: 120px auto;
-		}
 	}
 	.entry-content {
 		width: 100%;
 		padding: 0;
 		margin: 0;
-		@include tablet{
+		@include tablet {
 			width: 50%;
-			padding: 0 0 0 80px;
-			margin: 0;
+			padding-left: 80px;
 		}
 	}
-  .post-navigation {
-    a {
-      padding: 10px 30px;
-      background: $color__mainb;
-      color: $color__mainw;
-      &:hover {
-        background: $color__oj;
-      }
-    }
-  }
+	.post-navigation {
+		a {
+			padding: 10px 30px;
+			background: $color__mainb;
+			color: $color__mainw;
+		}
+		a:hover {
+		background: $color__oj;
+		}
+	}
 }

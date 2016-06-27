@@ -15,11 +15,11 @@
 		@include desktop {
 			height: 460px;
 		}
-		h1 {
-			font-size: 38px;
-			@include tablet {
-				font-size: 72px;
-			}
+	}
+	h1 {
+		font-size: 38px;
+		@include tablet {
+			font-size: 72px;
 		}
 	}
 	.events-services-container {
@@ -43,14 +43,14 @@
 			padding: 0 40px;
 			width: 78%;
 		}
-		p {
-			@extend .main-font;
-			font-size: 0.9rem;
-			line-height: 24px;
-			@include tablet {
-				font-size: 1.2rem;
-				line-height: 1.6;
-			}
+	}
+	p {
+		@extend .main-font;
+		font-size: 0.9rem;
+		line-height: 24px;
+		@include tablet {
+			font-size: 1.2rem;
+			line-height: 1.6;
 		}
 	}
 	h2 a {
@@ -105,18 +105,15 @@
 		right: 0;
 		@include tablet {
 			padding: 0.7em 1.8em;
-			.fa {
-				font-size: 38px;
-				color: $color__dgrey;
-			}
+		}
+	}
+	.fa-search {
+		@include tablet {
+		font-size: 38px;
+		color: $color__dgrey;
 		}
 	}
 }
-
-// .projects-page .info-font a {
-// 	font-size: 18px;
-// 	line-height: 1;
-// }
 
 .sub-title {
 	margin-top: 90px;

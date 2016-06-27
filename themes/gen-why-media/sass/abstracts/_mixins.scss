@@ -29,154 +29,206 @@ $desktop-width: 1240px;
 }
  // Extends
  .center-column {
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 flex-direction: column;
- }
- .button {
-     border-radius: 7px;
-     color: $color__mainw;
-     font-size: 20px;
-     padding: 5px 30px;
- }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+ border-radius: 7px;
+ color: $color__mainw;
+ font-size: 20px;
+ padding: 5px 30px;
+}
 
- /* custom typography */
+ // custom typography
 
- .main-header {
-  color: $color__mainw;
+.main-header,
+.content-header-dark,
+.content-header-light,
+.colored-header,
+.title,
+.subtitle,
+.colored-title,
+.title-review,
+.alt-button-font,
+.main-font,
+.review,
+.button-font,
+.info-font,
+.menu-clear,
+.menu-solid,
+.form-font {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 80px;
-  text-transform: uppercase;
- }
+}
 
- .content-header-dark {
+.main-header,
+.content-header-light,
+.title,
+.subtitle,
+.button-font,
+.menu-clear {
+  color: $color__mainw;
+}
+
+.content-header-dark,
+.title-review,
+.main-font,
+.info-font,
+.review,
+.form-font {
   color: $color__dgrey;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px;
- }
+}
 
- .content-header-light {
-  color: $color__mainw;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 60px;
- }
-
- .colored-header{
-  color: $color__oj;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
+.colored-header,
+.colored-header-dark,
+.subtitle,
+.title-review,
+.button-font,
+.alt-button-font {
   font-weight: normal;
-  line-height: 60px;
- }
+}
 
- .colored-header-dark {
+.main-header,
+.colored-title,
+.info-font,
+.menu-clear,
+.menu-solid {
+  font-weight: bold;
+}
+
+.content-header-dark,
+.content-header-light,
+.colored-header,
+.colored-header-dark,
+.subtitle,
+.title,
+.menu-clear,
+.menu-solid {
+  line-height: 60px;
+}
+
+.colored-title,
+.title-review,
+.alt-button-font,
+.main-font,
+.review,
+.form-font {
+  line-height: 40px;
+}
+
+.colored-title,
+.title-review,
+.alt-button-font,
+.main-font,
+.review,
+.button-font,
+.info-font {
+  font-size: 24px;
+}
+
+.colored-header,
+.colored-header-dark,
+.subtitle {
+  font-size: 20px;
+  @include tablet {
+    font-size: 36px;
+  }
+}
+
+.main-header,
+.button-font,
+.menu-clear,
+.menu-solid {
+  text-transform: uppercase;
+}
+
+.content-header-dark,
+.content-header-light {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  @include tablet {
+    font-size: 46px;
+    font-weight: 500;
+    margin: 3rem;
+  }
+  @include desktop {
+    font-size: 56px;
+  }
+}
+
+.content-header-dark,
+.colored-header {
+  text-align: center;
+}
+
+.content-header-dark {
+  color: $color__text-main;
+}
+
+.colored-header{
+  color: $color__oj;
+  margin: 0;
+}
+
+.main-header {
+  font-size: 32px;
+  margin: 0;
+  line-height: 80px;
+  text-align: center;
+  @include tablet {
+    font-size: 52px;
+    margin: 2rem 0;
+  }
+  @include desktop {
+    font-size: 72px;
+    margin: 3.5rem 0;
+  }
+}
+
+.colored-header-dark {
   color: $color__dg;
   font-family: "Avenir", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 40px;
- }
+}
 
- .title {
-  color: $color__mainw;
-  font-family: "Helvetica Neue", sans-serif;
+.title {
   font-size: 48px;
-  line-height: 60px;
- }
+}
 
- .subtitle {
-  color: $color__mainw;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 60px;
- }
-
- .colored-title {
+.colored-title {
   color: $color__dg;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 40px;
- }
+}
 
- .title-review {
-  color: $color__dgrey;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px;
- }
-
- .button-font {
-  color: $color__mainw;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
+.button-font {
   line-height: 24px;
-  text-transform: uppercase;
- }
+}
 
- .alt-button-font {
+.alt-button-font {
   color: $color__trustb;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 40px;
- }
+}
 
- .main-font {
-  color: $color__dgrey;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
+.main-font {
   font-weight: 300;
-  line-height: 40px;
- }
+}
 
- .info-font {
-  color: $color__dgrey;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
-  font-weight: bold;
+.info-font {
   line-height: 20px;
- }
+}
 
- .review {
-  color: $color__dgrey;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 24px;
+.review {
   font-style: italic;
-  line-height: 40px;
- }
+}
 
- .menu-clear {
-  color: $color__mainw;
-  font-family: "Helvetica Neue", sans-serif;
+.menu-clear,
+.menu-solid {
   font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase;
- }
+}
 
- .menu-solid {
+.menu-solid {
   color: $color__mainb;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 60px;
-  text-transform: uppercase;
- }
+}
 
- .form-font {
-  color: $color__dgrey;
-  font-family: "Helvetica Neue", sans-serif;
+.form-font {
   font-size: 14px;
-  line-height: 40px;
- }
+}

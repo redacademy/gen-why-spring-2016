@@ -4,23 +4,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 400px;
-  @include desktop {
-    width: 1240px;
-  }
-}
-.home,
-section {
-  h2, h3 {
-    text-align: center;
-    font-size: 1.8rem;
-    @include tablet {
-      font-size: 2.8rem;
-    }
-    @include desktop {
-      font-size: 3.5rem;
-    }
-  }
+  max-width: 1240px;
 }
 
 // Hero Slider
@@ -31,11 +15,11 @@ section {
   justify-content: center;
   overflow: hidden;
   position: relative;
-  height: 400px;
+  height: 600px;
   transform: scale(2);
   @include tablet {
-    height: 500px;
-    transform: scale(1.2);
+    height: 600px;
+    transform: scale(1.3);
   }
   @include desktop {
     height: 800px;
@@ -60,28 +44,17 @@ section {
   width:50%;
   text-align: center;
   @extend .center-column;
-  h2 {
-    font-size: .9rem;
-    margin: 0;
-    line-height: 1;
-    @include tablet {
-      font-size: 1.8rem;
-      margin: 1rem;
-    }
-    @include desktop {
-      font-size: 2rem;
-    }
+  h2,
+  p {
+    font-weight: 300;
   }
-  h1 {
-    font-size: 1.2rem;
-    margin: 0;
+  h2 {
+    font-size: 12px;
     @include tablet {
-      font-size: 3.2rem;
-      margin: 2rem 0;
+      font-size: 32px;
     }
     @include desktop {
-        font-size: 4.5rem;
-        margin: 3.5rem 0;
+      font-size: 46px;
     }
   }
   p {
@@ -93,16 +66,6 @@ section {
     }
     @include desktop {
       font-size: 1.8rem
-    }
-  }
-  .subtitle {
-    width: 150px;
-    line-height: 1;
-    @include tablet {
-      width: 600px;
-    }
-    @include desktop {
-      width: 700px;
     }
   }
 }
@@ -138,16 +101,6 @@ section {
       height: 200px;
       width: 300px;
     }
-    @include desktop {
-      flex: none;
-      height: 200px;
-      width: 300px;
-    }
-  }
-  li:last-child {
-    @include desktop {
-      width: 200px;
-    }
   }
   img {
     height: 60px;
@@ -167,15 +120,6 @@ section {
     }
     @include desktop {
       height: 60px;
-    }
-  }
-  h3 {
-    font-size: 1rem;
-    @include tablet {
-      font-size: 1.7rem;
-    }
-    @include desktop {
-      font-size: 2rem;
     }
   }
 }
@@ -251,15 +195,10 @@ section {
   padding-bottom: 56%; /* 16:9 */
   padding-top: 25px;
   height: 0;
-  @include tablet {
-    padding-bottom: 45%;
-  }
-  @include desktop {
-    width: 1120px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding-bottom: 40%;
-  }
 }
+
 .video-wrapper iframe {
   position: absolute;
   top: 0;
@@ -271,60 +210,48 @@ section {
     height: 85%;
   }
 }
+
 .about-us {
   margin-bottom: 20px;
-  .our-team {
-      @include desktop {
-          margin-top: 0;
-      }
-  }
-  .founder-profile {
-    @extend .center-column;
-    width: 300px;
-    margin: 0 auto;
-    @include tablet {
-      flex-direction: row;
-      width: 700px;
-    }
+}
+
+.our-team {
     @include desktop {
-      width: 900px;
+        margin-top: 0;
     }
-    img {
-      min-height: 236px;
-      min-width: 229px;
+}
+
+.founder-profile {
+  @extend .center-column;
+  width: 300px;
+  margin: 0 auto;
+  @include tablet {
+    flex-direction: row;
+    width: 700px;
+  }
+  @include desktop {
+    width: 900px;
+  }
+  img {
+    min-height: 236px;
+    min-width: 229px;
+  }
+}
+
+.about-text {
+  margin-left: 6%;
+  p,
+  h3 {
+    text-align: center;
+    @include tablet {
+      text-align: left;
     }
-    h3 {
-      margin: 0;
-      @include tablet {
-        text-align: left;
-      }
-    }
-    p {
-      text-align: center;
-      font-size: .9rem;
-      line-height: 1.8;
-      @include tablet {
-        text-align: left;
-        font-size: 1rem;
-        line-height: 1.5;
-      }
-      @include desktop {
-        font-size: 1.2rem;
-      }
-    }
-    .about-text {
-      @include tablet {
-        margin-left: 40px;
-      }
-      @include tablet {
-        margin-left: 60px;
-      }
-    }
-    .display-on-desk {
-      display: none;
-      @include tablet {
-        display: block;
-      }
-    }
+  }
+}
+
+.display-on-desk {
+  display: none;
+  @include tablet {
+    display: block;
   }
 }

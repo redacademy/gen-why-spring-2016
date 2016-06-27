@@ -1,61 +1,50 @@
 // Connect With Us
-.connect-us {
-  padding-bottom: 100px;
-  .connect-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    @include tablet {
-      align-items: initial;
-      flex-direction: row;
-      justify-content: center;
-    }
-  }
-  .connect-wrapper {
-    padding-top: 10px;
-    @extend .center-column;
-    justify-content: space-between;
-    margin: 0 40px;
-  }
-  a {
-    text-align: center;
-  }
-  p {
-    font-size: .9rem;
-  }
-  .connect-btn {
-    border-radius: 4px;
-    border: 0;
-    color: $color__mainw;
-    font-weight: 100;
-    padding: 13px 60px;
-    text-transform: uppercase;
-    @include tablet {
-      border-radius: 12px;
-      padding: 6px 60px;
-    }
-  }
-  .twit-btn {
-    background: $color__twitb;
-    &:hover {
-      background: $color__mainb;
-    }
-  }
-  .insta-btn {
-    background: $color__insta-br;
-    &:hover {
-      background: $color__mainb;
-    }
-  }
-  .email-btn {
-    margin-top: 10px;
-    background: $color__trustb;
-    &:hover {
-      background: $color__mainb;
-    }
+
+.connect-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  @include tablet {
+    align-items: initial;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 
 .connect-wrapper {
+  padding: 10px 0 100px;
+  @extend .center-column;
+  justify-content: space-between;
+  margin: 0 40px;
   width: 320px;
+}
+
+.connect-btn,
+.connect-btn:visited {
+  border-radius: 4px;
+  border: 0;
+  color: $color__mainw;
+  font-weight: 100;
+  padding: 13px 60px;
+  text-transform: uppercase;
+  @include tablet {
+    border-radius: 12px;
+    padding: 6px 60px;
+  }
+  &:hover {
+    background: $color__mainb;
+  }
+}
+
+.twit-btn {
+  background: $color__twitb;
+}
+
+.insta-btn {
+  background: $color__insta-br;
+}
+
+.email-btn {
+  margin-top: 10px;
+  background: $color__trustb;
 }
