@@ -5,7 +5,7 @@
   position: relative;
   .what-we-doing-img {
     @extend .center-column;
-    background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/what-we-do-banner.png) no-repeat center center;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/what-we-do-banner.png) no-repeat center center;
     background-size: 300%;
     height: 300px;
     padding-bottom: 30px;
@@ -15,6 +15,7 @@
       background-size: 250%;
     }
     @include desktop {
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/what-we-do-banner.png) no-repeat center center;
       background-size: 150%;
     }
   }
@@ -52,16 +53,17 @@
   align-items: center;
   .create-change-img {
     @extend .center-column;
-    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/bg-social-change.png) no-repeat center center;
-      background-size: 204% 189%;
+    background: linear-gradient(180deg, $color__lin-b, $color__lin-b),url(../../assets/images/social-change.png) no-repeat center center;
+      background-size: 400%;
     height: 300px;
     width: 100%;
     @include tablet {
       background-attachment: fixed;
+      background-size: 300%;
     }
     @include desktop {
-      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/bg-social-change.png) no-repeat center center fixed;
-      background-size: 204% 189%;
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/social-change.png) no-repeat center center fixed;
+      background-size: 200%;
     }
   }
 }

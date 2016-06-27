@@ -3,19 +3,17 @@
 .connect-container {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  margin-bottom: 30px;
   @include tablet {
     align-items: flex-start;
-    flex-direction: row;
     justify-content: center;
   }
 }
 
 .connect-wrapper {
-  padding: 10px 0 100px;
   @extend .center-column;
   justify-content: space-between;
-  margin: 0 40px;
+  margin: 0 30px;
   width: 320px;
 }
 

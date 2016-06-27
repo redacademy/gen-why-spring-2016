@@ -147,7 +147,7 @@ $desktop-width: 1240px;
 .content-header-light {
   font-size: 28px;
   font-weight: 500;
-  margin: 0;
+  margin: 2rem;
   @include tablet {
     font-size: 46px;
     font-weight: 500;
@@ -238,9 +238,9 @@ $desktop-width: 1240px;
   border: 1px solid $color__dg;
   border-radius: 9px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
-  padding: 20px 60px;
+  padding: 10px 30px;
   text-decoration: none;
   text-transform: uppercase;
   &:hover,
@@ -248,5 +248,8 @@ $desktop-width: 1240px;
     background: #fff;
     color: $color__dg;
   }
+	@include tablet {
+		font-size: 24px;
+		padding: 20px 60px;
+	}
 }
-
