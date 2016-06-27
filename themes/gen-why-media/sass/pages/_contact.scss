@@ -100,11 +100,12 @@ span.first {	/* Form Check-box */
 input[type=submit].send-btn {
 	@extend .color-btn;
 	box-shadow: none;
+	margin-top: 28px;
 }
 
 .address {
 	padding: 0 148px 0 0;
 	p {
-		margin-top: 0;
+		margin-top: 14px;
 	}
 }

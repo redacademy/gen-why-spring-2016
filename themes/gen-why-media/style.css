@@ -1897,12 +1897,13 @@ span.first {
   width: 20px; }
 
 input[type=submit].send-btn {
-  box-shadow: none; }
+  box-shadow: none;
+  margin-top: 28px; }
 
 .address {
   padding: 0 148px 0 0; }
   .address p {
-    margin-top: 0; }
+    margin-top: 14px; }
 
 footer .site-info {
   margin: 0 auto;
