@@ -33,10 +33,10 @@
   overflow: hidden;
   position: relative;
   height: 600px;
-  transform: scale(1.6);
+  transform: scale(2);
   @include tablet {
-    // height: 500px;
-    // transform: scale(1.2);
+    height: 600px;
+    transform: scale(1.3);
   }
   @include desktop {
     height: 800px;
@@ -61,6 +61,19 @@
   width:50%;
   text-align: center;
   @extend .center-column;
+  h2,
+  p {
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 12px;
+    @include tablet {
+      font-size: 32px;
+    }
+    @include desktop {
+      font-size: 46px;
+    }
+  }
   p {
     font-size: .5rem;
     margin: 0;
