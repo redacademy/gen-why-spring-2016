@@ -17,7 +17,9 @@
 			<a href="http://www.hiphealth.ca/" target="_blank">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/hip-health.png" alt="Hip Health" />
 			</a>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/sfu-logo.png" alt="SFU" />
+			<a href="http://www.sfu.ca/" target="_blank">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/sfu-logo.png" alt="SFU" />
+			</a>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/six-logo.png" alt="Six" />
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/tin-can-studio.png" alt="Tin Can Studio" />
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/vancity-logo.png" alt="Vancity" />
