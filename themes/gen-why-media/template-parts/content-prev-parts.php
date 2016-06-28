@@ -24,7 +24,9 @@
 			<a href="http://www.tincanstudio.org/" target="_blank">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/tin-can-studio.png" alt="Tin Can Studio" />
 			</a>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/vancity-logo.png" alt="Vancity" />
+			<a href="https://www.vancity.com/">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/vancity-logo.png" alt="Vancity" />
+			</a>
 		</div><!-- .partner-logos -->
 	</div><!-- .prev-parts-img -->
 </section><!-- .prev-parts -->
