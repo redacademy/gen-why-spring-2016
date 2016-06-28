@@ -1813,16 +1813,6 @@ h2 {
     .prev-part-display {
       display: block; } }
 
-h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
-  font-size: 46px;
-  font-weight: 500;
-  line-height: 40px; }
-  @media (min-width: 700px) {
-    h1.entry-title.main-header, .projects-page h1.entry-title.page-header {
-      font-size: 72px;
-      font-weight: 700;
-      line-height: 80px; } }
-
 .contact-us-container .entry-header {
   background: linear-gradient(180deg, rgba(51, 75, 127, 0.55) 0, rgba(51, 75, 127, 0.55)), rgba(51, 75, 127, 0.55) url("../../assets/images/truth_banner_blur.jpg") no-repeat bottom;
   background-size: cover;
@@ -2004,27 +1994,35 @@ footer .site-info {
   position: relative;
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)); }
   .video-banner-imgs img {
-    width: 100%;
+    max-width: 150%;
     display: block;
     z-index: -1;
     position: relative;
     height: 225px; }
     @media (min-width: 700px) {
       .video-banner-imgs img {
-        height: 250px; } }
+        height: 250px;
+        max-width: 100%; } }
     @media (min-width: 1240px) {
       .video-banner-imgs img {
-        height: 300px; } }
+        height: 300px;
+        width: 100%; } }
 
 .video-title-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   width: 100%;
   text-align: center; }
+  @media (min-width: 700px) {
+    .video-title-button {
+      transform: translate(-50%, -50%); } }
   .video-title-button .entry-title {
     margin: 0; }
+    @media (min-width: 700px) {
+      .video-title-button .entry-title {
+        margin: 2rem; } }
 
 .single-video-content {
   padding: 20px; }

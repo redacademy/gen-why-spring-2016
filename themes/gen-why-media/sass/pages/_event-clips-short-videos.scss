@@ -33,16 +33,18 @@
 	position: relative;
 	background: linear-gradient( $color__lin-b, $color__lin-b );
 	img {
-		width: 100%;
+		max-width: 150%;
 		display: block;
 		z-index: -1;
 		position: relative;
 		height: 225px;
 		@include tablet {
 			height: 250px;
+			max-width: 100%
 		}
 		@include desktop {
 			height: 300px;
+			width: 100%;
 		}
 	}
 }
@@ -50,12 +52,18 @@
 	position: absolute;
 	top:50%;
 	left:50%;
-	transform:translate(-50%, -50%);
+	transform: translate(-50%,0%);
 	width:100%;
 	text-align: center;
 	@extend .center-column;
+	@include tablet {
+		transform:translate(-50%, -50%);
+	}
 	.entry-title {
 		margin: 0;
+		@include tablet {
+			margin: 2rem;
+		}
 	}
 }
 
