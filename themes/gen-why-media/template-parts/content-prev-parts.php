@@ -21,7 +21,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/sfu-logo.png" alt="SFU" />
 			</a>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/six-logo.png" alt="Six" />
-			<a href="http://www.tincanstudio.org/">
+			<a href="http://www.tincanstudio.org/" target="_blank">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/tin-can-studio.png" alt="Tin Can Studio" />
 			</a>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/logos/vancity-logo.png" alt="Vancity" />
