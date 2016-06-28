@@ -74,6 +74,9 @@
 	a {
 		color: $color__oj;
 	}
+	a:hover {
+		text-decoration: underline;
+	}
 	p:first-child, p:nth-child(4), p:nth-child(5) {
 			display: flex;
 			justify-content: center;

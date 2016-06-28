@@ -2028,6 +2028,8 @@ footer .site-info {
   padding: 20px; }
   .single-video-content a {
     color: #ee6c4d; }
+  .single-video-content a:hover {
+    text-decoration: underline; }
   .single-video-content p:first-child, .single-video-content p:nth-child(4), .single-video-content p:nth-child(5) {
     display: -ms-flexbox;
     display: flex;
