@@ -54,6 +54,9 @@
 	width:100%;
 	text-align: center;
 	@extend .center-column;
+	.entry-title {
+		margin: 0;
+	}
 }
 
 // Single Event Clips and Short Videos

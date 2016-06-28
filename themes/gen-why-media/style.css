@@ -1057,7 +1057,7 @@ object {
 
 .site-header-mobile {
   height: inherit;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: white;
   border-bottom: 1px solid #000;
   margin: 0 auto;
   position: fixed;
@@ -1114,7 +1114,7 @@ object {
   display: none; }
   @media (min-width: 700px) {
     .sticky .site-header {
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: white;
       border-bottom: 1px solid #000;
       display: inline;
       margin: 0 auto;
@@ -1616,8 +1616,11 @@ h2 {
     position: relative;
     text-align: center;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -13%);
     width: 50%; }
+    @media (min-width: 700px) {
+      .page-template-services .services-hero-banner .services-hero-title {
+        transform: translate(-50%, -50%); } }
 
 .services-sub-banner {
   display: none; }
@@ -1664,10 +1667,12 @@ h2 {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
-    width: 400px; }
+    min-width: 350px;
+    max-width: 400px; }
     @media (min-width: 700px) {
       .what-we-offer ul {
-        width: 800px;
+        min-width: 690px;
+        max-width: 800px;
         -ms-flex-pack: center;
             justify-content: center; } }
     @media (min-width: 1240px) {
@@ -2016,6 +2021,8 @@ footer .site-info {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center; }
+  .video-title-button .entry-title {
+    margin: 0; }
 
 .single-video-content {
   padding: 20px; }
@@ -2092,7 +2099,7 @@ footer .site-info {
         background-size: 250%; } }
     @media (min-width: 1240px) {
       .what-we-doing .what-we-doing-img {
-        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/what-we-do-banner.png) no-repeat center center;
+        background: linear-gradient(180deg, rgba(51, 75, 127, 0.85), rgba(51, 75, 127, 0.85)), url(../../assets/images/what-we-do-banner.png) no-repeat center center fixed;
         background-size: 150%; } }
 
 @media (min-width: 700px) {
