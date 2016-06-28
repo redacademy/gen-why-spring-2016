@@ -45,8 +45,11 @@
       position:relative;
       text-align: center;
       top:50%;
-      transform:translate(-50%, -50%);
+      transform:translate(-50%, -13%);
       width:50%;
+      @include tablet {
+        transform:translate(-50%, -50%);
+      }
     }
   }
 }
@@ -103,9 +106,11 @@
     list-style: none;
     margin-left: 0;
     padding-left: 0;
-    width: 400px;
+    min-width: 350px;
+    max-width: 400px;
     @include tablet {
-      width: 800px;
+      min-width: 690px;
+      max-width: 800px;
       justify-content: center;
     }
     @include desktop {

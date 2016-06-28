@@ -15,7 +15,7 @@
       background-size: 250%;
     }
     @include desktop {
-      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/what-we-do-banner.png) no-repeat center center;
+      background: linear-gradient(180deg, $color__trustbmed, $color__trustbmed),url(../../assets/images/what-we-do-banner.png) no-repeat center center fixed;
       background-size: 150%;
     }
   }
