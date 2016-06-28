@@ -1947,7 +1947,8 @@ footer .site-info {
     color: #4a4a4a;
     font-size: 28px; }
   .search-page p {
-    border-bottom: 1px solid silver; }
+    border-bottom: 1px solid silver;
+    padding-bottom: 60px; }
 
 .nav-background {
   height: 70px;
