@@ -801,7 +801,7 @@ html, body {
     .menu {
       height: 100%;
       padding-left: 70px;
-      width: 100vw; } }
+      width: 100%; } }
   .menu li {
     padding-top: 23px; }
 
@@ -1644,6 +1644,8 @@ h2 {
     @media (min-width: 1240px) {
       .services-sub-banner .services-info {
         font-size: 1.4rem; } }
+  .services-sub-banner .subtitle, .services-sub-banner .services-info {
+    font-size: 24px; }
   @media (min-width: 700px) {
     .services-sub-banner .services-circle {
       border-radius: 50%;
