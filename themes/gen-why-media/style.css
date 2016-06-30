@@ -2017,9 +2017,6 @@ footer .site-info {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center; }
-  @media (min-width: 700px) {
-    .video-title-button {
-      transform: translate(-50%, -50%); } }
   .video-title-button .entry-title {
     margin: 0; }
     @media (min-width: 700px) {

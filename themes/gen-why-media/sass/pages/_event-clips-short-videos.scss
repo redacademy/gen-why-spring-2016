@@ -56,9 +56,6 @@
 	width:100%;
 	text-align: center;
 	@extend .center-column;
-	@include tablet {
-		transform:translate(-50%, -50%);
-	}
 	.entry-title {
 		margin: 0;
 		@include tablet {
