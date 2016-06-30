@@ -78,6 +78,9 @@
       font-size: 1.4rem;
     }
   }
+  .subtitle {
+    font-size: 24px;
+  }
   .services-circle {
     @include tablet {
       border-radius: 50%;

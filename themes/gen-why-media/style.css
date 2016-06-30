@@ -801,7 +801,7 @@ html, body {
     .menu {
       height: 100%;
       padding-left: 70px;
-      width: 100vw; } }
+      width: 100%; } }
   .menu li {
     padding-top: 23px; }
 
@@ -1644,6 +1644,8 @@ h2 {
     @media (min-width: 1240px) {
       .services-sub-banner .services-info {
         font-size: 1.4rem; } }
+  .services-sub-banner .subtitle, .services-sub-banner .services-info {
+    font-size: 24px; }
   @media (min-width: 700px) {
     .services-sub-banner .services-circle {
       border-radius: 50%;
@@ -1994,7 +1996,7 @@ footer .site-info {
   position: relative;
   background: linear-gradient(rgba(51, 75, 127, 0.55), rgba(51, 75, 127, 0.55)); }
   .video-banner-imgs img {
-    max-width: 150%;
+    max-width: 100%;
     display: block;
     z-index: -1;
     position: relative;
@@ -2015,9 +2017,6 @@ footer .site-info {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center; }
-  @media (min-width: 700px) {
-    .video-title-button {
-      transform: translate(-50%, -50%); } }
   .video-title-button .entry-title {
     margin: 0; }
     @media (min-width: 700px) {
