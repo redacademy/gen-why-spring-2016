@@ -1516,7 +1516,7 @@ h2 {
   width: 100%; }
   @media (min-width: 700px) {
     .projects_cpt {
-      width: 50%; } }
+      width: 70%; } }
 
 .past-works-container {
   margin: 30px auto;
@@ -1545,15 +1545,26 @@ h2 {
   @media (min-width: 700px) {
     .single .entry-content {
       width: 50%;
-      padding-left: 80px; } }
+      padding-left: 60px; } }
 
-.single .post-navigation a {
-  padding: 10px 30px;
-  background: black;
-  color: white; }
-
-.single .post-navigation a:hover {
-  background: #ee6c4d; }
+.single .post-navigation {
+  margin-bottom: 30px; }
+  .single .post-navigation .nav-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .single .post-navigation a {
+    padding: 5px 10px;
+    font-size: .8rem;
+    background: black;
+    color: white; }
+    @media (min-width: 700px) {
+      .single .post-navigation a {
+        padding: 10px 30px;
+        font-size: 1rem; } }
+  .single .post-navigation a:hover {
+    background: #ee6c4d; }
 
 .h2-change {
   margin-top: auto;

@@ -31,9 +31,9 @@
 									<?php the_post_thumbnail('full'); ?>
 								</div>
 								<div class="banner-info">
-									<h2 class="content-header-light">We Value...</h2>
+									<h2 class="content-header-light"><?php echo wp_kses_post(CFS()->get( 'subheader' )); ?></h2>
 									<h1 class="main-header"><?php the_title(); ?></h1>
-									<div class="subtitle"><?php the_content(); ?></div>
+									<div class="subtitle"><?php echo wp_kses_post(CFS()->get( 'description' )); ?></div>
 								</div>
 							</div>
 						</li>

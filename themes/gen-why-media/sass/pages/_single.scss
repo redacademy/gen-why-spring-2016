@@ -16,14 +16,24 @@
 		margin: 0;
 		@include tablet {
 			width: 50%;
-			padding-left: 80px;
+			padding-left: 60px;
 		}
 	}
 	.post-navigation {
+		 margin-bottom: 30px;
+		.nav-links {
+			display: flex;
+			justify-content: space-around;
+		}
 		a {
-			padding: 10px 30px;
+			padding: 5px 10px;
+			font-size: .8rem;
 			background: $color__mainb;
 			color: $color__mainw;
+			@include tablet {
+				padding: 10px 30px;
+				font-size: 1rem;
+			}
 		}
 		a:hover {
 		background: $color__oj;
